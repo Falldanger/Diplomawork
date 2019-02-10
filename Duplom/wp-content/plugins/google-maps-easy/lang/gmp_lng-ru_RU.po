@@ -1,0 +1,1687 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2015-07-31 12:35+0300\n"
+"PO-Revision-Date: 2018-11-14 10:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: modules/adminmenu/controller.php:29 modules/gmap/controller.php:40
+#: modules/gmap/controller.php:57 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:58
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Готово"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Выбрать"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Добавить чекбокс"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Добавить пункт"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Добавить радио кнопку"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "ширина"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "высота"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Нажмите, чтобы установить поля &quot;id&quot; и &quot;class&quot;"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Атрибут"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Нету опции конфигурации для этого модуля"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Применить к"
+
+#: classes/fieldAdapter.php:95 modules/gmap/views/tpl/gmapEditMap.php:523
+msgid "Address"
+msgstr "Адрес"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Предназначение"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Страна"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Категории"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "У Вас нету категорий"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Бренды"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "У Вас нету брендов"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Налоговая ставка"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Абсолютный"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Не выбрано"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "Класс"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "ID"
+
+#: classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "У Вас нету прав для просмотра этой страницы"
+
+#: classes/html.php:207
+msgid "Upload"
+msgstr "Загрузить"
+
+#: classes/html.php:611
+msgid "ON"
+msgstr "Вкл"
+
+#: classes/html.php:612
+msgid "OFF"
+msgstr "Выкл"
+
+#: classes/html.php:636
+#, php-format
+msgid "Select %s"
+msgstr "Выбрать %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Перемещение файлов %s не удалось"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s не модуль плагина"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Невозможно создать каталог модуля. Попробуйте установить доступы"
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "В XML файле модули не найдены"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Неверный XML файл"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "XML файл не найден"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Установка %s не удалось"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Ошибка Активации модуля"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Ошибка деактивации модуля"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Ошибка Активации модуля"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Обнаружена ошибка базы данных"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:105
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:30
+msgid "Invalid ID"
+msgstr "Неверный ID"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "Пустой или неверный ID"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Нечего обновлять"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Ошибка базы данных. Пожалуйста обратитесь с Вашим разработчиком"
+
+#: classes/tables/marker.php:7 classes/tables/marker_groups.php:8
+msgid "Map ID"
+msgstr "ID карты"
+
+#: classes/tables/marker.php:8 classes/tables/marker_groups.php:9
+msgid "File name"
+msgstr "Имя файла"
+
+#: classes/tables/marker.php:9 classes/tables/marker_groups.php:10
+msgid "Description Of Map"
+msgstr "Описание карты"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "Координаты Х если маркер (lng)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Y координата маркера (lat)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Путь значок файла"
+
+#: classes/tables/marker.php:13
+msgid "Map Id"
+msgstr "Id карты"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Адрес маркера"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "ID группы маркеров"
+
+#: classes/tables/marker.php:16
+msgid "Animation"
+msgstr "Анимация"
+
+#: classes/tables/marker.php:17 classes/tables/modules.php:10
+#: classes/tables/options.php:11
+msgid "Params"
+msgstr "Параметры"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+msgid "Sort Order"
+msgstr "Сортировка"
+
+#: classes/tables/marker.php:19
+msgid "Creation date"
+msgstr "Дата создания"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr ""
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Тип"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Активный"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Имеет вкладку"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+msgid "Description"
+msgstr "Описание"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Код"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Внешний каталог плагина"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:122
+msgid "ID"
+msgstr "ID "
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Значение"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "ID категории"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Значение типа"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Метод"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Использование ID"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Количество посещений"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Недопустимая длина для %s, максимальная длина составляет %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Неверное числовое значение для %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Пожалуйста, введите %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Пожалуйста, выберете %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Недопустимый %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s уже зарегистрирован"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr ""
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:28
+#, php-format
+msgid "Your license is expired. Once you extend your license - you will be able to Update PRO version. To extend PRO version license - follow <a href='%s' target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Лицензия истекла. После того, как вы продлите лицензию - Вы сможете обновить ПРО версию. Чтобы продлить лицензию ПРО версии - следуйте по <a href='%s' target='_blank'>этой ссылке</a>, затем - перейдите к <a href='%s'>Лицензии</a> и нажмите на кнопку 'Активировать повторно' ."
+
+#: doc/google-maps-easy-pro/license/mod.php:36
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Ваша лицензия на ПРО версию плагина %s истекла. Вы можете <a href='%s' target='_blank'>нажать здесь</a> чтобы продлить лицензию, затем - перейти к <a href='%s'>Лицензии</a> и нажать на 'Активировать повторно'чтобы продлить лицензию."
+
+#: doc/google-maps-easy-pro/license/mod.php:49
+msgid "License"
+msgstr "Лицензия"
+
+#: doc/google-maps-easy-pro/license/mod.php:72
+msgid "Activate License"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:74
+msgid "Renew License"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Пожалуйста, введите ключ лицензии"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Пожалуйста, введите Ваш Email"
+
+#: doc/google-maps-easy-pro/license/models/license.php:131
+msgid "There was a problem with sending request to your authentication server. Please try later."
+msgstr "Был проблема с отправкой запроса на нашем сервере аутентификации. Пожалуйста, попробуйте позже."
+
+#: doc/google-maps-easy-pro/license/models/license.php:154
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Лицензия на плагин %s истекает сегодня."
+
+#: doc/google-maps-easy-pro/license/models/license.php:156
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Лицензия на плагин %s истекает завтра."
+
+#: doc/google-maps-easy-pro/license/models/license.php:158
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Лицензия на плагин %s истекает через %d дней"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Ваша лицензия на PRO версию плагина %s истекла. Вы можете <a href='%s' target='_blank'>нажать здесь</a> чтобы продлить лицензию, затем - нажмите на кнопку 'Активировать повторно' чтобы активировать заново ПРО версию."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid "Congratulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:132
+msgid "Email"
+msgstr "Email"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid "Your email address, used on checkout procedure on <a href='%s' target='_blank'>%s</a>"
+msgstr "Ваш адрес электронной почты, используемый по процедуре оформления заказа на<a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Ключ лицензии"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid "Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "Ваш ключ лицензии с Вашего аккаунта <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Активировать повторно"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Активировать"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:68
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr "Произошла непредвиденная HTTP-ошибка во время API запроса.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Попробуйте еще раз</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:73
+msgid "An unknown error occurred"
+msgstr "Произошла неизвестная ошибка"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Поле ИМЯ является обязательным"
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Поле САЙТ является обязательным"
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Поле e-mail является обязательным"
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Поле ТЕМА является обязательным"
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Вы должны выбрать правильную категорию."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Поле СООБЩЕНИЕ является обязательным"
+
+#: modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "Настройки"
+
+#: modules/csv/controller.php:45
+#, php-format
+msgid "Maps from %s - %s"
+msgstr ""
+
+#: modules/csv/controller.php:48
+msgid "You have no maps for now."
+msgstr ""
+
+#: modules/csv/controller.php:87
+#, php-format
+msgid "Markers from %s"
+msgstr ""
+
+#: modules/csv/controller.php:90
+msgid "You have no markers for now."
+msgstr ""
+
+#: modules/csv/controller.php:124
+msgid "Missing File"
+msgstr "Файл отсутствует"
+
+#: modules/csv/controller.php:126
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Файл загружен с кодом ошибки %s"
+
+#: modules/csv/controller.php:208
+msgid "File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "Файл должен содержать более 1 строки, по крайней мере, 1 строка должна быть для заголовков"
+
+#: modules/csv/controller.php:210
+msgid "Empty data in file"
+msgstr "Пустые данные в файле"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr ""
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Не удаётся обнаружить список импорта"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Невозможно найти имена полей"
+
+#: modules/csv/views/tpl/csvTabContent.php:9
+msgid "Maps"
+msgstr "Карты"
+
+#: modules/csv/views/tpl/csvTabContent.php:14
+#: modules/csv/views/tpl/csvTabContent.php:35
+msgid "Export"
+msgstr "Экспорт "
+
+#: modules/csv/views/tpl/csvTabContent.php:19
+#: modules/csv/views/tpl/csvTabContent.php:40
+msgid "Import"
+msgstr "импорт"
+
+#: modules/csv/views/tpl/csvTabContent.php:30 modules/gmap/views/gmap.php:125
+#: modules/gmap/views/tpl/gmapEditMap.php:17
+msgid "Markers"
+msgstr "Маркеры"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Данные карты не найдены"
+
+#: modules/gmap/mod.php:13
+msgid "Add Map"
+msgstr "Добавить карту"
+
+#: modules/gmap/mod.php:16 modules/gmap/views/tpl/gmapEditMap.php:701
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Редактировать"
+
+#: modules/gmap/mod.php:19
+msgid "All Maps"
+msgstr "Все карты"
+
+#: modules/gmap/mod.php:29
+msgid "No Map Found"
+msgstr "Карта не найдена"
+
+#: modules/gmap/mod.php:39
+msgid "Empty or Invalid Map ID"
+msgstr "Пустой или неверный ID карты"
+
+#: modules/gmap/mod.php:58
+msgid "Top Center"
+msgstr "Вверху по центру"
+
+#: modules/gmap/mod.php:59
+msgid "Top Left"
+msgstr "Вверху слева"
+
+#: modules/gmap/mod.php:60
+msgid "Top Right"
+msgstr "Вверху справа"
+
+#: modules/gmap/mod.php:61
+msgid "Left Top"
+msgstr "Слева вверху"
+
+#: modules/gmap/mod.php:62
+msgid "Right Top"
+msgstr "Справа вверху"
+
+#: modules/gmap/mod.php:63
+msgid "Left Center"
+msgstr "Слева по центру"
+
+#: modules/gmap/mod.php:64
+msgid "Right Center"
+msgstr "Справа по центру"
+
+#: modules/gmap/mod.php:65
+msgid "Left Bottom"
+msgstr "Слева внизу"
+
+#: modules/gmap/mod.php:66
+msgid "Right Bottom"
+msgstr "Справа внизу"
+
+#: modules/gmap/mod.php:67
+msgid "Bottom Center"
+msgstr "Внизу по центру"
+
+#: modules/gmap/mod.php:68
+msgid "Bottom Left"
+msgstr "Внизу слева"
+
+#: modules/gmap/mod.php:69
+msgid "Bottom Right"
+msgstr "Внизу справа"
+
+#: modules/gmap/mod.php:92
+msgid "Slider"
+msgstr "Слайдер"
+
+#: modules/gmap/mod.php:93
+msgid "Slider - Title and Img"
+msgstr ""
+
+#: modules/gmap/mod.php:94 modules/gmap/mod.php:96
+msgid "Slider Vertical - Title and Img"
+msgstr ""
+
+#: modules/gmap/mod.php:95
+msgid "Slider Vertical - Title and Description"
+msgstr ""
+
+#: modules/gmap/models/gmap.php:67
+msgid "Please enter Map Name"
+msgstr "Пожалуйста, введите имя карты"
+
+#: modules/gmap/models/gmap.php:96
+#: modules/marker_groups/models/marker_groups.php:63
+msgid "Empty Params"
+msgstr "Пустые параметры"
+
+#: modules/gmap/views/gmap.php:123
+msgid "Title"
+msgstr "Заголовок "
+
+#: modules/gmap/views/gmap.php:124
+msgid "Html options"
+msgstr "Html опции"
+
+#: modules/gmap/views/gmap.php:126
+msgid "Operations"
+msgstr "Операции"
+
+#: modules/gmap/views/gmap.php:163 modules/gmap/views/gmap.php:169
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+#: modules/gmap/views/tpl/gmapEditMap.php:370 modules/marker/mod.php:20
+msgid "None"
+msgstr "Нету"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/marker_groups/views/tpl/mgrAdmin.php:9
+#: modules/marker_groups/views/tpl/mgrAdmin.php:12
+msgid "Delete selected"
+msgstr "Удалить выбранное"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+#: modules/marker_groups/views/tpl/mgrAdmin.php:15
+msgid "Clear All"
+msgstr "Очистить все"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:13
+#: modules/marker_groups/views/tpl/mgrAdmin.php:17
+msgid "Clear"
+msgstr "Очистить"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:16
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:20
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+msgid "Search"
+msgstr "Поиск"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:26
+#, php-format
+msgid "You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> your first Map!"
+msgstr "У вас нет карты в настоящее время. <a href='%s' style='font-style: italic;'>Создать </a> свою первую карту!"
+
+#: modules/gmap/views/tpl/gmapDrawMap.php:3
+msgid "Map not found"
+msgstr "Карта не найдена"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2
+#, php-format
+msgid "This option is available in <a target='_blank' href='%s'>PRO version</a> only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr "Эта опция доступна в <a target='_blank' href='%s'>ПРО версии</a> только, вы можете получить его <a target='_blank' href='%s'>здесь.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Map Properties"
+msgstr "Настройки карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:20
+msgid "Add New Marker"
+msgstr "Добавить новый маркер"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:31
+msgid "Map Name"
+msgstr "Имя карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:33
+msgid "Your map name"
+msgstr "Имя Вашей карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:45
+msgid "Map Width"
+msgstr "Ширина карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:47
+msgid "Your map width"
+msgstr "Ширина Вашей карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:56
+#: modules/gmap/views/tpl/gmapEditMap.php:81
+msgid "Pixels"
+msgstr "Пикселей"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+#: modules/gmap/views/tpl/gmapEditMap.php:84
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:63
+msgid "Percent"
+msgstr "Процентов"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:70
+msgid "Map Height"
+msgstr "Высота карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:72
+msgid "Your map height"
+msgstr "Высота карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:97
+msgid "Map type control"
+msgstr "Тип управления Карта"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+msgid "Control view for map type - you can see it in left upper corner by default"
+msgstr "Вид управления для отображения типа - вы можете увидеть его в правом верхнем углу по умолчанию"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Dropdown Menu"
+msgstr "Выпадающее меню"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Horizontal Bar"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Change type control position on map"
+msgstr "Изменить тип управления позиции на карте"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:117
+#: modules/gmap/views/tpl/gmapEditMap.php:145
+#: modules/gmap/views/tpl/gmapEditMap.php:172
+#: modules/gmap/views/tpl/gmapEditMap.php:199
+#: modules/gmap/views/tpl/gmapEditMap.php:281
+#: modules/gmap/views/tpl/gmapEditMap.php:298
+#: modules/gmap/views/tpl/gmapEditMap.php:315
+#: modules/gmap/views/tpl/gmapEditMap.php:352
+#: modules/gmap/views/tpl/gmapEditMap.php:383
+#: modules/gmap/views/tpl/gmapEditMap.php:412
+msgid "PRO option"
+msgstr "ПРО опция"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:125
+msgid "Zoom control"
+msgstr "Управление зумом"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:127
+msgid "Zoom control type on your map"
+msgstr "Тип управления зумом на карте"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Default"
+msgstr "По умолчанию"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Large"
+msgstr "Большой"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Small"
+msgstr "Маленький"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:138
+msgid "Change zoom control position on map"
+msgstr "Изменить положение зума управления на карте"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Street view control"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:165
+msgid "Change street view control position on map"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:180
+msgid "Pan control"
+msgstr "Панорамирование управления"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:182
+msgid "Pan control - allow you to pan over your map using mouse, usually is located on left upper corner of your map"
+msgstr "Панорамирование управления - позволяют перемещаться на карту с помощью мыши, как правило, расположен на левом верхнем углу карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:192
+msgid "Change pan control position on map"
+msgstr "Изменить позицию панорамирования управления на карте"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:207
+msgid "Overview control"
+msgstr "Обзор управления"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:209
+msgid "Overview control for your map, by default is disabled, and if enabled - is located on the right bottom corner"
+msgstr "Обзор управления для вашей карты, по умолчанию отключена, а если включена - находится в правом нижнем углу"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Opened"
+msgstr "Открытый"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Collapsed"
+msgstr "Свернутый"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:223
+msgid "Draggable"
+msgstr "Перетаскивание"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:225
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "Включить или отключить возможность перетаскивать карту с помощью мыши"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:236
+msgid "Double click to zoom"
+msgstr "Дважды щелкните, чтобы увеличить"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:238
+msgid "By default double left click on map will zoom it in. But you can change this here."
+msgstr "По умолчанию двойной левой кнопкой мыши на карте будет увеличить его. Но вы можете изменить это здесь."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:249
+msgid "Mouse wheel to zoom"
+msgstr "Колесико для увеличения"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:251
+msgid "Sometimes you need to disable possibility to zoom your map using mouse wheel. This can be required for example - if you need to use your wheel for some other action, for example scroll your site even if mouse is over your map."
+msgstr "Иногда нужно отключить возможность изменения масштаба карты с помощью колеса мыши. Это может потребоваться, например, - если вам нужно использовать колесо для некоторых других действий, например, прокручивать ваш сайт, даже если мышь находится над вашей карте."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:262
+msgid "Google Map Theme"
+msgstr "Тема Google карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:264
+msgid "You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain - here. By default your map will have Road Map Google maps theme."
+msgstr "Вы можете выбрать тему Google Map - Дорожная карта, Гибрид, Спутниковый или Рельеф- здесь. По умолчанию ваша карта будет иметь карт тему Дорожная карта Google."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Road Map"
+msgstr "Дорожная карта"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Hybrid"
+msgstr "Гибридный"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Satellite"
+msgstr "Спутниковое"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Terrain"
+msgstr "Рельеф"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:276
+msgid "Traffic Layer"
+msgstr "Слой трафика"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:278
+msgid "Add real-time traffic information to your map."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:293
+msgid "Transit Layer"
+msgstr "Слой метро"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:295
+msgid "Display the public transit network of a city on your map. When the Transit Layer is enabled, and the map is centered on a city that supports transit information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:310
+msgid "Bicycling Layer"
+msgstr "Велосипедный слой"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:312
+msgid "Add a layer of bike paths, suggested bike routes and other overlays specific to bicycling usage on top of the given map.Dark green routes indicated dedicated bicycle routes. Light green routes indicate streets with dedicated 'bike lanes.' Dashed routes indicate streets or paths otherwise recommended for bicycle usage."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+msgid "Map Stylization"
+msgstr "Стилизация карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid "Make your map unique with our Map Themes, just try to change it here - and you will see results on your Map Preview."
+msgstr "Сделайте карту уникальной с нашими темами, попробуйте изменить их здесь, - и вы увидите результаты на вашей карте предварительно."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:339
+msgid "Get 300+ Themes with PRO"
+msgstr "Получить 300+ тем с ПРО"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:347
+msgid "Markers List"
+msgstr "Список маркеров"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:349
+msgid "Display all map markers - as list below Your map. This will help your users get more info about your markers and find required marker more faster."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:356
+msgid "Select Markers List type"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid "Markers Clusterization"
+msgstr "Markers Clusterization"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:366
+msgid "If you have many markers - you can have a problems with viewing them when zoom out for example: they will just cover each-other. Marker clusterization can solve this problem by grouping your markers in groups when they are too close to each-other."
+msgstr "Если у вас есть много маркеров - вы можете иметь проблемы с просмотром их, при уменьшении зума, например: они просто будут накладываться друг друга,. Маркер кластеризации может решить эту проблему путем группирования своих маркеров в группах, когда они находятся слишком близко друг к другу,."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:370
+msgid "Base Clusterization"
+msgstr "Base Clusterization"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:378
+msgid "Full Screen Button"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Add a button on map to open it full screen."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:395
+msgid "Marker Title color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:397
+msgid "You can set your markers title color here"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:407
+msgid "Custom Map Controls"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:409
+msgid "Add custom map controls to the map."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:422
+msgid "Controls type"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Round"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Square"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Square with rounded edges"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:431
+msgid "Background color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Text color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:445
+msgid "Controls position"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Marker Name"
+msgstr "Имя маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:474
+msgid "Your marker title"
+msgstr "Ваш заголовок маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:485
+msgid "Marker Description"
+msgstr "Описание маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:487
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "Напишите здесь весь текст, который вы хотите, чтобы он появиться в всплывающем окне"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:503
+msgid "Icon"
+msgstr "Иконка"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:505
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Ваш маркер Иконка, которая будет отображаться на карте для данного маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:512
+msgid "Choose Icon"
+msgstr "Выбрать иконку"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:513
+msgid "Upload Icon"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:525
+msgid "Search your location by address, just start typing here"
+msgstr "Поиск вашего местоположения по адресу, просто наберите здесь"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:537
+msgid "Latitude"
+msgstr "Широта"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:539
+msgid "Latitude for your marker"
+msgstr "Широта для Вашего маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:551
+msgid "Longitude"
+msgstr "Долгота"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Longitude for your marker"
+msgstr "Долгота для Вашего маркера"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:565
+msgid "Show description by default"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:567
+msgid "Open marker description when map load"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:577
+msgid "Marker Link"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:579
+msgid "Link for opening by click on the marker"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:594
+msgid "Open in new window"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:602
+msgid "Show description by mouse hover"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:604
+msgid "Open marker description by mouse hover"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:614
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:10
+msgid "Marker Category"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+msgid "Choose marker category"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:643
+msgid "Map shortcode"
+msgstr "Шорткод карты"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:648
+msgid "PHP code"
+msgstr "PHP код"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:654
+msgid "Shortcode will appear after you save map."
+msgstr "Шорткод появится после сохранения карты."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:662
+msgid "Save Map"
+msgstr "Сохранить карту"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:668
+msgid "Delete Map"
+msgstr "Удалить карту"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:677
+msgid "Save Marker"
+msgstr "Сохранить маркер"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:683
+msgid "Delete Marker"
+msgstr "Удалить маркер"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:704
+msgid "Delete"
+msgstr "Удалить"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Show markers list with your map on frontend"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:738
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Apply"
+msgstr "Применить"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:738
+msgid "Selected"
+msgstr "Выбрано"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Available in PRO"
+msgstr "Доступно в ПРО"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:20
+#, php-format
+msgid "and %s more"
+msgstr "и %s более"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Отображает наиболее просматриваемые продукты"
+
+#: modules/gmap_widget/views/gmap_widget.php:15
+msgid "You have no maps"
+msgstr "У Вас нету карт"
+
+#: modules/gmap_widget/views/tpl/form.php:10
+msgid "Select map"
+msgstr "Выбрать карту"
+
+#: modules/gmap_widget/views/tpl/form.php:18
+msgid "Widget Map width"
+msgstr "Ширина карты виджета"
+
+#: modules/gmap_widget/views/tpl/form.php:25
+msgid "Widget Map height"
+msgstr "Высота карты виджета"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Display as image"
+msgstr "Отображать как картинку"
+
+#: modules/gmap_widget/views/tpl/form.php:40
+msgid "Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr "Карта будет отображаться в виде изображения в боковой панели, по нажатию - будет открыт в всплывающем окне"
+
+#: modules/gmap_widget/views/tpl/form.php:42
+msgid "Image width (in px)"
+msgstr "Ширина картинки (в px)"
+
+#: modules/gmap_widget/views/tpl/form.php:49
+msgid "Image height (in px)"
+msgstr "Высота картинки (в px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Пустая ссылка"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Иконка не найдена"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Файл не найден"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Невозможно получить картинку"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "не может вставить в таблицу"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Вы не можете отправлять электронную почту - проблема с сервером отправки"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Маркер не найден"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Невозможно удалить маркер"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Невозможно удалить маркеры"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "Пустой или недействительный ID маркера"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Drop"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Bounce"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Пожалуйста, введите имя маркера"
+
+#: modules/marker/models/marker.php:192
+msgid "Address is empty or not match"
+msgstr "Адрес пуст или не соответствует"
+
+#: modules/marker/models/marker.php:248
+msgid "Invalid Marker ID"
+msgstr "Неверный ID маркера"
+
+#: modules/marker_groups/controller.php:31
+msgid "Marker Category data not found"
+msgstr ""
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr ""
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr ""
+
+#: modules/marker_groups/models/marker_groups.php:39
+msgid "Please enter Marker Category"
+msgstr ""
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+msgid "Add Category"
+msgstr ""
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:30
+#, php-format
+msgid "You have no Marker Categories for now. <a href='%s' style='font-style: italic;'>Create</a> your first Marker Category!"
+msgstr ""
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:20
+msgid "Save"
+msgstr "Сохранить"
+
+#: modules/options/mod.php:84
+msgid "General"
+msgstr "Общее"
+
+#: modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "Отправить статистику использования"
+
+#: modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Модуль обновлен"
+
+#: modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Обновление модуля не удалось"
+
+#: modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Ошибка ID модуля"
+
+#: modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Данные пустые чтобы сохранить опцию"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Главная страница здесь !!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Улучшить Бесплатную версию"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid "Please be advised that this option is available only in <a target='_blank' href='%s'>PRO version</a>. You can <a target='_blank' href='%s' class='button'>Get PRO</a> today and get this and other PRO option for your Maps!"
+msgstr ""
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Информация сохранена. Спасибо!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid "Please don't send contact requests so often - wait for response for your previous requests."
+msgstr "Пожалуйста, не присылайте контактные запросы так часто - ждите ответ на ваши предыдущие запросов."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Пожалуйста, введите действительный адрес электронной почты"
+
+#: modules/supsystic_promo/mod.php:24
+msgid "Overview"
+msgstr "Обзор"
+
+#: modules/supsystic_promo/mod.php:50
+msgid "Welcome to Supsystic Secure"
+msgstr "Добро пожаловать к Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:131
+msgid "Name"
+msgstr "Имя"
+
+#: modules/supsystic_promo/mod.php:133
+msgid "Website"
+msgstr "Сайт"
+
+#: modules/supsystic_promo/mod.php:134
+msgid "Subject"
+msgstr "Тема"
+
+#: modules/supsystic_promo/mod.php:135
+msgid "Topic"
+msgstr "Раздел"
+
+#: modules/supsystic_promo/mod.php:136
+msgid "Plugin options"
+msgstr "Опции плагина"
+
+#: modules/supsystic_promo/mod.php:137
+msgid "Report a bug"
+msgstr "Сообщить об ошибке"
+
+#: modules/supsystic_promo/mod.php:138
+msgid "Require a new functionality"
+msgstr "Предложить новый функционал"
+
+#: modules/supsystic_promo/mod.php:139
+msgid "Other"
+msgstr "Другое"
+
+#: modules/supsystic_promo/mod.php:141
+msgid "Message"
+msgstr "Сообщение"
+
+#: modules/supsystic_promo/mod.php:141
+msgid "Hello Supsystic Team!"
+msgstr "Привет Supsystic Team!"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:30
+msgid "How to use Google Maps Easy Widget?"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:31
+msgid "1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find the Google Maps Easy in the list of available widgets.<br />3. Drag the Google Maps Easy widget to widget area, which you need.<br />4. Choose the map for widget and configure the settings - Widget Map width and height.<br />5. Click 'Save'."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to add map into the site content?"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid "You can add a map in the site content via shortcode or php code. Learn more about how to do this <a href='http://supsystic.com/add-map-into-site-content/'>here</a>."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:34
+msgid "How to add map in popup window?"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:35
+msgid "You can add a map in popup window by inserting map shortcode in any popup text field. Learn more about how to do this <a href='http://supsystic.com/add-map-in-popup-window/'>here</a>."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:36
+msgid "How to zoom and center the initial map on markers?"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "There is a few different ways to zoom and centralize map. The easiest one is to drag your map using mouse - 'Draggable' option must be enabled, or with pan controller help in live preview. <a href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Как получить PRO версию плагина БЕСПЛАТНО?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+#, php-format
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin! It will be amazing if you take advantage of this offer! More info you can find here <a target='_blank' href='%s'>'Get PRO version of any plugin for FREE'</a>"
+msgstr "У вас есть невероятная возможность получить PRO версию бесплатно. Сделайте перевод плагина! Это будет удивительно, если вы воспользоваться этим предложением! Подробнее вы можете найти здесь <a target='_blank' href='%s'>'Получить PRO версию любого плагина бесплатно'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "Translation"
+msgstr "Перевод"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+#, php-format
+msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English, Polish, German, Spanish, Russian</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:55
+#, php-format
+msgid "There was some problem while trying to retrieve our news, but you can always check all list <a target='_blank' href='%s'>here</a>."
+msgstr "Были некоторые проблемы, пытаясь получить наши новости, но вы всегда можете проверить весь список <a target='_blank' href='%s'>here</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:65
+#: modules/supsystic_promo/views/supsystic_promo.php:66
+#: modules/supsystic_promo/views/supsystic_promo.php:71
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:74
+msgid "Yes"
+msgstr "Да"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:65
+#: modules/supsystic_promo/views/supsystic_promo.php:66
+#: modules/supsystic_promo/views/supsystic_promo.php:71
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:74
+msgid "No"
+msgstr "Нет"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Версия"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Вперед"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "ПРО"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Поддержка"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Добавить ваш"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "Часто задаваемые вопросы и документация"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Часто задаваемые вопросы"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Видео инструкция"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Настройки сервера"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Новости"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Все новости"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Контактная форма"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Отправить письмо"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid "Your email was send, we will try to respond to you as soon as possible. Thank you for support!"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Добро пожаловать"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid "If you are newbie - check all features on that page, if you are guru - please correct us."
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid "Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+
+#~ msgid "Congradulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr "Поздравляем! ПРО версия плагина %s активирована и работает нормально!"
+
+#~ msgid "Congradulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+#~ msgstr "Поздравляем! Вы успешно установили ПРО версию %s плагина. Для завершения установки ПРО версии - введите Ваш Email и ключ лицензии на этой странице. "
+
+#~ msgid "Icon ID"
+#~ msgstr "ID иконки"
+
+#~ msgid "Icon Title"
+#~ msgstr "Заголовок иконки"
+
+#~ msgid "Icon Description"
+#~ msgstr "Описание иконки"
+
+#~ msgid "File Path"
+#~ msgstr "Путь файла"
+
+#~ msgid "Html Parametrs"
+#~ msgstr "Html параметры"
+
+#~ msgid "Create Date"
+#~ msgstr "Дата создания"
+
+#~ msgid "Additional Params"
+#~ msgstr "Дополнительные параметры"
+
+#~ msgid "Marker"
+#~ msgstr "Маркер"
+
+#~ msgid "Added %s maps"
+#~ msgstr "Добавить %s карті"
+
+#~ msgid "Updated %s maps"
+#~ msgstr "Карты %s обновлены"
+
+#~ msgid "Added %s markers"
+#~ msgstr "Маркеры %s добавлены"
+
+#~ msgid "Updated %s markers"
+#~ msgstr "Маркеры %s обновлены"
+
+#~ msgid "CSV Import and Export"
+#~ msgstr "CSV Импорт и Экспорт"
+
+#~ msgid "Extended Options"
+#~ msgstr "Расширенные параметры"
+
+#~ msgid "Get 300+ Themes"
+#~ msgstr "Получить 300+ шаблонов"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Creation Date"
+#~ msgstr "Дата создания"
+
+#~ msgid "Uses On Map"
+#~ msgstr "Использует на карте"
+
+#~ msgid "Back To Markers List"
+#~ msgstr "Вернуться к списку маркеров"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить "
+
+#~ msgid "No maps contain this marker"
+#~ msgstr "Нету карты которая содержит этот маркер"
+
+#~ msgid "Remove selected"
+#~ msgstr "Удалить выбранное"
+
+#~ msgid "Nothing To Save"
+#~ msgstr "Нечего сохранять"
+
+#~ msgid "Cannot Save Group"
+#~ msgstr "Невозможно сохранить группу"
+
+#~ msgid "Group Not Found"
+#~ msgstr "Группа не найдена"
+
+#~ msgid "Cannot remove group"
+#~ msgstr "Невозможно удалить группу"
+
+#~ msgid "Save Group"
+#~ msgstr "Сохранить группу"
+
+#~ msgid "Group Title"
+#~ msgstr "Заголовок группы"
+
+#~ msgid "Title For Group"
+#~ msgstr "Заголовок для группы"
+
+#~ msgid "Group Description"
+#~ msgstr "Описание группы"
+
+#~ msgid "Description For Goup"
+#~ msgstr "Описание для группы"
+
+#~ msgid "Reset"
+#~ msgstr "Сбросить"
+
+#~ msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+#~ msgstr "Все доступные языки обеспечиваются плагином Supsystic Google Maps. Если ваш язык не доступен, ваш плагин будет на английском языке по умолчанию.<br /><b>Доступные переводы: English, Polish, German, Spanish, Russian</b><br /> Переведите плагин WordPress на ваш родной язык и получите лицензию БЕСПЛАТНО. <a target='_blank' href='%s'>Свяжитесь с нами</a>."

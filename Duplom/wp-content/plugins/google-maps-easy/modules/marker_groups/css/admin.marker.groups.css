@@ -1,0 +1,65 @@
+/* Marker Groups List Table */
+#gmpMgrTblSearchTxt {
+	height: 32px;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-element {
+	line-height: 34px;
+}
+#gmpMgrTbl .supsystic-actions-wrap {
+	display: inline-block;
+}
+#gmpMgrTbl .button-table-action {
+	color: #23282d;
+	text-decoration: none;
+	outline: 0;
+}
+#gmpMgrTbl ul.jqtree-tree li.jqtree-folder {
+	margin-bottom: 0;
+}
+#gmpMgrTbl ul.jqtree-tree ul.jqtree_common {
+	margin-left: 20px;
+}
+#gmpMgrTbl ul.jqtree-tree li.jqtree_common {
+	margin: 0;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-title {
+	padding: 3px 5px;
+	margin-left: 1em;
+	color: #23282d;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-title.jqtree-title-folder {
+	margin-left: 0;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-toggler.jqtree-toggler-left {
+	margin-right: 0;
+	font-family: initial;
+}
+#gmpMgrTbl ul.jqtree-tree li.jqtree-selected > .jqtree-element, #gmpMgrTbl ul.jqtree-tree li.jqtree-selected > .jqtree-element:hover {
+	background-color: #e9e9e9;
+	background: #e9e9e9;
+	text-shadow: none;
+}
+#gmpMgrTbl ul.jqtree-tree li.jqtree-ghost span.jqtree-circle, #gmpMgrTbl ul.jqtree-tree span.jqtree-border {
+	border: solid 2px #6d6d71;
+}
+#gmpMgrTbl ul.jqtree-tree li.jqtree-ghost span.jqtree-line {
+	background-color: #6d6d71;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-moving > .jqtree-element .jqtree-title {
+	outline: solid 1px #6d6d71;
+}
+#gmpMgrTbl ul.jqtree-tree .jqtree-toggler, #gmpMgrTbl ul.jqtree-tree .jqtree-toggler:hover {
+	color: #6d6d71;
+}
+/* Marker Groups Edit Form */
+#gmpMgrTab {
+	min-height: 450px;
+}
+#gmpMgrTab .gmpSubOpt {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#gmpMgrSaveBtn {
+	float: right;
+	margin-right: 30px;
+}

@@ -1,0 +1,1840 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2015-04-12 19:26+0200\n"
+"PO-Revision-Date: 2018-11-14 10:35+0200\n"
+"Last-Translator: Sam <a9100a9957@gmail.com>\n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/controller.php:198 ../classes/controller.php:206
+#: ../doc/google-maps-easy-pro/license/controller.php:6
+#: ../doc/old-version/classes/controller.php:198
+#: ../doc/old-version/classes/controller.php:206
+#: ../doc/old-version/modules/adminmenu/controller.php:29
+#: ../doc/old-version/modules/gmap/controller.php:39
+#: ../doc/old-version/modules/gmap/controller.php:56
+#: ../doc/old-version/modules/marker/controller.php:8
+#: ../doc/old-version/modules/marker/controller.php:46
+#: ../doc/old-version/modules/marker/controller.php:61
+#: ../doc/old-version/modules/marker/controller.php:101
+#: ../doc/old-version/modules/marker_groups/controller.php:18
+#: ../doc/old-version/modules/marker_groups/controller.php:33
+#: ../doc/old-version/modules/options/controller.php:6
+#: ../modules/adminmenu/controller.php:29 ../modules/gmap/controller.php:39
+#: ../modules/gmap/controller.php:56 ../modules/marker/controller.php:8
+#: ../modules/marker/controller.php:46 ../modules/marker/controller.php:61
+#: ../modules/marker/controller.php:101
+#: ../modules/marker_groups/controller.php:18
+#: ../modules/marker_groups/controller.php:33
+#: ../modules/options/controller.php:6
+msgid "Done"
+msgstr "完成"
+
+#: ../classes/field.php:131 ../doc/old-version/classes/field.php:131
+msgid "Select"
+msgstr "選擇"
+
+#: ../classes/field.php:170 ../classes/field.php:179 ../classes/field.php:184
+#: ../doc/old-version/classes/field.php:170
+#: ../doc/old-version/classes/field.php:179
+#: ../doc/old-version/classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: ../classes/field.php:277 ../doc/old-version/classes/field.php:277
+msgid "Add Checkbox"
+msgstr "新增選取方塊"
+
+#: ../classes/field.php:282 ../classes/field.php:287
+#: ../doc/old-version/classes/field.php:282
+#: ../doc/old-version/classes/field.php:287
+msgid "Add Item"
+msgstr "新增項目"
+
+#: ../classes/field.php:293 ../doc/old-version/classes/field.php:293
+msgid "Add Radio Button"
+msgstr "新增核取方塊"
+
+#: ../classes/field.php:311 ../doc/old-version/classes/field.php:311
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: ../classes/field.php:314 ../doc/old-version/classes/field.php:314
+msgid "width"
+msgstr "寬度"
+
+#: ../classes/field.php:316 ../doc/old-version/classes/field.php:316
+msgid "height"
+msgstr "高度"
+
+#: ../classes/field.php:323 ../doc/old-version/classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "點這邊來設定欄位 &quot;id&quot; 和&quot;class&quot;"
+
+#: ../classes/field.php:324 ../doc/old-version/classes/field.php:324
+msgid "Attributes"
+msgstr "屬性"
+
+#: ../classes/field.php:402 ../doc/old-version/classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "這個模組沒有任何設定選項"
+
+#: ../classes/fieldAdapter.php:93
+#: ../doc/old-version/classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "套用到"
+
+#: ../classes/fieldAdapter.php:95
+#: ../doc/old-version/classes/fieldAdapter.php:95
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:349
+#: ../doc/old-version/modules/marker/views/marker.php:35
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:64
+#: ../modules/gmap/views/tpl/gmapEditMap.php:437
+msgid "Address"
+msgstr "地址"
+
+#: ../classes/fieldAdapter.php:96
+#: ../doc/old-version/classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "目的地"
+
+#: ../classes/fieldAdapter.php:97
+#: ../doc/old-version/classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "國家"
+
+#: ../classes/fieldAdapter.php:100
+#: ../doc/old-version/classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "分類"
+
+#: ../classes/fieldAdapter.php:101
+#: ../doc/old-version/classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "您沒有分類"
+
+#: ../classes/fieldAdapter.php:102
+#: ../doc/old-version/classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "商標"
+
+#: ../classes/fieldAdapter.php:103
+#: ../doc/old-version/classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "您沒有商標"
+
+#: ../classes/fieldAdapter.php:105
+#: ../doc/old-version/classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "稅率"
+
+#: ../classes/fieldAdapter.php:106
+#: ../doc/old-version/classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "絕對值"
+
+#: ../classes/fieldAdapter.php:134
+#: ../doc/old-version/classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "沒有選取"
+
+#: ../classes/fieldAdapter.php:184
+#: ../doc/old-version/classes/fieldAdapter.php:184
+msgid "class"
+msgstr "class"
+
+#: ../classes/fieldAdapter.php:186
+#: ../doc/old-version/classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: ../classes/frame.php:135 ../doc/old-version/classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "您沒有權限檢視這個頁面"
+
+#: ../classes/html.php:207 ../doc/old-version/classes/html.php:207
+msgid "Upload"
+msgstr "上傳"
+
+#: ../classes/html.php:611 ../doc/old-version/classes/html.php:611
+msgid "ON"
+msgstr "ON"
+
+#: ../classes/html.php:612 ../doc/old-version/classes/html.php:612
+msgid "OFF"
+msgstr "OFF"
+
+#: ../classes/html.php:636 ../doc/old-version/classes/html.php:636
+#, php-format
+msgid "Select %s"
+msgstr "選擇 %s"
+
+#: ../classes/model.php:174 ../classes/model.php:186
+#: ../doc/old-version/classes/model.php:174
+#: ../doc/old-version/classes/model.php:186
+msgid "Database error detected"
+msgstr "檢測到資料庫錯誤"
+
+#: ../classes/model.php:176 ../doc/old-version/classes/model.php:176
+#: ../doc/old-version/modules/gmap/models/gmap.php:103
+#: ../doc/old-version/modules/icons/models/icons.php:133
+#: ../modules/gmap/models/gmap.php:105 ../modules/icons/models/icons.php:133
+msgid "Invalid ID"
+msgstr "不正確的 ID"
+
+#: ../classes/model.php:209 ../doc/old-version/classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "空的或不正確的 ID"
+
+#: ../classes/modInstaller.php:34
+#: ../doc/old-version/classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "移動檔案 %s 失敗"
+
+#: ../classes/modInstaller.php:37
+#: ../doc/old-version/classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s 不是外掛模組"
+
+#: ../classes/modInstaller.php:76
+#: ../doc/old-version/classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "無法建立模組資料夾. 請嘗試設定權限到"
+
+#: ../classes/modInstaller.php:103
+#: ../doc/old-version/classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "沒有在XML檔案找到模組"
+
+#: ../classes/modInstaller.php:107
+#: ../doc/old-version/classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "不正確的XML檔案"
+
+#: ../classes/modInstaller.php:109
+#: ../doc/old-version/classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "沒有發現任何XML檔案"
+
+#: ../classes/modInstaller.php:128
+#: ../doc/old-version/classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "安裝 %s 失敗"
+
+#: ../classes/modInstaller.php:134
+#: ../doc/old-version/classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "啟用模組錯誤"
+
+#: ../classes/modInstaller.php:164
+#: ../doc/old-version/classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "停用模組錯誤"
+
+#: ../classes/modInstaller.php:185
+#: ../doc/old-version/classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "啟用模組錯誤"
+
+#: ../classes/table.php:277 ../doc/old-version/classes/table.php:277
+msgid "Nothing to update"
+msgstr "沒有任何更新"
+
+#: ../classes/table.php:293 ../doc/old-version/classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "資料庫錯誤. 請聯絡您的開發者"
+
+#: ../classes/validator.php:30 ../doc/old-version/classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "%s 錯誤的長度, 最大長度為 %s"
+
+#: ../classes/validator.php:43 ../doc/old-version/classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "%s是不正確的數字資料"
+
+#: ../classes/validator.php:71 ../doc/old-version/classes/validator.php:71
+#: ../doc/old-version/modules/supsystic_promo/controller.php:39
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "請輸入 %s"
+
+#: ../classes/validator.php:78 ../doc/old-version/classes/validator.php:78
+#: ../doc/old-version/modules/supsystic_promo/controller.php:39
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "請選擇 %s"
+
+#: ../classes/validator.php:85 ../classes/validator.php:101
+#: ../doc/old-version/classes/validator.php:85
+#: ../doc/old-version/classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "不正確 %s"
+
+#: ../classes/validator.php:88 ../doc/old-version/classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s 已經註冊"
+
+#: ../classes/tables/marker.php:7 ../classes/tables/marker_groups.php:8
+#: ../doc/old-version/classes/tables/maps.php:8
+#: ../doc/old-version/classes/tables/marker.php:7
+#: ../doc/old-version/classes/tables/marker_groups.php:8
+msgid "Map ID"
+msgstr "地圖 ID"
+
+#: ../classes/tables/marker.php:8 ../classes/tables/marker_groups.php:9
+#: ../doc/old-version/classes/tables/maps.php:9
+#: ../doc/old-version/classes/tables/marker.php:8
+#: ../doc/old-version/classes/tables/marker_groups.php:9
+msgid "File name"
+msgstr "檔案名稱"
+
+#: ../classes/tables/marker.php:9 ../classes/tables/marker_groups.php:10
+#: ../doc/old-version/classes/tables/maps.php:10
+#: ../doc/old-version/classes/tables/marker.php:9
+#: ../doc/old-version/classes/tables/marker_groups.php:10
+msgid "Description Of Map"
+msgstr "地圖的描述"
+
+#: ../classes/tables/marker.php:10
+#: ../doc/old-version/classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "X座標 (經度)"
+
+#: ../classes/tables/marker.php:11
+#: ../doc/old-version/classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Y座標 (緯度)"
+
+#: ../classes/tables/marker.php:12
+#: ../doc/old-version/classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "小圖示檔案路徑"
+
+#: ../classes/tables/marker.php:13
+#: ../doc/old-version/classes/tables/marker.php:13
+msgid "Map Id"
+msgstr "地圖 Id"
+
+#: ../classes/tables/marker.php:14
+#: ../doc/old-version/classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "地標地址"
+
+#: ../classes/tables/marker.php:15
+#: ../doc/old-version/classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "地標群組 Id"
+
+#: ../classes/tables/marker.php:16
+#: ../doc/old-version/classes/tables/marker.php:16
+msgid "Animation"
+msgstr "動畫"
+
+#: ../classes/tables/marker.php:17 ../classes/tables/modules.php:10
+#: ../classes/tables/options.php:11
+#: ../doc/old-version/classes/tables/marker.php:17
+#: ../doc/old-version/classes/tables/modules.php:10
+#: ../doc/old-version/classes/tables/options.php:11
+msgid "Params"
+msgstr "參數"
+
+#: ../classes/tables/marker.php:18
+#: ../doc/old-version/classes/tables/marker.php:18
+msgid "Creation date"
+msgstr "建立日期"
+
+#: ../classes/tables/modules.php:7 ../classes/tables/modules_type.php:8
+#: ../classes/tables/options.php:10
+#: ../doc/old-version/classes/tables/modules.php:7
+#: ../doc/old-version/classes/tables/modules_type.php:8
+#: ../doc/old-version/classes/tables/options.php:10
+msgid "Label"
+msgstr "標籤"
+
+#: ../classes/tables/modules.php:8 ../classes/tables/options.php:13
+#: ../doc/old-version/classes/tables/modules.php:8
+#: ../doc/old-version/classes/tables/options.php:13
+msgid "Type"
+msgstr "類型"
+
+#: ../classes/tables/modules.php:9
+#: ../doc/old-version/classes/tables/modules.php:9
+msgid "Active"
+msgstr "啟用"
+
+#: ../classes/tables/modules.php:11
+#: ../doc/old-version/classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Has Tab"
+
+#: ../classes/tables/modules.php:12 ../classes/tables/options.php:12
+#: ../doc/old-version/classes/tables/modules.php:12
+#: ../doc/old-version/classes/tables/options.php:12
+#: ../doc/old-version/modules/marker/views/marker.php:32
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:10
+msgid "Description"
+msgstr "描述"
+
+#: ../classes/tables/modules.php:13 ../classes/tables/options.php:8
+#: ../classes/tables/usage.php:9
+#: ../doc/old-version/classes/tables/modules.php:13
+#: ../doc/old-version/classes/tables/options.php:8
+#: ../doc/old-version/classes/tables/usage.php:9
+msgid "Code"
+msgstr "Code"
+
+#: ../classes/tables/modules.php:14
+#: ../doc/old-version/classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "外部外掛資料夾"
+
+#: ../classes/tables/modules_type.php:7 ../classes/tables/options.php:7
+#: ../classes/tables/options_categories.php:7
+#: ../doc/old-version/classes/tables/modules_type.php:7
+#: ../doc/old-version/classes/tables/options.php:7
+#: ../doc/old-version/classes/tables/options_categories.php:7
+#: ../doc/old-version/modules/gmap/views/gmap.php:154
+#: ../doc/old-version/modules/marker/views/marker.php:29
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:7
+#: ../modules/gmap/views/gmap.php:122
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/tables/options.php:9
+#: ../doc/old-version/classes/tables/options.php:9
+msgid "Value"
+msgstr "值"
+
+#: ../classes/tables/options.php:14
+#: ../doc/old-version/classes/tables/options.php:14
+msgid "Category ID"
+msgstr "分類 ID"
+
+#: ../classes/tables/options.php:15
+#: ../doc/old-version/classes/tables/options.php:15
+msgid "Sort Order"
+msgstr "排序"
+
+#: ../classes/tables/options.php:16
+#: ../doc/old-version/classes/tables/options.php:16
+msgid "Value Type"
+msgstr "資料型態"
+
+#: ../classes/tables/options_categories.php:8
+#: ../doc/old-version/classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "方法"
+
+#: ../classes/tables/usage.php:8 ../doc/old-version/classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "使用ID"
+
+#: ../classes/tables/usage.php:10
+#: ../doc/old-version/classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "瀏覽次數"
+
+#: ../doc/google-maps-easy-pro/wpUpdater.php:68
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr "An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Try again</a>"
+
+#: ../doc/google-maps-easy-pro/wpUpdater.php:73
+msgid "An unknown error occurred"
+msgstr "未知的錯誤"
+
+#: ../doc/google-maps-easy-pro/license/mod.php:23
+#, php-format
+msgid "Your license is expired. Once you extend your license - you will be able to Update PRO version. To extend PRO version license - follow <a href='%s' target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "您的授權已經到期. 一旦您延展您的授權, 您將可以再次更新到 PRO 版本．要延展您的 PRO版本授權, 請點<a href='%s' target='_blank'>這個連結</a> ，接著到　<a href='%s'>授權</a>標籤按下'重新啟用'按鈕來重新啟用您的 PRO版本"
+
+#: ../doc/google-maps-easy-pro/license/mod.php:31
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "您的 %s 外掛PRO 版本已經到期. 您可以 <a href='%s' target='_blank'>點擊這邊</a> 來延展您的授權, 然後到 <a href='%s'>授權</a> 標籤並且點擊'重新啟用' 按鈕來重新啟動您的 PRO 版本"
+
+#: ../doc/google-maps-easy-pro/license/mod.php:44
+msgid "License"
+msgstr "授權"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "請輸入您的授權碼"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "請輸入您的 Email 地址"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:130
+msgid "There was a problem with sending request to your authentication server. Please try later."
+msgstr "There was a problem with sending request to your authentication server. Please try later."
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:153
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "%s 外掛授權碼將在今天到期"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:155
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "%s 外掛授權碼將在明天到期"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:157
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "%s 外掛授權碼將於 %d 天內到期"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congradulations! PRO version of %s plugin is activated and working fine!"
+msgstr "恭喜 %s 外掛 PRO 版本已經啟用並且正常運作！"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - click on 'Re-activate' button to re-activate your PRO version."
+msgstr "您的 %s 外掛 PRO授權碼已經到期. 您可以<a href='%s' target='_blank'>點擊這裡</a> 來延長您的授權,然後 -點擊 '重新啟用' 按鈕來重新啟用您的PRO版本"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid "Congradulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+msgstr "恭喜！ 您已經成功安裝 %s 外掛的 PRO 版本. 最後一個完成的步驟是在本頁面輸入您的Emai 與 授權碼, 系統將會在這個頁面啟用您的軟體副本"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: ../doc/old-version/modules/supsystic_promo/mod.php:124
+#: ../modules/supsystic_promo/mod.php:124
+msgid "Email"
+msgstr "Email"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+msgid "Your email address, used on checkout procedure on <a href='%' target='_blank'>%s</a>"
+msgstr "您的 Email 地址使用在<a href='%' target='_blank'>%s</a>驗證過程"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "授權碼"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+msgid "Your License Key from your account on <a href='%' target='_blank'>%s</a>"
+msgstr "Your License Key from your account on <a href='%' target='_blank'>%s</a>"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "重新啟用"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "啟用"
+
+#: ../doc/old-version/classes/tables/icons.php:8
+msgid "Icon ID"
+msgstr "小圖示 ID"
+
+#: ../doc/old-version/classes/tables/icons.php:9
+msgid "Icon Title"
+msgstr "小圖示名稱"
+
+#: ../doc/old-version/classes/tables/icons.php:10
+msgid "Icon Description"
+msgstr "小圖示描述"
+
+#: ../doc/old-version/classes/tables/icons.php:11
+msgid "File Path"
+msgstr "檔案路徑"
+
+#: ../doc/old-version/classes/tables/maps.php:11
+msgid "Html Parametrs"
+msgstr "Html 參數"
+
+#: ../doc/old-version/classes/tables/maps.php:12
+msgid "Create Date"
+msgstr "建立日期"
+
+#: ../doc/old-version/classes/tables/maps.php:13
+msgid "Additional Params"
+msgstr "額外的參數"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:7
+#: ../modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "您的姓名欄位是必填"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:8
+#: ../modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "您的網址欄位是必填"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:9
+#: ../modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "您的 e-mail 欄位是必填"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:10
+#: ../modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "主旨欄位是必填"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:11
+#: ../modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "您必須選擇一個分類"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:12
+#: ../modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "訊息欄位是必填"
+
+#: ../doc/old-version/modules/adminmenu/mod.php:12
+#: ../modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "設定"
+
+#: ../doc/old-version/modules/csv/controller.php:11
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:9
+#: ../modules/csv/controller.php:11
+#: ../modules/csv/views/tpl/csvTabContent.php:9
+msgid "Maps"
+msgstr "地圖"
+
+#: ../doc/old-version/modules/csv/controller.php:47
+#: ../modules/csv/controller.php:47
+msgid "Marker"
+msgstr "地標"
+
+#: ../doc/old-version/modules/csv/controller.php:100
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:30
+#: ../doc/old-version/modules/gmap/views/gmap.php:158
+#: ../modules/csv/controller.php:100
+#: ../modules/csv/views/tpl/csvTabContent.php:30
+#: ../modules/gmap/views/gmap.php:125
+#: ../modules/gmap/views/tpl/gmapEditMap.php:17
+msgid "Markers"
+msgstr "地標"
+
+#: ../doc/old-version/modules/csv/controller.php:133
+#: ../modules/csv/controller.php:133
+msgid "Missing File"
+msgstr "遺失檔案"
+
+#: ../doc/old-version/modules/csv/controller.php:135
+#: ../modules/csv/controller.php:135
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "檔案已上傳但有錯誤代碼 %s"
+
+#: ../doc/old-version/modules/csv/controller.php:154
+#: ../modules/csv/controller.php:154
+#, php-format
+msgid "Added %s maps"
+msgstr "已經新增 %s 地圖"
+
+#: ../doc/old-version/modules/csv/controller.php:156
+#: ../modules/csv/controller.php:156
+#, php-format
+msgid "Updated %s maps"
+msgstr "已經更新 %s 地圖"
+
+#: ../doc/old-version/modules/csv/controller.php:158
+#: ../modules/csv/controller.php:158
+#, php-format
+msgid "Added %s markers"
+msgstr "已經新增 %s 地標"
+
+#: ../doc/old-version/modules/csv/controller.php:160
+#: ../modules/csv/controller.php:160
+#, php-format
+msgid "Updated %s markers"
+msgstr "已經更新 %s 地標"
+
+#: ../doc/old-version/modules/csv/controller.php:164
+#: ../modules/csv/controller.php:164
+msgid "File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "檔案至少應該要包含1個以上的資料列, 至少一列應該是檔頭"
+
+#: ../doc/old-version/modules/csv/controller.php:166
+#: ../modules/csv/controller.php:166
+msgid "Empty data in file"
+msgstr "檔案是空的"
+
+#: ../doc/old-version/modules/csv/mod.php:11 ../modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "地圖 <br /> 匯出 / 匯入"
+
+#: ../doc/old-version/modules/csv/models/csv.php:133
+#: ../modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "無法檢測導入列表的類型"
+
+#: ../doc/old-version/modules/csv/models/csv.php:135
+#: ../modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "無法找到欄位名稱"
+
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:14
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:35
+#: ../modules/csv/views/tpl/csvTabContent.php:14
+#: ../modules/csv/views/tpl/csvTabContent.php:35
+msgid "Export"
+msgstr "匯出"
+
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:38
+#: ../modules/csv/views/tpl/csvTabContent.php:38
+msgid "Import"
+msgstr "匯入"
+
+#: ../doc/old-version/modules/gmap/controller.php:23
+#: ../modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "找不到地圖資料"
+
+#: ../doc/old-version/modules/gmap/mod.php:12 ../modules/gmap/mod.php:13
+msgid "Add Map"
+msgstr "新增地圖"
+
+#: ../doc/old-version/modules/gmap/mod.php:15
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:409
+#: ../doc/old-version/modules/marker/views/tpl/markerListOperations.php:3
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:35
+#: ../modules/gmap/mod.php:16 ../modules/gmap/views/tpl/gmapEditMap.php:550
+msgid "Edit"
+msgstr "編輯"
+
+#: ../doc/old-version/modules/gmap/mod.php:18 ../modules/gmap/mod.php:19
+msgid "All Maps"
+msgstr "所有地圖"
+
+#: ../doc/old-version/modules/gmap/mod.php:28 ../modules/gmap/mod.php:29
+msgid "No Map Found"
+msgstr "找不到地圖"
+
+#: ../doc/old-version/modules/gmap/mod.php:38 ../modules/gmap/mod.php:39
+msgid "Empty or Invalid Map ID"
+msgstr "空的或不正確的地圖 ID"
+
+#: ../doc/old-version/modules/gmap/mod.php:57 ../modules/gmap/mod.php:58
+msgid "Top Center"
+msgstr "上中"
+
+#: ../doc/old-version/modules/gmap/mod.php:58 ../modules/gmap/mod.php:59
+msgid "Top Left"
+msgstr "上左"
+
+#: ../doc/old-version/modules/gmap/mod.php:59 ../modules/gmap/mod.php:60
+msgid "Top Right"
+msgstr "上右"
+
+#: ../doc/old-version/modules/gmap/mod.php:60 ../modules/gmap/mod.php:61
+msgid "Left Top"
+msgstr "左上"
+
+#: ../doc/old-version/modules/gmap/mod.php:61 ../modules/gmap/mod.php:62
+msgid "Right Top"
+msgstr "右上"
+
+#: ../doc/old-version/modules/gmap/mod.php:62 ../modules/gmap/mod.php:63
+msgid "Left Center"
+msgstr "左中"
+
+#: ../doc/old-version/modules/gmap/mod.php:63 ../modules/gmap/mod.php:64
+msgid "Right Center"
+msgstr "右中"
+
+#: ../doc/old-version/modules/gmap/mod.php:64 ../modules/gmap/mod.php:65
+msgid "Left Bottom"
+msgstr "左下"
+
+#: ../doc/old-version/modules/gmap/mod.php:65 ../modules/gmap/mod.php:66
+msgid "Right Bottom"
+msgstr "右下"
+
+#: ../doc/old-version/modules/gmap/mod.php:66 ../modules/gmap/mod.php:67
+msgid "Bottom Center"
+msgstr "下中"
+
+#: ../doc/old-version/modules/gmap/mod.php:67 ../modules/gmap/mod.php:68
+msgid "Bottom Left"
+msgstr "下左"
+
+#: ../doc/old-version/modules/gmap/mod.php:68 ../modules/gmap/mod.php:69
+msgid "Bottom Right"
+msgstr "下右"
+
+#: ../doc/old-version/modules/gmap/models/gmap.php:65
+#: ../modules/gmap/models/gmap.php:67
+msgid "Please enter Map Name"
+msgstr "請輸入地圖名稱"
+
+#: ../doc/old-version/modules/gmap/models/gmap.php:94
+#: ../modules/gmap/models/gmap.php:96
+msgid "Empty Params"
+msgstr "空的參數"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:155
+#: ../doc/old-version/modules/marker/views/marker.php:31
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:8
+#: ../modules/gmap/views/gmap.php:123
+msgid "Title"
+msgstr "標題"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:157
+#: ../modules/gmap/views/gmap.php:124
+msgid "Html options"
+msgstr "Html 選項"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:159
+#: ../doc/old-version/modules/marker/views/marker.php:37
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:13
+#: ../modules/gmap/views/gmap.php:126
+msgid "Operations"
+msgstr "操作"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:192
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:275
+#: ../doc/old-version/modules/marker/mod.php:20
+#: ../modules/gmap/views/gmap.php:161
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+#: ../modules/gmap/views/tpl/gmapEditMap.php:370 ../modules/marker/mod.php:20
+msgid "None"
+msgstr "無"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:5
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:8
+#: ../modules/gmap/views/tpl/gmapAdmin.php:5
+#: ../modules/gmap/views/tpl/gmapAdmin.php:8
+msgid "Delete selected"
+msgstr "刪除所選"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:11
+#: ../modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clear All"
+msgstr "全部清除"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:13
+#: ../modules/gmap/views/tpl/gmapAdmin.php:13
+msgid "Clear"
+msgstr "清除"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:16
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:17
+#: ../modules/gmap/views/tpl/gmapAdmin.php:16
+#: ../modules/gmap/views/tpl/gmapAdmin.php:17
+msgid "Search"
+msgstr "搜尋"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:26
+#: ../modules/gmap/views/tpl/gmapAdmin.php:26
+#, php-format
+msgid "You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> your first Map!"
+msgstr "您目前沒有任何地圖 <a href='%s' style='font-style: italic;'>建立</a> 您的地圖!"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapDrawMap.php:3
+#: ../modules/gmap/views/tpl/gmapDrawMap.php:3
+msgid "Map not found"
+msgstr "找不到地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:2
+#: ../modules/gmap/views/tpl/gmapEditMap.php:2
+#, php-format
+msgid "This option is available in <a target='_blank' href='%s'>PRO version</a> only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr "這個選項只能用在<a target='_blank' href='%s'>PRO 版本</a> 您可以在 <a target='_blank' href='%s'>這裡</a> 取得"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:4
+#: ../modules/gmap/views/tpl/gmapEditMap.php:117
+#: ../modules/gmap/views/tpl/gmapEditMap.php:145
+#: ../modules/gmap/views/tpl/gmapEditMap.php:172
+#: ../modules/gmap/views/tpl/gmapEditMap.php:199
+#: ../modules/gmap/views/tpl/gmapEditMap.php:281
+#: ../modules/gmap/views/tpl/gmapEditMap.php:298
+#: ../modules/gmap/views/tpl/gmapEditMap.php:315
+#: ../modules/gmap/views/tpl/gmapEditMap.php:352
+msgid "PRO option"
+msgstr "專業選項"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:16
+#: ../modules/gmap/views/tpl/gmapEditMap.php:31
+msgid "Map Name"
+msgstr "地圖名稱"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:18
+#: ../modules/gmap/views/tpl/gmapEditMap.php:33
+msgid "Your map name"
+msgstr "您的地圖名稱"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:30
+#: ../modules/gmap/views/tpl/gmapEditMap.php:45
+msgid "Map Width"
+msgstr "地圖寬度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:32
+#: ../modules/gmap/views/tpl/gmapEditMap.php:47
+msgid "Your map width"
+msgstr "您的地圖寬度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:44
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:69
+#: ../modules/gmap/views/tpl/gmapEditMap.php:56
+#: ../modules/gmap/views/tpl/gmapEditMap.php:81
+msgid "Pixels"
+msgstr "像素 (px)"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:48
+#: ../modules/gmap/views/tpl/gmapEditMap.php:63
+msgid "Percent"
+msgstr "百分比 (%)"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:55
+#: ../modules/gmap/views/tpl/gmapEditMap.php:70
+msgid "Map Height"
+msgstr "地圖高度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:57
+#: ../modules/gmap/views/tpl/gmapEditMap.php:72
+msgid "Your map height"
+msgstr "您的地圖高度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:75
+msgid "Extended Options"
+msgstr "額外的選項"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:82
+#: ../modules/gmap/views/tpl/gmapEditMap.php:97
+msgid "Map type control"
+msgstr "地圖類型控制"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:84
+#: ../modules/gmap/views/tpl/gmapEditMap.php:99
+msgid "Control view for map type - you can see it in left upper corner by default"
+msgstr "控制地圖顯示類型, 預設您可以在右上角看到"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Dropdown Menu"
+msgstr "下拉式選單"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Horizontal Bar"
+msgstr "水平桿"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:94
+#: ../modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Change type control position on map"
+msgstr "改變地圖控制類型位置"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:107
+#: ../modules/gmap/views/tpl/gmapEditMap.php:125
+msgid "Zoom control"
+msgstr "縮放控制"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:109
+#: ../modules/gmap/views/tpl/gmapEditMap.php:127
+msgid "Zoom control type on your map"
+msgstr "您的地圖縮放控制類型"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Default"
+msgstr "預設"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Large"
+msgstr "大"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Small"
+msgstr "小"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:119
+#: ../modules/gmap/views/tpl/gmapEditMap.php:138
+msgid "Change zoom control position on map"
+msgstr "改變地圖縮放控制位置"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:132
+#: ../modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Street view control"
+msgstr "街景控制"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:134
+#: ../modules/gmap/views/tpl/gmapEditMap.php:155
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr "街景控制通常顯示於您的地圖左上方"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:143
+#: ../modules/gmap/views/tpl/gmapEditMap.php:165
+msgid "Change street view control position on map"
+msgstr "改變地圖街景控制位置"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:156
+#: ../modules/gmap/views/tpl/gmapEditMap.php:180
+msgid "Pan control"
+msgstr "平移控制"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:158
+#: ../modules/gmap/views/tpl/gmapEditMap.php:182
+msgid "Pan control - allow you to pan over your map using mouse, usually is located on left upper corner of your map"
+msgstr "平移控制 - 允許您使用滑鼠在地圖上平移，通在在您地圖的左上角"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:167
+#: ../modules/gmap/views/tpl/gmapEditMap.php:192
+msgid "Change pan control position on map"
+msgstr "修改地圖平移控制位置"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:180
+#: ../modules/gmap/views/tpl/gmapEditMap.php:207
+msgid "Overview control"
+msgstr "概觀控制"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:182
+#: ../modules/gmap/views/tpl/gmapEditMap.php:209
+msgid "Overview control for your map, by default is disabled, and if enabled - is located on the right bottom corner"
+msgstr "您的地圖概觀控制, 預設是停用, 如果您啟用概觀控制將會顯示於右下角"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Opened"
+msgstr "展開"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Collapsed"
+msgstr "縮小"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:196
+#: ../modules/gmap/views/tpl/gmapEditMap.php:223
+msgid "Draggable"
+msgstr "可拖曳"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:198
+#: ../modules/gmap/views/tpl/gmapEditMap.php:225
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "啟用或停用您可能使用滑鼠拖曳"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:209
+#: ../modules/gmap/views/tpl/gmapEditMap.php:236
+msgid "Double click to zoom"
+msgstr "雙擊縮放"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:211
+#: ../modules/gmap/views/tpl/gmapEditMap.php:238
+msgid "By default double left click on map will zoom it in. But you can change this here."
+msgstr "當您點滑鼠左鍵兩次，地圖預設會拉近．但您可以在這邊修改"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:222
+#: ../modules/gmap/views/tpl/gmapEditMap.php:249
+msgid "Mouse wheel to zoom"
+msgstr "滑鼠滾輪縮放"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:224
+#: ../modules/gmap/views/tpl/gmapEditMap.php:251
+msgid "Sometimes you need to disable possibility to zoom your map using mouse wheel. This can be required for example - if you need to use your wheel for some other action, for example scroll your site even if mouse is over your map."
+msgstr "有些時候您可能必須要禁止使用滑鼠滾輪縮放．這個選項是您需要的，例如您可能需要使用您的滑鼠滾輪做其他事，像是您要捲動您的頁面但您滑鼠停留在地圖上"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:235
+#: ../modules/gmap/views/tpl/gmapEditMap.php:262
+msgid "Google Map Theme"
+msgstr "Google地圖類型"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:237
+#: ../modules/gmap/views/tpl/gmapEditMap.php:264
+msgid "You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain - here. By default your map will have Road Map Google maps theme."
+msgstr "您可以選擇您的 Google 地圖樣式 - 路線地圖, 混合地圖, 衛星地圖,或 地形圖 - 這裡在預設的情況下將有路線圖 Google地圖的樣式"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Road Map"
+msgstr "路線地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Hybrid"
+msgstr "混合地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Satellite"
+msgstr "衛星地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Terrain"
+msgstr "地形地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:249
+#: ../modules/gmap/views/tpl/gmapEditMap.php:327
+msgid "Map Stylization"
+msgstr "地圖風格"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:251
+#: ../modules/gmap/views/tpl/gmapEditMap.php:329
+msgid "Make your map unique with our Map Themes, just try to change it here - and you will see results on your Map Preview."
+msgstr "使用地圖樣式讓您的地圖獨一無二！您可以在這邊試著改變，接著可以在地圖預覽看到結果．"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:261
+msgid "Get 300+ Themes"
+msgstr "取得 300+ 樣式"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:269
+#: ../modules/gmap/views/tpl/gmapEditMap.php:364
+msgid "Markers Clusterization"
+msgstr "地標群集"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:271
+#: ../modules/gmap/views/tpl/gmapEditMap.php:366
+msgid "If you have many markers - you can have a problems with viewing them when zoom out for example: they will just cover each-other. Marker clusterization can solve this problem by grouping your markers in groups when they are too close to each-other."
+msgstr "如果您有許多地標，您可能再放大檢視的時候會發現一個問．例如這些地標之間距離太過靠近可能會蓋在一起，地標群集可以解決這個問題，將彼此太過接近的地標群組成一個群集．"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:275
+#: ../modules/gmap/views/tpl/gmapEditMap.php:370
+msgid "Base Clusterization"
+msgstr "基礎群集"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:293
+#: ../modules/gmap/views/tpl/gmapEditMap.php:20
+msgid "Add New Marker"
+msgstr "建立新地標"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:294
+#: ../modules/gmap/views/tpl/gmapEditMap.php:526
+msgid "Save Marker"
+msgstr "儲存地標"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:303
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:9
+#: ../modules/gmap/views/tpl/gmapEditMap.php:391
+msgid "Marker Name"
+msgstr "地標名稱"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:305
+#: ../modules/gmap/views/tpl/gmapEditMap.php:393
+msgid "Your marker title"
+msgstr "您的地標名稱"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:316
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:25
+#: ../modules/gmap/views/tpl/gmapEditMap.php:404
+msgid "Marker Description"
+msgstr "地標描述"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:318
+#: ../modules/gmap/views/tpl/gmapEditMap.php:406
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "在這邊撰寫文字，將會顯示在地標彈出的浮動視窗中"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:334
+#: ../doc/old-version/modules/marker/views/marker.php:30
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:45
+#: ../modules/gmap/views/tpl/gmapEditMap.php:422
+msgid "Icon"
+msgstr "小圖示"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:336
+#: ../modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "您的地標小圖示將出現於您的地圖這個地標上"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:342
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:57
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:131
+#: ../modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Choose icon"
+msgstr "選擇小圖示"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:351
+#: ../modules/gmap/views/tpl/gmapEditMap.php:439
+msgid "Search your location by address, just start typing here"
+msgstr "經由地址搜尋您的地點, 在這邊輸入"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:363
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:83
+#: ../doc/old-version/modules/marker/views/tpl/markerListAddress.php:3
+#: ../modules/gmap/views/tpl/gmapEditMap.php:451
+msgid "Latitude"
+msgstr "緯度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:365
+#: ../modules/gmap/views/tpl/gmapEditMap.php:453
+msgid "Latitude for your marker"
+msgstr "您的地標緯度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:377
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:102
+#: ../doc/old-version/modules/marker/views/tpl/markerListAddress.php:3
+#: ../modules/gmap/views/tpl/gmapEditMap.php:465
+msgid "Longitude"
+msgstr "經度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:379
+#: ../modules/gmap/views/tpl/gmapEditMap.php:467
+msgid "Longitude for your marker"
+msgstr "您的地標經度"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:412
+#: ../modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Delete"
+msgstr "刪除"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:430
+#: ../modules/gmap/views/tpl/gmapEditMap.php:492
+msgid "Map shortcode"
+msgstr "地圖簡碼"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:433
+#: ../modules/gmap/views/tpl/gmapEditMap.php:503
+msgid "Shortcode will appear after you save map."
+msgstr "簡碼將出現在您儲存地圖之後"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:439
+#: ../modules/gmap/views/tpl/gmapEditMap.php:511
+msgid "Save Map"
+msgstr "儲存地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:442
+#: ../modules/gmap/views/tpl/gmapEditMap.php:517
+msgid "Delete Map"
+msgstr "刪除地圖"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapListMarkers.php:20
+#: ../modules/gmap/views/tpl/gmapListMarkers.php:20
+#, php-format
+msgid "and %s more"
+msgstr "和 %s 更多"
+
+#: ../doc/old-version/modules/gmap_widget/mod.php:18
+#: ../modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "顯示大部分瀏覽過的產品"
+
+#: ../doc/old-version/modules/gmap_widget/views/gmap_widget.php:15
+#: ../modules/gmap_widget/views/gmap_widget.php:15
+msgid "You have no maps"
+msgstr "您沒有任何地圖"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:10
+#: ../modules/gmap_widget/views/tpl/form.php:10
+msgid "Select map"
+msgstr "選擇地圖"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:18
+#: ../modules/gmap_widget/views/tpl/form.php:18
+msgid "Widget Map width"
+msgstr "地圖小工具寬度"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:25
+#: ../modules/gmap_widget/views/tpl/form.php:25
+msgid "Widget Map height"
+msgstr "地圖小工具高度"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:32
+#: ../modules/gmap_widget/views/tpl/form.php:32
+msgid "Display as image"
+msgstr "以圖片方式顯示"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:40
+#: ../modules/gmap_widget/views/tpl/form.php:40
+msgid "Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr "地圖將以圖片的形式顯示在側欄，點一下會開啟一個新的地圖視窗"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:42
+#: ../modules/gmap_widget/views/tpl/form.php:42
+msgid "Image width (in px)"
+msgstr "圖片寬度 (px)"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:49
+#: ../modules/gmap_widget/views/tpl/form.php:49
+msgid "Image height (in px)"
+msgstr "圖片高度 (px)"
+
+#: ../doc/old-version/modules/icons/controller.php:20
+#: ../modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "空的 url"
+
+#: ../doc/old-version/modules/icons/models/icons.php:29
+#: ../modules/icons/models/icons.php:29
+msgid "Icon no found"
+msgstr "找不到小圖示"
+
+#: ../doc/old-version/modules/icons/models/icons.php:81
+#: ../modules/icons/models/icons.php:81
+msgid "File not found"
+msgstr "找不到檔案"
+
+#: ../doc/old-version/modules/icons/models/icons.php:86
+#: ../modules/icons/models/icons.php:86
+msgid "Cannot get image"
+msgstr "無法取得圖片"
+
+#: ../doc/old-version/modules/icons/models/icons.php:97
+#: ../modules/icons/models/icons.php:97
+msgid "cannot insert to table"
+msgstr "無法插入表格"
+
+#: ../doc/old-version/modules/mail/mod.php:33 ../modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "無法發送Email - 問題可能是 SMTP"
+
+#: ../doc/old-version/modules/marker/controller.php:42
+#: ../doc/old-version/modules/marker/controller.php:57
+#: ../modules/marker/controller.php:42 ../modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "找不到地標"
+
+#: ../doc/old-version/modules/marker/controller.php:48
+#: ../modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "無法移除地標"
+
+#: ../doc/old-version/modules/marker/controller.php:63
+#: ../modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "無法移除多個地標"
+
+#: ../doc/old-version/modules/marker/controller.php:144
+#: ../modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "空的或不正確的地標 ID"
+
+#: ../doc/old-version/modules/marker/mod.php:21 ../modules/marker/mod.php:21
+msgid "Drop"
+msgstr "移除"
+
+#: ../doc/old-version/modules/marker/mod.php:22 ../modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "彈跳"
+
+#: ../doc/old-version/modules/marker/models/marker.php:42
+#: ../modules/marker/models/marker.php:42
+msgid "Please enter marker name"
+msgstr "請輸入您的地標名稱"
+
+#: ../doc/old-version/modules/marker/models/marker.php:185
+#: ../modules/marker/models/marker.php:185
+msgid "Address is empty or not match"
+msgstr "地址為空或不正確的"
+
+#: ../doc/old-version/modules/marker/models/marker.php:243
+#: ../modules/marker/models/marker.php:243
+msgid "Invalid Marker ID"
+msgstr "不正確的"
+
+#: ../doc/old-version/modules/marker/views/marker.php:33
+msgid "Group"
+msgstr "群組"
+
+#: ../doc/old-version/modules/marker/views/marker.php:34
+msgid "Creation Date"
+msgstr "建立日期"
+
+#: ../doc/old-version/modules/marker/views/marker.php:36
+msgid "Uses On Map"
+msgstr "使用在地圖上"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerList.php:16
+msgid "Back To Markers List"
+msgstr "返回地標列表"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerListOperations.php:7
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:39
+msgid "Remove"
+msgstr "移除"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerListUsesOnMap.php:5
+msgid "No maps contain this marker"
+msgstr "這個地標沒有包含在任何地圖上"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerTable.php:17
+msgid "Remove selected"
+msgstr "移除所選"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:14
+#: ../modules/marker_groups/controller.php:14
+msgid "Nothing To Save"
+msgstr "沒有任何東西需要儲存"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:21
+#: ../modules/marker_groups/controller.php:21
+msgid "Cannot Save Group"
+msgstr "無法儲存群組"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:29
+#: ../modules/marker_groups/controller.php:29
+msgid "Group Not Found"
+msgstr "找不到群組"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:35
+#: ../modules/marker_groups/controller.php:35
+msgid "Cannot remove group"
+msgstr "無法移除群組"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:5
+msgid "Add New"
+msgstr "建立新的"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:20
+msgid "Save Group"
+msgstr "儲存群組"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:22
+msgid "Group Title"
+msgstr "群組名稱"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:26
+msgid "Title For Group"
+msgstr "群組的名稱"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:30
+msgid "Group Description"
+msgstr "群組描述"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:34
+msgid "Description For Goup"
+msgstr "群組的描述"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:40
+msgid "Save"
+msgstr "儲存"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:43
+msgid "Reset"
+msgstr "重設"
+
+#: ../doc/old-version/modules/options/mod.php:84 ../modules/options/mod.php:84
+msgid "General"
+msgstr "一般"
+
+#: ../doc/old-version/modules/options/mod.php:86 ../modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "寄送使用統計"
+
+#: ../doc/old-version/modules/options/models/modules.php:32
+#: ../modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "模組已經更新"
+
+#: ../doc/old-version/modules/options/models/modules.php:47
+#: ../modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "模組更新失敗"
+
+#: ../doc/old-version/modules/options/models/modules.php:50
+#: ../modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "錯誤的模組 ID"
+
+#: ../doc/old-version/modules/options/models/options.php:63
+#: ../modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Empty data to save option"
+
+#: ../doc/old-version/modules/options/views/tpl/optionsAdminMain.php:18
+#: ../modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "首頁點這邊"
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:7
+#: ../modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "訊息已經儲存. 感謝您！"
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:23
+#: ../modules/supsystic_promo/controller.php:23
+msgid "Please don't send contact requests so often - wait for response for your previous requests."
+msgstr "請不要太常發送請求，請等待您之前的請求回覆．"
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:45
+#: ../modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "請輸入有效的 e-mail 地址"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:24
+#: ../modules/supsystic_promo/mod.php:24
+msgid "Overview"
+msgstr "概觀"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:50
+#: ../modules/supsystic_promo/mod.php:50
+msgid "Welcome to Supsystic Secure"
+msgstr "歡迎來到 Supsystic Secure"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:123
+#: ../modules/supsystic_promo/mod.php:123
+msgid "Name"
+msgstr "姓名"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:125
+#: ../modules/supsystic_promo/mod.php:125
+msgid "Website"
+msgstr "網址"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:126
+#: ../modules/supsystic_promo/mod.php:126
+msgid "Subject"
+msgstr "主旨"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:127
+#: ../modules/supsystic_promo/mod.php:127
+msgid "Topic"
+msgstr "主題"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:128
+#: ../modules/supsystic_promo/mod.php:128
+msgid "Plugin options"
+msgstr "外掛選項"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:129
+#: ../modules/supsystic_promo/mod.php:129
+msgid "Report a bug"
+msgstr "回報 Bug"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:130
+#: ../modules/supsystic_promo/mod.php:130
+msgid "Require a new functionality"
+msgstr "請求一個新的功能"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:131
+#: ../modules/supsystic_promo/mod.php:131
+msgid "Other"
+msgstr "其他"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:133
+#: ../modules/supsystic_promo/mod.php:133
+msgid "Message"
+msgstr "訊息"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:133
+#: ../modules/supsystic_promo/mod.php:133
+msgid "Hello Supsystic Team!"
+msgstr "Hello Supsystic Team!"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:30
+#: ../modules/supsystic_promo/views/supsystic_promo.php:30
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "如何免費取得外掛 PRO版本？"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:30
+#: ../modules/supsystic_promo/views/supsystic_promo.php:30
+#, php-format
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin! It will be amazing if you take advantage of this offer! More info you can find here <a target='_blank' href='%s'>'Get PRO version of any plugin for FREE'</a>"
+msgstr "您有一個很難得的機會取得免費的 PRO 版本！ 協助我們翻譯這個外掛！ 更多訊息您可以在這邊找到 <a target='_blank' href='%s'>'Get PRO version of any plugin for FREE'</a>"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:31
+#: ../modules/supsystic_promo/views/supsystic_promo.php:31
+msgid "Translation"
+msgstr "翻譯"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:31
+#: ../modules/supsystic_promo/views/supsystic_promo.php:31
+#, php-format
+msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+msgstr "所有可用的語言都在Supsystic Google Maps plugin, 如果沒有您的語言, 外掛將自動預設為英文. <br /><b>翻譯語言：English</b><br /> 協助翻譯或是更新一個您的語言 Google Maps Wordpress 外掛可以得到一個免費的Premium授權 <a target='_blank' href='%s'>聯絡我們</a>."
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:48
+#: ../modules/supsystic_promo/views/supsystic_promo.php:48
+#, php-format
+msgid "There was some problem while trying to retrieve our news, but you can always check all list <a target='_blank' href='%s'>here</a>."
+msgstr "當您嘗試檢視我們的公告時發生了一些問題, 但您可以在 <a target='_blank' href='%s'>這裡</a> 查看我們所有的公告"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:67
+#: ../modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../modules/supsystic_promo/views/supsystic_promo.php:67
+msgid "Yes"
+msgstr "是"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:67
+#: ../modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../modules/supsystic_promo/views/supsystic_promo.php:67
+msgid "No"
+msgstr "否"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:78
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "版本"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:10
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Go"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:10
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:15
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "支援"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:19
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "新增您的"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "問答與文件"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "查看所有問答"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:102
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "影片教學"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "Server Settings"
+msgstr "伺服器環境"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:44
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:44
+msgid "News"
+msgstr "公告"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:50
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:50
+msgid "All news and info"
+msgstr "所有公告或資訊"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:55
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:55
+msgid "Contact form"
+msgstr "聯絡表單"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:87
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:87
+msgid "Send email"
+msgstr "發送Email"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Your email was send, we will try to respond to you as soon as possible. Thank you for support!"
+msgstr "您的Email已經送出, 我們將盡快回覆您．感謝您的支持!"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:76
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "歡迎來到"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:84
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "這是首次啟用 %s 外掛"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:85
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid "If you are newbie - check all features on that page, if you are guru - please correct us."
+msgstr "如果您是新手, 在這個頁面查看所有的特色, 如果您是專家, 且糾正我們"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:94
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "請貼上 url"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:108
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "下一步該做什麼？ 查看下面的內容"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:112
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Boost us"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:113
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+msgstr "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:117
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "文件"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:118
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid "Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr "點擊 <a target='_blank' href='%s'>文件</a> 與 問答部分. 如果您無法解決您的問題,  <a target='_blank' href='%s'>聯絡我們</a>."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:122
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "所有特色列表"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:123
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "有太多的特色，所以我們沒辦法呈現在此. 像"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:125
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "管理員登入驗證碼"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:126
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "htaccess 管理保護"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:127
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "隱藏資料夾檔案列表"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:128
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "檢查檔案與資料夾的寫入權限"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:130
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr "因此查看所有特色列表 <a target='_blank' href='%s'>here</a>."
+
+#: ../modules/gmap/mod.php:92
+msgid "Slider"
+msgstr "側欄"
+
+#: ../modules/gmap/mod.php:93
+msgid "Slider - Title and Img"
+msgstr "側欄 - 標題與圖片"
+
+#: ../modules/gmap/mod.php:94 ../modules/gmap/mod.php:96
+msgid "Slider Vertical - Title and Img"
+msgstr "Slider Vertical - Title and Img"
+
+#: ../modules/gmap/mod.php:95
+msgid "Slider Vertical - Title and Description"
+msgstr "Slider Vertical - Title and Description"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Map Properties"
+msgstr "地圖設定"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:59
+#: ../modules/gmap/views/tpl/gmapEditMap.php:84
+msgid "Px"
+msgstr "像素 (px)"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:276
+msgid "Traffic Layer"
+msgstr "交通狀況圖層"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:278
+msgid "Add real-time traffic information to your map."
+msgstr "增加即時交通資訊到您的地圖"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:293
+msgid "Transit Layer"
+msgstr "交通圖層"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:295
+msgid "Display the public transit network of a city on your map. When the Transit Layer is enabled, and the map is centered on a city that supports transit information, the map will display major transit lines as thick, colored lines."
+msgstr "在您的地圖上顯示城市公共交通網路. 當交通圖層啟用, 並且在地圖的位置有提供交通資訊, 地圖將顯示主要的交通路線, 彩色線條"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:310
+msgid "Bicycling Layer"
+msgstr "單車圖層"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:312
+msgid "Add a layer of bike paths, suggested bike routes and other overlays specific to bicycling usage on top of the given map.Dark green routes indicated dedicated bicycle routes. Light green routes indicate streets with dedicated 'bike lanes.' Dashed routes indicate streets or paths otherwise recommended for bicycle usage."
+msgstr "Add a layer of bike paths, suggested bike routes and other overlays specific to bicycling usage on top of the given map.Dark green routes indicated dedicated bicycle routes. Light green routes indicate streets with dedicated 'bike lanes.' Dashed routes indicate streets or paths otherwise recommended for bicycle usage."
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:339
+msgid "Get 300+ Themes with PRO"
+msgstr "取得 300+ PRO布景"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:347
+msgid "Markers List"
+msgstr "地標列表"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:349
+msgid "Display all map markers - as list below Your map. This will help your users get more info about your markers and find required marker more faster."
+msgstr "顯示所有的地圖地標在您的地圖下方，這將會協助您的使用者有更多的資訊更快找到所需的地標"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:356
+msgid "Select Markers List type"
+msgstr "選擇地標列表類型"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:497
+msgid "PHP code"
+msgstr "PHP Code"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:532
+msgid "Delete Marker"
+msgstr "刪除地標"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:580
+msgid "Show markers list with your map on frontend"
+msgstr "在您的前端地圖顯示地標列表"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:587
+#: ../modules/gmap/views/tpl/gmapEditMap.php:588
+msgid "Apply"
+msgstr "套用"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Selected"
+msgstr "已選擇"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:588
+msgid "Available in PRO"
+msgstr "PRO 版本可用"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "升級免費版本"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid "Please be advised that this option is available only in <a target='_blank' href='%s'>PRO version</a>. You can <a target='_blank' href='%s' class='button'>Get PRO</a> today and get this and other PRO option for your Maps!"
+msgstr "請注意, 這個選項只能使用在 <a target='_blank' href='%s'>PRO 版本</a>. 您可以馬上  <a target='_blank' href='%s' class='button'>取得PRO</a> 來使用您的地圖外掛任何 PRO 選項"

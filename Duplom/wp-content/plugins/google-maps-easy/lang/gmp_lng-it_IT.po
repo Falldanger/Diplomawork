@@ -1,0 +1,1805 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2015-07-30 18:39+0300\n"
+"PO-Revision-Date: 2018-11-14 10:34+0200\n"
+"Last-Translator: irene <ka3d3@hotmail.com>\n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: modules/adminmenu/controller.php:29 modules/gmap/controller.php:40
+#: modules/gmap/controller.php:57 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:58
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Fatto"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Seleziona"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "Non disponibile"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Aggiungi Checkbox"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Aggiungi un elemento"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Aggiungi un Radio Button"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensioni"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "Larghezza"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "altezza"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Clicca per settare il campo &quot;id&quot; and &quot;class&quot;"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Attributi"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Non ci sono opzioni di configurazione per questo modulo"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Applica a "
+
+#: classes/fieldAdapter.php:95 modules/gmap/views/tpl/gmapEditMap.php:523
+msgid "Address"
+msgstr "Indirizzo"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destinazione"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Paese"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Categorie"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Non ci sono categorie"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Brands"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Non ci sono brands"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "aliquota fiscale"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Assoluto"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Non selezionato"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "classe"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "Non hai i permessi per visualizzare questa pagina"
+
+#: classes/html.php:207
+msgid "Upload"
+msgstr "Carica"
+
+#: classes/html.php:611
+msgid "ON"
+msgstr "ON"
+
+#: classes/html.php:612
+msgid "OFF"
+msgstr "OFF"
+
+#: classes/html.php:636
+#, php-format
+msgid "Select %s"
+msgstr "Seleziona %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Lo spostamento dei files %s è fallito"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s non è un modulo del plugin"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr ""
+"Non posso creare la cartella del modulo. Prova a impostare i permessi per "
+"farlo."
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Non sono stati trovati moduli nel file XML"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "File XML non valido"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Non è stato trovato alcun file XML"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Installazione %s fallita"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "errore modulo attivazione"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "errore modulo disattivazione"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "errore nell'attivare il modulo"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Individuato errore nel database"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:105
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:30
+msgid "Invalid ID"
+msgstr "ID non valido"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "ID vuoto o non valido"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Non c'è niente da aggiornare"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Errore nel database. Per favore contatta lo sviluppatore."
+
+#: classes/tables/marker.php:7 classes/tables/marker_groups.php:8
+msgid "Map ID"
+msgstr "ID della mappa"
+
+#: classes/tables/marker.php:8 classes/tables/marker_groups.php:9
+msgid "File name"
+msgstr "nome del file"
+
+#: classes/tables/marker.php:9 classes/tables/marker_groups.php:10
+msgid "Description Of Map"
+msgstr "Descrizione della mappa"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "coordinata X per il segnaposto (longitudine)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "coordinata Y per il segnaposto (latitudine)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Percorso del file dell'icona"
+
+#: classes/tables/marker.php:13
+msgid "Map Id"
+msgstr "Id della mappa"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Indirizzo del segnaposto"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "Id del gruppo di segnaposto"
+
+#: classes/tables/marker.php:16
+msgid "Animation"
+msgstr "animazione"
+
+#: classes/tables/marker.php:17 classes/tables/modules.php:10
+#: classes/tables/options.php:11
+msgid "Params"
+msgstr "Parametri"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+msgid "Sort Order"
+msgstr "Ordina"
+
+#: classes/tables/marker.php:19
+msgid "Creation date"
+msgstr "Data di creazione"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Etichetta"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Attiva"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr ""
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+msgid "Description"
+msgstr "Descrizione"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Codice"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Cartella plugin esterna"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:122
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Valore"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "ID della categoria"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Tipo di valore"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metodo"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Id di utilizzo"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Contatore visite"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Lunghezza non valida per %s, la lunghezza massima è %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Il valore numerico per %s non è valido"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Per favore inserisci %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Per favore seleziona %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Non valido %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s è già registrato"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Esci da schermo intero"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Apri a schermo intero"
+
+#: doc/google-maps-easy-pro/license/mod.php:28
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on 'Re-activate' button to re-activate your PRO version."
+msgstr ""
+"La tua licenza è scaduta. Un volta estesa la tua licenza - potrai aggiornare "
+"la versione PRO. Per estendere la licenza per la versione PRO - segui<a "
+"href='%s' target='_blank'>questo link</a>, poi - vai su <a href='%s'>Licenza</"
+"a> e clicca sul 'Re-activate' bottone per riattivare la tua versione PRO."
+
+#: doc/google-maps-easy-pro/license/mod.php:36
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - go to <a "
+"href='%s'>License</a> tab and click on 'Re-activate' button to re-activate "
+"your PRO version."
+msgstr ""
+"La tua licenza per la versione PRO del plugin %s - è scaduta. Puoi <a "
+"href='%s' target='_blank'>cliccare qui</a> per estendere la tua ricerca, poi "
+"- vai su <a href='%s'>Licenza</a> e clicca sul bottone 'Riattiva' per "
+"riattivare la tua versione PRO."
+
+#: doc/google-maps-easy-pro/license/mod.php:49
+msgid "License"
+msgstr "Licenza"
+
+#: doc/google-maps-easy-pro/license/mod.php:72
+msgid "Activate License"
+msgstr "Attiva licenza"
+
+#: doc/google-maps-easy-pro/license/mod.php:74
+msgid "Renew License"
+msgstr "Rinnova la licenza"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Per favore inserisci la tua License Key (chiave di licenza)"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Per favore inserisci il tuo un indirizzo mail "
+
+#: doc/google-maps-easy-pro/license/models/license.php:131
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr ""
+"C'è un problema nell'invio della richiesta al nostro server di "
+"autentificazione. Per favore riprova più tardi."
+
+#: doc/google-maps-easy-pro/license/models/license.php:154
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "La licenza per il plugin %s scadrà oggi"
+
+#: doc/google-maps-easy-pro/license/models/license.php:156
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "La licenza per il plugin %s scadrà domani"
+
+#: doc/google-maps-easy-pro/license/models/license.php:158
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "La licenza per il plugin %s scadrà in %d giorni."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr ""
+"Congratulazioni! la versione PRO del plugin %s è stata attivata e funziona "
+"bene!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on 'Re-"
+"activate' button to re-activate your PRO version."
+msgstr ""
+"La tua licenza per la versione PRO del plugin %s - è scaduta. Puoi <a "
+"href='%s' target='_blank'>cliccare qui</a> per estendere la licenza, poi - "
+"clicca sul 'Riattiva' bottone per riattivare la tua versione PRO."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Congratulazioni! Hai installato con successo la versione PRO del plugin %s. "
+"Il passaggio finale per completare il setup della tua versione pro - è di "
+"inserire la tua email e la License Key (chiave di licenza) in questa pagina. "
+"Questo attiverà la tua copia del software per questo sito."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:132
+msgid "Email"
+msgstr "Email"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "License Key (chiave di licenza)"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr ""
+"La tua chiave di licenza dal tuo account su <a href='%s' target='_blank'>%s</"
+"a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Ri-attiva"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Attivare"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:68
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"si è verificato un errore HTTP inatteso durante la richiesta API</p> <p><a "
+"href='?' onclick='document.location.reload(); return false;'>Prova di nuovo</"
+"a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:73
+msgid "An unknown error occurred"
+msgstr "é subentrato un errore sconosciuto"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Il campo 'nome' è richiesto"
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Il campo 'sito web' è richiesto"
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Il campo 'tua email' è richiesto"
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Il campo 'oggetto' è richiesto"
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Devi selezionare una categoria valida"
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Il campo 'messaggio' è richiesto"
+
+#: modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: modules/csv/controller.php:45
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Mappe da %s - %s"
+
+#: modules/csv/controller.php:48
+msgid "You have no maps for now."
+msgstr "Non ci sono mappe per ora"
+
+#: modules/csv/controller.php:87
+#, php-format
+msgid "Markers from %s"
+msgstr "Segnaposto da %s"
+
+#: modules/csv/controller.php:90
+msgid "You have no markers for now."
+msgstr "Non ci sono segnaposto per ora"
+
+#: modules/csv/controller.php:124
+msgid "Missing File"
+msgstr "File mancante"
+
+#: modules/csv/controller.php:126
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "File caricato con codice di errore %s"
+
+#: modules/csv/controller.php:208
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr ""
+"Il file deve contenere più di una riga, deve esserci almeno una riga per "
+"l'intestazione"
+
+#: modules/csv/controller.php:210
+msgid "Empty data in file"
+msgstr "File vuoti - nessun dato"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Mappe importa/esporta"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Non si può individuare un tipo di lista da importare"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Non posso trovare i nomi dei campi"
+
+#: modules/csv/views/tpl/csvTabContent.php:9
+msgid "Maps"
+msgstr "Mappe"
+
+#: modules/csv/views/tpl/csvTabContent.php:14
+#: modules/csv/views/tpl/csvTabContent.php:35
+msgid "Export"
+msgstr "Esporta"
+
+#: modules/csv/views/tpl/csvTabContent.php:19
+#: modules/csv/views/tpl/csvTabContent.php:40
+msgid "Import"
+msgstr "Importa"
+
+#: modules/csv/views/tpl/csvTabContent.php:30 modules/gmap/views/gmap.php:125
+#: modules/gmap/views/tpl/gmapEditMap.php:17
+msgid "Markers"
+msgstr "Segnaposto"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Dati della mappa non trovati"
+
+#: modules/gmap/mod.php:13
+msgid "Add Map"
+msgstr "Aggiungi mappa"
+
+#: modules/gmap/mod.php:16 modules/gmap/views/tpl/gmapEditMap.php:701
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Modifica"
+
+#: modules/gmap/mod.php:19
+msgid "All Maps"
+msgstr "Tutte le mappe"
+
+#: modules/gmap/mod.php:29
+msgid "No Map Found"
+msgstr "Nessuna mappa trovata"
+
+#: modules/gmap/mod.php:39
+msgid "Empty or Invalid Map ID"
+msgstr "ID della mappa vuoto o non valido"
+
+#: modules/gmap/mod.php:58
+msgid "Top Center"
+msgstr "in alto - centrale"
+
+#: modules/gmap/mod.php:59
+msgid "Top Left"
+msgstr "in alto - a sinistra"
+
+#: modules/gmap/mod.php:60
+msgid "Top Right"
+msgstr "in alto - a destra"
+
+#: modules/gmap/mod.php:61
+msgid "Left Top"
+msgstr "a sinistra - in alto"
+
+#: modules/gmap/mod.php:62
+msgid "Right Top"
+msgstr "a destra - in alto"
+
+#: modules/gmap/mod.php:63
+msgid "Left Center"
+msgstr "a sinistra - al centro"
+
+#: modules/gmap/mod.php:64
+msgid "Right Center"
+msgstr "a destra - al centro"
+
+#: modules/gmap/mod.php:65
+msgid "Left Bottom"
+msgstr "a sinistra - in basso"
+
+#: modules/gmap/mod.php:66
+msgid "Right Bottom"
+msgstr "a destra - in basso"
+
+#: modules/gmap/mod.php:67
+msgid "Bottom Center"
+msgstr "in basso - al centro"
+
+#: modules/gmap/mod.php:68
+msgid "Bottom Left"
+msgstr "in basso - a sinistra"
+
+#: modules/gmap/mod.php:69
+msgid "Bottom Right"
+msgstr "in basso - a destra"
+
+#: modules/gmap/mod.php:92
+msgid "Slider"
+msgstr "Slider"
+
+#: modules/gmap/mod.php:93
+msgid "Slider - Title and Img"
+msgstr "Slider - titolo e immagine"
+
+#: modules/gmap/mod.php:94 modules/gmap/mod.php:96
+msgid "Slider Vertical - Title and Img"
+msgstr "Slider verticale - titolo e immagine"
+
+#: modules/gmap/mod.php:95
+msgid "Slider Vertical - Title and Description"
+msgstr "Slider verticale - titolo e descrizione"
+
+#: modules/gmap/models/gmap.php:67
+msgid "Please enter Map Name"
+msgstr "Per favore inserisci il nome della mappa"
+
+#: modules/gmap/models/gmap.php:96
+#: modules/marker_groups/models/marker_groups.php:63
+msgid "Empty Params"
+msgstr "parametro vuoto"
+
+#: modules/gmap/views/gmap.php:123
+msgid "Title"
+msgstr "Titolo"
+
+#: modules/gmap/views/gmap.php:124
+msgid "Html options"
+msgstr "opzioni HTML"
+
+#: modules/gmap/views/gmap.php:126
+msgid "Operations"
+msgstr "Operazioni"
+
+#: modules/gmap/views/gmap.php:163 modules/gmap/views/gmap.php:169
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+#: modules/gmap/views/tpl/gmapEditMap.php:370 modules/marker/mod.php:20
+msgid "None"
+msgstr "Nessuno"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/marker_groups/views/tpl/mgrAdmin.php:9
+#: modules/marker_groups/views/tpl/mgrAdmin.php:12
+msgid "Delete selected"
+msgstr "Cancella selezionati"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+#: modules/marker_groups/views/tpl/mgrAdmin.php:15
+msgid "Clear All"
+msgstr "Cancella tutto"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:13
+#: modules/marker_groups/views/tpl/mgrAdmin.php:17
+msgid "Clear"
+msgstr "Cancella "
+
+#: modules/gmap/views/tpl/gmapAdmin.php:16
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:20
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+msgid "Search"
+msgstr "Cerca"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:26
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Non ci sono mappe per ora. <a href='%s' style='font-style: italic;'>Crea</a> "
+"la tua prima mappa!"
+
+#: modules/gmap/views/tpl/gmapDrawMap.php:3
+msgid "Map not found"
+msgstr "Mappa non trovata "
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Questa opzione è disponibile solo nella <a target='_blank' href='%s'>versione "
+"PRO</a>. Puoi averla cliccando <a target='_blank' href='%s'>qui.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Map Properties"
+msgstr "Proprietà della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:20
+msgid "Add New Marker"
+msgstr "Aggiungi nuovo segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:31
+msgid "Map Name"
+msgstr "Nome della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:33
+msgid "Your map name"
+msgstr "Il nome della tua mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:45
+msgid "Map Width"
+msgstr "Larghezza della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:47
+msgid "Your map width"
+msgstr "La larghezza della tua mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:56
+#: modules/gmap/views/tpl/gmapEditMap.php:81
+msgid "Pixels"
+msgstr "Pixels"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+#: modules/gmap/views/tpl/gmapEditMap.php:84
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:63
+msgid "Percent"
+msgstr "Percentuale"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:70
+msgid "Map Height"
+msgstr "Altezza della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:72
+msgid "Your map height"
+msgstr "Altezza della tua mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:97
+msgid "Map type control"
+msgstr "Controllo del tipo di mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr ""
+"Visualizzazione del controllo per il tipo di mappa - di default puoi trovarlo "
+"nell'angolo in alto a destra"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Dropdown Menu"
+msgstr "Menu a tendina"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Horizontal Bar"
+msgstr "Barra orizzontale"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Change type control position on map"
+msgstr "Cambia la posizione del controllo del tipo sulla mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:117
+#: modules/gmap/views/tpl/gmapEditMap.php:145
+#: modules/gmap/views/tpl/gmapEditMap.php:172
+#: modules/gmap/views/tpl/gmapEditMap.php:199
+#: modules/gmap/views/tpl/gmapEditMap.php:281
+#: modules/gmap/views/tpl/gmapEditMap.php:298
+#: modules/gmap/views/tpl/gmapEditMap.php:315
+#: modules/gmap/views/tpl/gmapEditMap.php:352
+#: modules/gmap/views/tpl/gmapEditMap.php:383
+#: modules/gmap/views/tpl/gmapEditMap.php:412
+msgid "PRO option"
+msgstr "Opzione PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:125
+msgid "Zoom control"
+msgstr "Controllo zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:127
+msgid "Zoom control type on your map"
+msgstr "Tipo di controllo dello zoom sulla mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Default"
+msgstr "Default (impostazione predefinita)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Large"
+msgstr "Grande"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Small"
+msgstr "Piccola"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:138
+msgid "Change zoom control position on map"
+msgstr "Cambia la pozione del controllo zoom sulla mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Street view control"
+msgstr "Controllo Street-view"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr ""
+"Il controllo dello street-view è solitamente visibile nell'angolo in alto a "
+"sinistra della tua mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:165
+msgid "Change street view control position on map"
+msgstr "Cambia la posizione del controllo street-view sulla mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:180
+msgid "Pan control"
+msgstr "Controllo dello scorrimento"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:182
+msgid ""
+"Pan control - allow you to pan over your map using mouse, usually is located "
+"on left upper corner of your map"
+msgstr ""
+"Controllo dello scorrimento - ti permette di scorrere sulla mappa usando il "
+"mouse, solitamente è posizionato nell'angolo in alto a sinistra della tua "
+"mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:192
+msgid "Change pan control position on map"
+msgstr "Cambia la posizione sulla mappa del controllo dello scorrimento"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:207
+msgid "Overview control"
+msgstr "Controllo panoramica"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:209
+msgid ""
+"Overview control for your map, by default is disabled, and if enabled - is "
+"located on the right bottom corner"
+msgstr ""
+"il controllo della Panoramica per la mappa è disabilitato per default. Se "
+"abilitato si trova nell'angolo in basso a destra"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Opened"
+msgstr "Riquadro"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Collapsed"
+msgstr "Pulsantino cliccabile"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:223
+msgid "Draggable"
+msgstr "Trascinabile"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:225
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr ""
+"Abilita o disabilitala possibilità di trascinare la tua mappa usando il mouse."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:236
+msgid "Double click to zoom"
+msgstr "Doppio click per lo zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:238
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"L'opzione predefinita fa sì che il doppio click sulla mappa corrisponda allo "
+"zoom-in . Ma tu puoi cambiare questa impostazione qui."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:249
+msgid "Mouse wheel to zoom"
+msgstr "Rotella del mouse per controllo zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:251
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"A volte c'è bisogno di disabilitare la possibilità di usare la rotella del "
+"mouse per controllare lo zoom della mappa. Questo può essere richiesto per "
+"esempio se hai bisogno che la rotella svolga altre azioni come lo scroll "
+"della pagina web del sito anche se il mouse è sopra la mappa."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:262
+msgid "Google Map Theme"
+msgstr "Tema Google Map"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:264
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Puoi selezionare il tema della tua Google Map - stradale, ibrida, satellite, "
+"terra - qui. Di default (opzione predefinita) la tua mappa userà il tema "
+"stradale di Google Map."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Road Map"
+msgstr "Stradale"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Hybrid"
+msgstr "Ibrida"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Satellite"
+msgstr "Satellite"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Terrain"
+msgstr "Terra - Earth"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:276
+msgid "Traffic Layer"
+msgstr "Livello traffico"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:278
+msgid "Add real-time traffic information to your map."
+msgstr "Aggiungi informazioni sul traffico real-time sulla tua mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:293
+msgid "Transit Layer"
+msgstr "Livello trasporto pubblico"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:295
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Mostra la rete di trasporto pubblico di una città nella tua mappa. Quando il "
+"livello è abilitato, e la mappa è centrata su una città che supporta questo "
+"tipo di informazioni, la mappa mostrerà le principali linee di trasporto come "
+"più spesse e colorate."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:310
+msgid "Bicycling Layer"
+msgstr "Livello delle piste ciclabili"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:312
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"'bike lanes.' Dashed routes indicate streets or paths otherwise recommended "
+"for bicycle usage."
+msgstr ""
+"Aggiungi il livello dei percorsi ciclabili, suggerisce strade percorribili in "
+"bicicletta e altre coperture specifiche per l'uso delle bici in alto nella "
+"mappa. Il verde scuro indica le strade dedicate alle bici. Il verde chiaro "
+"indica le strade con piste ciclabili dedicate. Le linee tratteggiate indicano "
+"strade o percorsi altrimenti raccomandati per l'uso della bici."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+msgid "Map Stylization"
+msgstr "Stile - Tema della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Rendi la tua mappa unica con i nostri Temi per le mappe. Semplicemente prova "
+"a cambiare tema qui - e vedrai il risultato nell'anteprima della mappa."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:339
+msgid "Get 300+ Themes with PRO"
+msgstr "Ottieni 300+ temi con la versione PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:347
+msgid "Markers List"
+msgstr "Lista dei segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:349
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Mostra tutti i segnaposto della mappa - come una lista sotto la tua mappa. "
+"Questo aiuta gli utenti ad ottenere più informazioni sui segnaposto e a "
+"trovare il segnaposto di loro interesse più velocemente."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:356
+msgid "Select Markers List type"
+msgstr "Seleziona il tipo di lista dei segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid "Markers Clusterization"
+msgstr "Raggruppamento dei segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:366
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Se hai molti segnaposto potresti avere problemi con la visualizzazione quando "
+"diminuisce lo zoom: i segnaposto potrebbero coprirsi a vicenda. La "
+"clusterizzazione può risolvere il problema raggruppando i segnaposto quando "
+"sono troppo vicini tra loro."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:370
+msgid "Base Clusterization"
+msgstr "Raggruppamento base"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:378
+msgid "Full Screen Button"
+msgstr "Bottone per lo schermo intero"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Add a button on map to open it full screen."
+msgstr "Aggiungi un bottone alla mappa per poterla aprire a schermo intero"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:395
+msgid "Marker Title color"
+msgstr "Colore del titolo del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:397
+msgid "You can set your markers title color here"
+msgstr "Puoi impostare il colore del titolo del segnaposto qui."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:407
+msgid "Custom Map Controls"
+msgstr "Controlli mappa personalizzati"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:409
+msgid "Add custom map controls to the map."
+msgstr "Aggiungi alla mappa controlli personalizzati per la mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:422
+msgid "Controls type"
+msgstr "Controllo tipo"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Round"
+msgstr "Rotondo"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Square"
+msgstr "Quadrato"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:425
+msgid "Square with rounded edges"
+msgstr "Quadrato con angoli arrotondati"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:431
+msgid "Background color"
+msgstr "Colore dello sfondo"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Text color"
+msgstr "Colore del testo"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:445
+msgid "Controls position"
+msgstr "Controllo posizione"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Marker Name"
+msgstr "Nome del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:474
+msgid "Your marker title"
+msgstr "Titolo del tuo segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:485
+msgid "Marker Description"
+msgstr "Descrizione del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:487
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr ""
+"Scrivi qui tutto il testo che vuoi che appaia nella finestra di informazioni "
+"PopUp relativa al segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:503
+msgid "Icon"
+msgstr "Icona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:505
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr ""
+"L'icona del tuo segnaposto. Apparirà sulla tua mappa per questo segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:512
+msgid "Choose Icon"
+msgstr "Scegli l'icona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:513
+msgid "Upload Icon"
+msgstr "Carica icona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:525
+msgid "Search your location by address, just start typing here"
+msgstr "Cerca un luogo tramite indirizzo, inizia scrivendo qui"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:537
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:539
+msgid "Latitude for your marker"
+msgstr "Latitudine del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:551
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Longitude for your marker"
+msgstr "Longitudine del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:565
+msgid "Show description by default"
+msgstr "Mostra la descrizione come opzione predefinita"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:567
+msgid "Open marker description when map load"
+msgstr "Apri la descrizione del segnaposto quando la mappa viene caricata"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:577
+msgid "Marker Link"
+msgstr "Link del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:579
+msgid "Link for opening by click on the marker"
+msgstr "Link da aprire cliccando sul segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:594
+msgid "Open in new window"
+msgstr "Apri in una nuova finestra"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:602
+msgid "Show description by mouse hover"
+msgstr "Mostra la descrizione al passaggio del mouse"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:604
+msgid "Open marker description by mouse hover"
+msgstr "Apri la descrizione del segnaposto al passaggio del mouse"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:614
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:10
+msgid "Marker Category"
+msgstr "Categoria seganposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+msgid "Choose marker category"
+msgstr "Scegli la categoria del segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:643
+msgid "Map shortcode"
+msgstr "Shortcode della mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:648
+msgid "PHP code"
+msgstr "codice PHP"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:654
+msgid "Shortcode will appear after you save map."
+msgstr "Lo shortcode relativo alla mappa apparirà dopo che l'avrai salvata"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:662
+msgid "Save Map"
+msgstr "Salva la mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:668
+msgid "Delete Map"
+msgstr "Cancella la mappa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:677
+msgid "Save Marker"
+msgstr "Salva segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:683
+msgid "Delete Marker"
+msgstr "Cancella il segnaposto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:704
+msgid "Delete"
+msgstr "Cancella"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Show markers list with your map on frontend"
+msgstr "Mostra la lista dei segnaposto con la tua mappa nel frontend"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:738
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Apply"
+msgstr "Applica"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:738
+msgid "Selected"
+msgstr "Selezionato"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Available in PRO"
+msgstr "Disponibile nella versione PRO"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:20
+#, php-format
+msgid "and %s more"
+msgstr "e altri %s "
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Mostra i prodotti più visualizzati"
+
+#: modules/gmap_widget/views/gmap_widget.php:15
+msgid "You have no maps"
+msgstr "Non ci sono mappe"
+
+#: modules/gmap_widget/views/tpl/form.php:10
+msgid "Select map"
+msgstr "Seleziona una mappa"
+
+#: modules/gmap_widget/views/tpl/form.php:18
+msgid "Widget Map width"
+msgstr "Larghezza del widget della mappa"
+
+#: modules/gmap_widget/views/tpl/form.php:25
+msgid "Widget Map height"
+msgstr "Altezza del widget della mappa"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Display as image"
+msgstr "Visualizza come immagine"
+
+#: modules/gmap_widget/views/tpl/form.php:40
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"La mappa sarà visualizzata come una immagine nella sidebar, al click sarà "
+"aperta in una finestra popup"
+
+#: modules/gmap_widget/views/tpl/form.php:42
+msgid "Image width (in px)"
+msgstr "Larghezza dell'immagine in px"
+
+#: modules/gmap_widget/views/tpl/form.php:49
+msgid "Image height (in px)"
+msgstr "Altezza dell'immagine in px"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Url vuoto"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Icona non trovata"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "file non trovato"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Non è possibile ottenere l'immagine"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "non si può inserire in tabella"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Non si può inviare la mail - problemi con il server d'invio"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Segnaposto non trovato"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Il segnaposto non può essere rimosso"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "I segnaposti non possono essere rimossi"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "ID del segnaposto vuoto o non valido"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Rilascia"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr ""
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Per favore inserisci un nome per il segnaposto"
+
+#: modules/marker/models/marker.php:192
+msgid "Address is empty or not match"
+msgstr "L'indirizzo è vuoto o non corrisponde"
+
+#: modules/marker/models/marker.php:248
+msgid "Invalid Marker ID"
+msgstr "ID del segnaposto non valido"
+
+#: modules/marker_groups/controller.php:31
+msgid "Marker Category data not found"
+msgstr "Non sono stati trovati dati relativi alla categoria del segnaposto"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Categorie segnaposto"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Non è stata trovata una categoria segnaposto"
+
+#: modules/marker_groups/models/marker_groups.php:39
+msgid "Please enter Marker Category"
+msgstr "Per favore inserisci la categoria per il segnaposto"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+msgid "Add Category"
+msgstr "Aggiungi categoria"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:30
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Non ci sono categorie per i segnaposto. <a href='%s' style='font-style: "
+"italic;'>Crea</a> la tua prima categoria per i segnaposto!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:20
+msgid "Save"
+msgstr "Salva"
+
+#: modules/options/mod.php:84
+msgid "General"
+msgstr "Generale"
+
+#: modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "Invia statistiche di utilizzo"
+
+#: modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Modulo aggiornato"
+
+#: modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Aggiornamento del modulo: fallito"
+
+#: modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Errore ID del modulo"
+
+#: modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Nessun dato per salvare le opzioni."
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "La pagina principale va qui!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Migliora la versione gratuita"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Cortesemente, sappi che questa opzione è disponibile sono nella <a "
+"target='_blank' href='%s'> versione PRO </a>. Puoi <a target='_blank' "
+"href='%s' class='button'> ottenere la versione PRO</a> oggi stesso e con essa "
+"avrai questa e altre opzioni PRO per la tua mappa!"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "L'informazione è stata salvata. Grazie!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Per favore non mandarci così spesso delle richieste di contatto - aspetta la "
+"risposta per la tua precedente richiesta"
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Per favore inserisci un indirizzo mail valido"
+
+#: modules/supsystic_promo/mod.php:24
+msgid "Overview"
+msgstr "Panoramica"
+
+#: modules/supsystic_promo/mod.php:50
+msgid "Welcome to Supsystic Secure"
+msgstr "Benvenuto nella Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:131
+msgid "Name"
+msgstr "Nome"
+
+#: modules/supsystic_promo/mod.php:133
+msgid "Website"
+msgstr "Sito web"
+
+#: modules/supsystic_promo/mod.php:134
+msgid "Subject"
+msgstr "Oggetto"
+
+#: modules/supsystic_promo/mod.php:135
+msgid "Topic"
+msgstr "Argomento"
+
+#: modules/supsystic_promo/mod.php:136
+msgid "Plugin options"
+msgstr "Opzioni del plugin"
+
+#: modules/supsystic_promo/mod.php:137
+msgid "Report a bug"
+msgstr "Segnala un errore (bug)"
+
+#: modules/supsystic_promo/mod.php:138
+msgid "Require a new functionality"
+msgstr "Richiedi una nuova funzionalità"
+
+#: modules/supsystic_promo/mod.php:139
+msgid "Other"
+msgstr "Altro"
+
+#: modules/supsystic_promo/mod.php:141
+msgid "Message"
+msgstr "Messaggio"
+
+#: modules/supsystic_promo/mod.php:141
+msgid "Hello Supsystic Team!"
+msgstr "Ciao Supsystic Team!"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:30
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Come usare il widget di Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:31
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. Vai su Aspetto -> Widgets nel menù di navigazione di WordPress.<br />2. "
+"Trova Google Maps Easy nella lista dei widgets disponibili.<br />3. Trascina "
+"il widget di Google Maps Easy widget nella widget area, dove vuoi che appaia."
+"<br />4. Scegli la mappa da inserire nel widget e configura le impostazioni - "
+"larghezza e altezza del Widget Map.<br />5. Clicca su 'Salva'."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to add map into the site content?"
+msgstr "Come aggiungere la mappa nel content del sito?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Puoi aggiungere una mappa nel content del sito attraverso uno shortcode o con "
+"del codice php. Impare di più su come fare <a href='http://supsystic.com/add-"
+"map-into-site-content/'> cliccando qui </a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:34
+msgid "How to add map in popup window?"
+msgstr "Come aggiungere la mappa in una finestra popup?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:35
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Puoi aggiungere una mappa in una finestra pop-up inserendo lo shortcode della "
+"mappa in qualsiasi campo testuale per popup. Impara di più su come farlo <a "
+"href='http://supsystic.com/add-map-in-popup-window/'> cliccando qui</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:36
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Come zoomare e centrale la mappa iniziare sui segnaposto?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Ci sono molti modi per centrare la mappa e usare lo zoom. Il più semplice è "
+"trascinare la mappa con il mouse - l'opzione 'trascinabile' deve essere "
+"abilitata, oppure il controllo della panoramica ti aiuta nella anteprima. <a "
+"href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-"
+"markers/'> per approfondimenti…clicca qui</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Come avere la versione PRO del plugin gratuitamente?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>'Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Hai l'incredibile opportunità di ottenere gratis la versione PRO del plugin. "
+"Traduci il plugin! Sarà fantastico cogliere questa occasione! Puoi avere più "
+"informazioni qui <a target='_blank' href='%s'>'Ottieni la versione PRO "
+"gratuitamente'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "Translation"
+msgstr "Traduzione"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Tutte le lingue disponibili sono già inserite con il plugin Supsystic Google "
+"Maps. Se la tua lingua non è disponibile, il tuo plugin sarà visualizzato, "
+"per default, in inglese.<br /><b>Traduzioni disponibili: Inglese</b><br /"
+">Traduci o aggiorna una traduzione di Google Maps WordPress plugin nella tua "
+"lingua e avrai la licenza Premium gratuitamente. <a target='_blank' "
+"href='%s'>Contattaci</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:55
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Ci sono problemi nel recuperare le nostre novità, ma puoi pur sempre "
+"controllare tutte le liste <a target='_blank' href='%s'>qui</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:65
+#: modules/supsystic_promo/views/supsystic_promo.php:66
+#: modules/supsystic_promo/views/supsystic_promo.php:71
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:74
+msgid "Yes"
+msgstr "Si"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:65
+#: modules/supsystic_promo/views/supsystic_promo.php:66
+#: modules/supsystic_promo/views/supsystic_promo.php:71
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:74
+msgid "No"
+msgstr "No"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Versione"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Vai"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Supporto"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Aggiungi il tuo"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "FAQ e Documentazione"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Controlla tutte le FAQs"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video tutorial"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "Caratteristiche PRO"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Impostazioni del Server"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Novità"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Tutte le novità e le informazioni"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Modulo di contatto"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Invia email"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"La tua mail è stata inviata, cercheremo di risponderti il più presto "
+"possibile. Grazie per il tuo supporto!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Benvenuto "
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Questo è il primo avvio del plugin %s"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Se sei un neofita puoi trovare le caratteristiche in questa pagina, se sei un "
+"guru - per favore correggici "
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Per favore invia un url"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Cosa fare dopo? Controlla la sezione seguente"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Dacci lo slancio!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"è fantastico come i tuoi feedback e il punteggio che ci assegni siano di "
+"stimolo per noi. Per questo abbiamo creato una <a target='_blank' href='%s'> "
+"pagina 'di slancio' </a> speciale per aiutarti ad aiutarci!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Controlla <a target='_blank' href='%s'> la documentazione</a> e la sezione "
+"FAQ. Se non riesci comunque a risolvere il problema, <a target='_blank' "
+"href='%s'>contattaci</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Lista completa delle caratteristiche"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Ci sono così tante caratteristiche che non possiamo scriverle qui. Come"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Capcha per il login dell'admin (amministratore)"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "protezione htaccess admin "
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr ""
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Controlla i permessi di scrittura per files e cartelle"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Così controlla la lista completa delle caratteristiche<a target='_blank' "
+"href='%s'>qui</a>."

@@ -1,0 +1,2087 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2015-12-10 19:04+0300\n"
+"PO-Revision-Date: 2018-11-14 10:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/kml/controller.php:9
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: modules/adminmenu/controller.php:29 modules/gmap/controller.php:40
+#: modules/gmap/controller.php:57 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:58
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Fullført"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Velg"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "Ikke tilgjengelig"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Legg til avkryssningsboks"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Legg til element"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Legg til alternativ-knapp"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensjoner"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "bredde"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "høyde"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Klikk for å sette feltene &quot;id&quot; og 'klasse'"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Attributter"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Det er ingen konfigurasjonsmuligheter for denne modulen"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Bruk på"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:52
+#: modules/gmap/views/tpl/gmapEditMap.php:863
+msgid "Address"
+msgstr "Adresse"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destinasjon"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Land"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Kategorier"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Du har ingen kategorier"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Merker"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Du har ingen merker"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Moms"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolutt"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Ikke valgt"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "klasse"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:136
+msgid "You have no permissions to view this page"
+msgstr "Du har ikke rettigheter til å vise denne siden"
+
+#: classes/html.php:207
+msgid "Upload"
+msgstr "Last opp"
+
+#: classes/html.php:611
+msgid "ON"
+msgstr "PÅ"
+
+#: classes/html.php:612
+msgid "OFF"
+msgstr "AV"
+
+#: classes/html.php:636
+#, php-format
+msgid "Select %s"
+msgstr "Velg %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Flytting av filer for %s mislyktes"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s er ikke en utvidelses-modul"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Kan ikke opprette modul-katalog. Prøv å sett rettigheter til"
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Ingen moduler ble funnet i XML-fil"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Ugyldig XML-fil"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Ingen XML-fil ble funnet"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Instalasjon av %s mislyktes"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Feil i aktivering av modul"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Feil i deaktivering av modul"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Feil i aktivering av modul"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Databasefeil oppdaget"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:116
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:47
+msgid "Invalid ID"
+msgstr "Ugyldig ID"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "Tom eller ugyldig ID"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Ingen å oppdatere"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Databasefeil. Vennligst ta kontakt med utvikler."
+
+#: classes/tables/marker.php:7 classes/tables/marker_groups.php:8
+msgid "Map ID"
+msgstr "Kart-ID"
+
+#: classes/tables/marker.php:8 classes/tables/marker_groups.php:9
+msgid "File name"
+msgstr "Filnavn"
+
+#: classes/tables/marker.php:9 classes/tables/marker_groups.php:10
+msgid "Description Of Map"
+msgstr "Beskrivelse av kart"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "X-koordinater hvis markør (lng)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Y-koordinater av markør (lat)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Ikonets filbane"
+
+#: classes/tables/marker.php:13
+msgid "Map Id"
+msgstr "Kart-ID"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Markør-adresse"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "Markørens gruppe-ID"
+
+#: classes/tables/marker.php:16
+msgid "Animation"
+msgstr "Animasjon"
+
+#: classes/tables/marker.php:17 classes/tables/modules.php:10
+#: classes/tables/options.php:11
+msgid "Params"
+msgstr "Parametre"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+msgid "Sort Order"
+msgstr "Sorteringsrekkefølge"
+
+#: classes/tables/marker.php:19
+msgid "Creation date"
+msgstr "Opprettelsesdato"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Etikett"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Type"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktiv"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Har fane"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:53
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Kode"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Eksternt utvidelses-katalog"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:114
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Verdi"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "Kategori-ID"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Verdi-type"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metode"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Bruks-ID"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Antall besøkende"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Ugyldig lengde for %s, maks lengde er %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Ugyldig numerisk verdi for %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Vennligst fyll %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Vennligst velg %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Ugyldig %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s er allerede registrert"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Avslutt fullskjerm"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Åpne fullskjerm"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:50
+msgid "Search address..."
+msgstr "Søk etter adresse"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:85
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:98
+msgid "Find"
+msgstr "Finn"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:112
+msgid "Please, type a search address."
+msgstr "Vennligst "
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:118
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr ""
+"Søkeområde har ingen markører, vennligst forsøk å endre dine søkekriterier"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "Får veibeskrivelse"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:24
+msgid "Type the address..."
+msgstr "Skriv inn adressen..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:33
+msgid "or"
+msgstr "eller"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:50
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Gå"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "Geolokasjon-tjenesten mislyktes"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "Din nettleser støtter ikke geolokasjon."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "Ruten ble ikke funnet. Vennligst velg en annen adresse!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "Vennligst velg adresse fra søkelisten!"
+
+#: doc/google-maps-easy-pro/kml/controller.php:16
+msgid "Security check failed"
+msgstr "Sikkerhetskontroll mislyktes"
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on 'Re-activate' button to re-activate your PRO version."
+msgstr ""
+"Din lisens er utløpt. Så fort du utvider din lisens - vil du kunne oppdatere "
+"til PRO-versjonen. For å utvide PRO-versjon-lisensen - følg <a href='%s' "
+"target='_blank'>den lenken</a>, deretter - gå til <a href='%s'>Lisens</a>-"
+"taben, og klikk på 'Reaktiver'-knappen for å reaktivere din PRO-versjon."
+
+#: doc/google-maps-easy-pro/license/mod.php:38
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - go to <a "
+"href='%s'>License</a> tab and click on 'Re-activate' button to re-activate "
+"your PRO version."
+msgstr ""
+"Din lisens for PRO-versjonen av utvidelsen %s - utløpt. Du kan <a href='%s' "
+"target='_blank'>klikke her</a> for å forlenge din lisens, deretter - gå til "
+"<a href='%s'>Lisens</a>-taben, og klikk på 'Reaktiver'-knappen for  å "
+"reaktivere din PRO-versjon."
+
+#: doc/google-maps-easy-pro/license/mod.php:51
+msgid "License"
+msgstr "Lisens"
+
+#: doc/google-maps-easy-pro/license/mod.php:74
+msgid "Activate License"
+msgstr "Aktiver lisens"
+
+#: doc/google-maps-easy-pro/license/mod.php:76
+msgid "Renew License"
+msgstr "Forny lisens"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Vennligst angi din lisensnøkkel"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Vennligst skriv inn din e-postadresse"
+
+#: doc/google-maps-easy-pro/license/models/license.php:131
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr ""
+"Det oppsto et problem ved sending av forespørsel til vår autentifiserings-"
+"server. Vennligst prøv igjen senere."
+
+#: doc/google-maps-easy-pro/license/models/license.php:154
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Lisens for utvidelse %s utløper i dag."
+
+#: doc/google-maps-easy-pro/license/models/license.php:156
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Lisens for utvidelse %s utløper i morgen."
+
+#: doc/google-maps-easy-pro/license/models/license.php:158
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Lisens for utvidelse %s utløper om %d dager."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr ""
+"Gratulerer! PRO-versjonen av utvidelsen %s er aktivert og fungerer fint!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on 'Re-"
+"activate' button to re-activate your PRO version."
+msgstr ""
+"Din lisens for PRO-versjonen av utvidelsen %s - utløpt. Du kan <a href='%s' "
+"target='_blank'>klikke her</a> for å forlenge din lisens, deretter - klikk på "
+"'Reaktiver'-knappen for å reaktivere din PRO-versjon."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Gratulerer! Du har nå installert PRO-versjonen av utvidelsen %s. Det siste "
+"trinnet for å fullføre oppsett av din PRO-versjon - er å skrive inn din e-"
+"post og lisensnøkkel på denne siden. Dette vil aktivere din kopi av "
+"programvaren på dette nettstedet."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:183
+msgid "Email"
+msgstr "E-post"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Din e-postadresse, som brukes i kasse-prosedyren på <a href='%s' "
+"target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "Din lisensnøkkel fra din konto på <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Reaktiver"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Aktiver"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:14
+msgid "Uncategorized"
+msgstr "Ukategorisert"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:51
+#: modules/gmap/views/gmap.php:115
+msgid "Title"
+msgstr "Tittel"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:55
+msgid "Directions"
+msgstr "Veibeskrivelse"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:68
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"En uventet HTTP-feil under API-forespørsel.</p> <p><a href=“?” "
+"onclick=“document.location.reload(); return false;”>Prøv igjen</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:73
+msgid "An unknown error occurred"
+msgstr "Det oppstod en ukjent feil"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Feltet ditt navn er påkrevd."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Feltet nettsted er påkrevd."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Feltet e-post er påkrevd."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Feltet emne er påkrevd."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Du må velge en gyldig kategori."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Feltet melding er påkrevd."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"Kul WordPress-utvidelse fra sysystic.com-utviklerne. Jeg prøvde %s - og dette "
+"var det jeg trengte! #sysystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Flere utvidelser til din WordPress-side her!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Spre ordet!!"
+
+#: modules/csv/controller.php:45
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Kart fra %s - %s"
+
+#: modules/csv/controller.php:48
+msgid "You have no maps for now."
+msgstr "Du har for tiden ingen kart."
+
+#: modules/csv/controller.php:87
+#, php-format
+msgid "Markers from %s"
+msgstr "Markører fra %s"
+
+#: modules/csv/controller.php:90
+msgid "You have no markers for now."
+msgstr "Du har for tiden ingen markører."
+
+#: modules/csv/controller.php:124
+msgid "Missing File"
+msgstr "Manglende fil"
+
+#: modules/csv/controller.php:126
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Fil lastet opp med feilkode %s"
+
+#: modules/csv/controller.php:208
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr ""
+"Filen må inneholde mer enn 1 rad, minst 1 rad skal være til overskrifter"
+
+#: modules/csv/controller.php:210
+msgid "Empty data in file"
+msgstr "Tom data i fil"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Kart Import / Eksport"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Finner ikke importens listetype"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Finner ikke feltnavn"
+
+#: modules/csv/views/tpl/csvTabContent.php:9
+msgid "Maps"
+msgstr "Kart"
+
+#: modules/csv/views/tpl/csvTabContent.php:14
+#: modules/csv/views/tpl/csvTabContent.php:35
+msgid "Export"
+msgstr "Eksport"
+
+#: modules/csv/views/tpl/csvTabContent.php:19
+#: modules/csv/views/tpl/csvTabContent.php:40
+msgid "Import"
+msgstr "Import"
+
+#: modules/csv/views/tpl/csvTabContent.php:30 modules/gmap/views/gmap.php:117
+#: modules/gmap/views/tpl/gmapEditMap.php:17
+msgid "Markers"
+msgstr "Markører"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Fant ikke kart-data"
+
+#: modules/gmap/mod.php:13
+msgid "Add Map"
+msgstr "Legg til kart"
+
+#: modules/gmap/mod.php:16 modules/gmap/views/tpl/gmapEditMap.php:1044
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Rediger"
+
+#: modules/gmap/mod.php:19
+msgid "All Maps"
+msgstr "Alle kart"
+
+#: modules/gmap/mod.php:29
+msgid "No Map Found"
+msgstr "Ingen kart funnet"
+
+#: modules/gmap/mod.php:39
+msgid "Empty or Invalid Map ID"
+msgstr "Tom eller ugyldig kart-ID"
+
+#: modules/gmap/mod.php:58
+msgid "Top Center"
+msgstr "Topp Midten"
+
+#: modules/gmap/mod.php:59
+msgid "Top Left"
+msgstr "Topp Venstre"
+
+#: modules/gmap/mod.php:60
+msgid "Top Right"
+msgstr "Topp Høyre"
+
+#: modules/gmap/mod.php:61
+msgid "Left Top"
+msgstr "Venstre Topp"
+
+#: modules/gmap/mod.php:62
+msgid "Right Top"
+msgstr "Høyre Topp"
+
+#: modules/gmap/mod.php:63
+msgid "Left Center"
+msgstr "Venstre Midten"
+
+#: modules/gmap/mod.php:64
+msgid "Right Center"
+msgstr "Høyre Midten"
+
+#: modules/gmap/mod.php:65
+msgid "Left Bottom"
+msgstr "Venstre Bunn"
+
+#: modules/gmap/mod.php:66
+msgid "Right Bottom"
+msgstr "Høyre Bunn"
+
+#: modules/gmap/mod.php:67
+msgid "Bottom Center"
+msgstr "Bunn Midten"
+
+#: modules/gmap/mod.php:68
+msgid "Bottom Left"
+msgstr "Bunn Venstre"
+
+#: modules/gmap/mod.php:69
+msgid "Bottom Right"
+msgstr "Bunn Høyre"
+
+#: modules/gmap/mod.php:92
+msgid "Slider"
+msgstr "Lysbilde-presentasjon"
+
+#: modules/gmap/mod.php:93
+msgid "Slider - Title and Img"
+msgstr "Lysbilde-presentasjon - Tittel og bilde"
+
+#: modules/gmap/mod.php:94 modules/gmap/mod.php:96
+msgid "Slider Vertical - Title and Img"
+msgstr "Lysbilde-presentasjon Vertikal - Tittel og bilde"
+
+#: modules/gmap/mod.php:95
+msgid "Slider Vertical - Title and Description"
+msgstr "Lysbilde-presentasjon Vertikal - Tittel og beskrivelse"
+
+#: modules/gmap/mod.php:97
+msgid "Slider Table"
+msgstr "Lysbilde-presentasjon Tabell"
+
+#: modules/gmap/models/gmap.php:78
+msgid "Please enter Map Name"
+msgstr "Vennligst skriv inn kart-navn"
+
+#: modules/gmap/models/gmap.php:107
+#: modules/marker_groups/models/marker_groups.php:80
+msgid "Empty Params"
+msgstr "Tomme parametre"
+
+#: modules/gmap/views/gmap.php:116
+msgid "Html options"
+msgstr "HTML-alternativer"
+
+#: modules/gmap/views/gmap.php:118
+msgid "Operations"
+msgstr "Handlinger"
+
+#: modules/gmap/views/gmap.php:155 modules/gmap/views/gmap.php:161
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+#: modules/gmap/views/tpl/gmapEditMap.php:398 modules/marker/mod.php:20
+msgid "None"
+msgstr "Ingen"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "Slett valgte"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "Fjern alt"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:13
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "Fjern"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:16
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "Søk"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:26
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Du har for tiden ingen kart. <a href='%s' style='font-style: "
+"italic;'>Opprett</a> ditt første kart!"
+
+#: modules/gmap/views/tpl/gmapDrawMap.php:3
+msgid "Map not found"
+msgstr "Fant ikke kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Dette alternativet er bare tilgjengelig i <a target='_blank' href='%s'>PRO-"
+"versjonen</a>, du kan få det <a target='_blank' href='%s'>her.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Map Properties"
+msgstr "Kart-egenskaper"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:20
+msgid "Add New Marker"
+msgstr "Legg til ny markør"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:31
+msgid "Map Name"
+msgstr "Kart-navn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:33
+msgid "Your map name"
+msgstr "Ditt kart-navn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:45
+msgid "Map Width"
+msgstr "Kart-bredde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:47
+msgid "Your map width"
+msgstr "Din kart-bredde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:56
+#: modules/gmap/views/tpl/gmapEditMap.php:81
+#: modules/gmap/views/tpl/gmapEditMap.php:697
+#: modules/gmap/views/tpl/gmapEditMap.php:740
+msgid "Pixels"
+msgstr "Piksler"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+#: modules/gmap/views/tpl/gmapEditMap.php:84
+#: modules/gmap/views/tpl/gmapEditMap.php:703
+#: modules/gmap/views/tpl/gmapEditMap.php:746
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:63
+msgid "Percent"
+msgstr "%"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:70
+msgid "Map Height"
+msgstr "Kart-høyde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:72
+msgid "Your map height"
+msgstr "Din kart-høyde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:97
+msgid "Map type control"
+msgstr "Kart-type-kontroll"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr ""
+"Kontroll-visning for kart-type - du kan normalt se det i øvre høyre hjørne"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Dropdown Menu"
+msgstr "Nedtrekksmeny"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Horizontal Bar"
+msgstr "Vannrett linje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Change type control position on map"
+msgstr "Endre type-kontroll-posisjon på kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:117
+#: modules/gmap/views/tpl/gmapEditMap.php:145
+#: modules/gmap/views/tpl/gmapEditMap.php:177
+#: modules/gmap/views/tpl/gmapEditMap.php:308
+#: modules/gmap/views/tpl/gmapEditMap.php:325
+#: modules/gmap/views/tpl/gmapEditMap.php:342
+#: modules/gmap/views/tpl/gmapEditMap.php:371
+#: modules/gmap/views/tpl/gmapEditMap.php:459
+#: modules/gmap/views/tpl/gmapEditMap.php:529
+#: modules/gmap/views/tpl/gmapEditMap.php:555
+#: modules/gmap/views/tpl/gmapEditMap.php:581
+#: modules/gmap/views/tpl/gmapEditMap.php:644
+#: modules/gmap/views/tpl/gmapEditMap.php:661
+#: modules/options/views/tpl/optionsSettingsTabContent.php:69
+msgid "PRO option"
+msgstr "PRO-alternativ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:125
+msgid "Zoom control"
+msgstr "Zoom-kontroll"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:127
+msgid ""
+"Zoom control type on your map. Note, to view Zoom control on the map the "
+"Custom Map Controls option must be disabled."
+msgstr ""
+"Zoom-kontroll-type på kartet. Merk, for å vise zoom-kontrollen på kartet må "
+"egendefinert kart-kontroller være deaktivert."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:132
+#: modules/gmap/views/tpl/gmapEditMap.php:407
+msgid "Default"
+msgstr "Standard"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:138
+msgid "Change zoom control position on map"
+msgstr "Endre zoom-kontroll-posisjon på kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:148
+msgid "Notice"
+msgstr "Merknad"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:150
+msgid ""
+"Standard Zoom control will not displaying for this map, because the Custom "
+"Map Controls option enabled now."
+msgstr ""
+"Standard zoom-kontroll vil ikke vises på dette kartet, fordi egendefinert "
+"kart-kontroller er aktivert."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:158
+msgid "Street view control"
+msgstr "Street view-kontroll"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr ""
+"Street view-kontroll er vanligvis posisjonert i øvre venstre hjørne av kartet"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:170
+msgid "Change street view control position on map"
+msgstr "Endre street view-kontroll-posisjon på kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:230
+msgid "Draggable"
+msgstr "Flyttbar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:232
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "Aktiver eller deaktiver muligheten til å dra kartet ved hjelp av musen"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:243
+msgid "Double click to zoom"
+msgstr "Dobbelklikk for å zoome"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:245
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"Som standard er dobbeltklikk på kart for å zoome inn, men du kan endre dette "
+"her."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:256
+msgid "Mouse wheel to zoom"
+msgstr "Musehjul for å zoome"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:258
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"Noen ganger trenger du å deaktivere muligheten for å zoome ved hjelp av "
+"musehjulet. Dette kan være påkrevd for eksempel - om du trenger musehjulet "
+"for andre handlinger, for eksempel scrolling av nettstedet selv ved musen "
+"over kartet."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:269
+msgid "Google Map Theme"
+msgstr "Google Map-tema"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:271
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Du kan velge ditt Google Map-tema - Veikart, Hybrid, Satellitt eller Terreng "
+"- her. Som standard vil kartet ha Veikart Google maps-tema."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:275
+msgid "Road Map"
+msgstr "Vei-kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:275
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:275
+msgid "Satellite"
+msgstr "Satelitt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:275
+msgid "Terrain"
+msgstr "Terreng"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:283
+msgid "Map Stylization"
+msgstr "Kart-stilering"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:285
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Gjør ditt kart unikt med våre kart-temaer, bare prøv å endre det her - og du "
+"vil se resultatet på forhåndsvisning av kartet."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:295
+msgid "Get 300+ Themes with PRO"
+msgstr "Få 300+ temaer med PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:303
+msgid "Traffic Layer"
+msgstr "Trafikk-lag"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:305
+msgid "Add real-time traffic information to your map."
+msgstr "Legg til sanntids trafikkinformasjon på kartet."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:320
+msgid "Transit Layer"
+msgstr "Kollektivtrafikk-lag"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:322
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Vis kollektivtransport-nettverket av en by på kartet. Når kollektivtransport-"
+"laget er aktivert, og kartet er sentrert på en by som støtter "
+"kollektivtransport-informasjon, vil kartet vise store kollektivtransport-"
+"linjer som tykke, fargede linjer."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:337
+msgid "Bicycling Layer"
+msgstr "Sykkel-lag"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:339
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"'bike lanes.' Dashed routes indicate streets or paths otherwise recommended "
+"for bicycle usage."
+msgstr ""
+"Legg til et lag med sykkelstier, foreslått sykkelruter og andre lag "
+"spesifikke til sykling over respektivt kart. Mørkegrønne ruter indikerer "
+"dedikerte sykkeruter. Lysegrønne ruter indikerer gater med dedikerte "
+"sykkefelt. Streket linje indikerer gater eller ruter som anbefales til "
+"sykling."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:354
+msgid "Marker Title color"
+msgstr "Markør-tittel farge"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:356
+msgid "You can set your markers title color here"
+msgstr "Du kan sette din markørs tittel-farge her"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:366
+msgid "Markers List"
+msgstr "Markør-liste"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:368
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Vi alle kart-markører - som liste under kart. Dette vil hjelpe dine besøkende "
+"med mer informasjon om dine markører og finne påkrevde markører fortere."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:375
+msgid "Select Markers List type"
+msgstr "Velg markør-liste-type"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:381
+msgid "Markers List Color"
+msgstr "Markør-liste farge"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:392
+msgid "Markers Clusterization"
+msgstr "Markør-klaser"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:394
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Om du har mange markører - du kan ha et problem med å vise alle ved ut-"
+"zooming, for eksempel kan de legge seg over hverandre. Markør-klasing kan "
+"fikse dette problemet ved å gruppere dine markører når de er for nære "
+"hverandre."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:398
+msgid "Base Clusterization"
+msgstr "Base-klaser"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:403
+msgid "Cluster Icon"
+msgstr "Klase-ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:406
+#: modules/gmap/views/tpl/gmapEditMap.php:853
+msgid "Upload Icon"
+msgstr "Last opp ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:448
+msgid "Custom Map Controls"
+msgstr "Egendefinert kart-kontroller"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:453
+msgid "Add custom map controls to the map."
+msgstr "Legg til egendefinerte kart-kontroller."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:469
+msgid "Controls type"
+msgstr "Kontroll-type"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Square"
+msgstr "Fikant"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Rounded edges"
+msgstr "Avrundede kanter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Round"
+msgstr "Rund"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:478
+msgid "Background color"
+msgstr "Bakgrunns-farge"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:486
+msgid "Text color"
+msgstr "Tekst-farge"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:494
+msgid "Controls position"
+msgstr "Kontroll-posisjon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:504
+msgid "Min Search Radius"
+msgstr "Min søke-radius"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:512
+msgid "Max Search Radius"
+msgstr "Maks søke-radius"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:524
+msgid "Full Screen Button"
+msgstr "Fullskjerm-knapp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:526
+msgid "Add a button on map to open it full screen."
+msgstr "Legg til knapp for å åpne i fullskjerm."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:544
+msgid "Directions Button"
+msgstr "Veibeskrivelse-knapp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:549
+msgid ""
+"Add a button at marker description to get direction from the entered address "
+"to the marker."
+msgstr ""
+"Legg til knapp ved markør-beskrivelse for å få veibeskrivelse fra den "
+"oppgitte adressen til markør."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:570
+msgid "Add KML layers"
+msgstr "Legg til KML-lag"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:575
+msgid "Add KML files to display custom layers on the map."
+msgstr "Legg til KML-filer for å vise egendefinerte lag på kartet."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:588
+msgid "Enter KML file URL"
+msgstr "Skriv inn KML-fil-url"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:600
+msgid "X"
+msgstr "X"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:622
+msgid "or Upload KML file"
+msgstr "eller last opp KML-fil"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:632
+msgid "Add more files"
+msgstr "Legg til flere filer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:639
+msgid "Hide POI"
+msgstr "Skjul POI"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:641
+msgid ""
+"Hide the Points Of Interest - landmark or other object, the marked points on "
+"the map, for example: hotels, campsites, fuel stations etc."
+msgstr ""
+"Skjul Points Of Interest - landemerker eller andre objekter, de markerte "
+"punktene på på kartet, for eksempel: hoteller, campingplasser, "
+"bensinstasjoner, etc."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:656
+msgid "Center on current user location"
+msgstr "Midtstill på brukerens lokasjon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:658
+msgid "On frontend map will be centered on current user location."
+msgstr "På nettstedets kart vil kartet bli midtstilt på brukerens lokasjon."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:673
+msgid "Markers Info Window Width"
+msgstr "Markør-informasjonens vindu-bredde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:675
+msgid "Width of markers info windows."
+msgstr "Bredde på markør-informasjonens vindu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:692
+#: modules/gmap/views/tpl/gmapEditMap.php:735
+msgid "Auto"
+msgstr "Auto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:716
+msgid "Markers Info Window Height"
+msgstr "Markør-informasjonens vindu-høyde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:718
+msgid "Height of markers info windows."
+msgstr "Høyde på markør-informasjonens vindu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:759
+msgid "Markers Info Window Background"
+msgstr "Markør-informasjonens vindu-bakgrunn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:761
+msgid "Background color of markers info windows."
+msgstr "Bakgrunns-farge på markør-informasjonens vindu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:771
+msgid "Min Zoom Level"
+msgstr "Min zoom-nivå"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:773
+msgid "Sets min zoom level for map."
+msgstr "Setter min zoom-nivå på kart."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:785
+msgid "Max Zoom Level"
+msgstr "Maks zoom-nivå"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:787
+msgid "Sets max zoom level for map."
+msgstr "Setter maks zoom-nivå på kart."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:812
+msgid "Marker Name"
+msgstr "Markør-navn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:814
+msgid "Your marker title"
+msgstr "Din markør-tittel"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:825
+msgid "Marker Description"
+msgstr "Markør-beskrivelse"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:827
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr ""
+"Skriv her inn all tekst du vil skal vises i markør-informasjonens popup-vindu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:843
+msgid "Icon"
+msgstr "Ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:845
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Ditt markør-ikon, som vil vises på kartet for denne markøren"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:852
+msgid "Choose Icon"
+msgstr "Velg ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:865
+msgid "Search your location by address, just start typing here"
+msgstr "Søk på din lokasjon ved adresse, begynn å skriv her"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:877
+msgid "Latitude"
+msgstr "Breddegrad"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:879
+msgid "Latitude for your marker"
+msgstr "Breddegrad for markøren"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:891
+msgid "Longitude"
+msgstr "Lengdegrad"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:893
+msgid "Longitude for your marker"
+msgstr "Lengregrad for markøren"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:905
+msgid "Show description by default"
+msgstr "Vis beskrivelse som standard"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:907
+msgid "Open marker description when map load"
+msgstr "Åpne markør-beskrivelse når kart lastes"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:917
+msgid "Marker Link"
+msgstr "Markør-lenke"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:919
+msgid "Link for opening by click on the marker"
+msgstr "Lenke for åpning ved klikk på markør"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:934
+msgid "Open in new window"
+msgstr "Åpne i nytt vindu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:942
+msgid "Show description by mouse hover"
+msgstr "Vis beskrivelse ved mus over"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:944
+msgid "Open marker description by mouse hover"
+msgstr "Åpne markør-beskrivelse ved mus over"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:954
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:18
+msgid "Marker Category"
+msgstr "Markør-kategori"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:956
+msgid "Choose marker category"
+msgstr "Velg markør-kategori"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:986
+msgid "Map shortcode"
+msgstr "Kart shortcode"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:991
+msgid "PHP code"
+msgstr "PHP-kode"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:997
+msgid "Shortcode will appear after you save map."
+msgstr "Shortcode vil vises etter du lagrer kartet."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1005
+msgid "Save Map"
+msgstr "Lagre kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1011
+msgid "Delete Map"
+msgstr "Slett kart"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1020
+msgid "Save Marker"
+msgstr "Lagre markør"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1026
+msgid "Delete Marker"
+msgstr "Slett markør"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1047
+msgid "Delete"
+msgstr "Slett"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1074
+msgid "Show markers list with your map on frontend"
+msgstr "Vi markør-liste med ditt kart på nettstedet"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1081
+#: modules/gmap/views/tpl/gmapEditMap.php:1082
+msgid "Apply"
+msgstr "Bruk"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1081
+msgid "Selected"
+msgstr "Valgte"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1082
+msgid "Available in PRO"
+msgstr "TIlgjengelig i PRO"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:20
+#, php-format
+msgid "and %s more"
+msgstr "og %s mer"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Vis mest viste produkter"
+
+#: modules/gmap_widget/views/gmap_widget.php:15
+msgid "You have no maps"
+msgstr "Du har ingen kart"
+
+#: modules/gmap_widget/views/tpl/form.php:10
+msgid "Select map"
+msgstr "Velg kart"
+
+#: modules/gmap_widget/views/tpl/form.php:18
+msgid "Widget Map width"
+msgstr "Widget kart-bredde"
+
+#: modules/gmap_widget/views/tpl/form.php:25
+msgid "Widget Map height"
+msgstr "Widget kart-høyde"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Display as image"
+msgstr "Vis som bilde"
+
+#: modules/gmap_widget/views/tpl/form.php:40
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"Kart vil bli vist som bilde i sidekolonnen, på klikk - vil bli åpnet i popup"
+
+#: modules/gmap_widget/views/tpl/form.php:42
+msgid "Image width (in px)"
+msgstr "Bilde-bredde (i px)"
+
+#: modules/gmap_widget/views/tpl/form.php:49
+msgid "Image height (in px)"
+msgstr "Bilde-høyde (i px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Tom url"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Ikon ikke funnet"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Fil ikke funnet"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Kan ikke hente bilde"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "kan ikke sette inn i tabell"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Kan ikke sende e-post - problem med send-server"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Markør ikke funnet"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Kan ikke fjerne markør"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Kan ikke fjerne markører"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "Tom eller ugyldig markør-ID"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Dropp"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Sprett"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Vennligst skriv inn markør-navn"
+
+#: modules/marker/models/marker.php:192
+msgid "Address is empty or not match"
+msgstr "Adresse er tom eller samsvarer ikke"
+
+#: modules/marker/models/marker.php:248
+msgid "Invalid Marker ID"
+msgstr "Ugyldig markør-ID"
+
+#: modules/marker_groups/controller.php:31
+msgid "Marker Category data not found"
+msgstr "Markør-kategori-data ikke funnet"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Markør-kategorier"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Ingen markør-kategorier funnet"
+
+#: modules/marker_groups/models/marker_groups.php:56
+msgid "Please enter Marker Category"
+msgstr "Vennligst skriv inn markør-kategori"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "Legg til kategori"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Du har for tiden ingen markør-kategorier. <a href='%s' style='font-style: "
+"italic;'>Opprett</a> din første markør-kategori!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:28
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "Lagre"
+
+#: modules/options/mod.php:94
+msgid "General"
+msgstr "Generelt"
+
+#: modules/options/mod.php:96
+msgid "Send usage statistics"
+msgstr "Send brukerstatistikk"
+
+#: modules/options/mod.php:96
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Send informasjon om utvidelses-alternativer du foretrekker å bruke, dette vil "
+"hjelpe oss å forbedre produktet til deg."
+
+#: modules/options/mod.php:97
+msgid "Enable promo link"
+msgstr "Aktiver promo-lenke"
+
+#: modules/options/mod.php:97
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr ""
+"Vi prøver å gjøre vår utvidelse bedre for deg, og du kan hjelpe oss med "
+"dette. Bare kryss av her - og en liten promo-lenke vil bli lagt i bunnen av "
+"Google Maps. Dette er lett for deg - men veldig nyttig for oss!"
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Modul oppdatert"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Modul-oppdatering feilet"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Feil modul-ID"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Tomme data for å lagre alternativ"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Hovedside Gå her!!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Forbedre gratis-versjon"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Vær oppmerksom på at dette alternativet er kun tilgjengelig i <a "
+"target='_blank' href='%s'>PRO-versjonen</a> . Du kan <a target='_blank' "
+"href='%s' class='button'>få PRO</a> i dag og få dette og andre PRO-alternativ "
+"for Maps!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Lagre alle alternativer"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:61
+#, php-format
+msgid "Turned On %s"
+msgstr "Slo på %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned Off %s"
+msgstr "Slo av %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Informasjonen ble lagret. Takk!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Vennligst ikke send kontaktforespørsler så ofte - vent på svar på dine "
+"tidligere forespørsler."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Vennligst skriv inn en gyldig e-postadresse"
+
+#: modules/supsystic_promo/mod.php:34
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress? Just "
+"to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3>Hei, jeg la merke til at du har brukt %s over en uke - det er kjempebra!</"
+"h3><p>Kan du gjøre meg en stor tjeneste og gi den en 5-stjerners rating på "
+"WordPress? Bare for å hjelpe oss å spre ordet og øke vår motivasjon.</p>"
+
+#: modules/supsystic_promo/mod.php:35 modules/supsystic_promo/mod.php:41
+msgid "Ok, you deserve it"
+msgstr "Ok, du fortjener det"
+
+#: modules/supsystic_promo/mod.php:36 modules/supsystic_promo/mod.php:42
+msgid "Nope, maybe later"
+msgstr "Nei, kanskje senere"
+
+#: modules/supsystic_promo/mod.php:37
+msgid "I already did"
+msgstr "Det har jeg allerede gjort"
+
+#: modules/supsystic_promo/mod.php:38
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3>Mer enn elleve dager med vår %s-utvidelse - gratulerer!</h3>"
+
+#: modules/supsystic_promo/mod.php:39
+msgid ""
+"<p>On behalf of the entire <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a> company I would like to thank you for been "
+"with us, and I really hope that our software helped you.</p>"
+msgstr ""
+"<p>På vegne av hele <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a>-selskapet ville jeg gjerne takke deg for "
+"vært med oss, og jeg håper virkelig at vår programvare har hjulpet deg.</p>"
+
+#: modules/supsystic_promo/mod.php:40
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you can "
+"just add small promo link to our site under your maps. This is small step for "
+"you, but a big help for us! Sure, if you don't want - just skip this and "
+"continue enjoy our software!</p>"
+msgstr ""
+"<p>Og i dag, hvis du vil, - kan du hjelpe oss. Dette er veldig enkelt - du "
+"kan bare legge til liten promo-link til vår side under kartene. Dette er lite "
+"skritt for deg, men en stor hjelp for oss! Jada, hvis du ikke vil - bare hopp "
+"over dette og fortsett å nyte vår programvare! </p>"
+
+#: modules/supsystic_promo/mod.php:43
+msgid "Skip"
+msgstr "Hopp over"
+
+#: modules/supsystic_promo/mod.php:87
+msgid "Overview"
+msgstr "Oversikt"
+
+#: modules/supsystic_promo/mod.php:113
+msgid "Welcome to Supsystic Secure"
+msgstr "Velkommen til Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:182
+msgid "Name"
+msgstr "Navn"
+
+#: modules/supsystic_promo/mod.php:184
+msgid "Website"
+msgstr "Nettsted"
+
+#: modules/supsystic_promo/mod.php:185
+msgid "Subject"
+msgstr "Overskrift"
+
+#: modules/supsystic_promo/mod.php:186
+msgid "Topic"
+msgstr "Emne"
+
+#: modules/supsystic_promo/mod.php:187
+msgid "Plugin options"
+msgstr "Plugin options"
+
+#: modules/supsystic_promo/mod.php:188
+msgid "Report a bug"
+msgstr "Report a bug"
+
+#: modules/supsystic_promo/mod.php:189
+msgid "Require a new functionality"
+msgstr "Require a new functionallity"
+
+#: modules/supsystic_promo/mod.php:190
+msgid "Other"
+msgstr "Other"
+
+#: modules/supsystic_promo/mod.php:192
+msgid "Message"
+msgstr "Melding"
+
+#: modules/supsystic_promo/mod.php:192
+msgid "Hello Supsystic Team!"
+msgstr "Hello Supsystic Team!"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Hvordan bruke Google Maps Easy Widget?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. Gå til Utseende -> Widgeter i WordPress-navigasjonsmenyen. <br /> 2. Finn "
+"Google Maps Easy i listen over tilgjengelige widgets. <br /> 3. Dra Google "
+"Maps Easy widgeten til widget-området. <br /> 4. Velg kartet for widget og "
+"konfigurer innstillinger - Widget-kart bredde og høyde. <br /> 5. Klikk på "
+"'Lagre'."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:34
+msgid "How to add map into the site content?"
+msgstr "Hvordan legge til kart i innholdet på nettstedet?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:35
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Du kan legge til et kart i innhold via shortcode eller php-kode. Lær mer om "
+"hvordan du gjør dette <a href='http://supsystic.com/add-map-into-site-"
+"content/'>her</a> ."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:36
+msgid "How to add map in popup window?"
+msgstr "Hvordan legge til kart i et popup-vindu?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Du kan legge til et kart i et popup-vindu ved å sette kart-shortcode i alle "
+"popup-tekstfelt. Lær mer om hvordan du gjør dette <a href='http://supsystic."
+"com/add-map-in-popup-window/'>her</a> ."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Hvordan zoome og midtstille kartet på markørene?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Det er noen forskjellige måter å zoome og sentralisere kartet. Den enkleste "
+"er å dra kartet ditt ved hjelp av musen - 'flyttbare'-alternativet må være "
+"aktivert, eller med pan-kontroller hjelp i forhåndsvisning. <a href='http://"
+"supsystic.com/how-to-zoom-and-center-the-initial-map-on-markers/'>Les mer ..</"
+"a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Hvordan få PRO-versjonen av utvidelsen GRATIS?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>'Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Du har en utrolig mulighet til å få PRO-versjonen gratis. Gjør Oversettelse "
+"av plugin! Det vil være fantastisk hvis du dra nytte av dette tilbudet! Mer "
+"info finner du her <a target='_blank' href='%s'>'Få PRO-versjonen av noen "
+"plugin gratis'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "Translation"
+msgstr "Oversettelse"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Alle tilgjengelige språk følger med Supsystic Google Maps plugin. Hvis ditt "
+"språk ikke er tilgjengelig, vil plugin være på engelsk som standard. <br /"
+"><b>Tilgjengelige oversettelser: Engelsk, Polsk, Tysk, Spansk, Russisk</"
+"b><br />Oversett eller oppdatere en oversettelse Google Maps WordPress-"
+"utvidelse på ditt språk og få en Premium-lisens gratis. <a target='_blank' "
+"href='%s'>Kontakt oss</a> ."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:57
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Det var noen problemer mens du prøver å hente våre nyheter, men du kan "
+"alltids sjekke alle lister <a target='_blank' href='%s'>her.</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:67
+#: modules/supsystic_promo/views/supsystic_promo.php:68
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:75
+#: modules/supsystic_promo/views/supsystic_promo.php:76
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:67
+#: modules/supsystic_promo/views/supsystic_promo.php:68
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:75
+#: modules/supsystic_promo/views/supsystic_promo.php:76
+msgid "No"
+msgstr "Nei"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Versjon"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Support"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Legg til din"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "FAQ og dokumentasjon"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Merk alle FAQs"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video-opplæring"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "PRO-funksjoner"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Server-instillinger"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Nyheter"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Alle nyheter og informasjon"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Kontaktskjema"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Send e-post"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"Din e-post ble sendt, vil vi prøve å svare deg så snart som mulig. Takk for "
+"støtten!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Velkommen til"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Dette er første gang %s-utvidelsen starter"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Hvis du er nybegynner - sjekk alle funksjonene på denne siden, hvis du er "
+"guru - vennligst korrigere oss."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Vennligst, post url"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Hva gjør man nå? Sjekk under avsnittet"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Løft oss"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"Det er utrolig når du øker utviklingingen med tilbakemeldinger og karakterer. "
+"Så vi laget spesiell <a target='_blank' href='%s'>løft side</a> for å hjelpe "
+"deg å hjelpe oss."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Sjekk <a target='_blank' href='%s'>dokumentasjon</a> og FAQ-seksjon. Hvis du "
+"ikke kan løse problemene dine - <a target='_blank' href='%s'>ta kontakt med "
+"oss</a> ."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Full funksjons-liste"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Det er så mange funksjoner, så vi kan ikke legge det ut her. Like"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "CAPTCHA for admin-login"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "htaccess admin-beskyttelse"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Skjul katalog-fil-liste"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Sjekk skrive-rettigheter for filer og kataloger"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr "Så sjekk full funksjons-liste <a target='_blank' href='%s'>her</a>."
+
+#~ msgid "Google Map"
+#~ msgstr "Google Map"
+
+#~ msgid "Marker Title font size"
+#~ msgstr "Markør-tittel skriftstørrelse"
+
+#~ msgid "You can set your markers title font size here"
+#~ msgstr "Du kan sette din markør-tittels skriftstørrelse her"
+
+#~ msgid "Marker Description font size"
+#~ msgstr "Markør-beskrivelse skriftstørrelse"
+
+#~ msgid "You can set your markers description font size here"
+#~ msgstr "Du kan sette din markør-beskrivelses skriftstørrelse her"
+
+#~ msgid "Undefined"
+#~ msgstr "Udefinert"

@@ -1,0 +1,3172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2017-12-21 13:05+0200\n"
+"PO-Revision-Date: 2018-11-14 10:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:15
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:38
+#: doc/google-maps-easy-pro/heatmap/controller.php:9
+#: doc/google-maps-easy-pro/heatmap/controller.php:39
+#: doc/google-maps-easy-pro/kml/controller.php:11
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: doc/google-maps-easy-pro/shape/controller.php:8
+#: doc/google-maps-easy-pro/shape/controller.php:46
+#: doc/google-maps-easy-pro/shape/controller.php:61
+#: modules/adminmenu/controller.php:29 modules/csv/controller.php:190
+#: modules/gmap/controller.php:55 modules/gmap/controller.php:72
+#: modules/gmap/controller.php:80 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:78
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Xong"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Chọn"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Thêm hộp kiểm"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Thêm mục"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Thêm nút Radio"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Kích thước"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "chiều rộng"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "chiều dài"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Bấm vào để thiết lập trường &quot;id&quot; và &quot;class&quot;"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Thuộc tính"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Không có tùy chọn nào dành cho mô-đun này"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Áp dụng cho"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:40
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:66
+#: modules/gmap/views/tpl/gmapEditMap.php:334
+#: modules/gmap/views/tpl/gmapEditMap.php:1229
+#: modules/gmap/views/tpl/gmapEditMap.php:1507
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Nơi đến"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Đất nước"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Chuyên mục"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Bạn không có chuyên mục nào"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Thương hiệu"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Bạn có không có thương hiệu"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Tỉ lệ thuế"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Tuyệt đối"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Không được chọn"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "class"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:137
+msgid "You have no permissions to view this page"
+msgstr "Bạn không có quyền xem trang này"
+
+#: classes/html.php:207 modules/gmap/views/tpl/gmapEditMap.php:1360
+msgid "Upload"
+msgstr "Tải lên"
+
+#: classes/html.php:627
+msgid "ON"
+msgstr "MỞ"
+
+#: classes/html.php:628
+msgid "OFF"
+msgstr "Tắt"
+
+#: classes/html.php:652
+#, php-format
+msgid "Select %s"
+msgstr "Chọn %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Di chuyển các tập tin cho %s đã thất bại"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s không phải là mô-đun plugin"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Không thể tạo mô-đun thư mục. Thử thiết lập lại quyền "
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Không có mô-đun nào được tìm thấy trong tệp tin XML"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Tệp tin XML không hợp lệ"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Không có tệp tin XML nào được tìm thấy"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Cài đặt %s bị lỗi"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Lỗi mô đun kích hoạt"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Lỗi mô-đun tắt kích hoạt"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Lỗi kích hoạt mô-đun"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Lỗi cơ sở dữ liệu"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:182
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:49
+msgid "Invalid ID"
+msgstr "ID không hợp lê"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "ID trống hoăc không hợp lê"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Không có gì để cập nhật"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Lỗi cơ sở dữ liệu. Hay liên hệ với lập trình viên của bạn."
+
+#: classes/tables/heatmaps.php:7
+msgid "Heatmap ID"
+msgstr "ID bản đồ nhiệt"
+
+#: classes/tables/heatmaps.php:8 classes/tables/marker.php:13
+#: classes/tables/shapes.php:12
+msgid "Map Id"
+msgstr "ID bản đồ"
+
+#: classes/tables/heatmaps.php:9
+msgid "Heatmap coordinates list"
+msgstr "Danh sách tọa độ bản đồ nhiệt"
+
+#: classes/tables/heatmaps.php:10 classes/tables/marker.php:17
+#: classes/tables/modules.php:10 classes/tables/options.php:11
+#: classes/tables/shapes.php:15
+msgid "Params"
+msgstr "Tham số"
+
+#: classes/tables/heatmaps.php:11 classes/tables/marker.php:19
+#: classes/tables/shapes.php:13
+msgid "Creation date"
+msgstr "Ngày tạo"
+
+#: classes/tables/marker.php:7
+msgid "Marker ID"
+msgstr "ID Điểm đánh dấu"
+
+#: classes/tables/marker.php:8
+msgid "Marker name"
+msgstr "Tên Điểm đánh dấu"
+
+#: classes/tables/marker.php:9
+msgid "Description Of Marker"
+msgstr "Mô tả của Điểm đánh dấu"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "Tọa độ X của Điểm đánh dấu(Kinh độ)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Tọa độ Y của Điểm đánh dấu(Vĩ độ)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Đường dẫn đến tệp tin icon"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Địa chỉ Điểm đánh dấu"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "ID của nhóm Điểm đánh dấu"
+
+#: classes/tables/marker.php:16 classes/tables/shapes.php:14
+msgid "Animation"
+msgstr "Hiệu ứng"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+#: classes/tables/shapes.php:16
+msgid "Sort Order"
+msgstr "Thứ tự sắp xếp"
+
+#: classes/tables/marker.php:20
+msgid "User who created marker"
+msgstr "Người dùng đã tạo Điểm đánh dấu"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Nhãn"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Loại"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Có Tab"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:67
+msgid "Description"
+msgstr "Mô tả"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Mật mã"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Thư mục plugin bên ngoài"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:240
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Giá trị"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "ID chuyên mục"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Giá trị kiểu"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Phương pháp"
+
+#: classes/tables/shapes.php:7
+msgid "Shape ID"
+msgstr "ID Hình dáng"
+
+#: classes/tables/shapes.php:8
+msgid "Shape name"
+msgstr "Tên Hình dáng"
+
+#: classes/tables/shapes.php:9
+msgid "Description of Shape"
+msgstr "Mô tả Hình dáng"
+
+#: classes/tables/shapes.php:10
+msgid "Shape coordinates list"
+msgstr "Dang sách tọa độ Hình dáng"
+
+#: classes/tables/shapes.php:11
+msgid "Shape type"
+msgstr "Kiểu hình dáng"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Id đã sử dụng"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Lượt truy cập"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Độ dài không hợp lệ cho %s, độ dài tối đa là %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Giá trị số không hợp lệ cho %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Bạn phải nhập %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Bạn phải chọn %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Không hợp lệ %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s đã được đăng ký"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Thoát toàn màn hình"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Mở toàn màn hình"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/printInfoWndBtn.php:8
+msgid "Print"
+msgstr "In"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:54
+msgid "Search address..."
+msgstr "Tìm kiếm địa chỉ..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:81
+msgid "Reset"
+msgstr "Thiết lập lại"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:94
+msgid "Find"
+msgstr "Tìm kiếm"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:105
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr ""
+"Tìm kiếm khu vực không có marker, xin hay thử thay đổi điệu kiện tìm kiếm."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "Lấy chỉ đường"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:23
+msgid "Type the address..."
+msgstr "Gõ địa chỉ..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:32
+msgid "or"
+msgstr "hoặc"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:35
+msgid "Get current user position"
+msgstr "Lấy vị trí người dung hiện tại"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:45
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Đi"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "Dịch vụ định vị bị lỗi."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "Trình duyệt của bạn không hỗ trợ định vị."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "Tuyến đường không được tìm thấy. Xin hay thử địa chỉ khác!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "Xin hay chọn địa chỉ từ danh sách tìm kiếm!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsPanel.php:4
+msgid "List of Direction's Steps will be here..."
+msgstr "Danh sách Các bước chỉ đường sẽ ở đây..."
+
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:49
+msgid "Adding markers from the frontend is disabled for the Current Map"
+msgstr "Thêm Điểm đánh dấu  từ Fronend bị tắt cho bản đồ hiện tại"
+
+#: doc/google-maps-easy-pro/frontend_actions/mod.php:24
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:9
+msgid "Empty or Invalid Map ID. Please, check your Marker Form Shortcode."
+msgstr ""
+"ID bản đồ trống hoặc không hợp lệ, Hãy kiểm tra Điểm đánh dấu từ Shortcode."
+
+#: doc/google-maps-easy-pro/frontend_actions/models/frontend_actions.php:33
+#, php-format
+msgid ""
+"You have exceeded the limit on adding markers from current IP address. Please "
+"try again after %s minutes."
+msgstr ""
+"Bạn đã vượt quá giới hạn them Marker từ địa chỉ IP hiện tại. Vui long thử lại "
+"sau %s phút..."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:16
+msgid "Marker Form will be displayed only for logged in users."
+msgstr "Form Điểm đánh dấu chỉ được hiển thị khi người dung đăng nhập."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:17
+msgid "Log In"
+msgstr "Đăng Nhập"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:30
+#: modules/gmap/views/gmap.php:278 modules/gmap/views/gmap.php:279
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:464 modules/marker/mod.php:20
+#: modules/marker_groups/views/marker_groups.php:17
+msgid "None"
+msgstr "Không"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:52
+msgid ""
+"Marker's Form is not displayed, because the option &quot;Add markers on "
+"frontend&quot; is disabled for the Current Map"
+msgstr ""
+"Form điểm đánh dấu không được hiển thị vì lựa chọn &quot;Thêm Điểm đánh dấu "
+"trên fronend&quote; đã bị tắt cho Bản đồ hiện tại"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:20
+msgid "You need to use marker form on page with map"
+msgstr "Bạn cần sử dung điểm đánh dấu  trên trang có bản đồ"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:23
+msgid "Marker Form"
+msgstr "Form Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:24
+msgid "Use this form to add markers to your map"
+msgstr "Sử dung mẫu này để thêm marker đến bản đồ của bạn"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:27
+#: modules/gmap/views/tpl/gmapEditMap.php:1178
+msgid "Marker Name"
+msgstr "Tên Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:32
+#: modules/gmap/views/tpl/gmapEditMap.php:1271
+msgid "Marker Category"
+msgstr "Chuyên mục Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:46
+#: modules/gmap/views/tpl/gmapEditMap.php:1494
+msgid "Add by Click"
+msgstr "Thêm bằng nhấp chuột"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:49
+#: modules/gmap/views/tpl/gmapEditMap.php:1191
+msgid "Marker Description"
+msgstr "Mô tả Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:58
+#: modules/gmap/views/tpl/gmapEditMap.php:848
+#: modules/gmap/views/tpl/gmapEditMap.php:1218
+msgid "Choose Icon"
+msgstr "Chọn icon"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:65
+#: modules/gmap/views/tpl/gmapEditMap.php:1708
+msgid "Save Marker"
+msgstr "Lưu Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:90
+msgid "Choose the marker"
+msgstr "Lựa chọn điểm đanh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:1714
+msgid "Delete Marker"
+msgstr "Xóa Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:101
+msgid "You need to choose the marker"
+msgstr "Bạn cần chọn Điểm đánh dấu"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:28
+msgid "Empty or invalid Heatmap ID"
+msgstr "ID bản đồ nhiệt trống hoặc không hợp lệ"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:35
+msgid "Heatmap Not Found"
+msgstr "Bản đồ nhiệt Không tìm thấy"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:41
+msgid "Cannot remove Heatmap"
+msgstr "Không thể di chuyển bản đồ nhiệt"
+
+#: doc/google-maps-easy-pro/kml/controller.php:18
+msgid "Security check failed"
+msgstr "Lỗi bảo mật"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:6
+msgid "KML Layers Filter"
+msgstr "KML Layers Filter"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:16
+msgid "KML data loading"
+msgstr "Đang tải dữ liệu KML"
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Đăng ký của bản đã hết hạn.  Nếu bạn gia hạn đăng ký - bạn sẽ được cập nhật "
+"phiên bản PRO. Để gia hạn đăng ký phiên bản PRO - theo <a href='%s' "
+"target='_blank'>đường dẫn này</a>, sau đó - đi đến <a href='%s'>License</a> "
+"và kích vào nút  &quot;Re-activate&quot; để kích hoạt lại phiên bản PRO của "
+"bạn."
+
+#: doc/google-maps-easy-pro/license/mod.php:39
+#, php-format
+msgid ""
+"Your plugin PRO license is expired. It means your PRO version will work as "
+"usual - with all features and options, but you will not be able to update the "
+"PRO version and use PRO support. To extend PRO version license - follow <a "
+"href='%s' target='_blank'>this link</a>"
+msgstr ""
+"Đăng ký Plugin PRO của bạn đã hết hạn. Điều đó có nghĩa là phiên bản PRO của "
+"bạn sẽ làm việc bình thường - cùng với các tính năng và chọn lựa, nhưng bạn "
+"sẽ không có khả năng để cập nhật lên bản PRO và sử dung hỗ trợ PRO. Để gia "
+"hạn đăng ký phiên bản PRO - theo <a href='%s' target='_blank'>đường dẫn này</"
+"a>"
+
+#: doc/google-maps-easy-pro/license/mod.php:44
+#, php-format
+msgid ""
+"You need to activate your copy of PRO version %s plugin. Go to <a "
+"href='%s'>License</a> tab and finish your software activation process."
+msgstr ""
+"Bạn cần kích hoạt bản sao chép của phiên bản PRO %s plugin. Đi đến <a "
+"href='%s'>License</a> và hoàn thành quá trình kích hoạt phần mềm của bạn."
+
+#: doc/google-maps-easy-pro/license/mod.php:70
+msgid "License"
+msgstr "Đăng ký bản quyền"
+
+#: doc/google-maps-easy-pro/license/mod.php:93
+msgid "Activate License"
+msgstr "Kích hoạt đăng ký bản quyền"
+
+#: doc/google-maps-easy-pro/license/mod.php:95
+msgid "Renew License"
+msgstr "Làm mới Đăng ký bản quyèn"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Xin mời Nhập key Đăng ký bản quyền"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Xin mời nhập địa chỉ Email của bạn"
+
+#: doc/google-maps-easy-pro/license/models/license.php:138
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr "Có vấn đề trong việc gửi yêu cầu đến máy chủ. Bạn hãy thử lại sau."
+
+#: doc/google-maps-easy-pro/license/models/license.php:178
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Đăng ký bản quyền cho plugin %s cho hết hạn ngày hôm nay."
+
+#: doc/google-maps-easy-pro/license/models/license.php:180
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Đăng ký bản quyền cho plugin %s cho hết hạn ngày mai."
+
+#: doc/google-maps-easy-pro/license/models/license.php:182
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Đăng ký bản quyền cho plugin %s cho hết hạn trong %d days."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr ""
+"Xin chúc mừng! Phiên bản PRO của plugin %s đã được kích hoạt và hoạt động tốt!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on &quot;"
+"Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Đăng ký bản quyền của bạn cho phiên bản PRO của plugin %s - hết hạn. Bạn có "
+"thể <a href='%s' target='_blank'>click here</a> để gia hạn đăng ky, sau đó - "
+"kích vào nút &quot;Re-activate&quot; để kích hoạt lại phiên bản PRO của bạn."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Xin chúc mừng! Bạn đã thành công trong cài đặt phiên bản PRO của plugin %s. "
+"Bước cuối cùng để hoàn tất cài đặt phiên bản PRO - là nhập địa chỉ Emsail và "
+"key đăng ký trong trang này. Điều này sẽ  kích hoat bản sao chép của phần mêm "
+"trên trang web này."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:215
+msgid "Email"
+msgstr "Địa chỉ Email"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Địa chỉ Email của bạn, được dung để kiểm tra thủ tục <a href='%s' "
+"target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Mã bản quyền"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr ""
+"Mã đăng ký bản quyền từ tài khoản của bạn trên <a href='%s' target='_blank'>"
+"%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Kích hoạt lại"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:17
+msgid "Uncategorized"
+msgstr "Chuyên mục không xác định"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:65
+#: modules/gmap/views/gmap.php:241
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:69
+msgid "Directions"
+msgstr "Chỉ đường"
+
+#: doc/google-maps-easy-pro/poi/mod.php:9
+#: doc/google-maps-easy-pro/poi/views/poi.php:7
+msgid "Empty or Invalid Map ID. Please, check your POI Toolbar Shortcode."
+msgstr "ID bản đồ trống hoặc không hợp lệ, Hãy kiểm tra Shortcode Toolbar POI."
+
+#: doc/google-maps-easy-pro/shape/controller.php:42
+#: doc/google-maps-easy-pro/shape/controller.php:57
+msgid "Figure Not Found"
+msgstr "Số không tìm thấy"
+
+#: doc/google-maps-easy-pro/shape/controller.php:48
+#: doc/google-maps-easy-pro/shape/controller.php:63
+msgid "Cannot remove figure"
+msgstr "Không thể xóa hình"
+
+#: doc/google-maps-easy-pro/shape/controller.php:99
+msgid "Empty or invalid figure ID"
+msgstr "ID hình trống hoặc không hợp lệ"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:43
+msgid "Please enter figure name"
+msgstr "Mời bạn nhập tên hình"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:104
+#: modules/marker/models/marker.php:207
+msgid "Address is empty or not match"
+msgstr "Địa chỉ trống hoặc không khớp"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:159
+msgid "Invalid Figure ID"
+msgstr "ID hình không hợp lệ"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/gmap/mod.php:22 modules/marker/views/tpl/markerListOperations.php:1
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/marker/views/tpl/markerListOperations.php:1
+msgid "Delete"
+msgstr "Xóa"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:70
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"Lỗi HTTP không mong đợi xảy tra trong quá trình yêu cầu API.</p> <p><a "
+"href='?' onclick='document.location.reload(); return false;'>Thử lại</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:75
+msgid "An unknown error occurred"
+msgstr "Một lỗi không xác định xảy ra"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Bạn phải nhập tên của bạn."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Bạn phải nhập website của bạn."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Bạn phải nhập email của bạn."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Bạn phải nhập Tieu đề."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Bạn phải chọn chuyên mục hợp lệ."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Bạn phải nhập nội dung tin nhắn."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"Plugins Wordpress tuyệt vời từ nha phát triển supsystic.com. Tôi đã thử %s - "
+"và đây là cái tôi cần! #supsystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Nhiều plugins cho Wordpress của bạn ở đây!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Mở rộng thế giới!"
+
+#: modules/csv/controller.php:7
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Bản đồ từ %s - %s"
+
+#: modules/csv/controller.php:10
+msgid "You have no maps for now."
+msgstr "Hiện tại bạn không có bản đồ nào."
+
+#: modules/csv/controller.php:55
+#, php-format
+msgid "Markers from %s"
+msgstr "Đánh dấu cị trí từ %s"
+
+#: modules/csv/controller.php:58
+msgid "You have no markers for now."
+msgstr "Hiện tại bạn không có đánh dấu vị trí nào."
+
+#: modules/csv/controller.php:96
+msgid "Missing File"
+msgstr "Thiếu file"
+
+#: modules/csv/controller.php:98
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Tệp tin được tải lên lỗi %s"
+
+#: modules/csv/controller.php:180
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "Tệp tin nên chưa hơn 1 dòng, tối thiểu 1 dòng cho tiêu đề"
+
+#: modules/csv/controller.php:182
+msgid "Empty data in file"
+msgstr "Dữ liệu rỗng trong tệp tin"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Nhập/Xuất bản đồ"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Không thể do kiểu danh sách nhập"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Không tìm thấy trường tên"
+
+#: modules/csv/views/tpl/csvTabContent.php:8
+msgid "Maps"
+msgstr "Danh sách Bản đồ"
+
+#: modules/csv/views/tpl/csvTabContent.php:13
+#: modules/csv/views/tpl/csvTabContent.php:34
+msgid "Export"
+msgstr "Xuất"
+
+#: modules/csv/views/tpl/csvTabContent.php:18
+#: modules/csv/views/tpl/csvTabContent.php:39
+msgid "Import"
+msgstr "Nhập"
+
+#: modules/csv/views/tpl/csvTabContent.php:29 modules/gmap/views/gmap.php:243
+#: modules/gmap/views/tpl/gmapEditMap.php:41
+msgid "Markers"
+msgstr "Danh sách Vị trí đánh dấu"
+
+#: modules/csv/views/tpl/csvTabContent.php:51
+msgid "CSV Options"
+msgstr "Lựa chọ CSV"
+
+#: modules/csv/views/tpl/csvTabContent.php:57
+msgid "Delimiter"
+msgstr "Ký tự phân cách"
+
+#: modules/csv/views/tpl/csvTabContent.php:73
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:15
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "Lưu"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Dữ liệu bản đồ không tìm thấy"
+
+#: modules/gmap/mod.php:19
+msgid "Add Map"
+msgstr "Thêm bản đồ"
+
+#: modules/gmap/mod.php:25
+msgid "All Maps"
+msgstr "Tất cả bản đồ"
+
+#: modules/gmap/mod.php:35
+msgid "No Map Found"
+msgstr "Không tìm thấy bản đồ"
+
+#: modules/gmap/mod.php:98
+msgid "Empty or Invalid Map ID"
+msgstr "ID bản đồ rỗng hoặc không hợp lệ"
+
+#: modules/gmap/mod.php:98
+msgid "Please, check your Map Shortcode."
+msgstr "Kiểm tra lại Shortcode bản đồ của bạn."
+
+#: modules/gmap/mod.php:118
+msgid "Top Center"
+msgstr "Ở giữa bên trên"
+
+#: modules/gmap/mod.php:119
+msgid "Top Left"
+msgstr "Trên bên trái"
+
+#: modules/gmap/mod.php:120
+msgid "Top Right"
+msgstr "Trên bên phải"
+
+#: modules/gmap/mod.php:121
+msgid "Left Top"
+msgstr "Bên trái ở trên"
+
+#: modules/gmap/mod.php:122
+msgid "Right Top"
+msgstr "Bên phải phía trên"
+
+#: modules/gmap/mod.php:123
+msgid "Left Center"
+msgstr "Ở giữa bên trái"
+
+#: modules/gmap/mod.php:124
+msgid "Right Center"
+msgstr "Bên phải ở giữa"
+
+#: modules/gmap/mod.php:125
+msgid "Left Bottom"
+msgstr "Bên trái phia dưới"
+
+#: modules/gmap/mod.php:126
+msgid "Right Bottom"
+msgstr "Bên phải dưới"
+
+#: modules/gmap/mod.php:127
+msgid "Bottom Center"
+msgstr "Ở giữa phía dưới"
+
+#: modules/gmap/mod.php:128
+msgid "Bottom Left"
+msgstr "Dưới bên trái"
+
+#: modules/gmap/mod.php:129
+msgid "Bottom Right"
+msgstr "Dưới bên phải"
+
+#: modules/gmap/mod.php:155
+msgid "Slider"
+msgstr "Slider"
+
+#: modules/gmap/mod.php:156
+msgid "Slider - Title and Img"
+msgstr "Slider- Tiêu đề và Hình ảnh"
+
+#: modules/gmap/mod.php:157 modules/gmap/mod.php:159
+msgid "Slider Vertical - Title and Img"
+msgstr "Slider dọc - Tiêu đề và Hình ảnh"
+
+#: modules/gmap/mod.php:158
+msgid "Slider Vertical - Title and Description"
+msgstr "Slider dọc - Tiêu đề và Mô tả"
+
+#: modules/gmap/mod.php:160
+msgid "Slider Table"
+msgstr "Slider bảng"
+
+#: modules/gmap/mod.php:186
+msgid "Google Map"
+msgstr "Google Map"
+
+#: modules/gmap/models/gmap.php:90
+msgid "Please enter Map Name"
+msgstr "Xin hay nhập Tên bản đồ"
+
+#: modules/gmap/models/gmap.php:119
+#: modules/marker_groups/models/marker_groups.php:104
+msgid "Empty Params"
+msgstr "Tham số trống"
+
+#: modules/gmap/models/gmap.php:128 modules/gmap/models/gmap.php:226
+msgid "Invalid Map ID"
+msgstr "ID bản đồ không hợp lệ"
+
+#: modules/gmap/views/gmap.php:89
+#, php-format
+msgid "Map with ID %d not found"
+msgstr "Bản đồ với ID %d không tìm thấy"
+
+#: modules/gmap/views/gmap.php:90
+msgid "Map not found"
+msgstr "Bản đồ không tìm thấy"
+
+#: modules/gmap/views/gmap.php:242
+msgid "Html options"
+msgstr "Tùy chọn HTml"
+
+#: modules/gmap/views/gmap.php:244
+msgid "Operations"
+msgstr "Thao tác"
+
+#: modules/gmap/views/gmap.php:361
+msgid "Error inside google maps plugin."
+msgstr "Lỗi bên trong plugin google maps."
+
+#: modules/gmap/views/gmap.php:365 modules/gmap/views/gmap.php:370
+msgid ""
+"To use this feature, You need to reactivate your Google Maps Easy plugin."
+msgstr ""
+"Để sử dung tính năng này, Bạn phải kích hoạt lại plugin Google Maps Easy."
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:6
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clone selected"
+msgstr "Nhân bản được lựa chọn"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:14
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "Xóa được lựa chọn"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:33
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Hiện tại bạn không có Bản đồ nào. <a href='%s' style='font-style: "
+"italic;'>Tạo</a> Bản đồ đầu tiên của bạn!"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:4
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Lựa chọn này chỉ có sẵn trong <a target='_blank' href='%s'>phiên bản PRO</a> ,"
+"bạn có thể có nó <a target='_blank' href='%s'>ở đây.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Insert to Contact Form"
+msgstr "Chèn đến Form Liên Hệ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:19
+msgid "Integrate with Membership"
+msgstr "Tích hợp với Thành viên"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:27
+msgid "Enable for Membership"
+msgstr "Cho phép Thành Viên"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:35
+msgid "Map"
+msgstr "Bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:43
+#: modules/gmap/views/tpl/gmapEditMap.php:52
+msgid "New"
+msgstr "Mới"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:50 modules/supsystic_promo/mod.php:264
+msgid "Figures"
+msgstr "Hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+msgid "Heatmap Layer"
+msgstr "Tầng Bản đồ nhiệt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:71
+msgid "Map Name"
+msgstr "Tên bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:73
+msgid "Your map name"
+msgstr "Tên bản đồ của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:85
+msgid "Map Width"
+msgstr "Chiều rộng bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:87
+msgid "Your map width"
+msgstr "Chiều rộng bản đồ của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:96
+#: modules/gmap/views/tpl/gmapEditMap.php:128
+#: modules/gmap/views/tpl/gmapEditMap.php:972
+#: modules/gmap/views/tpl/gmapEditMap.php:1012
+#: modules/gmap/views/tpl/gmapEditMap.php:1066
+#: modules/gmap/views/tpl/gmapEditMap.php:1088
+msgid "Pixels"
+msgstr "Pixels"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:131
+#: modules/gmap/views/tpl/gmapEditMap.php:978
+#: modules/gmap/views/tpl/gmapEditMap.php:1018
+#: modules/gmap/views/tpl/gmapEditMap.php:1070
+#: modules/gmap/views/tpl/gmapEditMap.php:1092
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:103
+msgid "Percent"
+msgstr "Phần trăm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Map Height"
+msgstr "Chiều cao bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:112
+msgid ""
+"Your map height.<br /><br />If Adapt map to screen height option is checked - "
+"map height will be recalculated on frontend and can be equals to:<ul><li>1) "
+"your device screen height - height from top of page to top of map (if screen "
+"height > height from top of page to top of map)</li><li>2) your device screen "
+"height (in other cases)</li></ul>Recalculation will be done for maps in page "
+"content and widgets except of maps which displaying in Google Maps Easy "
+"widget popup (Display as image mode)."
+msgstr ""
+"Chiều cao bản đồ.<br /><br />Nếu điều chỉnh bản đồ đến chiều cao màn hình "
+"được lựa chọn - chiều cao bản đồ sẽ được tính toán lại trên frontend và có "
+"thể bằng đến:<ul><li>1) chiều cào màn hình thiêt bị của bạn - chiều cao từ "
+"đỉnh của trang đến đỉnh của bản đồ ( nếu chiều cao màn hình > chiều cao từ  "
+"đỉnh của trang đến đỉnh bản đồ)</li><li>2) chiều cao màn hình thiết bị của "
+"bạn( trong các trường hợp khác)</li></ul>Tính toán lại sẽ được thực hiện cho "
+"các bản đồ trong nội dung trang và các widget  trừ các bản đồ hiển thị trong "
+"cửa sổ bật lên của widget Google Maps Easy (Hiển thị dưới dạng hình ảnh)."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:139
+msgid "Adapt map to screen height"
+msgstr "Điều chỉnh bản đồ đến chiều cao màn hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Map type control"
+msgstr "Kiểm soát loại bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr ""
+"Kiểm soát chế độ xem cho loại bản đồ - bạn có thể nhìn thấy nó ở góc trên bên "
+"phải theo mặc định"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Dropdown Menu"
+msgstr "Menu Thả Xuống"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Horizontal Bar"
+msgstr "Menu Ngang"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:166
+msgid "Change type control position on map"
+msgstr "Thay đổi vị trí kiểm soát kiểu trên bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:173
+#: modules/gmap/views/tpl/gmapEditMap.php:202
+#: modules/gmap/views/tpl/gmapEditMap.php:235
+#: modules/gmap/views/tpl/gmapEditMap.php:532
+#: modules/gmap/views/tpl/gmapEditMap.php:558
+#: modules/gmap/views/tpl/gmapEditMap.php:575
+#: modules/gmap/views/tpl/gmapEditMap.php:592
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+#: modules/gmap/views/tpl/gmapEditMap.php:678
+#: modules/gmap/views/tpl/gmapEditMap.php:757
+#: modules/gmap/views/tpl/gmapEditMap.php:774
+#: modules/gmap/views/tpl/gmapEditMap.php:791
+#: modules/gmap/views/tpl/gmapEditMap.php:834
+#: modules/gmap/views/tpl/gmapEditMap.php:874
+#: modules/gmap/views/tpl/gmapEditMap.php:1111
+#: modules/gmap/views/tpl/gmapEditMap.php:1154
+#: modules/options/views/tpl/optionsSettingsTabContent.php:70
+msgid "PRO option"
+msgstr "Tùy chỉnh PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:181
+msgid "Zoom control"
+msgstr "Điều khiển phóng to"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:183
+msgid ""
+"Zoom control type on your map. Note, to view Zoom control on the map the "
+"Custom Map Controls option must be disabled."
+msgstr ""
+"Điều khiển phóng to trên bản đồ của bạn. Ghi chú, để xem Điểu chỉnh phóng to "
+"trên bản đồ thì tùy chỉnh Custom Map Controls phải được tắt."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:518
+msgid "Default"
+msgstr "Mặc định"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:195
+msgid "Change zoom control position on map"
+msgstr "Thay đổi vị trí điều chỉnh phóng to trên bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:206
+msgid "Notice"
+msgstr "Thông báo"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:208
+msgid ""
+"Standard Zoom control will not displaying for this map, because the Custom "
+"Map Controls option enabled now."
+msgstr ""
+"Điều chỉnh phóng to chuẩn sẽ không hiển thị trên bản đồ này, vì tùy chỉnh "
+"Custom Map Controls đang được bật."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:216
+msgid "Street view control"
+msgstr "Điều khiển hiển thị đường phố"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:218
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr ""
+"Kiểm soát chế độ xem phố thường nằm ở góc trên cùng bên trái của bản đồ của "
+"bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:228
+msgid "Change street view control position on map"
+msgstr "Thay đổi vị trí điều chỉnh xem chế độ đường phố trên bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:288
+msgid "Draggable"
+msgstr "Kéo thả được"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:290
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "Bật hoặc tắt khả năng kéo thả trên bản đồ sử dung chuột"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:301
+msgid "Double click to zoom"
+msgstr "Nhấp đúp chuột để phóng to"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:303
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"Bằng mặc đinh nhấp đúp chuột trái trên bản đồ sẽ phóng đó. Nhưng bạn có thể "
+"thay đổi nó ở đây."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:314
+msgid "Mouse wheel to zoom"
+msgstr "Lăn chuột để phóng to"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:316
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"Đôi khi bạn cần tắt khả năng phóng to bản đồ bằng bánh xe chuột. Điều này có "
+"thể được yêu cầu - ví dụ như di chuyển trang web của bạn ngay cả khi chuột "
+"nằm trên bản đồ của bạn."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+#: modules/gmap_widget/views/tpl/form.php:44
+msgid "Map Center"
+msgstr "Trung tâm bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid ""
+"Sets map center. You can set map center in next ways: type address to use its "
+"coords, type the coords' values in appropriate fields or just drag the map on "
+"preview."
+msgstr ""
+"Đặt trung tâm bản đồ. Bạn có thể đặt trung tâm bản đồ theo các cách sau: nhập "
+"địa chỉ để sử dung tọa độ, nhập giá trị của các tọa đồ vào các trường thích "
+"hợp hoặc chỉ cần kéo bản đồ vào xem trước."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:343
+#: modules/gmap/views/tpl/gmapEditMap.php:1243
+#: modules/gmap/views/tpl/gmapEditMap.php:1516
+msgid "Latitude"
+msgstr "Vĩ độ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:351
+#: modules/gmap/views/tpl/gmapEditMap.php:1257
+#: modules/gmap/views/tpl/gmapEditMap.php:1525
+msgid "Longitude"
+msgstr "Kinh độ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:362
+#: modules/gmap_widget/views/tpl/form.php:56
+msgid "Map Zoom"
+msgstr "Bản đồ phóng to"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid ""
+"Sets map zoom.<br /><br />\n"
+"<b>Preset Zoom</b> - sets zoom value for map. You can change this value just "
+"change zoom on the map preview.<br /><br />\n"
+"<b>Fit Bounds</b> - map zoom will be changed on frontend in a way that all "
+"markers and figures will be visible.<br /><br />\n"
+"<b>Min Zoom Level</b> - sets minimum zoom level (maximum estrangement), which "
+"can be applied for map.<br /><br />\n"
+"<b>Max Zoom Level</b> - sets maximum zoom level (maximum approximation), "
+"which can be applied for map.\n"
+msgstr ""
+"Thiết lập phóng to bản đồ.<br /><br />\n"
+"<b>Preset Zoom</b> - đặt giá trị phóng to cho bản đồ. Bạn có thể điều chỉnh "
+"giá trị này chỉ cần thay đổi phóng to trên bản đồ chế độ xem trước.<br /><br /"
+">\n"
+"<b>Phù hợp với giới hạn</b> - bản đồ phóng to sẽ được thay đổi trên frontend "
+"bằng cách tất cả điểm đánh dấu và hình sẽ được hiển thị.<br /><br />\n"
+"<b>Mức độ thu phóng tối thiểu</b> - đặt mức thu phóng tối thiểu (sự khác biệt "
+"tối đa), có thể được áp dụng cho bản đồ.<br /><br />\n"
+"<b>Mức độ thu phóng tối đa</b> - đặt mức thu phóng tối đa (xấp xỉ tối đa), có "
+"thể áp dụng cho bản đồ.\n"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Preset Zoom"
+msgstr "Preset Zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Fit Bounds"
+msgstr "Phù hợp với giới hạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Zoom Level"
+msgstr "Mức độ phóng to"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:390
+msgid "Mobile Zoom Level"
+msgstr "Mức độ phóng to trên điện thoại"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:401
+msgid "Min Zoom Level"
+msgstr "Mức đô thu phóng tối thiểu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:410
+msgid "Max Zoom Level"
+msgstr "Mức độ thu phóng tối đa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Google Map Theme"
+msgstr "Giao diện Google map"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:426
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Bạn có thể lựa chọn giao diện Google Map -  Bản đồ đường phố, , Hybrid, Vệ "
+"tinh hoặc Địa hình - tại đây. Theo mặc định, bản đồ của bạn sẽ có giao diện "
+"Google Map đường phố."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Road Map"
+msgstr "Bản đồ đường phố"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Hybrid"
+msgstr "Bản đồ Hỗn hợp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Satellite"
+msgstr "Bản đồ Vệ tinh"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Terrain"
+msgstr "Bản đồ Địa hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Map Stylization"
+msgstr "Kiểu bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:440
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Làm cho bản đồ của bạn trở nên độc đáo với giao diện bản đồ của chúng tôi, "
+"hãy thử thay đồi nó ở đây - và bạn sẽ thấy kết quả trong xem trước bản đồ của "
+"bạn."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:450
+msgid "Get 300+ Themes with PRO"
+msgstr "Lấy 300+ giao diện với PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:458
+msgid "Markers Clusterization"
+msgstr "Chồng xếp Điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:460
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Nếu bạn có nhiều điểm đánh dấu -  bạn có thể có vấn đề với việc hiển thị "
+"chúng khi bạn phóng to ví dụ: chúng sẽ chồng lên nhau. Chồng điểm đánh dấu có "
+"thể giải quyết vấn đề này bang cách nhóm các Điểm đánh dâu trong nhóm khi "
+"chúng quá gần nhau."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:464
+msgid "Base Clusterization"
+msgstr "Chồng xếp cơ bản"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:476
+msgid "/gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:493
+#: modules/gmap/views/tpl/gmapEditMap.php:849
+#: modules/gmap/views/tpl/gmapEditMap.php:1219
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:85
+msgid "Upload Icon"
+msgstr "Tải lên Icon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:494
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:86
+msgid "Default Icon"
+msgstr "Icon mặc định"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:498
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:60
+msgid "Cluster Icon"
+msgstr "Icon chồng xếp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:508
+msgid "Cluster Area Size"
+msgstr "Kích cỡ vùng chồng xếp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:510
+msgid ""
+"Sets the grid size of cluster. The higher the size - the more area of capture "
+"the markers to the cluster."
+msgstr ""
+"Thiết lập kích thước lưới của cụm. Kích thước càng cao - càng có nhiều vùng "
+"đánh dấu vào cụm."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:527
+msgid "Markers List"
+msgstr "Danh sách điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:529
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Hiển thị toàn bộ Điểm đánh dấu vị trí bản đồ - như danh sách dưới bản đồ của "
+"bạn. Việc này sẽ giúp đỡ người dùng của bạn có them thông tin về điểm đánh "
+"dấu và tìm điểm đánh dấu vị trí nhanh hơn."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:536
+msgid "Select Markers List type"
+msgstr "Lựa chọn kiểu danh sách điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:542
+msgid "Markers List Color"
+msgstr "Màu danh sách Điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Traffic Layer"
+msgstr "Lớp giao thông"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:555
+msgid "Add real-time traffic information to your map."
+msgstr "Thêm thông tin giao thông theo thời gian thực trên bản đồ của bạn."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:570
+msgid "Transit Layer"
+msgstr "Lớp quá cảnh"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:572
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Hiển thị mảng lưới quá cảnh công cộng của thành phố trên bản đồ của bạn. Khi "
+"Lớp quá cảnh được cho phép, và bản đồ được căn giữa trên 1 thành phố hỗ trợ "
+"thông tin quá cảnh, bản đồ sẽ hiện thị những đường quá cảnh chính như những "
+"đường được tô màu và day."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Bicycling Layer"
+msgstr "Lớp xe đạp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:589
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"bike lanes. Dashed routes indicate streets or paths otherwise recommended for "
+"bicycle usage."
+msgstr ""
+"Thêm một lớp đường dẫn xe đạp, đề xuất tuyến đường đạp xe và các lớp phủ khác "
+"dành riêng cho việc sử dụng đi xe đạp trên đầu bản đồ nhất định. Các tuyến "
+"đường màu xanh đậm chỉ ra tuyến đường dành riêng cho xe đạp. Các tuyến đường "
+"màu xanh lá cây cho thấy đường phố có các làn xe đạp chuyên dụng. Các tuyến "
+"đường bị rải đều cho biết đường phố hoặc đường dẫn được đề nghị cho việc sử "
+"dụng xe đạp."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:607
+msgid "Add KML layers"
+msgstr "Thêm KML layers"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:609
+msgid ""
+"Add KML files to display custom layers on the map. Additional options:<br /"
+"><br /><b>Enable KML layers filter</b> - add form to map for dynamically "
+"enable / disable KML layers and sublayers."
+msgstr ""
+"Thêm các tệp tin KTML để hiện thị tùy chỉnh các lớp trên bản đồ. Các thông "
+"tin bổ sung:<br /><br /><b>Cho phép KML layers filter</b> - thêm biểu mẫu vào "
+"bản đồ để kích hoạt / vô hiệu hóa các lớp KML và lớp phủ con."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:625
+msgid "Enable KML layers filter"
+msgstr "Bật KML layers filter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:630
+msgid "Enter KML file URL"
+msgstr "Nhập đường dẫn tệp tin KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:633
+msgid "Hide Sublayers at KML filter"
+msgstr "Chỉnh lớp con tại KML filter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:636
+msgid "Remove KML field"
+msgstr "Xóa trường KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:652
+msgid "or Upload KML file"
+msgstr "hoặc Upload tệp tin KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:657
+msgid "Add more files"
+msgstr "Thêm các tập tin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:667
+msgid "Custom Map Controls"
+msgstr "Tùy chỉnh điều khiển Bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:672
+msgid "Add custom map controls to the map."
+msgstr "Thêm tùy chỉnh điều khiển bản đồ đến bản đồ."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:688
+msgid "Controls type"
+msgstr "Kiểu Điểu khiển"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Square"
+msgstr "Hình vuông"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Rounded edges"
+msgstr "Các cạnh tròn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Round"
+msgstr "Hình tròn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:697
+msgid "Background color"
+msgstr "Màu nền"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:705
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:713
+msgid "Controls position"
+msgstr "Vị trí điều khiển"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:723
+msgid "Min Search Radius (in meters):"
+msgstr "Bán kính Tìm kiếm Tối thiểu (tính bằng mét):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Max Search Radius (in meters):"
+msgstr "Bán kính Tìm kiếm Tối đa (tính bằng mét):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Search Country"
+msgstr "Tìm kiếm quốc gia"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:752
+msgid "Full Screen Button"
+msgstr "Nút toàn màn hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:754
+msgid "Add a button on map to open it full screen."
+msgstr "Thêm nút trên bản đồ để mở toàn màn hình."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:769
+msgid "Hide POI"
+msgstr "Ẩn POI"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:771
+msgid ""
+"Hide the Points Of Interest - landmark or other object, the marked points on "
+"the map, for example: hotels, campsites, fuel stations etc."
+msgstr ""
+"Ẩn các địa điểm ưa thích - điểm mốc hoặc đối tượng khác, các điểm được đánh "
+"dấu trên bản đồ, ví dụ: khách sạn, trại cắm trại, trạm xăng vv."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:786
+msgid "Hide Countries"
+msgstr "Ẩn quốc gia"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:788
+msgid "Hide all administrative data about countries: names, borders etc."
+msgstr "Ẩn tất cả các dữ liệu quản trị về các quốc gia: tên, các đường viền."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:803
+msgid "Hide Tooltips of Markers"
+msgstr "Ẩn Tooltips của Vị trí đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:805
+msgid "Hide the tooltips, which displayed by mouse hover on markers' icons."
+msgstr ""
+"Ẩn các tooltip, được hiển thị bằng cách di chuột lên các biểu tượng của điểm "
+"đánh dấu."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:816
+msgid "Center on current opened marker"
+msgstr "Trung tâm trên điểm đánh dấu vị trí được mở hiện tại"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:818
+msgid ""
+"On frontend the map will be centered on current marker with opened info "
+"window."
+msgstr ""
+"Trên Frontend bản đồ sẽ được căn giữa trên điểm đánh dấu hiện tại cùng cửa sổ "
+"thông tin được mở."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:829
+msgid "Center on current user location"
+msgstr "Trung tâm về vị trí người dùng hiện tại"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:831
+msgid "On frontend map will be centered on current user location."
+msgstr ""
+"Trên Frontend bản đồ sẽ được căn giữa trên điểm đánh dấu hiện tại cùng cửa sổ "
+"thông tin được mở."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:860
+msgid "Add markers on frontend"
+msgstr "Thêm các Điểm đánh dấu vị trí trên frontend"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:862
+msgid ""
+"You can add markers at the current map with the frontend using the form, "
+"which can be displayed using the shortcode (it placed below preview map). "
+"Additional options that affect the operation of the form:<br /><br /"
+"><b>Logged In Users Only</b> - form will be displayed only for logged in "
+"users.<br /><br /><b>Disable WP Editor</b> - disable / enable WP Editor for "
+"the Marker Description field of the form.<br /><br /><b>Delete markers</b> - "
+"disable / enable interface for deleting markers on frontend. Each user can "
+"delete only his own markers.<br /><br /><b>Use markers categories</b> - "
+"disable / enable interface for choose the marker category on frontend.<br /"
+"><br /><b>Use limits for marker's adding</b> - allows you to limit the number "
+"of markers, which user can add from one IP address at the current map for a "
+"certain amount of time.<br /><br /><b>Max marker's count</b> - the maximum "
+"number of markers, which can be added over certain amount of time.<br /><br /"
+"><b>For allotted time (minutes)</b> - the number of minutes, during which you "
+"can add the maximum number of markers.<br /><br />For example, during three "
+"minutes you can add only two markers at the map. If you try to add a third "
+"marker - the form will not be saved and you will see the notice with amount "
+"of time you must wait. After the right amount of time will pass - you can add "
+"next two markers, etc.<br /><br />Important! If map and form for add markers "
+"at this map are placed on one page - this page will be overload after marker "
+"adding."
+msgstr ""
+"Bạn có thẻ thêm các Điểm đánh dấu vị trí trên bản đồ hiện tại với frontend "
+"bang cách sử dung form,  form được hiển thị bằng cách sử dung shortcode (nó "
+"được đặt dưới xem trước bản đồ). Các tùy chọn bổ sung có ảnh hưởng đến hoạt "
+"động của form:<br /><br /><b>Chỉ với Người dung đã đăng nhập</b> - form sẽ "
+"hiển thị chỉ cho người dùng đã đăng nhập.<br /><br /><b>Tắt WP Editor</b> - "
+"tắt / bật WP Editor cho trường mô tả Điểm đánh dấu vị trí của form.<br /><br /"
+"><b>Xóa các điểm đánh dấu vị trí</b> - tắt / bất giao diện cho xóa điểm đánh "
+"dấu trên frontend.<br /><br /><b>Sử dung danh mục các Điểm đánh dấu vị trí</"
+"b> - vô hiệu hóa / bật giao diện để chọn loại điểm đánh dấu trên giao diện "
+"người dùng.<br /><br /><b>Sử dụng giới hạn cho việc thêm các điểm đánh dấu</"
+"b> - cho phép bạn giới hạn số lượng các điểm đánh dấu, người dùng có thể thêm "
+"từ một địa chỉ IP tại bản đồ hiện tại trong một khoảng thời gian nhất định."
+"<br /><br /><b>Số điểm đánh dấu tối đa</b> -số lượng tối đa của các điểm đánh "
+"dấu, có thể được thêm vào trong một khoảng thời gian nhất định.<br /><br /"
+"><b>Đối với thời gian được phân bổ (phút) </ b> - số phút, trong đó bạn có "
+"thể thêm số lượng đánh dấu tối đa.<br /><br />Ví dụ: trong ba phút bạn chỉ có "
+"thể thêm hai điểm đánh dấu vào bản đồ. Nếu bạn cố thêm dấu thứ ba - biểu mẫu "
+"sẽ không được lưu và bạn sẽ thấy thông báo với khoảng thời gian bạn phải đợi. "
+"Sau khi thời gian phù hợp sẽ vượt qua - bạn có thể thêm hai dấu tiếp theo, vv "
+"<br /> <br /> Quan trọng! Nếu bản đồ và biểu mẫu để thêm điểm đánh dấu tại "
+"bản đồ này được đặt trên một trang - trang này sẽ bị quá tải sau khi thêm "
+"điểm đánh dấu."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:888
+msgid "Logged In Users Only"
+msgstr "Chỉ Người dùng đã đăng nhập"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:895
+msgid "Disable WP Editor"
+msgstr "Vô hiệu hóa WP Editor"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:902
+msgid "Delete markers"
+msgstr "Xóa các điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:909
+msgid "Use markers categories"
+msgstr "Sử dung danh mục các vị trí đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:916
+msgid "Use limits for marker's adding"
+msgstr "Sử dụng giới hạn cho việc thêm điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:921
+msgid "Max marker's count"
+msgstr "Số điểm đánh dấu tối đa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:929
+msgid "For allotted time (minutes)"
+msgstr "Đối với thời gian được phân bổ (phút)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:942
+msgid "Info Window"
+msgstr "Cửa sổ thông tin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:944
+msgid "Parameters of markers / shapes info-window PopUp"
+msgstr "Tham số của các điểm đánh dấu / hình dạng popup cửa sổ thông tin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:951
+msgid "Width"
+msgstr "Chiều rộng"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:953
+msgid "Width of info window"
+msgstr "Chiều rộng của cửa sổ thông tin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:967
+#: modules/gmap/views/tpl/gmapEditMap.php:1007
+msgid "Auto"
+msgstr "Tự động"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:991
+msgid "Height"
+msgstr "Chiều cao"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:993
+msgid "Height of info window"
+msgstr "Chiều cao của cửa sổ thông tin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1031
+msgid "Title Color"
+msgstr "Mầu chữ tiêu đề"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1033
+msgid "You can set your info window title color here"
+msgstr "Bạn có thể thiết lập màu chữ tiêu đề cửa sổ thông tin ở đây"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1043
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:49
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1045
+msgid "You can set your info window background color here"
+msgstr "Bạn có thể thiết lập màu nền cửa sổ thông tin ở đây"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1055
+msgid "Title Font Size"
+msgstr "Cỡ chữ tiêu đề"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1057
+msgid "You can set your info window title font size here"
+msgstr "Bạn có thể thiết lập cỡ chữ tiêu đề ở đây"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1077
+msgid "Description Font Size"
+msgstr "Cỡ chữ mô tả"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1079
+msgid "You can set your info window description font size here"
+msgstr "Bạn có thể thiết lập cỡ chữ mô tả cửa sổ thông tin ở đây"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1102
+msgid "Directions Button"
+msgstr "Nút chỉ  đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1105
+msgid ""
+"Add a button at marker info window to get direction from the entered address "
+"to the marker. If Show route data option is enabled - the total route time "
+"and distance will be shown by click on the route polyline."
+msgstr ""
+"Thêm 1 nút tại cửa sổ thông tin vị trí đánh dầu để lấy chỉ đường từ địa chỉ "
+"đã nhập đến vị trí đánh dâu. Nếu lựa chọn Hiển thị tuyến đường được bất - "
+"tổng thời gian và khoảng cách tuyến đường sẽ được hiển thị bằng cách nhập "
+"chuột trên đường đa giác tuyến đường."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1124
+msgid "Show alternate routes"
+msgstr "Hiển thị các tuyến đường thay thế"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1132
+msgid "Show route data"
+msgstr "Hiển thị dữ lieu tuyến đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1140
+msgid "Show route steps"
+msgstr "Hiển thị các bước tuyến đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1149
+msgid "Print Button"
+msgstr "Nút in"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1151
+msgid "Add Print button to markers info window"
+msgstr "Thêm nút In đến cửa sổ thông tin các điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1180
+msgid "Your marker title"
+msgstr "Tiêu đề vị trí đánh dấu của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1193
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr ""
+"Viết tất cả các chữ ở đây, nếu bạn muốn chúng xuất hiện trên popup cửa sổ "
+"thông tin điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1209
+msgid "Icon"
+msgstr "Icon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1211
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr ""
+"Biểu tượng điểm đánh dấu của bạn, sẽ xuất hiện trên bản đồ của bạn cho điểm "
+"đánh dấu này"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1231
+msgid "Search your location by address, just start typing here"
+msgstr "Tìm kiem vị trí của bạn theo địa chỉ, bắt đầu gõ ở đây"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1245
+msgid "Latitude for your marker"
+msgstr "Vĩ độ cho điểm đánh dấu của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1259
+msgid "Longitude for your marker"
+msgstr "Kinh độ cho điểm đánh dấu của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1273
+msgid "Choose marker category"
+msgstr "Lựa chọn danh mục điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1287
+msgid "Marker Link"
+msgstr "Đường dẫn điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1289
+msgid "Link for opening by click on the marker"
+msgstr "Liên kết để mở bằng cách nhấp vào điểm đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1305
+msgid "Open in new window"
+msgstr "Mở trong cửa sổ mới"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1313
+msgid "Show description by default"
+msgstr "Hiển thị mô tả bằng mặc định"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1315
+msgid "Open marker description when map load"
+msgstr "Mở mô tả điểm đánh dấu khi tải bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1325
+msgid "Show description by mouse hover"
+msgstr "Hiển thị mô tả bằng các di chuột qua"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1327
+msgid "Open marker description by mouse hover"
+msgstr "Mở mô tả điểm đánh dấu bằng cách di chuột qua"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1337
+msgid "Hide description on mouse leave"
+msgstr "Ẩn mô tả điểm đánh dấu bằng cách dời chuột"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1339
+msgid "Hide description when mouse leaves the marker area"
+msgstr "Ẩn mô tả khi con chuột rời khỏi khu vực đánh dấu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1349
+msgid "Marker List Default Image"
+msgstr "Hình ảnh danh sách Điểm đánh dấu mặc định"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1351
+msgid ""
+"If there is no image tag in the marker description - this image will be used "
+"for displaying in the map's markers list"
+msgstr ""
+"Nếu không có thẻ hình ảnh trong mô tả điểm đánh dấu vị trí - hình ảnh này sẽ "
+"được sử dụng để hiển thị trong danh sách điểm đánh dấu của bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1394
+msgid "Figure Name"
+msgstr "Tên Hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1396
+msgid "Your figure title"
+msgstr "Tiêu đề hình của bạn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1407
+msgid "Figure Type"
+msgstr "Kiểu Hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1409
+msgid ""
+"Type of your figure:<br /><br /><b>Polyline</b> - a series of straight "
+"segments on the map.<br /><br /><b>Polygon</b> - area enclosed by a closed "
+"path (or loop), which is defined by a series of coordinates.<br /><br /"
+"><b>Circle</b> - circle shape,defined by center coordinates and radius."
+msgstr ""
+"Loại hình của bạn: <br /> <br /> <b> Hình nhiều đường </ b> - một loạt các "
+"phân đoạn thẳng trên bản đồ. <br /> <b> Đa giác </ b> - vùng bao quanh bởi "
+"một đường dẫn đóng (hoặc vòng lặp), được xác định bởi một loạt các tọa độ. "
+"<br /> <br /> <b> Vòng tròn </ b> - hình tròn, được xác định bởi tọa độ trung "
+"tâm và bán kính."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1417
+msgid "Polyline"
+msgstr "Hình nhiều đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1418
+msgid "Polygon"
+msgstr "Đa giác"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1419
+msgid "Circle"
+msgstr "Hình tròn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1428
+msgid "Line Color"
+msgstr "Màu đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1435
+msgid "Line Opacity"
+msgstr "Độ mờ của đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1446
+msgid "Line Weight"
+msgstr "Trọng lượng của đường"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1454
+msgid "Fill Color"
+msgstr "Màu đầy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1461
+msgid "Fill Opacity"
+msgstr "Độ mờ đầy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1474
+msgid "Figure Description"
+msgstr "Mô tả hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1476
+msgid "Write here all text, that you want to appear in shape info-window PopUp"
+msgstr ""
+"Viết ở đây tất cả các văn bản, mà bạn muốn xuất hiện trong popup cửa sổ thông "
+"tin hình dạng"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1488
+#: modules/gmap/views/tpl/gmapEditMap.php:1566
+msgid "Points"
+msgstr "Các điểm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1490
+msgid ""
+"Figure's points list: you can search the point by address (just start typing "
+"in Address field), type the Latitude and Longitude of point in appropriate "
+"fields or activate Add by Click button, and then draw figure on the map by "
+"clicking on it. Important! You must deactivate Add by Click button after "
+"ending of the draw."
+msgstr ""
+"Danh sách điểm của hình: bạn có thể tìm kiếm điểm theo địa chỉ (chỉ cần gõ "
+"vào trường Address), gõ Vĩ độ và Kinh độ của điểm trong các trường thích hợp "
+"hoặc kích hoạt nút Thêm bằng cách nhấp chuột, và sau đó vẽ hình trên bản đồ "
+"bằng cách nhấp vào nó. Quan trọng! Bạn phải hủy kích hoạt nút Thêm bằng cách "
+"nhấp chuột sau khi kết thúc vẽ."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1497
+msgid "Add New Point"
+msgstr "Thêm Điểm Mới"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1534
+#: modules/gmap/views/tpl/gmapEditMap.php:1590
+msgid "Radius"
+msgstr "Bán kính"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1541
+#: modules/gmap/views/tpl/gmapEditMap.php:1576
+msgid "Remove Point"
+msgstr "Xóa Điểm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1568
+msgid ""
+"To add Heatmap Layer points you need to activate Add Points button and draw "
+"each point by click on map. To remove points you need to activate Remove "
+"Points button and delete necessary point by click on it or just click on "
+"Delete Heatmap Layer button to remove all Heatmap Layer points. Important! "
+"You must to deactivate Add by Click and Remove by Click buttons after ending "
+"of the add / remove points."
+msgstr ""
+"Để thêm điểm Lớp Bản đồ nhiệt bạn cần kích hoạt nút Thêm Điểm và vẽ mỗi điểm "
+"bằng cách nhấp vào bản đồ. Để loại bỏ điểm bạn cần kích hoạt Xóa Các Điểm và "
+"xóa các điểm cần thiết bằng cách click vào nó hoặc chỉ cần nhấp vào nút Xóa "
+"Bản Đồ Nhiệt để loại bỏ tất cả các điểm Lớp Bản Đồ Nhiệt. Quan trọng! Bạn "
+"phải hủy kích hoạt các nút Thêm bang nhấp chuột và Xóa Bằng Nhấp Chuột sau "
+"khi kết thúc thêm / xóa các điểm."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1573
+msgid "Add Point"
+msgstr "Thêm Điểm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1581
+msgid "Points Count"
+msgstr "Đếm Các Điểm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1592
+msgid "Heatmap Layer points radius in pixels"
+msgstr "Bán kính các điểm lớp bản đồ nhiệt trong pixels"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1603
+msgid "Opacity"
+msgstr "Độ mờ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1605
+msgid "Heatmap Layer points opacity"
+msgstr "Độ mờ các điểm lớp Bản Đồ Nhiệt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1620
+msgid "Gradient"
+msgstr "Gradient"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1622
+msgid "Heatmap Layer points color gradient."
+msgstr "Màu Gradient các điểm Lớp Bản Đồ Nhiệt."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1626
+msgid "Add Color"
+msgstr "Thêm màu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1629
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "Xóa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1633
+msgid "Remove Color"
+msgstr "Xóa màu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1665
+msgid "Map shortcode"
+msgstr "Shortcode bản đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1670
+msgid "PHP code"
+msgstr "Mã PHP"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1677
+msgid "Marker Form shortcode"
+msgstr "Shortcode Form Điểm đánh dấu vị trí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1685
+msgid "Shortcode will appear after you save map."
+msgstr "Shortcode sẽ xuất hiện sau khi bạn lưu bản đồ."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1693
+msgid "Save Map"
+msgstr "Lưu Bản Đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1699
+msgid "Delete Map"
+msgstr "Xóa Bản Đồ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1723
+msgid "Save Figure"
+msgstr "Lưu Hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1729
+msgid "Delete Figure"
+msgstr "Xóa Hình"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1738
+msgid "Save Heatmap Layer"
+msgstr "Lưu lớp Bản Đồ Nhiệt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1744
+msgid "Delete Heatmap Layer"
+msgstr "Xóa Lớp Bản Đồ Nhiệt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1750
+msgid "Search by name"
+msgstr "Tìm kiếm bằng tên"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1802
+msgid "Show markers list with your map on frontend"
+msgstr ""
+"Hiển thị danh sách Điểm đánh dấu vị trí của bản đồ của bạn trên frontend"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+msgid "Selected"
+msgstr "Đã chọn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Available in PRO"
+msgstr "Có sẵn trong PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1818
+msgid "Select Contact Form"
+msgstr "Chọn Form Liên hệ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1841
+msgid "Oops! Something went wrong..."
+msgstr "Rất tiếc! Đã xảy ra sự cố ..."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1844
+#, php-format
+msgid ""
+"Map can not be loaded completely. Probably, you are using our base Google Map "
+"API key.<br /><br />\n"
+"This key is used by default for all our users in accordance with <a target="
+"\"_blank\" href=\"%s\">Google Maps APIs Standard Plan</a>.\n"
+"But each API key has fixed limits on count of maps loads per day.<br /><br /"
+">\n"
+"You can create <a target=\"_blank\" href=\"%s\">your own Google Maps API key</"
+"a> and type it on <a target=\"_blank\" href=\"%s\">Settings tab</a>.\n"
+"It's free, takes 10-20 minutes of your time and lets to apply your own API "
+"key only for your sites.\n"
+"If you already use own Google Maps API key - you should open <a target="
+"\"_blank\" href=\"%s\">Google Developer console</a> and check:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Have you set correct settings to use your Google Map API key?</li>\n"
+"<li>Have you paste correct Google Map API key on the <a target=\"_blank\" "
+"href=\"%s\">Settings tab</a>?</li>\n"
+"<li>Open <a target=\"_blank\" href=\"%s\">browser console</a>, find Google "
+"Map API error and read its description in <a target=\"_blank\" href=\"%s"
+"\">Map API Errors table</a>.</li>\n"
+"</ul>"
+msgstr ""
+"Bản đồ không thể được tải hoàn toàn. Có thể bạn đang sử dụng khóa Google Map "
+"API của chúng tôi. <br /> <br />\n"
+"Khóa này được sử dụng theo mặc định cho tất cả người dùng của chúng tôi theo "
+"<a target=\"_blank\" href=\"%s\"> Kế hoạch chuẩn API của Google Maps </a>.\n"
+"Nhưng mỗi khóa API có giới hạn cố định về tính tải bản đồ mỗi ngày. <br /> "
+"<br />\n"
+"Bạn có thể tạo <a target=\"_blank\" href=\"%s\"> khóa API Google Maps của "
+"riêng bạn </a> và nhập nó vào <a target=\"_blank\" href=\"%s\"> tab Cài đặt "
+"</ a >.\n"
+"Miễn phí, mất 10-20 phút thời gian của bạn và cho phép áp dụng khóa API của "
+"riêng bạn chỉ cho các trang web của bạn.\n"
+"Nếu bạn đã sử dụng chính API Google Maps API - bạn nên mở <a target=\"_blank"
+"\" href=\"%s\"> Bảng điều khiển dành cho Nhà phát triển của Google </a> và "
+"kiểm tra:\n"
+"<ul style = \"padding-left: 20px; list-style: decimal;\">\n"
+"<li> Bạn đã cài đặt chính xác để sử dụng khóa API Google Map của mình không? "
+"</ li>\n"
+"<li> Bạn đã dán chính xác API Google Map API trên <a target=\"_blank\" href="
+"\"%s\"> tab Cài đặt </a>? </ li>\n"
+"<li> Mở <a target=\"_blank\" href=\"%s\"> trình duyệt của trình duyệt </a>, "
+"tìm lỗi Google Map API và đọc mô tả trong <a target=\"_blank\" href=\"%s\"> "
+"Bản đồ Bảng lỗi API </a>. </ Li>\n"
+"</ ul>"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:22
+#, php-format
+msgid "and %s more"
+msgstr "và %s nữa"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Hiển thị Sản phẩm được Xem nhiều nhất"
+
+#: modules/gmap_widget/views/gmap_widget.php:19
+msgid "You have no maps"
+msgstr "Bạn không có bản đồ"
+
+#: modules/gmap_widget/views/tpl/form.php:8
+msgid "Select map"
+msgstr "Chọn bản đồ"
+
+#: modules/gmap_widget/views/tpl/form.php:20
+msgid "Widget Map width"
+msgstr "Chiều rộng Widget Map"
+
+#: modules/gmap_widget/views/tpl/form.php:27
+#, php-format
+msgid "in % or px, for example, 100% or 200px"
+msgstr "trong % or px, ví dụ, 100% or 200px"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Widget Map height"
+msgstr "Chiều cao Widget Map"
+
+#: modules/gmap_widget/views/tpl/form.php:39
+msgid "in px, for example, 200 or 400"
+msgstr "trong px, ví dụ, 200 hoặc 400"
+
+#: modules/gmap_widget/views/tpl/form.php:51
+msgid "Set coords, separated by semicolons or marker id"
+msgstr "Thiết lập tọa độ, ngăn cách bởi dấu phẩy hoặc id điểm đánh dấu vị trí"
+
+#: modules/gmap_widget/views/tpl/form.php:63
+msgid "Set zoom level from 1 to 21"
+msgstr "Thiết lập mức độ thu phong từ 1 đến 20"
+
+#: modules/gmap_widget/views/tpl/form.php:68
+msgid "Display as image"
+msgstr "Hiển thị như hình ảnh"
+
+#: modules/gmap_widget/views/tpl/form.php:76
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"Bản đồ sẽ được hiển thị dưới dạng hình ảnh ở sidebar, khi nhấp chuột - sẽ "
+"được mở trong cửa sổ bật lên"
+
+#: modules/gmap_widget/views/tpl/form.php:79
+msgid "Image width (in px)"
+msgstr "Chiều rộng ảnh (px)"
+
+#: modules/gmap_widget/views/tpl/form.php:86
+msgid "Image height (in px)"
+msgstr "Chiều cao ảnh (px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Url rỗng"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Không tìm thấy icon"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Không tìm thấy tệp tin"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Không thể lấy hình ảnh"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "không thể chèn đến bảng"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Không thể gửi mail - có vấn đề với server gửi"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Điểm đánh dấu không tìm thấy"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Không thể xóa điểm đánh dấu vị trí"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Không thể xóa các điểm đánh dấu vị trí"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "ID điểm đánh dấu vị trí trống hoặc không hợp lệ"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Thả"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Tung"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Hay nhập tên điểm đánh dấu vị trí"
+
+#: modules/marker/models/marker.php:264
+msgid "Invalid Marker ID"
+msgstr "ID điểm đánh dấu vị trí không hợp lệ"
+
+#: modules/marker_groups/controller.php:51
+msgid "Marker Category data not found"
+msgstr "Dữ liệu danh mục điểm đánh dấu vị trí không tìm thấy"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Danh mục điểm đánh dấu vị trí"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Thêm Mới"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Không có Danh mục điểm đánh dấu được tìm thấy"
+
+#: modules/marker_groups/models/marker_groups.php:78
+msgid "Please enter Marker Category"
+msgstr "Hay nhập danh mục điểm đánh dấu"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "Thêm Danh Mục"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "Xóa tất cả"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Bạn không có danh mục Đánh dấu vị trí nào. <a href='%s' style='font-style: "
+"italic;'> Tạo </a> Danh mục Đánh dấu vị trí đầu tiên của bạn!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:22
+msgid "Category Title"
+msgstr "Tiêu đề danh mục"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:35
+msgid "Parent Category"
+msgstr "Danh mục cha"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:70
+msgid "gmap/img/m1.png"
+msgstr "gmap/img/m1.png"
+
+#: modules/options/mod.php:108
+msgid "General"
+msgstr "Tổng quan"
+
+#: modules/options/mod.php:110
+msgid "API Domain"
+msgstr "Tên miền API"
+
+#: modules/options/mod.php:110
+msgid "Sets domain for google API scripts"
+msgstr "Thiết lập tên miền trong script google API"
+
+#: modules/options/mod.php:111
+msgid "User API key"
+msgstr "Khóa API người dùng"
+
+#: modules/options/mod.php:111
+msgid ""
+"You can use your own Google API key, check the <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruction</a> how to create it. To "
+"use plugin's default API key leave this field blank."
+msgstr ""
+"Bạn có thể sử dụng khóa Google API của riêng mình, kiểm tra hướng dẫn <a "
+"href='//supsystic.com/google-maps-api-key/' target='_blank'> </a> để tạo nó. "
+"Để sử dụng khóa API mặc định của plugin, để trống trường này."
+
+#: modules/options/mod.php:112
+msgid "Send usage statistics"
+msgstr "Gửi thống kê sử dụng"
+
+#: modules/options/mod.php:112
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Gửi thông tin về những lựa chọn plugin mà bạn thích sử dụng, điều này sẽ giúp "
+"chúng tôi đưa ra giải pháp tốt hơn cho bạn."
+
+#: modules/options/mod.php:113
+msgid "Enable promo link"
+msgstr "Bật liên kết quảng cáo"
+
+#: modules/options/mod.php:113
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr ""
+"Chúng tôi đang cố gắng làm cho plugin của chúng tôi tốt hơn cho bạn, và bạn "
+"có thể giúp chúng tôi với điều này. Chỉ cần kiểm tra tùy chọn này - và liên "
+"kết quảng cáo nhỏ sẽ được thêm vào cuối trang Google Maps của bạn. Điều này "
+"là dễ dàng cho bạn - nhưng rất hữu ích cho chúng tôi!"
+
+#: modules/options/mod.php:114
+msgid "User role can use plugin"
+msgstr "Vai trò người dùng có thể sử dụng plugin"
+
+#: modules/options/mod.php:114
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr ""
+"Người dùng có vai trò tiếp theo sẽ có quyền truy cập toàn bộ plugin từ khu "
+"vực quản trị viên."
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Mô-đun được cập nhật"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Mô-đun cập nhật bị lỗi"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Lỗi ID Mô-đun"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Dữ liệu trống để lưu lựa chọn"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Trang chính ĐẾN đây!!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Cải thiện phiên bản Miễn Phí"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Xin lưu ý rằng tùy chọn này chỉ khả dụng trong <a target='_blank' href='%s'> "
+"phiên bản PRO </a>. Bạn có thể <a target='_blank' href='%s' class='button'> "
+"Get PRO </a> ngày hôm nay và nhận tùy chọn này và các tùy chọn PRO khác cho "
+"Maps của bạn!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Lưu tất cả các tùy chỉnh"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned On %s"
+msgstr "Bật %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:63
+#, php-format
+msgid "Turned Off %s"
+msgstr "Tắt %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Thông tin đã được lưu. Cảm ơn!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Vui lòng không gửi yêu cầu liên hệ thường xuyên - chờ phản hồi cho các yêu "
+"cầu trước đó của bạn."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Vui lòng nhập địa chỉ email hợp lệ"
+
+#: modules/supsystic_promo/mod.php:32
+#, php-format
+msgid ""
+"Please, set your own Google API key in Google Maps Easy plugin <a "
+"href='%s'>Settings</a>! More info about Maps and API keys you can find <a "
+"href='%s' target='_blank'>here</a>."
+msgstr ""
+"Vui lòng, hãy cài khoá Google API của chính bạn trong plugin <a href='%s'> "
+"Cài đặt </a> của Google Maps Dễ dàng! Thông tin thêm về các phím Maps và API "
+"bạn có thể tìm thấy <a href='%s' target='_blank'> tại đây </a>."
+
+#: modules/supsystic_promo/mod.php:56
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress? Just "
+"to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3> Này, tôi nhận thấy bạn chỉ sử dụng% s trong một tuần - thật là tuyệt "
+"vời! </ h3> <p> Bạn có thể làm ơn cho tôi một khoản ưu đãi lớn và cấp 5 sao "
+"cho WordPress? Chỉ để giúp chúng tôi truyền bá từ đó và thúc đẩy động lực của "
+"chúng tôi. </ P>"
+
+#: modules/supsystic_promo/mod.php:57 modules/supsystic_promo/mod.php:63
+msgid "Ok, you deserve it"
+msgstr "Ok, bạn xứng đáng nhận nó"
+
+#: modules/supsystic_promo/mod.php:58 modules/supsystic_promo/mod.php:64
+msgid "Nope, maybe later"
+msgstr "Không, có thể sau"
+
+#: modules/supsystic_promo/mod.php:59
+msgid "I already did"
+msgstr "Tôi đã làm rồi"
+
+#: modules/supsystic_promo/mod.php:60
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr ""
+"<h3> Hơn mười một ngày với plugin% s của chúng tôi - Xin chúc mừng! </ h3>"
+
+#: modules/supsystic_promo/mod.php:61
+msgid ""
+"<p>On behalf of the entire <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a> company I would like to thank you for been "
+"with us, and I really hope that our software helped you.</p>"
+msgstr ""
+"<p> Thay mặt toàn bộ công ty <a href='https://supsystic.com/' "
+"target='_blank'> supsystic.com </a>, tôi muốn cảm ơn bạn đã ở với chúng tôi "
+"và tôi thực sự hy vọng rằng phần mềm của chúng tôi đã giúp bạn. </ p>"
+
+#: modules/supsystic_promo/mod.php:62
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you can "
+"just add small promo link to our site under your maps. This is small step for "
+"you, but a big help for us! Sure, if you don't want - just skip this and "
+"continue enjoy our software!</p>"
+msgstr ""
+"<p> Và hôm nay, nếu bạn muốn, - bạn có thể giúp chúng tôi. Điều này thực sự "
+"đơn giản - bạn chỉ cần thêm liên kết quảng cáo nhỏ vào trang web của chúng "
+"tôi trong bản đồ của bạn. Đây là bước đi nhỏ cho bạn, nhưng là một sự trợ "
+"giúp lớn cho chúng ta! Chắc chắn, nếu bạn không muốn - chỉ cần bỏ qua điều "
+"này và tiếp tục tận hưởng phần mềm của chúng tôi! </ p>"
+
+#: modules/supsystic_promo/mod.php:65
+msgid "Skip"
+msgstr "Thoát"
+
+#: modules/supsystic_promo/mod.php:67
+#, php-format
+msgid ""
+"Check out <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'>our other Plugins</a>! Years of experience in WordPress "
+"plugins developers made that list unbreakable!"
+msgstr ""
+"Hãy xem <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'> Plugins khác của chúng tôi </a>! Nhiều năm kinh nghiệm "
+"trong các plugin của WordPress đã làm cho những danh sách đó không thể phá vỡ!"
+
+#: modules/supsystic_promo/mod.php:116
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: modules/supsystic_promo/mod.php:119
+msgid "Featured Plugins"
+msgstr "Các Plugin đặc trưng"
+
+#: modules/supsystic_promo/mod.php:145
+msgid "Welcome to Supsystic Secure"
+msgstr "Chào mừng bạn đến Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:214
+msgid "Name"
+msgstr "Tên"
+
+#: modules/supsystic_promo/mod.php:216
+msgid "Website"
+msgstr "Trang web"
+
+#: modules/supsystic_promo/mod.php:217
+msgid "Subject"
+msgstr "Chủ đề"
+
+#: modules/supsystic_promo/mod.php:218
+msgid "Topic"
+msgstr "Chủ đề"
+
+#: modules/supsystic_promo/mod.php:219
+msgid "Plugin options"
+msgstr "Tùy chọn plugin"
+
+#: modules/supsystic_promo/mod.php:220
+msgid "Report a bug"
+msgstr "Báo 1 lỗi"
+
+#: modules/supsystic_promo/mod.php:221
+msgid "Require a new functionality"
+msgstr "Yêu cầu 1 chức năng mới"
+
+#: modules/supsystic_promo/mod.php:222
+msgid "Other"
+msgstr "Khác"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Message"
+msgstr "Tin nhắn"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Hello Supsystic Team!"
+msgstr "Xin chào Nhóm Supsistic!"
+
+#: modules/supsystic_promo/mod.php:269
+msgid "Heatmap"
+msgstr "Bản đồ nhiệt"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to create Google Maps API Key?"
+msgstr "Làm sao để tạo Key API Google Maps?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"Your map suddenly stopped working and you get the following error?<blockquote "
+"style='color: gray; font-style: italic;'>Oops! Something went wrong.This page "
+"didn't load Google Maps correctly. See the JavaScript console for technical "
+"details.</blockquote>Please check you browser console, if you'll see such "
+"error <blockquote style='color: gray; font-style: italic;'>This site has "
+"exceeded its daily quota for maps.</blockquote> - this <a href='//supsystic."
+"com/google-maps-api-key/' target='_blank'>article</a> is written for you and "
+"required for reading."
+msgstr ""
+"Bản đồ của bạn đột nhiên ngừng hoạt động và bạn nhận được lỗi sau? "
+"<Blockquote style = 'color: gray; font-style: italic; '> Rất tiếc! Đã xảy ra "
+"lỗi. Trang này không tải Google Maps chính xác. Xem bảng điều khiển "
+"JavaScript để biết chi tiết kỹ thuật. </ Blockquote> Vui lòng kiểm tra trình "
+"duyệt của bạn, nếu bạn thấy lỗi như vậy <blockquote style = 'color: gray; "
+"font-style: italic; '> Trang này đã vượt quá hạn ngạch hàng ngày cho bản đồ. "
+"</ blockquote> - <a href='//supsystic.com/google-maps-api-key/' "
+"target='_blank'> bài viết </a> được viết cho bạn và được yêu cầu để đọc."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Làm sao để tạo Widget Google Maps Easy?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. Vào Appearance -> Widget trong menu điều hướng WordPress. <br /> 2. Tìm "
+"Google Maps Easy trong danh sách các tiện ích sẵn có. <br /> 3. Kéo tiện ích "
+"Google Maps Easy vào khu vực tiện ích mà bạn cần. <br /> 4. Chọn bản đồ cho "
+"tiện ích và định cấu hình cài đặt - Widget Map width and height. <br /> 5. "
+"Nhấp vào để lưu'."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "How to add map into the site content?"
+msgstr "Làm sao để them bản đồ vào nội dung trang web?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Bạn có thể thêm bản đồ vào nội dung trang web thông qua shortcode hoặc mã "
+"php. Tìm hiểu thêm về cách thực hiện <a href='http://supsystic.com/add-map-"
+"into-site-content/'> tại đây </a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "How to add map in popup window?"
+msgstr "Làm sao để thêm bản đồ trong cửa sổ poup?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:42
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Bạn có thể thêm một bản đồ trong cửa sổ popup bằng cách chèn mã vạch bản đồ "
+"trong bất kỳ trường văn bản bật lên. Tìm hiểu thêm về cách thực hiện <a "
+"href='http://supsystic.com/add-map-in-popup-window/'> tại đây </a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Cách phóng to và căn giữa bản đồ ban đầu về các điểm đánh dấu vị trí?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:44
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Có một vài cách khác nhau để thu phóng và tập trung bản đồ. Cách đơn giản "
+"nhất là kéo bản đồ của bạn bằng chuột - Tùy chọn 'Có thể kéo được' phải được "
+"kích hoạt, hoặc với bộ điều khiển pan giúp đỡ trong xem trước trực tiếp. <a "
+"href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-"
+"markers/'> Đọc thêm .. </a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Làm thế nào để có được phiên bản PRO của plugin miễn phí?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Bạn có một cơ hội đáng kinh ngạc để có được phiên bản PRO miễn phí. Hãy dịch "
+"plugin! Nó sẽ là tuyệt vời nếu bạn tận dụng lợi thế của đề nghị này! Thông "
+"tin thêm bạn có thể tìm thấy tại đây <a target='_blank' href='%s'> Tải phiên "
+"bản PRO của bất kỳ plugin nào MIỄN PHÍ '</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "Dịch"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Tất cả các ngôn ngữ có sẵn đều được cung cấp với plugin Supsystic Google "
+"Maps. Nếu ngôn ngữ của bạn không có sẵn, plugin của bạn sẽ là tiếng Anh theo "
+"mặc định. <br /> <br /> <b> Có sẵn dịch: tiếng Anh, tiếng Ba Lan, tiếng Đức, "
+"tiếng Tây Ban Nha, tiếng Nga </ b> <br /> Dịch hoặc cập nhật bản dịch Google "
+"Plugin WordPress trong ngôn ngữ của bạn và nhận được một giấy phép Premium "
+"miễn phí. <a target='_blank' href='%s'> Liên hệ với chúng tôi </a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:62
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Có một số vấn đề trong khi cố gắng khôi phục tin tức của chúng tôi nhưng bạn "
+"luôn có thể kiểm tra tất cả danh sách <a target='_blank' href='%s'> ở đây </"
+"a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "Yes"
+msgstr "Có"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "No"
+msgstr "Không"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "Popup Plugin"
+msgstr "Bật cửa sổ Plugin"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+"Plugin tùy chọn The Best WordPress PopUp để giúp bạn có được nhiều người đăng "
+"ký hơn, những người theo dõi mạng xã hội hoặc quảng cáo. Cửa sổ bật lên đáp "
+"ứng với các tùy chọn thân thiện."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin"
+msgstr "Plugin Thư viện Ảnh"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+"Plugin Thư viện Ảnh với một số lượng lớn các bố trí sẽ giúp bạn tạo danh mục "
+"đầu tư có chất lượng và các phòng trưng bày hình ảnh."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "Contact Form Plugin"
+msgstr "Plugin Contact Form"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+"Một trong những plugin tốt nhất để tạo Mẫu liên hệ trên trang WordPress của "
+"bạn. Phông chữ, hình nền, tùy chọn để thêm các trường, v.v ."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Newsletter Plugin"
+msgstr "Plugin Bản tin"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+"Plugin Supsystic  Bản tin để tự động gửi thư của bạn. Bạn sẽ không cần phải "
+"kiểm soát nó hoặc gửi chúng bằng tay. Không có mã hóa, kỹ năng cứng hoặc thời "
+"gian dài tùy chỉnh được yêu cầu."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Membership by Supsystic"
+msgstr "Thành viên của Supsystic"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid ""
+"Create online membership community with custom user profiles, roles, FrontEnd "
+"registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+"Tạo cộng đồng thành viên trực tuyến với hồ sơ người dùng tuỳ chỉnh, vai trò, "
+"đăng ký FrontEnd và đăng nhập. Danh sách thành viên, hoạt động, nhóm, tin "
+"nhắn."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Data Tables Generator"
+msgstr "Data Tables Generator"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML knowledge "
+"is required."
+msgstr ""
+"Tạo và quản lý bảng dữ liệu đẹp với thiết kế tùy chỉnh. Không yêu cầu kiến ​​"
+"thức về HTML."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Slider Plugin"
+msgstr "Plugin Slider"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select images "
+"from your WordPress Media Library, Flickr, Instagram or Facebook, set slide "
+"captions, links and SEO fields all from one page."
+msgstr ""
+"Tạo slideshow với plugin Slider rất nhanh chóng và dễ dàng. Đơn giản chỉ cần "
+"chọn hình ảnh từ Thư viện  Media WordPress, Flickr, Instagram hoặc Facebook, "
+"đặt tiêu đề trang trình bày, các liên kết và các lĩnh vực SEO từ 1 trang."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social Share Buttons"
+msgstr "Nút chia sẻ mạng xã hội"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+"Nút chia sẻ mạng xã hội nhằm tang lượt truy cập và sự phổ biên. Mạng xã hội "
+"chia sẻ đến FB, Twiter và mạng xã hội khác."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Live Chat Plugin"
+msgstr "Pluging Chat truc tuyến"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by Supsystic. "
+"Help you visitors, support them in real-time with exceptional Live Chat "
+"WordPress plugin by Supsystic."
+msgstr ""
+"Hãy gần gũi hơn với khách truy cập và khách hàng của bạn bằng Hỗ trợ Chat "
+"trực tiếp bởi Supsystic. Giúp bạn khách truy cập, hỗ trợ họ trong thời gian "
+"thực với plugin Live Chat WordPress đặc biệt của Supsystic."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "Pricing Table"
+msgstr "Bảng giá"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid ""
+"It's never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+"Không thể dễ dàng hơn để tạo và quản lý bảng giá và so sánh trong trình tạo "
+"bảng. Bất cứ phần tử nào của bảng có thể tùy biến với nhấp chuột."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming Soon Plugin"
+msgstr "Plugin sẽ ra mắt sớm"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+"Trang sẽ đến sơm cùng vơi trình tạo kéo - và - thả hoặc dưới chế độ xây dung "
+"| bảo trì để thông báo cho khách truy cập và thu thập email."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup Plugin"
+msgstr "Sao chép Plugin"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched "
+"DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+"Sao chép và Phục hồi Plugin Wordpress bởi Supsystic nhanh DropBox, FTP, Amazo "
+"S3, Google Drive sao chép đén trang Wordpress của bạn."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+"Hiển thị tùy biến Google Map. Thiết lập Điểm đánh dấu vị trí và vị trí với "
+"chữ, hình ảnh, danh mục và đường dẫn. Tùy chỉnh bản đồ google một cách đơn "
+"giản và trực quan."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication Plugin"
+msgstr "Plugin Xuất bản Kỹ thuật số"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+"Digital Publication WordPress Plugin bời Supsystic cho Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Phiên bản"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Hõ trợ"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Và bạn"
+
+#: modules/supsystic_promo/views/tpl/adminPromoTabContent.php:5
+msgid "Get it now!"
+msgstr "Lấy nó ngay bây giờ!"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Nhận các gói plugin ngày hôm nay và tiết kiệm được trên 80%"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "Hay thử nó xem"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "Thêm thông tin"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "Tải về"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "Các câu hỏi thường gặp và tài liệu"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Kiểm tra toàn bộ câu hỏi thường gắp"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video hướng dẫn"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "Các tính năng PRO"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Cài đặt Server"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Tin tức"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Tất cả tin tức và thông tin"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Form liên hệ"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Gửi email"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"Email của bạn đã được gửi, chúng tôi sẽ cố gang phản hồi sớm nhất. Cảm ơn sự "
+"hỗ trợ của bạn!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Chào mừng đến"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Đây là bắt đầu của plugin %s."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Nếu bạn là người mới - kiểm tra tất cả các tính năng trên trang đó, nếu bạn "
+"là chuyên gia - vui lòng sửa cho chúng tôi."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Xin vui lòng, đăng url"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Làm gì tiếp theo? Kiểm tra phần dưới"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Thúc đẩy chúng tôi"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"Thật tuyệt khi bạn giúp đỡ nhà phát triển với phản hồi và xếp hạng của bạn. "
+"Vì vậy, chúng tôi tạo <a target='_blank' href='%s'> trang tăng cấp </a> đặc "
+"biệt để giúp bạn giúp chúng tôi."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Tài liệu"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Kiểm tra <a target='_blank' href='%s'>tài liệu</a>và phần Các Câu Hỏi thường "
+"gặp. Nếu bạn không thể xử lý nó - <a target='_blank' href='%s'>liên hệ chúng "
+"tôi</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Danh sách đầy đủ tính năng"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Có rất nhiều tính năng, vì vậy chúng tôi không thể đăng nó ở đây. Như"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Capcha để đăng nhập quản trị"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "bảo vệ htacces admin"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Ẩn danh sách các tệp thư mục"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Hay kiểm tra các quyền ghi tệp tin và thư mục"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Hãy kiểm tra các tính năng đầy đủ <a target='_blank' href='%s'>ở đây</a>."

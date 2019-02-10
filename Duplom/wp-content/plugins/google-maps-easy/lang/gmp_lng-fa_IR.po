@@ -1,0 +1,2817 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2017-12-21 13:04+0200\n"
+"PO-Revision-Date: 2018-11-14 10:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: doc/promo-google-maps-easy-pro\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:15
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:38
+#: doc/google-maps-easy-pro/heatmap/controller.php:9
+#: doc/google-maps-easy-pro/heatmap/controller.php:39
+#: doc/google-maps-easy-pro/kml/controller.php:11
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: doc/google-maps-easy-pro/shape/controller.php:8
+#: doc/google-maps-easy-pro/shape/controller.php:46
+#: doc/google-maps-easy-pro/shape/controller.php:61
+#: modules/adminmenu/controller.php:29 modules/csv/controller.php:190
+#: modules/gmap/controller.php:55 modules/gmap/controller.php:72
+#: modules/gmap/controller.php:80 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:78
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "انجام شد"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "انجام شد"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "افزودن چک باکس"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "افزودن آیتم"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "افزودن چک باکس رادیویی"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "ابعاد"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "عرض"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "ارتفاع"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "برای تنظیم شناسه و کلاس کلیک کنید"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "صفت"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "برای این ماژول تنظیمات اختیاری اینجا وجود ندارد"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "اعمال به"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:40
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:66
+#: modules/gmap/views/tpl/gmapEditMap.php:334
+#: modules/gmap/views/tpl/gmapEditMap.php:1229
+#: modules/gmap/views/tpl/gmapEditMap.php:1507
+msgid "Address"
+msgstr "آدرس"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "مقصد"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "کشور"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "دسته ها"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "شما دسته بندی ای ندارید"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "برندها"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "شما برندی ندارید"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "نرخ مالیات"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "مطلق"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "انتخاب نشده"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "کلاس"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "شناسه"
+
+#: classes/frame.php:137
+msgid "You have no permissions to view this page"
+msgstr "شما دسترسی لازم برای دیدن این صفحه ندارید"
+
+#: classes/html.php:207 modules/gmap/views/tpl/gmapEditMap.php:1360
+msgid "Upload"
+msgstr "آپلود"
+
+#: classes/html.php:627
+msgid "ON"
+msgstr "روشن"
+
+#: classes/html.php:628
+msgid "OFF"
+msgstr "خاموش"
+
+#: classes/html.php:652
+#, php-format
+msgid "Select %s"
+msgstr "انتخاب %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "انتقال فایل  %s شکست خورد"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s ماژول افزونه نیست"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "امکان ایجاد دارکتوری ماژول وجود ندارد. اقدام کنید برای ایجاد دسترسی های لازم "
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "ماژولی در فایل XML پیدا نشد"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "فایل XML نا معتبر است"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "فایل XML یافت نشد"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "نصب %s انجام نشد"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "خطا در فعال سازی ماژول"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "خطا در غیر فعال کردن ماژول"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "خطا در فعال سازی ماژول"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "خطایی در دیتابیس یافت شد"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:182
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:49
+msgid "Invalid ID"
+msgstr "شناسه اشتباه"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "چیزی وجود ندارد، ممکن است شناسه اشتباه باشد"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "چیزی برای به روزرسانی وجود ندارد"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "خطا در دیتابیس، لطفا با پشتیبان هاست خود تماس بگیرید."
+
+#: classes/tables/heatmaps.php:7
+msgid "Heatmap ID"
+msgstr "شناسه نقشه گرمایی"
+
+#: classes/tables/heatmaps.php:8 classes/tables/marker.php:13
+#: classes/tables/shapes.php:12
+msgid "Map Id"
+msgstr "شناسه نقشه"
+
+#: classes/tables/heatmaps.php:9
+msgid "Heatmap coordinates list"
+msgstr "لیست مختصات نقشه گرمایی"
+
+#: classes/tables/heatmaps.php:10 classes/tables/marker.php:17
+#: classes/tables/modules.php:10 classes/tables/options.php:11
+#: classes/tables/shapes.php:15
+msgid "Params"
+msgstr "Params"
+
+#: classes/tables/heatmaps.php:11 classes/tables/marker.php:19
+#: classes/tables/shapes.php:13
+msgid "Creation date"
+msgstr "تاریخ ایجاد"
+
+#: classes/tables/marker.php:7
+msgid "Marker ID"
+msgstr "شناسه نشانگر"
+
+#: classes/tables/marker.php:8
+msgid "Marker name"
+msgstr "نام نشانگر"
+
+#: classes/tables/marker.php:9
+msgid "Description Of Marker"
+msgstr "توصیف نشانگر"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "مختصات X نشانگر(lng)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "مختصات Y نشانگر(lat)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "مسیر فایل ایکون"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "آدرس نشانگر"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "شناسه گروه نشانگرها"
+
+#: classes/tables/marker.php:16 classes/tables/shapes.php:14
+msgid "Animation"
+msgstr "انیمیشن"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+#: classes/tables/shapes.php:16
+msgid "Sort Order"
+msgstr "نحوه مرتب سازی"
+
+#: classes/tables/marker.php:20
+msgid "User who created marker"
+msgstr "کاربرانی که میتوانند نشانگر ایجاد کنند"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "برچسب"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "نوع"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "فعال"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "تب دارد"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:67
+msgid "Description"
+msgstr "توضیح"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "کد"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "دارکتوری افزونه خارجی"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:240
+msgid "ID"
+msgstr "شناسه"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "مقدار"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "شناسه دسته"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "نوع متغیر"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "روش"
+
+#: classes/tables/shapes.php:7
+msgid "Shape ID"
+msgstr "شناسه قالب"
+
+#: classes/tables/shapes.php:8
+msgid "Shape name"
+msgstr "نام قالب"
+
+#: classes/tables/shapes.php:9
+msgid "Description of Shape"
+msgstr "توصیف قالب"
+
+#: classes/tables/shapes.php:10
+msgid "Shape coordinates list"
+msgstr "لیست مختصات قالب"
+
+#: classes/tables/shapes.php:11
+msgid "Shape type"
+msgstr "نوع قالب"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "شناسه  استفاده"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "شمارنده بازدید"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "طول وارد شده برای  %s نامعتبر است، حداکثر مقدار برابر %s می باشد"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "مقدار عددی وارد شده برای %s نامعتبر است"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "لطفا مقدار %s را وارد کنید"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "لطفا %s را انتخاب کنید"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "%s نامعتبر"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s قبلا ثبت شده"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "خروج از حالت تمام صفحه"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "باز کردن در حالت تمام صفحه"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/printInfoWndBtn.php:8
+msgid "Print"
+msgstr "چاپ"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:54
+msgid "Search address..."
+msgstr "جستوجوی آدرس..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:81
+msgid "Reset"
+msgstr "باز نشانی"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:94
+msgid "Find"
+msgstr "یافتن"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:105
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr "در ناحیه جستوجو شده نشانگری یافت نشد، لطفا شرایط جستوجو را تغییر دهید."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "دریافت مسیر"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:23
+msgid "Type the address..."
+msgstr "آدرس را تایپ کنید..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:32
+msgid "or"
+msgstr "یا"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:35
+msgid "Get current user position"
+msgstr "دریافت وضعیت فعلی کاربر"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:45
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "برو"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "سرویس Geolocation  معیوب است."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "مرورگر شما از Geolocation  پشتیبانی نمیکند."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "مسیر پیدا نمی شود، لطفا آدرس دیگری را انتخاب کنید!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "لطفا آدرس را از لیست جستوجو انتخاب کنید!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsPanel.php:4
+msgid "List of Direction's Steps will be here..."
+msgstr "لیست مراحل مسیر اینجا خواهد بود..."
+
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:49
+msgid "Adding markers from the frontend is disabled for the Current Map"
+msgstr "افزودن نشانگر به صفحه نمایش برای این تقشه غیر فعال است"
+
+#: doc/google-maps-easy-pro/frontend_actions/mod.php:24
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:9
+msgid "Empty or Invalid Map ID. Please, check your Marker Form Shortcode."
+msgstr "شناسه نقشه وارد نشده یا اشتباه است، لطفا کد کوتاه فرم نشانگر را بررسی کنید."
+
+#: doc/google-maps-easy-pro/frontend_actions/models/frontend_actions.php:33
+#, php-format
+msgid "You have exceeded the limit on adding markers from current IP address. Please try again after %s minutes."
+msgstr "محدوده مجایز برای وارد کردن نشانگر توسط آدرس IP فعلی سپری شده است، لطفا بعد از %s دقیقه، مجددا تلاش کنید."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:16
+msgid "Marker Form will be displayed only for logged in users."
+msgstr "فرم نشانگر تنها برای کاربران وارد شده نمایش داده می شود."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:17
+msgid "Log In"
+msgstr "ورود"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:30
+#: modules/gmap/views/gmap.php:278 modules/gmap/views/gmap.php:279
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:464 modules/marker/mod.php:20
+#: modules/marker_groups/views/marker_groups.php:17
+msgid "None"
+msgstr "هیچ"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:52
+msgid "Marker's Form is not displayed, because the option &quot;Add markers on frontend&quot; is disabled for the Current Map"
+msgstr "فرم نشانگرها نمایش داده نمی شود، زیرا گزینه ' افزودن نمایشگر ها به صفحه نمایش' بر روی این نقشه غیر فعال است"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:20
+msgid "You need to use marker form on page with map"
+msgstr "شما نیاز دارید تا از فرم نشانگرها  بر روی صفحه همراه نقشه استفاده کنید"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:23
+msgid "Marker Form"
+msgstr "فرم نمایشگر"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:24
+msgid "Use this form to add markers to your map"
+msgstr "از این فرم برای افزودن نشانگر ها به نقشه خود استفاده کنید"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:27
+#: modules/gmap/views/tpl/gmapEditMap.php:1178
+msgid "Marker Name"
+msgstr "نام نشانگر"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:32
+#: modules/gmap/views/tpl/gmapEditMap.php:1271
+msgid "Marker Category"
+msgstr "دسته نشانگر"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:46
+#: modules/gmap/views/tpl/gmapEditMap.php:1494
+msgid "Add by Click"
+msgstr "افزودن با کلید"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:49
+#: modules/gmap/views/tpl/gmapEditMap.php:1191
+msgid "Marker Description"
+msgstr "توضیحات نشانگر"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:58
+#: modules/gmap/views/tpl/gmapEditMap.php:848
+#: modules/gmap/views/tpl/gmapEditMap.php:1218
+msgid "Choose Icon"
+msgstr "انتخاب ایکون"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:65
+#: modules/gmap/views/tpl/gmapEditMap.php:1708
+msgid "Save Marker"
+msgstr "ذخیره نشانگر"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:90
+msgid "Choose the marker"
+msgstr "نمایشگر را انتخاب کنید"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:1714
+msgid "Delete Marker"
+msgstr "حذف نشانگرها"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:101
+msgid "You need to choose the marker"
+msgstr "شما نیاز دارید تا نشانگر را انتخاب کنید"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:28
+msgid "Empty or invalid Heatmap ID"
+msgstr "شناسه نقشه گرمایی وجود ندارد یا نامعتبر است"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:35
+msgid "Heatmap Not Found"
+msgstr "نقشه گرمایی پیدا نشد"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:41
+msgid "Cannot remove Heatmap"
+msgstr "امکان حذف نقشه گرمایی وجود ندارد"
+
+#: doc/google-maps-easy-pro/kml/controller.php:18
+msgid "Security check failed"
+msgstr "بررسی امنیتی انجام نشد"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:6
+msgid "KML Layers Filter"
+msgstr "فیلتر لایه های KML"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:16
+msgid "KML data loading"
+msgstr "اطلاعات KML در حال بار گذاری است"
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid "Your license is expired. Once you extend your license - you will be able to Update PRO version. To extend PRO version license - follow <a href='%s' target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr "مجوز شما منقضی شده است، برای تمدید مجوز خود باید نسخه حرفه ای را تهیه کنید. برای تهیه نسخه حرفه ای  <a href='%s' target='_blank'> این آدرس </a> را دنبال کنید و سپس به <a href='%s'>مجوز </a>  بروید و برروی 'Re-activate ' کلیک کنید تا نسخه حرفه ای شما مجددا فعال شود."
+
+#: doc/google-maps-easy-pro/license/mod.php:39
+#, php-format
+msgid "Your plugin PRO license is expired. It means your PRO version will work as usual - with all features and options, but you will not be able to update the PRO version and use PRO support. To extend PRO version license - follow <a href='%s' target='_blank'>this link</a>"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:44
+#, php-format
+msgid "You need to activate your copy of PRO version %s plugin. Go to <a href='%s'>License</a> tab and finish your software activation process."
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:70
+msgid "License"
+msgstr "مجوز"
+
+#: doc/google-maps-easy-pro/license/mod.php:93
+msgid "Activate License"
+msgstr "فعال سازی مجوز"
+
+#: doc/google-maps-easy-pro/license/mod.php:95
+msgid "Renew License"
+msgstr "تازه سازی مجوز"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "لطفا شماره مجوز خود را وارد کنید"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "لطفا آدرس رایانامه خود را وارد کنید"
+
+#: doc/google-maps-easy-pro/license/models/license.php:138
+msgid "There was a problem with sending request to your authentication server. Please try later."
+msgstr "خطایی در ارسال درخواست به سرور رخ داد، لطفا بعدا تلاش کنید."
+
+#: doc/google-maps-easy-pro/license/models/license.php:178
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "مجوز افزونه %s امروز منقضی می شود."
+
+#: doc/google-maps-easy-pro/license/models/license.php:180
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "مجوز افزونه %s فردا  منقضی می شود."
+
+#: doc/google-maps-easy-pro/license/models/license.php:182
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "مجوز افزونه %s  تا %d روز دیگر  منقضی می شود."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr "هورا! مجوز حرفه ای افزونه %s فعال شد و افزونه به خوبی کار می کند!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid "Congratulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+msgstr "هورا! نسخه حرفه ای افزونه %s نصب شد. قدم نهایی برای نصب پلاگین، وارد کردن آدرس ایمیل و کلید مجوز در این صفحه می باشد. این کار افزونه را برای سایت شما فعال می کند."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:215
+msgid "Email"
+msgstr "رایانامه"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid "Your email address, used on checkout procedure on <a href='%s' target='_blank'>%s</a>"
+msgstr "آدرس ایمیل شما در روند تهیه در <a href='%s' target='_blank'>%s</a> استفاده شده است"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "شماره لیسانس"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid "Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "کلید لیسانس شما در ناحیه کاربری شما در <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "فعال سازی مجدد"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "فعال سازی"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:17
+msgid "Uncategorized"
+msgstr "فاقد دسته بندی"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:65
+#: modules/gmap/views/gmap.php:241
+msgid "Title"
+msgstr "عنوان"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:69
+msgid "Directions"
+msgstr "مسیرها"
+
+#: doc/google-maps-easy-pro/poi/mod.php:9
+#: doc/google-maps-easy-pro/poi/views/poi.php:7
+msgid "Empty or Invalid Map ID. Please, check your POI Toolbar Shortcode."
+msgstr ""
+
+#: doc/google-maps-easy-pro/shape/controller.php:42
+#: doc/google-maps-easy-pro/shape/controller.php:57
+msgid "Figure Not Found"
+msgstr "تصویر پیدا نشد"
+
+#: doc/google-maps-easy-pro/shape/controller.php:48
+#: doc/google-maps-easy-pro/shape/controller.php:63
+msgid "Cannot remove figure"
+msgstr "امکان حذف تصویر وجود ندارد"
+
+#: doc/google-maps-easy-pro/shape/controller.php:99
+msgid "Empty or invalid figure ID"
+msgstr "تصویر وجود ندارد یا شناسه آن اشتباه است"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:43
+msgid "Please enter figure name"
+msgstr "لطفا نام تصویر را وارد کنید"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:104
+#: modules/marker/models/marker.php:207
+msgid "Address is empty or not match"
+msgstr "آدرس وارد نشده یا نادرست است"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:159
+msgid "Invalid Figure ID"
+msgstr "شناسه تصویر نا معتبر است"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/gmap/mod.php:22 modules/marker/views/tpl/markerListOperations.php:1
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "ویرایش"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/marker/views/tpl/markerListOperations.php:1
+msgid "Delete"
+msgstr "حذف"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:70
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr "یک خطای ناخواسته html در هنگام درخواست API رخ داد. </p> <p><a href='?' onclick='document.location.reload(); return false;'> مجددا سعی کنید</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:75
+msgid "An unknown error occurred"
+msgstr "خطای ناخواسته ای رخ داد"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "فیلد نام شما، الزامی است."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "فیلد وب سایت شما، الزامی است."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "آدرس رایانامه الزامی است."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "موضوع وارد نشده است."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "شما باید یک دسته معتبر را انتخاب کنید."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "پیغامی وارد نشده."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid "Cool WordPress plugins from supsystic.com developers. I tried %s - and this was what I need! #supsystic.com"
+msgstr "افزونه وردپرس عالی از گروه توسعه دهنده  supsystic.com . من %s را آزمایش کردم و این همان چیزی است که می خواستم! #supsystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "اینجا افزونه های بیشتری برای سایت وردپرسی شما وجود دارد!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "کلمات را منتشر کنید!"
+
+#: modules/csv/controller.php:7
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "نقشه ها از %s - %s"
+
+#: modules/csv/controller.php:10
+msgid "You have no maps for now."
+msgstr "در حال حاضر شما نقشه ای ندارید."
+
+#: modules/csv/controller.php:55
+#, php-format
+msgid "Markers from %s"
+msgstr "نشانگر ها از %s"
+
+#: modules/csv/controller.php:58
+msgid "You have no markers for now."
+msgstr "در حال حاضر شما نشانگری ندارید."
+
+#: modules/csv/controller.php:96
+msgid "Missing File"
+msgstr "فایل معیوب"
+
+#: modules/csv/controller.php:98
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "فایل با کد خطای %s بارگذاری شد"
+
+#: modules/csv/controller.php:180
+msgid "File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "فایل حداقل باید دارای یک سطر باشد، دست کم یک سطر باید در هدر وجود داشته باشد"
+
+#: modules/csv/controller.php:182
+msgid "Empty data in file"
+msgstr "داده خالی در فایل"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "ایمپورت/اکسپورت نقشه ها"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "نوع لیست وارد شده را نمیتوان شناسایی کرد"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "نمی توان فیلد نام را پیدا کرد"
+
+#: modules/csv/views/tpl/csvTabContent.php:8
+msgid "Maps"
+msgstr "نقشه ها"
+
+#: modules/csv/views/tpl/csvTabContent.php:13
+#: modules/csv/views/tpl/csvTabContent.php:34
+msgid "Export"
+msgstr "اکسپورت"
+
+#: modules/csv/views/tpl/csvTabContent.php:18
+#: modules/csv/views/tpl/csvTabContent.php:39
+msgid "Import"
+msgstr "ایمپورت"
+
+#: modules/csv/views/tpl/csvTabContent.php:29 modules/gmap/views/gmap.php:243
+#: modules/gmap/views/tpl/gmapEditMap.php:41
+msgid "Markers"
+msgstr "نشانگرها"
+
+#: modules/csv/views/tpl/csvTabContent.php:51
+msgid "CSV Options"
+msgstr ""
+
+#: modules/csv/views/tpl/csvTabContent.php:57
+msgid "Delimiter"
+msgstr ""
+
+#: modules/csv/views/tpl/csvTabContent.php:73
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:15
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "ذخیره"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "داده های نقشه پیدا نشد"
+
+#: modules/gmap/mod.php:19
+msgid "Add Map"
+msgstr "افزودن نقشه"
+
+#: modules/gmap/mod.php:25
+msgid "All Maps"
+msgstr "همه نقشه ها"
+
+#: modules/gmap/mod.php:35
+msgid "No Map Found"
+msgstr "نقشه ای یافت نشد"
+
+#: modules/gmap/mod.php:98
+msgid "Empty or Invalid Map ID"
+msgstr "نقشه ای وجود ندارد یا شناسه اشتباه است"
+
+#: modules/gmap/mod.php:98
+msgid "Please, check your Map Shortcode."
+msgstr "لطفا کد کوتاه نقشه خود را بررسی کنید."
+
+#: modules/gmap/mod.php:118
+msgid "Top Center"
+msgstr "بالا-وسط"
+
+#: modules/gmap/mod.php:119
+msgid "Top Left"
+msgstr "بالا-چپ"
+
+#: modules/gmap/mod.php:120
+msgid "Top Right"
+msgstr "بالا-راست"
+
+#: modules/gmap/mod.php:121
+msgid "Left Top"
+msgstr "چپ-بالا"
+
+#: modules/gmap/mod.php:122
+msgid "Right Top"
+msgstr "راست بالا"
+
+#: modules/gmap/mod.php:123
+msgid "Left Center"
+msgstr "چپ وسط"
+
+#: modules/gmap/mod.php:124
+msgid "Right Center"
+msgstr "راست-وسط"
+
+#: modules/gmap/mod.php:125
+msgid "Left Bottom"
+msgstr "چپ-پایین"
+
+#: modules/gmap/mod.php:126
+msgid "Right Bottom"
+msgstr "راست-پایین"
+
+#: modules/gmap/mod.php:127
+msgid "Bottom Center"
+msgstr "پایین-وسط"
+
+#: modules/gmap/mod.php:128
+msgid "Bottom Left"
+msgstr "پایین-راست"
+
+#: modules/gmap/mod.php:129
+msgid "Bottom Right"
+msgstr "پایین-راست"
+
+#: modules/gmap/mod.php:155
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: modules/gmap/mod.php:156
+msgid "Slider - Title and Img"
+msgstr "اسلایدر - عنوان و تصویر"
+
+#: modules/gmap/mod.php:157 modules/gmap/mod.php:159
+msgid "Slider Vertical - Title and Img"
+msgstr "اسلایدر عمودی - عنوان و تصاویر"
+
+#: modules/gmap/mod.php:158
+msgid "Slider Vertical - Title and Description"
+msgstr "اسلایدر عمودی - عنوان و توضیحات"
+
+#: modules/gmap/mod.php:160
+msgid "Slider Table"
+msgstr "جدول اسلایدر"
+
+#: modules/gmap/mod.php:186
+msgid "Google Map"
+msgstr "نقشه گوگل"
+
+#: modules/gmap/models/gmap.php:90
+msgid "Please enter Map Name"
+msgstr "لطفا نام نقشه را وارد کنید"
+
+#: modules/gmap/models/gmap.php:119
+#: modules/marker_groups/models/marker_groups.php:104
+msgid "Empty Params"
+msgstr "Empty Params"
+
+#: modules/gmap/models/gmap.php:128 modules/gmap/models/gmap.php:226
+msgid "Invalid Map ID"
+msgstr "شناسه نقشه اشتباه است"
+
+#: modules/gmap/views/gmap.php:89
+#, php-format
+msgid "Map with ID %d not found"
+msgstr "نقشه با شناسه %d وجود ندارد"
+
+#: modules/gmap/views/gmap.php:90
+msgid "Map not found"
+msgstr "نقشه پیدا نشد"
+
+#: modules/gmap/views/gmap.php:242
+msgid "Html options"
+msgstr "گزینه های HTML"
+
+#: modules/gmap/views/gmap.php:244
+msgid "Operations"
+msgstr "اپراتورها"
+
+#: modules/gmap/views/gmap.php:361
+msgid "Error inside google maps plugin."
+msgstr "خطایی در داخل افزونه نقشه گوگل رخ داد."
+
+#: modules/gmap/views/gmap.php:365 modules/gmap/views/gmap.php:370
+msgid "To use this feature, You need to reactivate your Google Maps Easy plugin."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5
+#: modules/gmap/views/tpl/gmapAdmin.php:6
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "جستوجو"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clone selected"
+msgstr "مورد مشابه انتخاب شده است"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:14
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "حذف انتخاب شده ها"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:33
+#, php-format
+msgid "You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> your first Map!"
+msgstr "در حال حاضر نقشه ای وجود ندارد ، <a href='%s' style='font-style: italic;'>اولین نقشه را</a>  ایجاد کنید!"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:4
+#, php-format
+msgid "This option is available in <a target='_blank' href='%s'>PRO version</a> only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr "این قابلیت مخصوص نسخه ی <a target='_blank' href='%s'> حرفه ای</a> است، شما میتوانید آن را از <a target='_blank' href='%s'>اینجا</a> دریافت کنید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Insert to Contact Form"
+msgstr "افزودن به فرم تماس"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:19
+msgid "Integrate with Membership"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:27
+msgid "Enable for Membership"
+msgstr "فعال سازی برای اعضاء"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:35
+msgid "Map"
+msgstr "نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:43
+#: modules/gmap/views/tpl/gmapEditMap.php:52
+msgid "New"
+msgstr "جدید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:50
+#: modules/supsystic_promo/mod.php:264
+msgid "Figures"
+msgstr "تصاویر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+msgid "Heatmap Layer"
+msgstr "لایه های نقشه گرمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:71
+msgid "Map Name"
+msgstr "نام نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:73
+msgid "Your map name"
+msgstr "نام نقشه شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:85
+msgid "Map Width"
+msgstr "عرض نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:87
+msgid "Your map width"
+msgstr "عرض نقشه شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:96
+#: modules/gmap/views/tpl/gmapEditMap.php:128
+#: modules/gmap/views/tpl/gmapEditMap.php:972
+#: modules/gmap/views/tpl/gmapEditMap.php:1012
+#: modules/gmap/views/tpl/gmapEditMap.php:1066
+#: modules/gmap/views/tpl/gmapEditMap.php:1088
+msgid "Pixels"
+msgstr "پیکسل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:131
+#: modules/gmap/views/tpl/gmapEditMap.php:978
+#: modules/gmap/views/tpl/gmapEditMap.php:1018
+#: modules/gmap/views/tpl/gmapEditMap.php:1070
+#: modules/gmap/views/tpl/gmapEditMap.php:1092
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:103
+msgid "Percent"
+msgstr "درصد"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Map Height"
+msgstr "ارتفاع نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:112
+msgid "Your map height.<br /><br />If Adapt map to screen height option is checked - map height will be recalculated on frontend and can be equals to:<ul><li>1) your device screen height - height from top of page to top of map (if screen height > height from top of page to top of map)</li><li>2) your device screen height (in other cases)</li></ul>Recalculation will be done for maps in page content and widgets except of maps which displaying in Google Maps Easy widget popup (Display as image mode)."
+msgstr "ارتفاع نقشه شما. <br /><br />اگر گزینه  تنظیم ارتفاع نقشه براساس ارتفاع صفحه نمایش تیک زده شود-ارتفاع نقشه مجددا محاسبه شده و برابر می شود با: <ul><li>1) ارتفاع صفحه نمایش دستگاه شما-ارتفاع از بالای صفحه تا بالای نقشه ( اگر ارتفاع صفحه نمایش بزرگتر از ارتفاع بالای صفحه تا بالای نقشه باشد)</li><li>2) ارتفاع صفحه نمایش دستگاه شما (به دلایل دیگر)</li></ul> محاسبات مجدد برای نقشه های داخل صفحه و داخل ابزارک ها به جز نقشه های نمایش داده شده در صفحه های popup ابزارک  Google Maps Easy (نمایش در حالت تصویر) انجام می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:139
+msgid "Adapt map to screen height"
+msgstr "تنظیم ارتفاع نقشه براساس ارتفاع صفحه نمایش"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Map type control"
+msgstr "نوع کنترل نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid "Control view for map type - you can see it in left upper corner by default"
+msgstr "کنترلر نمایش برای نوع نقشه- شما میتوانید به صورت پیشفرض این را در گوشه بالا سمت راست مشاهده کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Dropdown Menu"
+msgstr "منوی کشویی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Horizontal Bar"
+msgstr "نوار افقی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:166
+msgid "Change type control position on map"
+msgstr "تغییر نوع کنترل موقعیت روی نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:173
+#: modules/gmap/views/tpl/gmapEditMap.php:202
+#: modules/gmap/views/tpl/gmapEditMap.php:235
+#: modules/gmap/views/tpl/gmapEditMap.php:532
+#: modules/gmap/views/tpl/gmapEditMap.php:558
+#: modules/gmap/views/tpl/gmapEditMap.php:575
+#: modules/gmap/views/tpl/gmapEditMap.php:592
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+#: modules/gmap/views/tpl/gmapEditMap.php:678
+#: modules/gmap/views/tpl/gmapEditMap.php:757
+#: modules/gmap/views/tpl/gmapEditMap.php:774
+#: modules/gmap/views/tpl/gmapEditMap.php:791
+#: modules/gmap/views/tpl/gmapEditMap.php:834
+#: modules/gmap/views/tpl/gmapEditMap.php:874
+#: modules/gmap/views/tpl/gmapEditMap.php:1111
+#: modules/gmap/views/tpl/gmapEditMap.php:1154
+#: modules/options/views/tpl/optionsSettingsTabContent.php:70
+msgid "PRO option"
+msgstr "گزینه حرفه ای"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:181
+msgid "Zoom control"
+msgstr "کنترل بزرگنمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:183
+msgid "Zoom control type on your map. Note, to view Zoom control on the map the Custom Map Controls option must be disabled."
+msgstr "نوع کنترلر بزرگنمایی در نقشه شما. توجه داشته باشید که برای نمایش کنترلر بزرگنمایی در نقشه،  باید گزینه کنترلر شخصی سازی شده نقشه غیر فعال باشد."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:518
+msgid "Default"
+msgstr "پیش فرض"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:195
+msgid "Change zoom control position on map"
+msgstr "تغییر موقعیت کنترل بزرگنمایی در نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:206
+msgid "Notice"
+msgstr "اعلان"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:208
+msgid "Standard Zoom control will not displaying for this map, because the Custom Map Controls option enabled now."
+msgstr "کنترل بزرگنمایی استاندارد روی نقشه نمایش داده نخواهد شد، زیرا کنترلر شخصی سازی شده بر روی نقشه فعال است."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:216
+msgid "Street view control"
+msgstr "کنترل نمایش خیابان"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:218
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr "کنترلر نمایش خیابان معمولا در کوشه بالا سمت چپ نقشه شما قرار میگیرد"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:228
+msgid "Change street view control position on map"
+msgstr "تغییر کنترل موقعیت نمایش خیابان روی نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:288
+msgid "Draggable"
+msgstr "قابل کشیدن"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:290
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "فعال یا غیر فعال سازی قابلیت کشیدن نقشه با استفاده از موس"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:301
+msgid "Double click to zoom"
+msgstr "بزرگنمایی با دبل کلیک"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:303
+msgid "By default double left click on map will zoom it in. But you can change this here."
+msgstr "در حالت پیشفرص بزرگنمایی روی نقشه با دبل کلیک چپ موس انجام میشود، اما شما میتوانید آن را اینجا تغییر دهید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:314
+msgid "Mouse wheel to zoom"
+msgstr "استفاده از هرزگرد (ویل) موس برای بزرگنمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:316
+msgid "Sometimes you need to disable possibility to zoom your map using mouse wheel. This can be required for example - if you need to use your wheel for some other action, for example scroll your site even if mouse is over your map."
+msgstr "گاهی وقت ها نیاز است تا بزرگنمایی نقشه با استفاده از هرزگرد (ویل) موس غیر فعال شود . مثلا در زمانی که شما نیاز دارید تا از هرزگر برای کار های دیگری نظیر جابجای نقشه استفاده کنید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+#: modules/gmap_widget/views/tpl/form.php:44
+msgid "Map Center"
+msgstr "مرکز نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid "Sets map center. You can set map center in next ways: type address to use its coords, type the coords' values in appropriate fields or just drag the map on preview."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:343
+#: modules/gmap/views/tpl/gmapEditMap.php:1243
+#: modules/gmap/views/tpl/gmapEditMap.php:1516
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:351
+#: modules/gmap/views/tpl/gmapEditMap.php:1257
+#: modules/gmap/views/tpl/gmapEditMap.php:1525
+msgid "Longitude"
+msgstr "طول جغرافیایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:362
+#: modules/gmap_widget/views/tpl/form.php:56
+msgid "Map Zoom"
+msgstr "بزرگنمایی نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid ""
+"Sets map zoom.<br /><br />\n"
+"<b>Preset Zoom</b> - sets zoom value for map. You can change this value just change zoom on the map preview.<br /><br />\n"
+"<b>Fit Bounds</b> - map zoom will be changed on frontend in a way that all markers and figures will be visible.<br /><br />\n"
+"<b>Min Zoom Level</b> - sets minimum zoom level (maximum estrangement), which can be applied for map.<br /><br />\n"
+"<b>Max Zoom Level</b> - sets maximum zoom level (maximum approximation), which can be applied for map.\n"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Preset Zoom"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Fit Bounds"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Zoom Level"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:390
+msgid "Mobile Zoom Level"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:401
+msgid "Min Zoom Level"
+msgstr "کمترین حد بزرگنمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:410
+msgid "Max Zoom Level"
+msgstr "بیشترین حد بزرگنمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Google Map Theme"
+msgstr "قالب نقشه گوگل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:426
+msgid "You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain - here. By default your map will have Road Map Google maps theme."
+msgstr "شما میتوانید قالب نقشه را انتخاب کنید، نمایش زمینی، جاده ای ، ماهواره ای یا ترکیبی در اینجا قابل انتخاب است، در حالت عادی نقشه در قالب مسیری نمایش داده میشود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Road Map"
+msgstr "نقشه جاده ای"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Hybrid"
+msgstr "ترکیبی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Satellite"
+msgstr "ماهواره ای"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Terrain"
+msgstr "زمینی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Map Stylization"
+msgstr "سَبک نمایش نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:440
+msgid "Make your map unique with our Map Themes, just try to change it here - and you will see results on your Map Preview."
+msgstr "نقشه خود را با استفاده از قالب های نقشه ما منحصر بفرد کنید، قالب را اینجا تغییر دهید و نتیجه را در پیشنمایش نقشه مشاهده کنید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:450
+msgid "Get 300+ Themes with PRO"
+msgstr "+300قالب با نسخه حرفه ای"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:458
+msgid "Markers Clusterization"
+msgstr "خوشه بندی نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:460
+msgid "If you have many markers - you can have a problems with viewing them when zoom out for example: they will just cover each-other. Marker clusterization can solve this problem by grouping your markers in groups when they are too close to each-other."
+msgstr "هنگامی که تعداد زیادی نشانگر داشته باشید، هنگام مشاهده آنها در حالت بزرگنمایی با مشکل روبرو خواهید شد. مثلا یکی از مشکلات این است که نشانگر ها روی هم می افتند. خوشه بندی نشانگر ها این مشکل را با دسته بندی آنها حل میکند . در این حالت با نمایش داده شدن هر گروه، گروه دیگر بسته شده و از شلوغی صفحه و روی هم رفتن توضیحات جلوگیری میشود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:464
+msgid "Base Clusterization"
+msgstr "خوشه بندی (کلاستر بندی) اصلی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:476
+msgid "/gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:493
+#: modules/gmap/views/tpl/gmapEditMap.php:849
+#: modules/gmap/views/tpl/gmapEditMap.php:1219
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:85
+msgid "Upload Icon"
+msgstr "بارگذاری ایکون"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:494
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:86
+msgid "Default Icon"
+msgstr "ایکون پیش فرض"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:498
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:60
+msgid "Cluster Icon"
+msgstr "ایکون خوشه( کلاستر)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:508
+msgid "Cluster Area Size"
+msgstr "اندازه ناحیه خوشه (کلاستر)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:510
+msgid "Sets the grid size of cluster. The higher the size - the more area of capture the markers to the cluster."
+msgstr "اندازه شبکه (خانه) خوشه (کلاستر) را تنظیم کنید. اندازه بیش از حد- ناحیه بیشتری از نشانگر های گرفته شده را به کلاستر می برد."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:527
+msgid "Markers List"
+msgstr "لیست نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:529
+msgid "Display all map markers - as list below Your map. This will help your users get more info about your markers and find required marker more faster."
+msgstr "نمایش تمامی نشانگر های نقشه - در یک لیست در زیر نقشه. این کار به کاربران شما کمک می کند تا اطلاعات بیشتری در مورد نشانگر ها بدست آورده و سریع تر نشانگرهای مورد نیازشان را پیدا کند."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:536
+msgid "Select Markers List type"
+msgstr "انتخاب نوع لیست نشانگر ها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:542
+msgid "Markers List Color"
+msgstr "رنگ لیست نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Traffic Layer"
+msgstr "لایه ترافیک"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:555
+msgid "Add real-time traffic information to your map."
+msgstr "قرار دادن اطلاعات آنی ترافیک در نقشه شما."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:570
+msgid "Transit Layer"
+msgstr "لایه حمل و نقل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:572
+msgid "Display the public transit network of a city on your map. When the Transit Layer is enabled, and the map is centered on a city that supports transit information, the map will display major transit lines as thick, colored lines."
+msgstr "نمایش شبکه حمل و نقل عمومی یک شهر بر روی نقشه شما. هنگامی که لایه حمل و نقل بر روی نقشه فعال باشد و نقشه بر روی شهری که از اطلاعات حمل نقل پشتبانی می کند، تنظیم شده باشد، بر روی نقشه اطلاعات مهم خطوط حمل و نقل نمایش داده می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Bicycling Layer"
+msgstr "خط عبور دوچرخه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:589
+msgid "Add a layer of bike paths, suggested bike routes and other overlays specific to bicycling usage on top of the given map.Dark green routes indicated dedicated bicycle routes. Light green routes indicate streets with dedicated bike lanes. Dashed routes indicate streets or paths otherwise recommended for bicycle usage."
+msgstr "اافزودن یک لایه مسیر ویژه دوچرخه، مسیر عبور دوچرخه و سایر لایه های مورد استفاده برای دوچرخه را در بالای نقشه پیشنهاد میدهد. مسیر سبز پررنگ مسیر اختصاصی دوچرخه را مشخص میکند. مسیر سبز روشن خیابان های دارای مسیر عبور دوچرخه را مشخص میکند . در این مسیر ها از خطوط منقطع برای نمایش خیابان و مسیر عبور پیشنهادی برای استفاده دوچرخه استفاده می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:607
+msgid "Add KML layers"
+msgstr "قرار دادن لایه KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:609
+msgid "Add KML files to display custom layers on the map. Additional options:<br /><br /><b>Enable KML layers filter</b> - add form to map for dynamically enable / disable KML layers and sublayers."
+msgstr "برای نمایش لایه های شخصی فایل KML را اضافه کنید. گزینه های بیشتر<br /><br /><b> فعال سازی لایه KML </b> - افزودن از نقشه برای فعال/غیر فعال سازی پویایی لایه و زیر لایه های KML."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:625
+msgid "Enable KML layers filter"
+msgstr "فعال سازی فیلتر لایه KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:630
+msgid "Enter KML file URL"
+msgstr "لینک فایل KML را وارد کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:633
+msgid "Hide Sublayers at KML filter"
+msgstr "مخفس کردن زیر لایه های فیلتر KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:636
+msgid "Remove KML field"
+msgstr "حذف فیلد KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:652
+msgid "or Upload KML file"
+msgstr "یا بارگذاری فایل KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:657
+msgid "Add more files"
+msgstr "قرار دادن فایل های بیشتر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:667
+msgid "Custom Map Controls"
+msgstr "کنترلر شخصی سازی شده نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:672
+msgid "Add custom map controls to the map."
+msgstr "قرار دادن کنترلر شخصی سازی شده در نقشه."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:688
+msgid "Controls type"
+msgstr "نوع کنترلر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Square"
+msgstr "مربع"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Rounded edges"
+msgstr "گوشه های رند شده"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Round"
+msgstr "رند"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:697
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:705
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:713
+msgid "Controls position"
+msgstr "موقعیت کنترل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:723
+msgid "Min Search Radius (in meters):"
+msgstr "کمترین شعاع جستوجو ( در واحد متر):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Max Search Radius (in meters):"
+msgstr "بیشترین شعاع جستوجو ( در واحد متر):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Search Country"
+msgstr "جستوجوی کشور"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:752
+msgid "Full Screen Button"
+msgstr "کلید تمام صفحه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:754
+msgid "Add a button on map to open it full screen."
+msgstr "قرار دادن یک کلید در نقشه برای تغییر نمایش به حالت تمام صفحه."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:769
+msgid "Hide POI"
+msgstr "مخفی کردن POI"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:771
+msgid "Hide the Points Of Interest - landmark or other object, the marked points on the map, for example: hotels, campsites, fuel stations etc."
+msgstr "مخفی کردن نقاط بناهای تاریخی-مذهبی یا دیگر اجزا، نقطه های نشانگذاری شده بر روی نقشه مانند : هتل، مکان های تفریحی و پمپ بنزین و ... ."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:786
+msgid "Hide Countries"
+msgstr "مخفی کردن کشورها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:788
+msgid "Hide all administrative data about countries: names, borders etc."
+msgstr "مخفی کردن تمام داده های مدیریتی شامل کشورها، نام ها و... ."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:803
+msgid "Hide Tooltips of Markers"
+msgstr "مخفی کردن Tooltip های نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:805
+msgid "Hide the tooltips, which displayed by mouse hover on markers' icons."
+msgstr "مخفی کردن tooltip ها هنگامی که موس در محدوده ایکون آنها قرار میگیرد."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:816
+msgid "Center on current opened marker"
+msgstr "متمرکز کردن بر روی نشانگر های که در حال حاضر باز هستند"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:818
+msgid "On frontend the map will be centered on current marker with opened info window."
+msgstr "در هنگام نمایش، متن بر روی نشانگر فعلی که پنجره اطلاعات آن باز شده، متمرکز می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:829
+msgid "Center on current user location"
+msgstr "متمرکز کردن بر روی موقعیت فعلی کاربر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:831
+msgid "On frontend map will be centered on current user location."
+msgstr "در نقشه بر روی موقعیت فعلی کاربر متمرکز خواهد شد."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:860
+msgid "Add markers on frontend"
+msgstr "افزودن نمایشگر ها به صفحه نمایش"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:862
+msgid "You can add markers at the current map with the frontend using the form, which can be displayed using the shortcode (it placed below preview map). Additional options that affect the operation of the form:<br /><br /><b>Logged In Users Only</b> - form will be displayed only for logged in users.<br /><br /><b>Disable WP Editor</b> - disable / enable WP Editor for the Marker Description field of the form.<br /><br /><b>Delete markers</b> - disable / enable interface for deleting markers on frontend. Each user can delete only his own markers.<br /><br /><b>Use markers categories</b> - disable / enable interface for choose the marker category on frontend.<br /><br /><b>Use limits for marker's adding</b> - allows you to limit the number of markers, which user can add from one IP address at the current map for a certain amount of time.<br /><br /><b>Max marker's count</b> - the maximum number of markers, which can be added over certain amount of time.<br /><br /><b>For allotted time (minutes)</b> - the number of minutes, during which you can add the maximum number of markers.<br /><br />For example, during three minutes you can add only two markers at the map. If you try to add a third marker - the form will not be saved and you will see the notice with amount of time you must wait. After the right amount of time will pass - you can add next two markers, etc.<br /><br />Important! If map and form for add markers at this map are placed on one page - this page will be overload after marker adding."
+msgstr "شما میتوانید نشانگر ها را با نمایش با استفاده از فرم به نقشه جاری اضافه کنید که این میتواند با استفاده از کد کوتاه نمایش داده شود ( این در نقشه پیش نمایش داده شده قرار میگیرد). گزینه های اضافه تاثیر گذار بر روی فرم به شرح ذیر است:<br /><br /><b> فقط برای کاربران وارد شده</b> - فرم فقط به کاربران وارد شده نمایش داده می شود.<br /><br /><b>غیر فعال سازی ویرایشگر ورد پرس</b> - فعال یا غیر فعال سازی ویرایشگر وردپرس برای فیلد توضیحات نشانگر<br /><br /><b>حذف نشانگر ها</b> - فعال یا غیر فعال سازی رابط کاربری برای حذف نمایشگرها حین نمایش . هر کاربر میتواند نشانگر های خودش را حذف کند.<br /><br /><b>قرار دادن محدودیت برای افزودن نشانگر </b>- به شما اجازه میدهد تا تعداد نشانگر ها را محدود کنید و تعیین کنید هر کاربر میتواند با هر IP و در یک زمان خاص، چه تعداد نشانگر را اضافه کند.<br /><br /><b>حداکثر تعداد نشانگرها</b>-حداکثر تعداد نمایشگرها که میتواند در یک بازه زمانی اضافه شود.<br /><br /><b>برای وقت معین (دقیقه)</b>- تعداد دقیقه ها در بازه ای که شما میتوانید حداکثر تعداد نشانگر را وارد کنید.<br /><br />برای مثال در بازه سه دقیقه شما میتوانید فقط دو نشانگر را به نقشه اضافه کنید. اگر شما سعی کنید برای افزودن نشانگر چهارم- فرم ذخیره نمی شود و به شما مقدار زمانی که باید صبر کنید نمایش داده می شود. بعد از اینکه زمان مورد نیاز سپری شد، شما میتوانید دو نشانگر جدید را وارد کنید.<br /><br />مهم! اگر نقشه و فرم  برای افزودن نشانگر به این نقشه در یک صفحه قرار گیرند- این صفحه ممکن است در هنگام افزودن نشانگر با مشکل مواجه شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:888
+msgid "Logged In Users Only"
+msgstr "فقط برای کاربران وارد شده"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:895
+msgid "Disable WP Editor"
+msgstr "غیر فعال کردن ویرایشگر وردپرس"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:902
+msgid "Delete markers"
+msgstr "حذف نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:909
+msgid "Use markers categories"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:916
+msgid "Use limits for marker's adding"
+msgstr "استفاده از محدودیت برای قرار دادن نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:921
+msgid "Max marker's count"
+msgstr "حداکثر شمارش نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:929
+msgid "For allotted time (minutes)"
+msgstr "برای تخصیص زمان (دقیقه)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:942
+msgid "Info Window"
+msgstr "پنجره اطلاعات"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:944
+msgid "Parameters of markers / shapes info-window PopUp"
+msgstr "پارامتر های نشانگر/ شکل پنجره اطلاعات PopUp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:951
+msgid "Width"
+msgstr "عرض"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:953
+msgid "Width of info window"
+msgstr "عرض پنجره اطلاعات"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:967
+#: modules/gmap/views/tpl/gmapEditMap.php:1007
+msgid "Auto"
+msgstr "خودکار"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:991
+msgid "Height"
+msgstr "ارتفاع"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:993
+msgid "Height of info window"
+msgstr "ارتفاع پنجره اطلاعات"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1031
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1033
+msgid "You can set your info window title color here"
+msgstr "شما میتوانید رنگ عنوان پنجره اطلاعات را در اینجا تغییر دهید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1043
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:49
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1045
+msgid "You can set your info window background color here"
+msgstr "شما میتوانید رنگ پس زمینه پنجره اطلاعات را در اینجا تغییر دهید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1055
+msgid "Title Font Size"
+msgstr "اندازه فونت عنوان"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1057
+msgid "You can set your info window title font size here"
+msgstr "شما میتوانید اندازه فونت عنوان پنجره اطلاعات را در اینجا تغییر دهید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1077
+msgid "Description Font Size"
+msgstr "اندازه فونت توضیحات"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1079
+msgid "You can set your info window description font size here"
+msgstr "شما میتوانید اندازه فونت توضیحات پنجره اطلاعات را در اینجا تغییر دهید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1102
+msgid "Directions Button"
+msgstr "کلید مسیرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1105
+msgid "Add a button at marker info window to get direction from the entered address to the marker. If Show route data option is enabled - the total route time and distance will be shown by click on the route polyline."
+msgstr "قرار دادن یک کلید در پنجره اطلاعات نشانگر ها جهت دریافت آدرس از آدرس وارد شده تا آدرس نشانگر. اگر قابلیت نمایش اطلاعات مسیر فعال باشد- زمان طی کردن مسیر و فاصله آن با کلیک کردن بر روی مسیر حرکت نمایش داده می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1124
+msgid "Show alternate routes"
+msgstr "نمایش مسیرهای فرعی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1132
+msgid "Show route data"
+msgstr "نمایش اطلاعات مسیر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1140
+msgid "Show route steps"
+msgstr "نمایش مراحل مسیر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1149
+msgid "Print Button"
+msgstr "کلید چاپ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1151
+msgid "Add Print button to markers info window"
+msgstr "قرار دادن کلید چاپ در پنجره اطلاعات نشانگرها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1180
+msgid "Your marker title"
+msgstr "عنوان نشانگر شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1193
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "تمامی متن های که میخواهید در پنجره PopUp مربوط به اطلاعات نشانگر ها نمایش داده شود را اینجا وارد کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1209
+msgid "Icon"
+msgstr "ایکون"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1211
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "ایکون نشانگر شما برای این نشانگر که در نقشه ظاهر می شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1231
+msgid "Search your location by address, just start typing here"
+msgstr "جستوجوی موقعیت با آدرس، شروع به تایپ کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1245
+msgid "Latitude for your marker"
+msgstr "عرض جغرافیایی برای نشانگر شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1259
+msgid "Longitude for your marker"
+msgstr "طول جغرافیایی برای نشانگرهای شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1273
+msgid "Choose marker category"
+msgstr "دسته نشانگر را انتخاب کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1287
+msgid "Marker Link"
+msgstr "آدرس نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1289
+msgid "Link for opening by click on the marker"
+msgstr "لینک برای باز شدن با کلیک کردن روی نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1305
+msgid "Open in new window"
+msgstr "باز کردن در پنجره جدید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1313
+msgid "Show description by default"
+msgstr "در حالت عادی توضیحات نمایش داده شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1315
+msgid "Open marker description when map load"
+msgstr "توضیحات نشانگر بعد از بارگذاری نقشه باز شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1325
+msgid "Show description by mouse hover"
+msgstr "توضیحات هنگامی که موس در اطراف آن قرار گرفت نمایش داده شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1327
+msgid "Open marker description by mouse hover"
+msgstr "توضیحات هنگامی که موس در اطراف آن قرار گرفت باز شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1337
+msgid "Hide description on mouse leave"
+msgstr "توضیحات هنگامی که موس در اطراف آن قرار نگرفت، مخفی شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1339
+msgid "Hide description when mouse leaves the marker area"
+msgstr "توضیحات هنگامی که موس از محدوده نشانگر ها خارج شد، مخفی شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1349
+msgid "Marker List Default Image"
+msgstr "تصویر پیش فرض لیست نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1351
+msgid "If there is no image tag in the marker description - this image will be used for displaying in the map's markers list"
+msgstr "اگر تصویری برای توضیحات نشانگر وجود نداشته باشد، این تصویر در لیست نمایشگر ها برای نمایش استفاده می شود"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1394
+msgid "Figure Name"
+msgstr "نام تصویر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1396
+msgid "Your figure title"
+msgstr "عنوان تصویر شما"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1407
+msgid "Figure Type"
+msgstr "نوع شکل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1409
+msgid "Type of your figure:<br /><br /><b>Polyline</b> - a series of straight segments on the map.<br /><br /><b>Polygon</b> - area enclosed by a closed path (or loop), which is defined by a series of coordinates.<br /><br /><b>Circle</b> - circle shape,defined by center coordinates and radius."
+msgstr "نوع اشکال شما:<br /><br /><b>چند ضلعی</b> - تعدادی از قطعات مستقیم پشت سر هم روی نقشه<br /><br /><b>Polygon </b>یک ناحیه احاطه شده با یک مسیر بسته (یا حلقه) که با یک سری مختصات تعیین شده است<br /><br /><b>دایره </b>- شکل دایره ای، مشخص شده با مختصات مرکز و شعاع."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1417
+msgid "Polyline"
+msgstr "چند ضلعی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1418
+msgid "Polygon"
+msgstr "Polygon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1419
+msgid "Circle"
+msgstr "دایره"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1428
+msgid "Line Color"
+msgstr "رنگ خط"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1435
+msgid "Line Opacity"
+msgstr "شفافیت خط"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1446
+msgid "Line Weight"
+msgstr "عرض خط"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1454
+msgid "Fill Color"
+msgstr "رنگ داخلی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1461
+msgid "Fill Opacity"
+msgstr "شفافیت داخلی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1474
+msgid "Figure Description"
+msgstr "توضیحات تصویر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1476
+msgid "Write here all text, that you want to appear in shape info-window PopUp"
+msgstr "تمامی متن های که میخواهید در پنجره PopUp مربوط به اطلاعات شکل نمایش داده شود را اینجا وارد کنید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1488
+#: modules/gmap/views/tpl/gmapEditMap.php:1566
+msgid "Points"
+msgstr "نقطه ها"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1490
+msgid "Figure's points list: you can search the point by address (just start typing in Address field), type the Latitude and Longitude of point in appropriate fields or activate Add by Click button, and then draw figure on the map by clicking on it. Important! You must deactivate Add by Click button after ending of the draw."
+msgstr "لیست نقاط اشکال:شما میتوانید نقاط را با آدرس جستوجو کنید(برای این کار شروع به تایپ کردن آدرس در فیلد آدرس کنید) عرض و طول جغرافیایی نقطه را در فیلد اختصاصی تایپ کنید یا افزودن را با کلیک کردن بر روی کلید فعال کنید، و سپس شکل را بر روی نقشه با کلیک کردن بر روی آن رسم کنید. مهم! شما باید بعد از رسم شکل ، کلیک افزودن را غیر فعال کنید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1497
+msgid "Add New Point"
+msgstr "افزودن نقطه جدید"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1534
+#: modules/gmap/views/tpl/gmapEditMap.php:1590
+msgid "Radius"
+msgstr "شعاع"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1541
+#: modules/gmap/views/tpl/gmapEditMap.php:1576
+msgid "Remove Point"
+msgstr "پاک کردن نقطه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1568
+msgid "To add Heatmap Layer points you need to activate Add Points button and draw each point by click on map. To remove points you need to activate Remove Points button and delete necessary point by click on it or just click on Delete Heatmap Layer button to remove all Heatmap Layer points. Important! You must to deactivate Add by Click and Remove by Click buttons after ending of the add / remove points."
+msgstr "برای قرار دادن نقاط لایه گرمایی شما نیاز دارید کلید افزودن نقطه را فعال کرده و نقاط مورد نیاز را با کلیک کردن بر روی نقشه رسم کنید. برای حذف کردن نقطه شما نیاز دارید تا کلید حذف نقاط را فعال کرده و نقاط لازم را با کلیک کردن بر روی آنها حذف کنید شما همچنین میتوانید بر روی کلید حذف لایه گرمایی کلیک کرده و تمامی نقاط لایه گرمایی را حذف کنید. مهم! شما باید کلید های افزودن با کلیک و حذف کردن با کلیک را بعد از افزودن یا حذف کردن نقاط، غیر فعال کنید."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1573
+msgid "Add Point"
+msgstr "افزودن نقطه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1581
+msgid "Points Count"
+msgstr "شمارنده نقاط"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1592
+msgid "Heatmap Layer points radius in pixels"
+msgstr "شعاع نقطه های لایه های نقشه گرمایی به پیکسل"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1603
+msgid "Opacity"
+msgstr "شفافیت"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1605
+msgid "Heatmap Layer points opacity"
+msgstr "میزان شفافیت نقطه های لایه های نقشه گرمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1620
+msgid "Gradient"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1622
+msgid "Heatmap Layer points color gradient."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1626
+msgid "Add Color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1629
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1633
+msgid "Remove Color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1665
+msgid "Map shortcode"
+msgstr "کد کوتاه نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1670
+msgid "PHP code"
+msgstr "کد php"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1677
+msgid "Marker Form shortcode"
+msgstr "کد کوتاه فرم نشانگر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1685
+msgid "Shortcode will appear after you save map."
+msgstr "کد کوتاه بعد از ذخیره نقشه نمایش داده می شود."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1693
+msgid "Save Map"
+msgstr "ذخیره نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1699
+msgid "Delete Map"
+msgstr "حذف نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1723
+msgid "Save Figure"
+msgstr "ذخیره تصویر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1729
+msgid "Delete Figure"
+msgstr "حذف تصویر"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1738
+msgid "Save Heatmap Layer"
+msgstr "ذخیره لایه های گرمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1744
+msgid "Delete Heatmap Layer"
+msgstr "حذف لایه های گرمایی"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1750
+msgid "Search by name"
+msgstr "جستوجو بر اساس نام"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1802
+msgid "Show markers list with your map on frontend"
+msgstr "نمایش لیست نشانگر ها با نقشه"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Apply"
+msgstr "اعمال"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+msgid "Selected"
+msgstr "انتخاب شده"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Available in PRO"
+msgstr "موجود در نسخه حرفه ای"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1818
+msgid "Select Contact Form"
+msgstr "انتخاب فرم تماس"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1841
+msgid "Oops! Something went wrong..."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1844
+#, php-format
+msgid ""
+"Map can not be loaded completely. Probably, you are using our base Google Map API key.<br /><br />\n"
+"This key is used by default for all our users in accordance with <a target=\"_blank\" href=\"%s\">Google Maps APIs Standard Plan</a>.\n"
+"But each API key has fixed limits on count of maps loads per day.<br /><br />\n"
+"You can create <a target=\"_blank\" href=\"%s\">your own Google Maps API key</a> and type it on <a target=\"_blank\" href=\"%s\">Settings tab</a>.\n"
+"It's free, takes 10-20 minutes of your time and lets to apply your own API key only for your sites.\n"
+"If you already use own Google Maps API key - you should open <a target=\"_blank\" href=\"%s\">Google Developer console</a> and check:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Have you set correct settings to use your Google Map API key?</li>\n"
+"<li>Have you paste correct Google Map API key on the <a target=\"_blank\" href=\"%s\">Settings tab</a>?</li>\n"
+"<li>Open <a target=\"_blank\" href=\"%s\">browser console</a>, find Google Map API error and read its description in <a target=\"_blank\" href=\"%s\">Map API Errors table</a>.</li>\n"
+"</ul>"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:22
+#, php-format
+msgid "and %s more"
+msgstr "و %s بیشتر"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "نمایش محصولات برتز"
+
+#: modules/gmap_widget/views/gmap_widget.php:19
+msgid "You have no maps"
+msgstr "شما نقشه ای ندارید"
+
+#: modules/gmap_widget/views/tpl/form.php:8
+msgid "Select map"
+msgstr "انتخاب نقشه"
+
+#: modules/gmap_widget/views/tpl/form.php:20
+msgid "Widget Map width"
+msgstr "عرض ابزارک نقشه"
+
+#: modules/gmap_widget/views/tpl/form.php:27
+msgid "in % or px, for example, 100% or 200px"
+msgstr "2ر واحد px یا % ، برای مثال  100% یا 200px"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Widget Map height"
+msgstr "ارتفاع ابزارک نقشه"
+
+#: modules/gmap_widget/views/tpl/form.php:39
+msgid "in px, for example, 200 or 400"
+msgstr "در واحد px، برای مثال 200 یا 400"
+
+#: modules/gmap_widget/views/tpl/form.php:51
+msgid "Set coords, separated by semicolons or marker id"
+msgstr "تنظیم پوشش، با استفاده از ویرگول (انگلیسی ) یا شناسه نمایشگر، جدا کنید"
+
+#: modules/gmap_widget/views/tpl/form.php:63
+msgid "Set zoom level from 1 to 21"
+msgstr "مقدار بزرگنمایی را از 1 تا 21 تنظیم کنید"
+
+#: modules/gmap_widget/views/tpl/form.php:68
+msgid "Display as image"
+msgstr "نمایش به صورت تصویر"
+
+#: modules/gmap_widget/views/tpl/form.php:76
+msgid "Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr "نقشه به صورت یک تصویر در اسلایدر نمایش داده خواهد شد و با کلیک کردن بر رویش، در پنجره popup نمایش داده می شود"
+
+#: modules/gmap_widget/views/tpl/form.php:79
+msgid "Image width (in px)"
+msgstr "عرض تصویر (in px)"
+
+#: modules/gmap_widget/views/tpl/form.php:86
+msgid "Image height (in px)"
+msgstr "ارتفاع تصویر  (in px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "لینک خالی است"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "ایکون پیدا نشد"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "فایل پیدا نشد"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "امکان دریافت تصویر وجود ندارد"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "امکان درج تصویر وجود ندارد"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "امکان ارسال ایمیل وجود ندارد- سرور ارسال ایمیل مشکل دارد"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "نشانگر پیدا نشد"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "امکان حذف نشانگر وجود ندارد"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "امکان حذف نشانگرها وجود ندارد"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "نشانگری وجود ندارد یا شناسه اشتباه است"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "رها کردن"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "پرش"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "لطفا نام نشانگر را وارد کنید"
+
+#: modules/marker/models/marker.php:264
+msgid "Invalid Marker ID"
+msgstr "شناسه نشانگر اشتباه است"
+
+#: modules/marker_groups/controller.php:51
+msgid "Marker Category data not found"
+msgstr "اطلاعات دسته نشانگر پیدا نشد"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "دسته بندی نشانگر"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "دسته ای برای نشانگر پیدا نشد"
+
+#: modules/marker_groups/models/marker_groups.php:78
+msgid "Please enter Marker Category"
+msgstr "لطفا دسته نشانگر را انتخاب کنید"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "افزودن دسته"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "پاک کردن همه"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid "You have no Marker Categories for now. <a href='%s' style='font-style: italic;'>Create</a> your first Marker Category!"
+msgstr "در حال حاضر دسته بندی برای نشانگر وجود ندارد،<a href='%s' style='font-style: italic;'>اولین </a>دسته بندی خود را ایجاد کنید!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:22
+msgid "Category Title"
+msgstr "عنوان دسته"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:35
+msgid "Parent Category"
+msgstr ""
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:70
+msgid "gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/options/mod.php:108
+msgid "General"
+msgstr "عمومی"
+
+#: modules/options/mod.php:110
+msgid "API Domain"
+msgstr ""
+
+#: modules/options/mod.php:110
+msgid "Sets domain for google API scripts"
+msgstr ""
+
+#: modules/options/mod.php:111
+msgid "User API key"
+msgstr "کلید API  کاربر"
+
+#: modules/options/mod.php:111
+msgid "You can use your own Google API key, check the <a href='//supsystic.com/google-maps-api-key/' target='_blank'>instruction</a> how to create it. To use plugin's default API key leave this field blank."
+msgstr "شما می توانید از کلید API گوگل خودتان استفاده کنید. برای اگاهی از نحوه ایجاد آن مطالب <a href='//supsystic.com/google-maps-api-key/' target='_blank'> این صفحه</a>  را بخوانید. برای استفاده از API پیش فرض پلاگین، این فیلد را خالی بگذارید."
+
+#: modules/options/mod.php:112
+msgid "Send usage statistics"
+msgstr "ارسال اطلاعات استفاده"
+
+#: modules/options/mod.php:112
+msgid "Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+msgstr "ارسال اطلاعات مروبطه به تنظیمات مورد استفاده شما برای پلاگین، ما را در بهبود افزونه و بهتر کردن آن یاری میدهد."
+
+#: modules/options/mod.php:113
+msgid "Enable promo link"
+msgstr "نمایش آدرس سایت ما در زیر نقشه"
+
+#: modules/options/mod.php:113
+msgid "We are trying to make our plugin better for you, and you can help us with this. Just check this option - and small promotion link will be added in the bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr "ما میتوانیم این افزونه را برای شما بهتر از این کنیم و جهت انجام این کار به کمک شما نیاز داریم. شما می توانید با تیک زدن گزینه زیر و قرار دادن یک لینک کوچک در زیر نقشه گوگل سایتتان ما را به دیگران معرفی کنید. این اقدام کوچک از جانب شما کمک بزرگی به ما می کند!"
+
+#: modules/options/mod.php:114
+msgid "User role can use plugin"
+msgstr "کاربران طبق قاعده میتوانند از افزونه استفاده کنند"
+
+#: modules/options/mod.php:114
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr "کاربران با قوانین بعدی، قابلیت دسترسی به محیط افزونه در محیط مدیریت را خواهند داشت."
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "ماژول بارگذاری شد"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "به روز رسانی ماژول با شکست مواجه شد"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "خطا در شناسه ماژول"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "داده ای برای ذخیره وجود ندارد"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "صفحه اصلی از اینجا می رود!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "ارتقاء نسخه رایگان"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+msgid "Please be advised that this option is available only in <a target='_blank' href='%s'>PRO version</a>. You can <a target='_blank' href='%s' class='button'>Get PRO</a> today and get this and other PRO option for your Maps!"
+msgstr "لطفا توجه داشته باشید که این گزینه فقط در <a target='_blank' href='%s'>نسخه حرفه ای</a>  وجود دارد. شما میتوانید همین امروز<a target='_blank' href='%s' class='button'> نسخه حرفه ای</a> را تهیه کرده و این گزینه ی حرفه ای را در Maps خود استفاده کنید!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "ذخیره تمام گزینه ها"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned On %s"
+msgstr "روشن کردن %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:63
+#, php-format
+msgid "Turned Off %s"
+msgstr "خاموش کردن %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "اطلاعات ذخیره شده، متشکریم!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid "Please don't send contact requests so often - wait for response for your previous requests."
+msgstr "لطفا از ارسال درخواست های تکراری پرهیز کرده و منتظر دریافت پاسخ درخواست های قبلی خود باشید."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "لطفا یک آدرس ایمیل صحیح وارد کنید"
+
+#: modules/supsystic_promo/mod.php:32
+#, php-format
+msgid "Please, set your own Google API key in Google Maps Easy plugin <a href='%s'>Settings</a>! More info about Maps and API keys you can find <a href='%s' target='_blank'>here</a>."
+msgstr "لطفا کلید API گوگل خود را در <a href='%s'>تنظیمات</a> افزونه Google Maps Easy وارد کنید! اطلاعات بیشتر در باره نقشه و کلید API را میتوانید در <a href='%s' target='_blank'>اینجا </a> مشاهده نمایید."
+
+#: modules/supsystic_promo/mod.php:56
+#, php-format
+msgid "<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation.</p>"
+msgstr "<h3> سلام؛  شما بیشتر از یک هفته از %s استفاده می کنید.</h3>  <p>در صورتی که از عملکرد افزونه رضایت دارید، میتوانید با دادن امتیاز 5 ستاره به افزونه در سایت وردپرس، به ما در ارتقاء رتبه افزونه کمک کنید.</p>"
+
+#: modules/supsystic_promo/mod.php:57 modules/supsystic_promo/mod.php:63
+msgid "Ok, you deserve it"
+msgstr "باشه، انجام میدم"
+
+#: modules/supsystic_promo/mod.php:58 modules/supsystic_promo/mod.php:64
+msgid "Nope, maybe later"
+msgstr "نه، شاید بعدا"
+
+#: modules/supsystic_promo/mod.php:59
+msgid "I already did"
+msgstr "قبلا انجام دادم"
+
+#: modules/supsystic_promo/mod.php:60
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3> هورا! بیشتر از 11 روز است که از افزونه  %s ما استفاده میکنید.</h3>"
+
+#: modules/supsystic_promo/mod.php:61
+msgid "<p>On behalf of the entire <a href='https://supsystic.com/' target='_blank'>supsystic.com</a> company I would like to thank you for been with us, and I really hope that our software helped you.</p>"
+msgstr "<p>On behalf of the entire <a href='https://supsystic.com/' target='_blank'>supsystic.com</a> company I would like to thank you for been with us, and I really hope that our software helped you.</p>"
+
+#: modules/supsystic_promo/mod.php:62
+msgid "<p>And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your maps. This is small step for you, but a big help for us! Sure, if you don't want - just skip this and continue enjoy our software!</p>"
+msgstr "<p>اگر دوست دارید از ما حمایت کنید،میتوانید با قرار دادن آدرس سایت ما ( در ابعاد کوچک) در زیر نقشه به ما کمک کنید، این یک قدم کوچک از طرف شما و یک کمک بزرگ برای ما است، اگر نمیخواهید این کار را انجام دهید، کافی است این پیغام را نادیده بگیرید.</p>"
+
+#: modules/supsystic_promo/mod.php:65
+msgid "Skip"
+msgstr "نادیده بگیر"
+
+#: modules/supsystic_promo/mod.php:67
+#, php-format
+msgid "Check out <a href='%s' target='_blank' class='button button-primary' data-statistic-code='hide'>our other Plugins</a>! Years of experience in WordPress plugins developers made that list unbreakable!"
+msgstr "<a href='%s' target='_blank' class='button button-primary' data-statistic-code='hide'>افزونه های دیگر</a>  ما را بررسی کنید! سالها تجربه در توسعه افزونه های این لیست را شکست نا پذیر می کند!"
+
+#: modules/supsystic_promo/mod.php:116
+msgid "Overview"
+msgstr "پیشخوان"
+
+#: modules/supsystic_promo/mod.php:119
+msgid "Featured Plugins"
+msgstr "افزونه های برجسته"
+
+#: modules/supsystic_promo/mod.php:145
+msgid "Welcome to Supsystic Secure"
+msgstr "Welcome to Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:214
+msgid "Name"
+msgstr "نام"
+
+#: modules/supsystic_promo/mod.php:216
+msgid "Website"
+msgstr "وب سایت"
+
+#: modules/supsystic_promo/mod.php:217
+msgid "Subject"
+msgstr "موضوع"
+
+#: modules/supsystic_promo/mod.php:218
+msgid "Topic"
+msgstr "مبحث"
+
+#: modules/supsystic_promo/mod.php:219
+msgid "Plugin options"
+msgstr "گزینه های پلاگین"
+
+#: modules/supsystic_promo/mod.php:220
+msgid "Report a bug"
+msgstr "گزارش خطا"
+
+#: modules/supsystic_promo/mod.php:221
+msgid "Require a new functionality"
+msgstr "نیاز به قابلیت جدید"
+
+#: modules/supsystic_promo/mod.php:222
+msgid "Other"
+msgstr "سایر"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Message"
+msgstr "پیغام"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Hello Supsystic Team!"
+msgstr "Hello Supsystic Team!"
+
+#: modules/supsystic_promo/mod.php:269
+msgid "Heatmap"
+msgstr "نقشه گرمایی"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to create Google Maps API Key?"
+msgstr "نحوه ساخت کلید  Google Maps API  چگونه است؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid "Your map suddenly stopped working and you get the following error?<blockquote style='color: gray; font-style: italic;'>Oops! Something went wrong.This page didn't load Google Maps correctly. See the JavaScript console for technical details.</blockquote>Please check you browser console, if you'll see such error <blockquote style='color: gray; font-style: italic;'>This site has exceeded its daily quota for maps.</blockquote> - this <a href='//supsystic.com/google-maps-api-key/' target='_blank'>article</a> is written for you and required for reading."
+msgstr "نقشه شما به دلیل بروز خطاهای که در ادامه ذکر شده است، از کار افتاده است. <blockquote style='color: gray; font-style: italic;'>  چیزی به درستی کار نمیکند، این صفحه به درستی نقشه گوگل را بارگذاری نمی کند،</blockquote> شما باید جاوا اسکریپت را بررسی کنید یا مرورگر خود را به روز رسانی کرده یا از مرورگر دیگری استفاده نمایید  <blockquote style='color: gray; font-style: italic;'>  منابع سایت برای بارگذاری نقشه محدود است</blockquote>  -  در این <a href='//supsystic.com/google-maps-api-key/' target='_blank'>مقاله </a>   اطلاعاتی بیشتر برای شما نوشته شده است."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "How to use Google Maps Easy Widget?"
+msgstr "نحوه استفاده از ابزارک  Google Maps Easy چگونه است؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid "1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find the Google Maps Easy in the list of available widgets.<br />3. Drag the Google Maps Easy widget to widget area, which you need.<br />4. Choose the map for widget and configure the settings - Widget Map width and height.<br />5. Click 'Save'."
+msgstr "1- به محیط مدیریت بروید و بر روی گزینه ابزارک ها در فهرست کلیک کنید.<br /> 2- ابزارک Google Maps Easy را در لیست ابزارک ها پیدا کنید. <br />3. ابزارک Google Maps Easy را به ناحیه ابزارک های دلخواه بکشید <br /> 4. تنظیمات ابزارک و ارتفاع و عرض نمایش نقشه را انجام دهید <br /> 5. بر روی 'ذخیره' کلیک کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "How to add map into the site content?"
+msgstr "چگونه میتوان نقشه را به محتوای سایت اضافه کرد؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid "You can add a map in the site content via shortcode or php code. Learn more about how to do this <a href='http://supsystic.com/add-map-into-site-content/'>here</a>."
+msgstr "شما می توانید یک نقشه را با استفاده از کد کوتاه یا کد php به محتوای سایتتان اضافه کنید. اطلاعات بیشتر در این مورد را <a href='http://supsystic.com/add-map-into-site-content/'>اینجا</a> مشاهده کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "How to add map in popup window?"
+msgstr "چگونه میتوان نقشه را به پنجره popup  اضافه کرد؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:42
+msgid "You can add a map in popup window by inserting map shortcode in any popup text field. Learn more about how to do this <a href='http://supsystic.com/add-map-in-popup-window/'>here</a>."
+msgstr "شما میتوانید نقشه را در پنجره popup با استفاده از کد کوتاه نقشه قرار دهید. اطلاعات بیشتر در این مورد را <a href='http://supsystic.com/add-map-in-popup-window/'>اینجا</a> مشاهده کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to zoom and center the initial map on markers?"
+msgstr "چگونه میتوان نقشه را بزرگ کرد و بر روی نشانگر ها رفت؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:44
+msgid "There is a few different ways to zoom and centralize map. The easiest one is to drag your map using mouse - 'Draggable' option must be enabled, or with pan controller help in live preview. <a href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"اینجا چند راه مختلف برای بزرگنمایی و متمرکز کردن نقشه وجود دارد.\n"
+" یکی از ساده ترین آنها کشیدن نقشه با استفاده از ماوس است - گزینه 'قابل جابجایی' باید فعال باشد، یا قلم کنترل در حالت پیش نمایش زنده به شما کمک میکند.<a href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-markers/' title='How to zoom and center Google Map'>اطلاعات بیشتر</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "چگونه می توان نسخه حرفه ای افزونه را رایگان دریافت کرد؟"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+#, php-format
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin! It will be amazing if you take advantage of this offer! More info you can find here <a target='_blank' href='%s'>Get PRO version of any plugin for FREE'</a>"
+msgstr "شما میتوانید نسخه حرفه ای را به صورت رایگان دریافت نمایید، برای اینکار افزونه را به زبان خودتان ترجمه کرده و از این پیشنهاد استفاده کنید. اطلاعات بیشتر در این مورد را میتوانید در اینجا  مشاهده کنید. <a target='_blank' href='%s'>'Get PRO version of any plugin for FREE'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "ترجمه"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+#, php-format
+msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English, Polish, German, Spanish, Russian</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+msgstr "افزونه نقشه گوگل توسط Supsystic  از زبان های مختلفی پشتیبانی می کند، در صورتی که زبان شما جزو زبان های پشتیبانی شده نباشد، اطلاعات به زبان انگلیسی نمایش داده خواهد شد. <br /><b>در حال حاضر افزونه از زبان های انگلیسی، لهستانی، المانی، اسپانیایی، روسی و زبان شیرین پارسی پشتیبانی می کند.</b><br /> شما می توانید این افزونه را به زبان خودتان ترجمه کرده و یک نسخه ی حرفه ای افزونه را به صورت رایگان دریافت کنید. بدین منظور <a target='_blank' href='%s'>با ما تماس</a>  بگیرید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:62
+#, php-format
+msgid "There was some problem while trying to retrieve our news, but you can always check all list <a target='_blank' href='%s'>here</a>."
+msgstr "اینجا مشکلی در دریافت اخبار ما وجود دارد، اما شما میتوانید آنها در <a target='_blank' href='%s'>اینجا </a> بررسی کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "Yes"
+msgstr "بله"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "No"
+msgstr "خیر"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "Popup Plugin"
+msgstr "افزونه Popup"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "The Best WordPress PopUp option plugin to help you gain more subscribers, social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr "بهترین افزونه PopUp وردپرس برای کمک به شما برای به دست آوردن مشترکین بیشتر ، دنبال کننده گان شبکه های اجتماعی یا تبلیغات. PopUp واکنشگرا با گزینه های دوستانه."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin"
+msgstr "افزونه Photo Gallery"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin with a great number of layouts will help you to create quality respectable portfolios and image galleries."
+msgstr "افزونه Photo Gallery با تعداد زیادی طرح به شما برای ایجاد طرح های با کیفیت و گالری عکس. کمک خواهد کرد."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "Contact Form Plugin"
+msgstr "افزونه فرم تماس"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "One of the best plugin for creating Contact Forms on your WordPress site. Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr "یکی از بهترین افزونه ها برای ایجاد فرم های تماس در سایت WordPress شما. فونت های قابل تغییر، پس زمینه، گزینه ای برای اضافه کردن زمینه ها و غیره."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Newsletter Plugin"
+msgstr "افزونه Newsletter"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Supsystic Newsletter plugin for automatic mailing of your letters. You will have no need to control it or send them manually. No coding, hard skills or long hours of customizing are required."
+msgstr "افزونه خبرنامه Supsystic برای ارسال خودکار نامه های شما. شما لازم نیست که آن را کنترل کنید یا آنها را به صورت دستی ارسال کنید. بدون برنامه نویسی، مهارت های سخت و یا ساعت های طولانی سفارشی سازی."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Membership by Supsystic"
+msgstr "Membership by Supsystic"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Create online membership community with custom user profiles, roles, FrontEnd registration and login. Members Directory, activity, groups, messages."
+msgstr "ایجاد انجمن اعضای آنلاین با پروفایل کاربری سفارشی، قوائد، ثبت نام و ورود به سیستم. فهرست کاربران، فعالیت ها، گروه ها، پیام ها."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Data Tables Generator"
+msgstr "Data Tables Generator"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Create and manage beautiful data tables with custom design. No HTML knowledge is required."
+msgstr "ایجاد و مدیریت جداول داده زیبا یا طراحی شخصی. بدون نیاز به دانش HTML."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Slider Plugin"
+msgstr "افزونه Slider"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Creating slideshows with Slider plugin is fast and easy. Simply select images from your WordPress Media Library, Flickr, Instagram or Facebook, set slide captions, links and SEO fields all from one page."
+msgstr "ایجاد اسلاید با افزونه Slider سریع و آسان است. به سادگی تصاویری از کتابخانه های وردپرس، فلیکر،Instagram یا فیس بوک را انتخاب کنید، زیرنویس اسلاید، لینک ها و زمینه های SEO را در یک صفحه تنظیم کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social Share Buttons"
+msgstr "Social Share Buttons"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social share buttons to increase social traffic and popularity. Social sharing to Facebook, Twitter and other social networks."
+msgstr "دکمه اشتراک گذاری اجتماعی برای افزایش ترافیک و محبوبیت اجتماعی. اشتراک اجتماعی به فیس بوک، توییتر و سایر شبکه های اجتماعی."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Live Chat Plugin"
+msgstr "افزونه Live Chat"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Be closer to your visitors and customers with Live Chat Support by Supsystic. Help you visitors, support them in real-time with exceptional Live Chat WordPress plugin by Supsystic."
+msgstr "به مشتریان و بازدید کننده گان با استفاده از چت زنده که توسط Supsystic پشتیبانی می شود، نزدیک تر شوید. با استفاده از افزونه Live Chat WordPress plugin by Supsystic به بازدید کننده گان خود کمک کنید و آنها را به صورت آنی پشتیبانی نمایید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "It's never been so easy to create and manage pricing and comparison tables with table builder. Any element of the table can be customise with mouse click."
+msgstr "ساخت و مدیریت جداول قیمت گذاری و مقایسه، با سازنده جدول آسانتر از این نیست. هر عنصر جدول می تواند با کلیک ماوس سفارشی شود."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming Soon Plugin"
+msgstr "افزونه Coming Soon"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming soon page with drag-and-drop builder or under construction | maintenance mode to notify visitors and collects emails."
+msgstr "صفحه به زودی با صفحه ساز با  قابلیت کشیدن و رها کردن یا در دست تاسیس یا در حالت تعمیر برای اطلاع دادن به بازدید کننده گان و مشترکان ایمیل."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup Plugin"
+msgstr "افزونه Backup"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr "افزونه بک آپ و بازگردانی بک آپ توسط Supsystic ، قابلیت دریافت فایل بک آپ و ذخیره آن در DropBox, FTP, Amazon S3, Google Drive  از طریق سایت وردپرسی شما میسر می سازد."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Display custom Google Maps. Set markers and locations with text, images, categories and links. Customize google map in a simple and intuitive way."
+msgstr "نمایش نقشه های گوگل سفارشی. تنظیم نشانگرها و مکان ها با متن، تصاویر، دسته ها و لینک ها. نقشه گوگل را به شیوه ساده و بصری سفارشی کنید."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication Plugin"
+msgstr "افزونه Digital Publication"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr "افزونه Digital Publication WordPress توسط Supsystic برای مجلات، کاتالوگ ها، نمونه کارها.  تبدیل تصاویر، پست ها، PDF به صفحات کتاب مصور."
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "نسخه ی"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "حرفه ای"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "اضافه کنید"
+
+#: modules/supsystic_promo/views/tpl/adminPromoTabContent.php:5
+msgid "Get it now!"
+msgstr "همین حالا دریافت کنید!"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "تمام افزونه ها را با 80 درصد تخفیف تهیه کنید."
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "آن را بررسی کنید"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "اطلاعات بیشتر"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "دانلود"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "سوالات متداول و مستندات"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "مشاهده تمام سوالات متداول"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "فیلم آموزشی"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "ویژگی های نسخه حرفه ای"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "تنظیمات سرور"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "اخبار"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "تمام اخبار و اطلاعات"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "فرم تماس"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "ارسال ایمیل"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid "Your email was send, we will try to respond to you as soon as possible. Thank you for support!"
+msgstr "ایمیل شما ارسال شد، ما به زودی به شما پاسخ خواهیم داد. از تماس شما متشکریم!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "خوش آمدید به"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "این اولین بار است که افزونه %s اجرا می شود."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid "If you are newbie - check all features on that page, if you are guru - please correct us."
+msgstr "اگر شما تازه کار هستید،تمام ویژگی ها را در این صفحه بررسی کنید و در صورت نیاز با ما تماس بگیرید."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "لطفا آدرس را ارسال کنید"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "در ادامه قصد انجام چه کاری را دارید؟ بخش زیر را بررسی کنید"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "ما را بالا ببرید"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+msgstr "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "مستندات"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid "Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr "<a target='_blank' href='%s'>مستندات</a>و بخش پرسش و پاسخ را بررسی کنید و اگر به جواب نرسیدید - <a target='_blank' href='%s'>با ما تماس بگیرید</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "لیست کامل ویژگی ها"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "اینجا ویژگی های زیادی وجود دارد که ما نمی توانیم تمام آنها را ذکر کنیم، مانند"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "تصویر امنیتی برای ورود مدیر"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "حفاظت از مدیریت با استفاده از htaccess"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "مخفی سازی لیست کننده فایل های دایرکتوری"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "دسترسی نوشتن پوشه ها و فایل ها را بررسی کنید"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr "همچنین لیست ویژگی ها را بررسی کنید <a target='_blank' href='%s'>here</a>."
+
+#~ msgid "You need to reactivate your Google Maps Easy plugin."
+#~ msgstr "شما نیاز دارید تا افزونه  Google Maps Easy خود را به مجددا فعال کنید."
+
+#~ msgid "Sets min zoom level for map."
+#~ msgstr "تنظیم کمترین حد بزرگنمایی برای نقشه."
+
+#~ msgid "Sets max zoom level for map."
+#~ msgstr "تنظیم بیشترین بزرگنمایی در نقشه."
+
+#~ msgid "You need to install <a target='_blank' href='%s'>Membership by Supsystic</a> to use this feature."
+#~ msgstr "برای استفاده از این ویژگی باید افزونه <a target='_blank' href='%s'>Membership by Supsystic</a> را نصب کنید."
+
+#~ msgid "Please, type a search address."
+#~ msgstr "لطفا یک آدرس جستوجو وارد کنید."
+
+#~ msgid "Your map height"
+#~ msgstr "ارتفاع نقشه شما"
+
+#~ msgid "Claster Icon"
+#~ msgstr "ایکون گروه"
+
+#~ msgid "Min Search Radius"
+#~ msgstr "کمترین شعاع جستوجو"
+
+#~ msgid "Max Search Radius"
+#~ msgstr "بیشترین شعاع جستوجو"
+
+#~ msgid "Add new point"
+#~ msgstr "افزودن نقطه جدید"
+
+#~ msgid "Remove point"
+#~ msgstr "پاک کردن نقطه"
+
+#~ msgid "Widget Map width (in % or px)"
+#~ msgstr "طول گجت نقشه  (in % or px)"
+
+#~ msgid "for example, 100% or 200px"
+#~ msgstr "برای مثال  100% یا 200px"
+
+#~ msgid "Widget Map height (in px)"
+#~ msgstr "ارتفاء گجت نقشه (in px)"
+
+#~ msgid "for example, 200 or 400"
+#~ msgstr "برای مثال 200 یا 400"
+
+#~ msgid "Undefined"
+#~ msgstr "تعریف نشده"
+
+#~ msgid "Map ID"
+#~ msgstr "ID del mapa"
+
+#~ msgid "File name"
+#~ msgstr "Nombre del archivo"
+
+#~ msgid "Description Of Map"
+#~ msgstr "Descripción del Mapa"
+
+#~ msgid "Map Properties"
+#~ msgstr "Propiedades del Mapa"
+
+#~ msgid "Add New Marker"
+#~ msgstr "Añadir Nuevo Marcador"
+
+#~ msgid "Zoom control type on your map"
+#~ msgstr "Tipo de control del zoom en tu mapa"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "Small"
+#~ msgstr "Pequeño"
+
+#~ msgid "Pan control"
+#~ msgstr "Control de vista Panorámica"
+
+#~ msgid "Pan control - allow you to pan over your map using mouse, usually is located on left upper corner of your map"
+#~ msgstr "Control de vista Panorámica - te permite realizar una vista panorámica sobre tu mapa usando el ratón, normalmente se encuenta en la esquina superior izquieda de tu mapa"
+
+#~ msgid "Change pan control position on map"
+#~ msgstr "Cambiar la posición del control de vista panorámica"
+
+#~ msgid "Overview control"
+#~ msgstr "Control de visión general"
+
+#~ msgid "Overview control for your map, by default is disabled, and if enabled - is located on the right bottom corner"
+#~ msgstr "Control de visión general para tu mapa, por defecto está desactivada, si se activa, estará posicionada en la esquina inferior derecha"
+
+#~ msgid "Opened"
+#~ msgstr "Abierto"
+
+#~ msgid "Collapsed"
+#~ msgstr "Colapsado"
+
+#~ msgid "Congradulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr "Felicidades! La versión PRO del plugin %s está activada y funciona correctamente!"
+
+#~ msgid "Congradulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+#~ msgstr "Felicidades! Has terminado con éxito la instalación de la versión PRO del plugin %s. Introduce tu Email y la Clave de Licencia en esta página para terminar la instalación. Ésto activara tu copia del software en esta página."
+
+#~ msgid "Icon ID"
+#~ msgstr "ID del icono"
+
+#~ msgid "Icon Title"
+#~ msgstr "Título del icono"
+
+#~ msgid "Icon Description"
+#~ msgstr "Descripción del icono"
+
+#~ msgid "File Path"
+#~ msgstr "Ruta del Archivo"
+
+#~ msgid "Html Parametrs"
+#~ msgstr "Parámetros Html"
+
+#~ msgid "Create Date"
+#~ msgstr "Feca de Creación"
+
+#~ msgid "Additional Params"
+#~ msgstr "Parámetros Adicionales"
+
+#~ msgid "Marker"
+#~ msgstr "Marcador"
+
+#~ msgid "Added %s maps"
+#~ msgstr "Añadidos %s mapas"
+
+#~ msgid "Updated %s maps"
+#~ msgstr "Actualizados %s mapas"
+
+#~ msgid "Added %s markers"
+#~ msgstr "Añadidos %s marcadores"
+
+#~ msgid "Updated %s markers"
+#~ msgstr "Actualizados %s marcadores"
+
+#~ msgid "Extended Options"
+#~ msgstr "Opciones Extendidas"
+
+#~ msgid "Get 300+ Themes"
+#~ msgstr "COnsigue mas de 300 Temas"
+
+#~ msgid "Group"
+#~ msgstr "Grupo"
+
+#~ msgid "Creation Date"
+#~ msgstr "Fecha de creación"
+
+#~ msgid "Uses On Map"
+#~ msgstr "Usos en el Mapa"
+
+#~ msgid "Back To Markers List"
+#~ msgstr "Volver a la lista de marcadores"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "No maps contain this marker"
+#~ msgstr "Este marcador no pertenece a ningún mapa"
+
+#~ msgid "Remove selected"
+#~ msgstr "Eliminar seleccionado"
+
+#~ msgid "Nothing To Save"
+#~ msgstr "Nada que guardar"
+
+#~ msgid "Cannot Save Group"
+#~ msgstr "No se pudo guardar el grupo"
+
+#~ msgid "Group Not Found"
+#~ msgstr "Grupo no encontrado"
+
+#~ msgid "Cannot remove group"
+#~ msgstr "No se puede borrar el grupo"
+
+#~ msgid "Save Group"
+#~ msgstr "Guardar Grupo"
+
+#~ msgid "Group Title"
+#~ msgstr "Título del Grupo"
+
+#~ msgid "Title For Group"
+#~ msgstr "Título para el grupo"
+
+#~ msgid "Group Description"
+#~ msgstr "Descripción del Grupo"
+
+#~ msgid "Description For Goup"
+#~ msgstr "Descripción para el Grupo"
+
+#~ msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+#~ msgstr "Todos los idiomas son proporcionados mediante el plugin de  Supsystic Google Maps. Tu plugin estará en inglés por defecto si no existe traducción a tu idioma.<br /><b>Traducciones disponibles: inglés</b><br /> Traduce o actualiza una traducción del plugin de Google Maps de Wordpress en tu idioma y consigue una licencia Premium GRATIS <a target='_blank' href='%s'>Contacta con nosotros</a>."

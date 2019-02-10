@@ -1,0 +1,3160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2017-12-21 13:05+0200\n"
+"PO-Revision-Date: 2018-11-14 10:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:15
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:38
+#: doc/google-maps-easy-pro/heatmap/controller.php:9
+#: doc/google-maps-easy-pro/heatmap/controller.php:39
+#: doc/google-maps-easy-pro/kml/controller.php:11
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: doc/google-maps-easy-pro/shape/controller.php:8
+#: doc/google-maps-easy-pro/shape/controller.php:46
+#: doc/google-maps-easy-pro/shape/controller.php:61
+#: modules/adminmenu/controller.php:29 modules/csv/controller.php:190
+#: modules/gmap/controller.php:55 modules/gmap/controller.php:72
+#: modules/gmap/controller.php:80 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:78
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Klart"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Välj"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "ej tillämpligt"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Lägg till kryssruta"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Lägg till objekt"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Lagg till envalsknapp"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Storlek"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "bredd"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "höjd"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Klicka för att ange fälten &quot;id&quot; och &quot;klass&quot;"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Attribut"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Det finns inga konfigureringsalternativ för den här modulen"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Tillämpa på"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:40
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:66
+#: modules/gmap/views/tpl/gmapEditMap.php:334
+#: modules/gmap/views/tpl/gmapEditMap.php:1229
+#: modules/gmap/views/tpl/gmapEditMap.php:1507
+msgid "Address"
+msgstr "Adress"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destination"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Land"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Kategorier"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Du har inga kategorier"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Varumärken"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Du har inga varumärken"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Skattenivå"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolut"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Inte vald"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "class"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:137
+msgid "You have no permissions to view this page"
+msgstr "Du har inga behörigheter att visa den här sidan"
+
+#: classes/html.php:207 modules/gmap/views/tpl/gmapEditMap.php:1360
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: classes/html.php:627
+msgid "ON"
+msgstr "PÅ"
+
+#: classes/html.php:628
+msgid "OFF"
+msgstr "AV"
+
+#: classes/html.php:652
+#, php-format
+msgid "Select %s"
+msgstr "Välj %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Flytta filer för %s misslyckades"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s är inte en plugin-modul"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Kan inte skapa modulkatalog. Försök att ange behörighet till "
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Inga moduler hittades i XML-filen"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Ogiltig XML-fil"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Ingen XML-fil hittades"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Installation %s misslyckades"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Fel vid aktivering av modul"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Fel vid deaktivering av modul"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Fel vid aktivering av modul"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Databasfel upptäckt"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:182
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:49
+msgid "Invalid ID"
+msgstr "Ogiltigt ID"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "Tomt eller ogiltigt ID"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Inget att uppdatera"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Databasfel. Kontakta din utvecklare."
+
+#: classes/tables/heatmaps.php:7
+msgid "Heatmap ID"
+msgstr "Färgdiagram-ID"
+
+#: classes/tables/heatmaps.php:8 classes/tables/marker.php:13
+#: classes/tables/shapes.php:12
+msgid "Map Id"
+msgstr "Kart-ID"
+
+#: classes/tables/heatmaps.php:9
+msgid "Heatmap coordinates list"
+msgstr "Koordinatlista för färgdiagram"
+
+#: classes/tables/heatmaps.php:10 classes/tables/marker.php:17
+#: classes/tables/modules.php:10 classes/tables/options.php:11
+#: classes/tables/shapes.php:15
+msgid "Params"
+msgstr "Parametrar"
+
+#: classes/tables/heatmaps.php:11 classes/tables/marker.php:19
+#: classes/tables/shapes.php:13
+msgid "Creation date"
+msgstr "Skapad datum"
+
+#: classes/tables/marker.php:7
+msgid "Marker ID"
+msgstr "Markör-ID"
+
+#: classes/tables/marker.php:8
+msgid "Marker name"
+msgstr "Markörnamn"
+
+#: classes/tables/marker.php:9
+msgid "Description Of Marker"
+msgstr "Beskrivning av markör"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "X-koordinat för markör (longitud)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Y-koordinat för markör (latitud)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Sökväg för ikonfil"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Marköradress"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "Id för markörens grupp"
+
+#: classes/tables/marker.php:16 classes/tables/shapes.php:14
+msgid "Animation"
+msgstr "Animering"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+#: classes/tables/shapes.php:16
+msgid "Sort Order"
+msgstr "Sorteringsordning"
+
+#: classes/tables/marker.php:20
+msgid "User who created marker"
+msgstr "Användare som skapade markör"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Etikett"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Typ"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktiv"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Har flik"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:67
+msgid "Description"
+msgstr "Beskrivning"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Kod"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Extern plugin-katalog"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:240
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Värde"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "Kategori-ID"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Värdetyp"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metod"
+
+#: classes/tables/shapes.php:7
+msgid "Shape ID"
+msgstr "Figur-ID"
+
+#: classes/tables/shapes.php:8
+msgid "Shape name"
+msgstr "Figurnamn"
+
+#: classes/tables/shapes.php:9
+msgid "Description of Shape"
+msgstr "Beskrivning av figur"
+
+#: classes/tables/shapes.php:10
+msgid "Shape coordinates list"
+msgstr "Koordinatlista för figur"
+
+#: classes/tables/shapes.php:11
+msgid "Shape type"
+msgstr "Figurtyp"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Användar-id"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Antal besök"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Ogiltig längd för %s, maximal längd är %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Ogiltigt numeriskt värde för %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Skriv in %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Välj %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Ogiltig %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s är redan registrerad"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Avsluta helskärm"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Öppna helskärm"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/printInfoWndBtn.php:8
+msgid "Print"
+msgstr "Skriv ut"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:54
+msgid "Search address..."
+msgstr "Sök adress ..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:81
+msgid "Reset"
+msgstr "Återställ"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:94
+msgid "Find"
+msgstr "Hitta"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:105
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr "Sökområdet har inga markörer, försök att ändra sökkriterierna."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "Få vägbeskrivning"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:23
+msgid "Type the address..."
+msgstr "Skriv adressen ..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:32
+msgid "or"
+msgstr "eller"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:35
+msgid "Get current user position"
+msgstr "Hämta nuvarande användarposition"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:45
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Skaffa"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "Geolokaliseringstjänsten misslyckades."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "Din webbläsare stöder inte geolokalisering."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "Rutt kunde inte hittas. Vänligen försök välja en annan adress!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "Välj adress från söklistan!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsPanel.php:4
+msgid "List of Direction's Steps will be here..."
+msgstr "Lista över ruttens steg kommer att visa här ..."
+
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:49
+msgid "Adding markers from the frontend is disabled for the Current Map"
+msgstr ""
+"Att lägga till markörer från användarsidan är inaktiverat för aktuell karta"
+
+#: doc/google-maps-easy-pro/frontend_actions/mod.php:24
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:9
+msgid "Empty or Invalid Map ID. Please, check your Marker Form Shortcode."
+msgstr ""
+"Tomt eller ogiltigt kart-ID. Vänligen kontrollera kortkoden för ditt "
+"markörformulär."
+
+#: doc/google-maps-easy-pro/frontend_actions/models/frontend_actions.php:33
+#, php-format
+msgid ""
+"You have exceeded the limit on adding markers from current IP address. Please "
+"try again after %s minutes."
+msgstr ""
+"Du har överskridit tidsgränsen för att lägga till markörer från nuvarande IP-"
+"adress. Försök igen om %s minuter."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:16
+msgid "Marker Form will be displayed only for logged in users."
+msgstr "Markörformulär visas endast för inloggade användare."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:17
+msgid "Log In"
+msgstr "Logga in"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:30
+#: modules/gmap/views/gmap.php:278 modules/gmap/views/gmap.php:279
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:464 modules/marker/mod.php:20
+#: modules/marker_groups/views/marker_groups.php:17
+msgid "None"
+msgstr "Ingen"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:52
+msgid ""
+"Marker's Form is not displayed, because the option &quot;Add markers on "
+"frontend&quot; is disabled for the Current Map"
+msgstr ""
+"Markörformulär visas inte eftersom alternativet &quot;Lägg till markörer från "
+"användarsidan&quot; är inaktiverad för aktuell karta"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:20
+msgid "You need to use marker form on page with map"
+msgstr "Du måste använda markörformuläret på sidan med karta"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:23
+msgid "Marker Form"
+msgstr "Markörformulär"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:24
+msgid "Use this form to add markers to your map"
+msgstr "Använd det här formuläret för att lägga till markörer på din karta"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:27
+#: modules/gmap/views/tpl/gmapEditMap.php:1178
+msgid "Marker Name"
+msgstr "Markörnamn"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:32
+#: modules/gmap/views/tpl/gmapEditMap.php:1271
+msgid "Marker Category"
+msgstr "Markörkategori"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:46
+#: modules/gmap/views/tpl/gmapEditMap.php:1494
+msgid "Add by Click"
+msgstr "Lägg till med klick"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:49
+#: modules/gmap/views/tpl/gmapEditMap.php:1191
+msgid "Marker Description"
+msgstr "Markörbeskrivning"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:58
+#: modules/gmap/views/tpl/gmapEditMap.php:848
+#: modules/gmap/views/tpl/gmapEditMap.php:1218
+msgid "Choose Icon"
+msgstr "Välj ikon"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:65
+#: modules/gmap/views/tpl/gmapEditMap.php:1708
+msgid "Save Marker"
+msgstr "Spara markör"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:90
+msgid "Choose the marker"
+msgstr "Välj markör"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:1714
+msgid "Delete Marker"
+msgstr "Radera markör"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:101
+msgid "You need to choose the marker"
+msgstr "Du måste välja markören"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:28
+msgid "Empty or invalid Heatmap ID"
+msgstr "Tomt eller ogiltigt färgdiagrams-ID"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:35
+msgid "Heatmap Not Found"
+msgstr "Färgdiagram hittades inte"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:41
+msgid "Cannot remove Heatmap"
+msgstr "Kan inte ta bort färgdiagram"
+
+#: doc/google-maps-easy-pro/kml/controller.php:18
+msgid "Security check failed"
+msgstr "Säkerhetskontroll misslyckades"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:6
+msgid "KML Layers Filter"
+msgstr "Filter för KML-lager"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:16
+msgid "KML data loading"
+msgstr "KML-data laddas"
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Din licens har gått ut. När du har förlängt din licens kommer du att kunna "
+"uppdatera PRO-versionen. För att förlänga PRO-versionens licens följ <a "
+"href='%s' target='_blank'>den här länken</a>, gå sedan till fliken <a "
+"href='%s'>Licens</a> och klicka på knappen &quot;återaktivera&quot; för att "
+"aktivera din PRO-version igen."
+
+#: doc/google-maps-easy-pro/license/mod.php:39
+#, php-format
+msgid ""
+"Your plugin PRO license is expired. It means your PRO version will work as "
+"usual - with all features and options, but you will not be able to update the "
+"PRO version and use PRO support. To extend PRO version license - follow <a "
+"href='%s' target='_blank'>this link</a>"
+msgstr ""
+"Din PRO-licens har löpt ut. Det innebär att din PRO-version fungerar som "
+"vanligt - med alla funktioner och alternativ, men du kommer inte att kunna "
+"uppdatera PRO-versionen och använda PRO-support. För att förlänga PRO-"
+"versionslicensen följ <a href='%s' target='_blank'>den här länken</a>"
+
+#: doc/google-maps-easy-pro/license/mod.php:44
+#, php-format
+msgid ""
+"You need to activate your copy of PRO version %s plugin. Go to <a "
+"href='%s'>License</a> tab and finish your software activation process."
+msgstr ""
+"Du måste aktivera din kopia av PRO-version %s plugin. Öppna fliken <a "
+"href='%s'>Licens</a> och avsluta programvaruaktiveringsprocessen."
+
+#: doc/google-maps-easy-pro/license/mod.php:70
+msgid "License"
+msgstr "Licens"
+
+#: doc/google-maps-easy-pro/license/mod.php:93
+msgid "Activate License"
+msgstr "Aktivera licens"
+
+#: doc/google-maps-easy-pro/license/mod.php:95
+msgid "Renew License"
+msgstr "Förnya licens"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Skriv in din licensnyckel"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Skriv in din e-postadress"
+
+#: doc/google-maps-easy-pro/license/models/license.php:138
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr ""
+"Det gick inte att skicka en begäran till vår autentiseringsserver. Vänligen "
+"försök senare."
+
+#: doc/google-maps-easy-pro/license/models/license.php:178
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Licens för plugin %s går ut idag."
+
+#: doc/google-maps-easy-pro/license/models/license.php:180
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Licens för plugin %s går ut i morgon."
+
+#: doc/google-maps-easy-pro/license/models/license.php:182
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Licens för plugin %s går ut om %d dagar."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr "Grattis! PRO-versionen av pluginet %s är aktiverad och fungerar bra!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on &quot;"
+"Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Din licens för PRO-versionen för pluginet %s har gått ut. Du kan <a href='%s' "
+"target='_blank'>klicka här</a> för att förlänga din licens, klicka sedan på "
+"knappen &quot;Återaktivera&quot; för att återaktivera din PRO-version."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Grattis! Du har installerat PRO-versionen av %s. Sista steg för att slutföra "
+"din inställning av PRO-versionen är att ange din e-postadress och "
+"licensnyckel på den här sidan. Detta kommer aktivera din kopia av "
+"programvaran på den här webbplatsen."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:215
+msgid "Email"
+msgstr "E-post"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Din e-postadress, som används vid utcheckningsförfarandet på <a href='%s' "
+"target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "Din licensnyckel från ditt konto på <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Återaktivera"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Aktivera"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:17
+msgid "Uncategorized"
+msgstr "Okategoriserad"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:65
+#: modules/gmap/views/gmap.php:241
+msgid "Title"
+msgstr "Rubrik"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:69
+msgid "Directions"
+msgstr "Vägbeskrivning"
+
+#: doc/google-maps-easy-pro/poi/mod.php:9
+#: doc/google-maps-easy-pro/poi/views/poi.php:7
+msgid "Empty or Invalid Map ID. Please, check your POI Toolbar Shortcode."
+msgstr ""
+"Tomt eller ogiltigt kart-ID. Kontrollera kortkoden för POI-verktygsfältet."
+
+#: doc/google-maps-easy-pro/shape/controller.php:42
+#: doc/google-maps-easy-pro/shape/controller.php:57
+msgid "Figure Not Found"
+msgstr "Figur hittades inte"
+
+#: doc/google-maps-easy-pro/shape/controller.php:48
+#: doc/google-maps-easy-pro/shape/controller.php:63
+msgid "Cannot remove figure"
+msgstr "Kan inte ta bort figur"
+
+#: doc/google-maps-easy-pro/shape/controller.php:99
+msgid "Empty or invalid figure ID"
+msgstr "Tomt eller ogiltigt figur-ID"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:43
+msgid "Please enter figure name"
+msgstr "Ange figurnamn"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:104
+#: modules/marker/models/marker.php:207
+msgid "Address is empty or not match"
+msgstr "Adress är tom eller matchar inte"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:159
+msgid "Invalid Figure ID"
+msgstr "Ogiltigt figur-ID"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/gmap/mod.php:22 modules/marker/views/tpl/markerListOperations.php:1
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Redigera"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/marker/views/tpl/markerListOperations.php:1
+msgid "Delete"
+msgstr "Radera"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:70
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"Ett oväntat HTTP-fel inträffade under API-förfrågan.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Försök igen</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:75
+msgid "An unknown error occurred"
+msgstr "Ett okänt fel uppstod"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Fältet för namn är obligatoriskt."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Fältet för webbsida är obligatoriskt."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Fältet för e-post är obligatoriskt."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Fältet för ämne är obligatoriskt."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Du måste välja en giltig kategori."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Fältet för meddelande är obligatoriskt."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"Coola WordPress-plugins från utvecklare hos supsystic.com. Jag provade %s - "
+"och det var det jag behövde! #supsystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "Inställningar"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Fler plugins till din WordPress-webbplats här!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Sprid budskapet!"
+
+#: modules/csv/controller.php:7
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Kartor från %s - %s"
+
+#: modules/csv/controller.php:10
+msgid "You have no maps for now."
+msgstr "Du har inga kartor ännu."
+
+#: modules/csv/controller.php:55
+#, php-format
+msgid "Markers from %s"
+msgstr "Markörer från %s"
+
+#: modules/csv/controller.php:58
+msgid "You have no markers for now."
+msgstr "Du har inga markörer ännu."
+
+#: modules/csv/controller.php:96
+msgid "Missing File"
+msgstr "Saknad fil"
+
+#: modules/csv/controller.php:98
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Fil uppladdad med felkod %s"
+
+#: modules/csv/controller.php:180
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "Filen ska innehålla mer än 1 rad, minst 1 rad ska vara för rubriker"
+
+#: modules/csv/controller.php:182
+msgid "Empty data in file"
+msgstr "Tom data i filen"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Import / export av kartor"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Kan inte upptäcka importlisttyp"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Kan inte hitta fältnamn"
+
+#: modules/csv/views/tpl/csvTabContent.php:8
+msgid "Maps"
+msgstr "Kartor"
+
+#: modules/csv/views/tpl/csvTabContent.php:13
+#: modules/csv/views/tpl/csvTabContent.php:34
+msgid "Export"
+msgstr "Exportera"
+
+#: modules/csv/views/tpl/csvTabContent.php:18
+#: modules/csv/views/tpl/csvTabContent.php:39
+msgid "Import"
+msgstr "Importera"
+
+#: modules/csv/views/tpl/csvTabContent.php:29 modules/gmap/views/gmap.php:243
+#: modules/gmap/views/tpl/gmapEditMap.php:41
+msgid "Markers"
+msgstr "Markörer"
+
+#: modules/csv/views/tpl/csvTabContent.php:51
+msgid "CSV Options"
+msgstr "CSV-alternativ"
+
+#: modules/csv/views/tpl/csvTabContent.php:57
+msgid "Delimiter"
+msgstr "Avgränsare"
+
+#: modules/csv/views/tpl/csvTabContent.php:73
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:15
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "Spara"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Kartdata hittades inte"
+
+#: modules/gmap/mod.php:19
+msgid "Add Map"
+msgstr "Lägg till karta"
+
+#: modules/gmap/mod.php:25
+msgid "All Maps"
+msgstr "Alla kartor"
+
+#: modules/gmap/mod.php:35
+msgid "No Map Found"
+msgstr "Ingen karta hittades"
+
+#: modules/gmap/mod.php:98
+msgid "Empty or Invalid Map ID"
+msgstr "Tomt eller ogiltigt kart-ID"
+
+#: modules/gmap/mod.php:98
+msgid "Please, check your Map Shortcode."
+msgstr "Kontrollera din kartas kortkod."
+
+#: modules/gmap/mod.php:118
+msgid "Top Center"
+msgstr "Topp - mitten"
+
+#: modules/gmap/mod.php:119
+msgid "Top Left"
+msgstr "Topp - vänster"
+
+#: modules/gmap/mod.php:120
+msgid "Top Right"
+msgstr "Topp - höger"
+
+#: modules/gmap/mod.php:121
+msgid "Left Top"
+msgstr "Vänster - topp"
+
+#: modules/gmap/mod.php:122
+msgid "Right Top"
+msgstr "Höger - topp"
+
+#: modules/gmap/mod.php:123
+msgid "Left Center"
+msgstr "Vänster - mitten"
+
+#: modules/gmap/mod.php:124
+msgid "Right Center"
+msgstr "Höger - mitten"
+
+#: modules/gmap/mod.php:125
+msgid "Left Bottom"
+msgstr "Vänster - botten"
+
+#: modules/gmap/mod.php:126
+msgid "Right Bottom"
+msgstr "Höger - botten"
+
+#: modules/gmap/mod.php:127
+msgid "Bottom Center"
+msgstr "Botten - mitten"
+
+#: modules/gmap/mod.php:128
+msgid "Bottom Left"
+msgstr "Botten - vänster"
+
+#: modules/gmap/mod.php:129
+msgid "Bottom Right"
+msgstr "Botten - höger"
+
+#: modules/gmap/mod.php:155
+msgid "Slider"
+msgstr "Bildspel"
+
+#: modules/gmap/mod.php:156
+msgid "Slider - Title and Img"
+msgstr "Bildspel - rubrik och bild"
+
+#: modules/gmap/mod.php:157 modules/gmap/mod.php:159
+msgid "Slider Vertical - Title and Img"
+msgstr "Bildspel vertikal - Rubrik och bild"
+
+#: modules/gmap/mod.php:158
+msgid "Slider Vertical - Title and Description"
+msgstr "Bildspel vertikal - Rubrik och beskrivning"
+
+#: modules/gmap/mod.php:160
+msgid "Slider Table"
+msgstr "Bildspel tabell"
+
+#: modules/gmap/mod.php:186
+msgid "Google Map"
+msgstr "Google Map"
+
+#: modules/gmap/models/gmap.php:90
+msgid "Please enter Map Name"
+msgstr "Skriv in kartnamn"
+
+#: modules/gmap/models/gmap.php:119
+#: modules/marker_groups/models/marker_groups.php:104
+msgid "Empty Params"
+msgstr "Tomma parametrar"
+
+#: modules/gmap/models/gmap.php:128 modules/gmap/models/gmap.php:226
+msgid "Invalid Map ID"
+msgstr "Ogiltigt kart-ID"
+
+#: modules/gmap/views/gmap.php:89
+#, php-format
+msgid "Map with ID %d not found"
+msgstr "Karta med ID %d hittades inte"
+
+#: modules/gmap/views/gmap.php:90
+msgid "Map not found"
+msgstr "Karta hittades inte"
+
+#: modules/gmap/views/gmap.php:242
+msgid "Html options"
+msgstr "Html-alternativ"
+
+#: modules/gmap/views/gmap.php:244
+msgid "Operations"
+msgstr "Åtgärder"
+
+#: modules/gmap/views/gmap.php:361
+msgid "Error inside google maps plugin."
+msgstr "Ett fel i Google Maps plugin."
+
+#: modules/gmap/views/gmap.php:365 modules/gmap/views/gmap.php:370
+msgid ""
+"To use this feature, You need to reactivate your Google Maps Easy plugin."
+msgstr ""
+"För att använda den här funktionen behöver du återaktivera pluginet Google "
+"Maps Easy."
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:6
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "Sök"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clone selected"
+msgstr "Klon vald"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:14
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "Radera markerade"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:33
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Du har inga kartor ännu. <a href='%s' style='font-style: italic;'>Skapa</a> "
+"din första karta!"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:4
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Det här alternativet är endast tillgängligt i <a target='_blank' "
+"href='%s'>PRO-versionen</a>, du kan skaffa den <a target='_blank' "
+"href='%s'>här.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Insert to Contact Form"
+msgstr "Infoga i Contact Form"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:19
+msgid "Integrate with Membership"
+msgstr "Integrera med Membership"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:27
+msgid "Enable for Membership"
+msgstr "Aktivera för Membership"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:35
+msgid "Map"
+msgstr "Karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:43
+#: modules/gmap/views/tpl/gmapEditMap.php:52
+msgid "New"
+msgstr "Ny"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:50 modules/supsystic_promo/mod.php:264
+msgid "Figures"
+msgstr "Figurer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+msgid "Heatmap Layer"
+msgstr "Färgdiagramslager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:71
+msgid "Map Name"
+msgstr "Kartnamn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:73
+msgid "Your map name"
+msgstr "Namn för din karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:85
+msgid "Map Width"
+msgstr "Kartbredd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:87
+msgid "Your map width"
+msgstr "Bredd för din karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:96
+#: modules/gmap/views/tpl/gmapEditMap.php:128
+#: modules/gmap/views/tpl/gmapEditMap.php:972
+#: modules/gmap/views/tpl/gmapEditMap.php:1012
+#: modules/gmap/views/tpl/gmapEditMap.php:1066
+#: modules/gmap/views/tpl/gmapEditMap.php:1088
+msgid "Pixels"
+msgstr "Pixlar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:131
+#: modules/gmap/views/tpl/gmapEditMap.php:978
+#: modules/gmap/views/tpl/gmapEditMap.php:1018
+#: modules/gmap/views/tpl/gmapEditMap.php:1070
+#: modules/gmap/views/tpl/gmapEditMap.php:1092
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:103
+msgid "Percent"
+msgstr "Procent"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Map Height"
+msgstr "Karthöjd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:112
+msgid ""
+"Your map height.<br /><br />If Adapt map to screen height option is checked - "
+"map height will be recalculated on frontend and can be equals to:<ul><li>1) "
+"your device screen height - height from top of page to top of map (if screen "
+"height > height from top of page to top of map)</li><li>2) your device screen "
+"height (in other cases)</li></ul>Recalculation will be done for maps in page "
+"content and widgets except of maps which displaying in Google Maps Easy "
+"widget popup (Display as image mode)."
+msgstr ""
+"Din karthöjd.<br /><br />Om alternativet anpassa karta till skärmhöjd är "
+"ibockat kommer karthöjden att beräknas på användarsidan och kan vara lika med:"
+"<ul><li>1) din enhets skärmhöjd - höjd från övre delen av sidan till övre "
+"delen av kartan (om skärmhöjd > höjd från övre delen av sidan till övre delen "
+"av kartan)</li><li>2) din enhets skärmhöjd (i andra fall)</li></"
+"ul>Omberäkning kommer att göras för kartor i sidinnehåll och widgets förutom "
+"för kartor som visas i Google Maps Easy widgetpopup (med alternativet visa "
+"som bild)."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:139
+msgid "Adapt map to screen height"
+msgstr "Anpassa kartan efter skärmhöjd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Map type control"
+msgstr "Verktyg för karttyp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr "Verktyg för karttyp finns vanligen i vänstra övre hörnet av din karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Dropdown Menu"
+msgstr "Rullgardinsmeny"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Horizontal Bar"
+msgstr "Horisontell list"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:166
+msgid "Change type control position on map"
+msgstr "Ändra position på verktyg för karttyp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:173
+#: modules/gmap/views/tpl/gmapEditMap.php:202
+#: modules/gmap/views/tpl/gmapEditMap.php:235
+#: modules/gmap/views/tpl/gmapEditMap.php:532
+#: modules/gmap/views/tpl/gmapEditMap.php:558
+#: modules/gmap/views/tpl/gmapEditMap.php:575
+#: modules/gmap/views/tpl/gmapEditMap.php:592
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+#: modules/gmap/views/tpl/gmapEditMap.php:678
+#: modules/gmap/views/tpl/gmapEditMap.php:757
+#: modules/gmap/views/tpl/gmapEditMap.php:774
+#: modules/gmap/views/tpl/gmapEditMap.php:791
+#: modules/gmap/views/tpl/gmapEditMap.php:834
+#: modules/gmap/views/tpl/gmapEditMap.php:874
+#: modules/gmap/views/tpl/gmapEditMap.php:1111
+#: modules/gmap/views/tpl/gmapEditMap.php:1154
+#: modules/options/views/tpl/optionsSettingsTabContent.php:70
+msgid "PRO option"
+msgstr "PRO-alternativ"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:181
+msgid "Zoom control"
+msgstr "Zoomverktyg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:183
+msgid ""
+"Zoom control type on your map. Note, to view Zoom control on the map the "
+"Custom Map Controls option must be disabled."
+msgstr ""
+"Typ av zoomverktyg för din karta. Notera, för att visa zoomverktyg på kartan "
+"måste alternativet för egenanpassade kartverktyg vara avaktiverat."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:518
+msgid "Default"
+msgstr "Standard"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:195
+msgid "Change zoom control position on map"
+msgstr "Ändra position på verktyg för zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:206
+msgid "Notice"
+msgstr "Notera"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:208
+msgid ""
+"Standard Zoom control will not displaying for this map, because the Custom "
+"Map Controls option enabled now."
+msgstr ""
+"Standardverktyg för zoom visas inte för den här kartan, då alternativet "
+"egenanpassade kartverktyg är aktiverat."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:216
+msgid "Street view control"
+msgstr "Verktyg för gatuvy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:218
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr "Verktyg för gatuvy finns vanligen i högra nedre hörnet av din karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:228
+msgid "Change street view control position on map"
+msgstr "Ändra position på verktyg för gatuvy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:288
+msgid "Draggable"
+msgstr "Flyttbar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:290
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr ""
+"Aktivera eller inaktivera möjligheten att flytta din karta med hjälp av musen"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:301
+msgid "Double click to zoom"
+msgstr "Dubbelklicka för att zooma"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:303
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"Som standard innebär dubbelklick på kartan att den zoomar in. Men du kan "
+"ändra detta här."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:314
+msgid "Mouse wheel to zoom"
+msgstr "Använd mushjul för att zooma"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:316
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"Ibland behöver du inaktivera möjligheten att zooma din karta med hjälp av "
+"mushjulet. Det kan exempelvis vara nödvändigt om du behöver använda ditt hjul "
+"för någon annan åtgärd, t.ex. skrolla din webbsida även om musen ligger över "
+"din karta."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+#: modules/gmap_widget/views/tpl/form.php:44
+msgid "Map Center"
+msgstr "Kartcentrum"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid ""
+"Sets map center. You can set map center in next ways: type address to use its "
+"coords, type the coords' values in appropriate fields or just drag the map on "
+"preview."
+msgstr ""
+"Ställer in kartcentrum. Du kan ställa in kartcentrum på följande sätt: skriv "
+"adress för att använda dess koordinater, skriv koordinaternas värden i rätt "
+"fält för latitud och longitud eller bara dra kartan i förhandsgranskningen."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:343
+#: modules/gmap/views/tpl/gmapEditMap.php:1243
+#: modules/gmap/views/tpl/gmapEditMap.php:1516
+msgid "Latitude"
+msgstr "Latitud"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:351
+#: modules/gmap/views/tpl/gmapEditMap.php:1257
+#: modules/gmap/views/tpl/gmapEditMap.php:1525
+msgid "Longitude"
+msgstr "Longitud"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:362
+#: modules/gmap_widget/views/tpl/form.php:56
+msgid "Map Zoom"
+msgstr "Kartzoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid ""
+"Sets map zoom.<br /><br />\n"
+"<b>Preset Zoom</b> - sets zoom value for map. You can change this value just "
+"change zoom on the map preview.<br /><br />\n"
+"<b>Fit Bounds</b> - map zoom will be changed on frontend in a way that all "
+"markers and figures will be visible.<br /><br />\n"
+"<b>Min Zoom Level</b> - sets minimum zoom level (maximum estrangement), which "
+"can be applied for map.<br /><br />\n"
+"<b>Max Zoom Level</b> - sets maximum zoom level (maximum approximation), "
+"which can be applied for map.\n"
+msgstr ""
+"Anger kartans zoom.<br /><br />\n"
+"<b>Förinställd zoom</b> - anger zoomnivå för kartan. Du kan ändra detta "
+"värde, bara ändra zoomnivå på kartans förhandsvisning.<br /><br />\n"
+"<b>Passa in</b> - kartzoom kommer anpassas på användarsidan på ett sådant "
+"sätt att alla markörer kommer att visas.<br /><br />\n"
+"<b>Minsta zoomnivå</b> - anger minsta zoomnivå (maximalt avstånd), som kan "
+"tillämpas för kartan.<br /><br />\n"
+"<b>Maximal zoomnivå</b> - anger maximal zoomnivå (maximum approximation), som "
+"kan tillämpas för kartan.\n"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Preset Zoom"
+msgstr "Förinställd zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Fit Bounds"
+msgstr "Passa in"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Zoom Level"
+msgstr "Zoomnivå"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:390
+msgid "Mobile Zoom Level"
+msgstr "Zoomnivå för mobil"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:401
+msgid "Min Zoom Level"
+msgstr "Minsta zoomnivå"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:410
+msgid "Max Zoom Level"
+msgstr "Maximal zoomnivå"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Google Map Theme"
+msgstr "Google Map-tema"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:426
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Du kan välja ditt Google Map-tema - vägkarta, hybrid, satellit eller terräng "
+"- här. Som standard kommer din karta att ha vägkarta Google Maps-tema."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Road Map"
+msgstr "Vägkarta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Satellite"
+msgstr "Satellit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Terrain"
+msgstr "Terräng"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Map Stylization"
+msgstr "Kartutseende"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:440
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Gör din karta unik med våra kartteman, bara ändra det här - och du kommer att "
+"se resultatet på kartans förhandsvisning."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:450
+msgid "Get 300+ Themes with PRO"
+msgstr "Få mer än 300 teman med PRO-versionen"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:458
+msgid "Markers Clusterization"
+msgstr "Markörkluster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:460
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Om du har många markörer kan du få problem med att visa dem, till exempel när "
+"du zoomar ut de kommer bara att täcka varandra. Att skapa markörkluster kan "
+"lösa detta problem genom att gruppera dina markörer i kluster när de är för "
+"nära varandra."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:464
+msgid "Base Clusterization"
+msgstr "Gruppera i kluster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:476
+msgid "/gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:493
+#: modules/gmap/views/tpl/gmapEditMap.php:849
+#: modules/gmap/views/tpl/gmapEditMap.php:1219
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:85
+msgid "Upload Icon"
+msgstr "Ladda upp ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:494
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:86
+msgid "Default Icon"
+msgstr "Standardikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:498
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:60
+msgid "Cluster Icon"
+msgstr "Klusterikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:508
+msgid "Cluster Area Size"
+msgstr "Storlek på klusterområde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:510
+msgid ""
+"Sets the grid size of cluster. The higher the size - the more area of capture "
+"the markers to the cluster."
+msgstr ""
+"Anger gridstorlek för kluster. Ju högre storlek - desto större område "
+"inkluderar markörerna till klustret."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:527
+msgid "Markers List"
+msgstr "Markörlista"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:529
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Visa alla kartmarkörer - som lista nedanför din karta. Det här hjälper dina "
+"användare att få mer information om dina markörer och hitta önskad markör "
+"snabbare."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:536
+msgid "Select Markers List type"
+msgstr "Välj typ av markörlista"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:542
+msgid "Markers List Color"
+msgstr "Färg på markörlista"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Traffic Layer"
+msgstr "Trafiklager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:555
+msgid "Add real-time traffic information to your map."
+msgstr "Lägg till trafikinformation i realtid till din karta."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:570
+msgid "Transit Layer"
+msgstr "Kollektivtrafiklager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:572
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Visa det kollektivtrafiknätet för en stad på din karta. När "
+"kollektivtrafiklagret är aktiverat och kartan är centrerad i en stad som "
+"stöder kollektivtrafikinformation, kommer kartan att visa huvudsakliga "
+"kollektivtrafiklinjer som tjocka, färgade linjer."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Bicycling Layer"
+msgstr "Cykellager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:589
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"bike lanes. Dashed routes indicate streets or paths otherwise recommended for "
+"bicycle usage."
+msgstr ""
+"Lägg till ett lager med cykelvägar, förslag på cykelvägar och andra lager som "
+"är specifika för cykelanvändning ovanpå den givna kartan. De mörkgröna "
+"vägarna indikerar särskilda cykelvägar. Ljusgröna vägar anger gator med "
+"dedikerade cykelvägar. Streckade rutter anger gator eller vägar som "
+"rekommenderas för cykelanvändning."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:607
+msgid "Add KML layers"
+msgstr "Lägg till KML-lager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:609
+msgid ""
+"Add KML files to display custom layers on the map. Additional options:<br /"
+"><br /><b>Enable KML layers filter</b> - add form to map for dynamically "
+"enable / disable KML layers and sublayers."
+msgstr ""
+"Lägg till KML-filer för att visa egenanpassade lager på kartan. Ytterligare "
+"alternativ:<br /><br /><b>Aktivera filter för KML-lager</b> - lägg till "
+"formulär i kartor för dynamiskt aktivera / inaktivera KML-lager och "
+"underlager."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:625
+msgid "Enable KML layers filter"
+msgstr "Aktivera filter för KML-lager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:630
+msgid "Enter KML file URL"
+msgstr "Skriv in URL för KML-fil"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:633
+msgid "Hide Sublayers at KML filter"
+msgstr "Dölj underlager på KML-filter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:636
+msgid "Remove KML field"
+msgstr "Ta bort KML-fält"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:652
+msgid "or Upload KML file"
+msgstr "eller ladda upp KML-fil"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:657
+msgid "Add more files"
+msgstr "Lägg till fler filer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:667
+msgid "Custom Map Controls"
+msgstr "Egenanpassade kartverktyg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:672
+msgid "Add custom map controls to the map."
+msgstr "Lägg till egenanpassade kartverktyg till kartan."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:688
+msgid "Controls type"
+msgstr "Typ av verktyg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Square"
+msgstr "Fyrkantig"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Rounded edges"
+msgstr "Rundade kanter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Round"
+msgstr "Rund"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:697
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:705
+msgid "Text color"
+msgstr "Textfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:713
+msgid "Controls position"
+msgstr "Position för verktyg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:723
+msgid "Min Search Radius (in meters):"
+msgstr "Minsta sökradie (i meter):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Max Search Radius (in meters):"
+msgstr "Maximal sökradie (i meter):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Search Country"
+msgstr "Sök land"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:752
+msgid "Full Screen Button"
+msgstr "Knapp för helskärm"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:754
+msgid "Add a button on map to open it full screen."
+msgstr "Lägg till en knapp på kartan för att öppna den i helskärm."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:769
+msgid "Hide POI"
+msgstr "Dölj intressepunkter (POI)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:771
+msgid ""
+"Hide the Points Of Interest - landmark or other object, the marked points on "
+"the map, for example: hotels, campsites, fuel stations etc."
+msgstr ""
+"Dölj intressepunkterna (POI) - landmärke eller andra objekt, de markerade "
+"punkterna på kartan, till exempel: hotell, campingplatser, bensinstationer "
+"etc."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:786
+msgid "Hide Countries"
+msgstr "Dölj länder"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:788
+msgid "Hide all administrative data about countries: names, borders etc."
+msgstr "Dölj alla administrativa uppgifter om länder: namn, gränser etc."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:803
+msgid "Hide Tooltips of Markers"
+msgstr "Dölj inforuta för markörer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:805
+msgid "Hide the tooltips, which displayed by mouse hover on markers' icons."
+msgstr "Dölj inforutan som visas när muspekaren är över markörernas ikoner."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:816
+msgid "Center on current opened marker"
+msgstr "Centrera på aktuell öppnad markör"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:818
+msgid ""
+"On frontend the map will be centered on current marker with opened info "
+"window."
+msgstr ""
+"På användarsidan kommer kartan centreras på aktuell markör med öppet "
+"informationsfönster."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:829
+msgid "Center on current user location"
+msgstr "Centrera på aktuell användares plats"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:831
+msgid "On frontend map will be centered on current user location."
+msgstr ""
+"Kartan på användarsidan kommer att centreras på nuvarande användares plats."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:860
+msgid "Add markers on frontend"
+msgstr "Lägg till markörer från användarsidan"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:862
+msgid ""
+"You can add markers at the current map with the frontend using the form, "
+"which can be displayed using the shortcode (it placed below preview map). "
+"Additional options that affect the operation of the form:<br /><br /"
+"><b>Logged In Users Only</b> - form will be displayed only for logged in "
+"users.<br /><br /><b>Disable WP Editor</b> - disable / enable WP Editor for "
+"the Marker Description field of the form.<br /><br /><b>Delete markers</b> - "
+"disable / enable interface for deleting markers on frontend. Each user can "
+"delete only his own markers.<br /><br /><b>Use markers categories</b> - "
+"disable / enable interface for choose the marker category on frontend.<br /"
+"><br /><b>Use limits for marker's adding</b> - allows you to limit the number "
+"of markers, which user can add from one IP address at the current map for a "
+"certain amount of time.<br /><br /><b>Max marker's count</b> - the maximum "
+"number of markers, which can be added over certain amount of time.<br /><br /"
+"><b>For allotted time (minutes)</b> - the number of minutes, during which you "
+"can add the maximum number of markers.<br /><br />For example, during three "
+"minutes you can add only two markers at the map. If you try to add a third "
+"marker - the form will not be saved and you will see the notice with amount "
+"of time you must wait. After the right amount of time will pass - you can add "
+"next two markers, etc.<br /><br />Important! If map and form for add markers "
+"at this map are placed on one page - this page will be overload after marker "
+"adding."
+msgstr ""
+"Du kan lägga till markörer på den aktuella kartan från användarsidan med "
+"formuläret, som kan visas med kortnumret (det placeras under "
+"förhandsgranskningskarta). Ytterligare alternativ som påverkar funktionen av "
+"formuläret:<br /><br /><b>Enbart inloggade användare</b> - formuläret visas "
+"bara för inloggade användare.<br /><br /><b>Inaktivera WP-redigerare</b> - "
+"inaktivera / aktivera WP-redigerare för fältet med markörbeskrivning i "
+"formuläret.<br /><br /><b>Radera markörer</b> - inaktivera / aktivera "
+"möjligheten att radera markörer från användarsidan. Varje användare kan bara "
+"ta bort sina egna markörer.<br /><br /><b>Använd markörkategorier</b> - "
+"inaktivera / aktivera möjligheten att välja markörkategori från användarsidan."
+"<br /><br /><b>Använd begränsning för att lägga till markörer</b> - låter dig "
+"begränsa antalet markörer som en användare kan lägga till från en IP-adress "
+"på den aktuella kartan under en viss tid.<br /><br /><b>Max antal markörer</"
+"b> - det maximala antalet markörer som kan läggas under en viss tid.<br /"
+"><br /><b>Tilldelad tid (minuter)</b> - antalet minuter, under vilken du kan "
+"lägga till det maximala antalet markörer.<br /><br />Till exempel, under tre "
+"minuter kan du bara lägga till två markörer på kartan. Om du försöker lägga "
+"till en tredje markör kommer formuläret inte att sparas och du visas ett "
+"meddelande med den tid du måste vänta. Efter att tillräcklig tid har passerat "
+"kan du lägga till två markörer, etc.<br /><br />Viktigt! Om kartan och "
+"formuläret för att lägga till markörer på den här kartan placeras på en sida "
+"kommer den sidan att bli överbelastad efter att markören har lagts till."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:888
+msgid "Logged In Users Only"
+msgstr "Endast inloggade användare"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:895
+msgid "Disable WP Editor"
+msgstr "Avaktivera WP-redigerare"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:902
+msgid "Delete markers"
+msgstr "Radera markörer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:909
+msgid "Use markers categories"
+msgstr "Använd markörkategorier"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:916
+msgid "Use limits for marker's adding"
+msgstr "Använd begränsning för att lägga till markörer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:921
+msgid "Max marker's count"
+msgstr "Max antal markörer"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:929
+msgid "For allotted time (minutes)"
+msgstr "Tilldelad tid (minuter)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:942
+msgid "Info Window"
+msgstr "Infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:944
+msgid "Parameters of markers / shapes info-window PopUp"
+msgstr "Parametrar för markörer och utseende för popup-infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:951
+msgid "Width"
+msgstr "Bredd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:953
+msgid "Width of info window"
+msgstr "Bredd för infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:967
+#: modules/gmap/views/tpl/gmapEditMap.php:1007
+msgid "Auto"
+msgstr "Automatisk"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:991
+msgid "Height"
+msgstr "Höjd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:993
+msgid "Height of info window"
+msgstr "Höjd för infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1031
+msgid "Title Color"
+msgstr "Rubrikfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1033
+msgid "You can set your info window title color here"
+msgstr "Du kan ange färg på rubriken i infofönstret här"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1043
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:49
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1045
+msgid "You can set your info window background color here"
+msgstr "Du kan ange färg på bakgrunden i infofönstret här"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1055
+msgid "Title Font Size"
+msgstr "Teckensnittsstorlek för rubrik"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1057
+msgid "You can set your info window title font size here"
+msgstr "Du kan ange storlek på teckensnitt för rubriken i infofönstret här"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1077
+msgid "Description Font Size"
+msgstr "Teckensnittsstorlek för beskrivning"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1079
+msgid "You can set your info window description font size here"
+msgstr "Du kan ange storlek på teckensnitt för beskrivning i infofönstret här"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1102
+msgid "Directions Button"
+msgstr "Knapp för vägbeskrivning"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1105
+msgid ""
+"Add a button at marker info window to get direction from the entered address "
+"to the marker. If Show route data option is enabled - the total route time "
+"and distance will be shown by click on the route polyline."
+msgstr ""
+"Lägg till en knapp i markörinformationsfönstret för att få vägbeskrivning "
+"från den angivna adressen till markören. Om alternativet visa ruttdata är "
+"aktiverat visas den totala restiden och avståndet genom att klicka på "
+"ruttlinjen."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1124
+msgid "Show alternate routes"
+msgstr "Visa alternativa rutter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1132
+msgid "Show route data"
+msgstr "Visa ruttdata"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1140
+msgid "Show route steps"
+msgstr "Visa ruttsteg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1149
+msgid "Print Button"
+msgstr "Skriv ut-knapp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1151
+msgid "Add Print button to markers info window"
+msgstr "Lägg till skriv ut-knapp till markörers infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1180
+msgid "Your marker title"
+msgstr "Namn för din markör"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1193
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "Skriv all text här som du vill ska visas i markörens popup-infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1209
+msgid "Icon"
+msgstr "Ikon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1211
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Din markörikon som kommer synas på din karta för den här markören"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1231
+msgid "Search your location by address, just start typing here"
+msgstr "Sök din plats via adress, bara börja skriv här"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1245
+msgid "Latitude for your marker"
+msgstr "Latitud för din markör"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1259
+msgid "Longitude for your marker"
+msgstr "Longitud för din markör"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1273
+msgid "Choose marker category"
+msgstr "Välj markörkategori"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1287
+msgid "Marker Link"
+msgstr "Markörlänk"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1289
+msgid "Link for opening by click on the marker"
+msgstr "Länk att öppna genom att klicka på markören"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1305
+msgid "Open in new window"
+msgstr "Öppna i nytt fönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1313
+msgid "Show description by default"
+msgstr "Visa beskrivning som standard"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1315
+msgid "Open marker description when map load"
+msgstr "Öppna markörbeskrivning när kartan laddas"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1325
+msgid "Show description by mouse hover"
+msgstr "Visa beskrivning med muspekare"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1327
+msgid "Open marker description by mouse hover"
+msgstr "Öppna markörbeskrivning med muspekare"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1337
+msgid "Hide description on mouse leave"
+msgstr "Dölj beskrivning när muspekaren lämnar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1339
+msgid "Hide description when mouse leaves the marker area"
+msgstr "Dölj beskrivning när muspekaren lämnar markörens område"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1349
+msgid "Marker List Default Image"
+msgstr "Standardbild för markörlista"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1351
+msgid ""
+"If there is no image tag in the marker description - this image will be used "
+"for displaying in the map's markers list"
+msgstr ""
+"Om det inte finns någon bildtagg i markörsbeskrivningen - kommer den här "
+"bilden att användas för att visas i kartans markörlista"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1394
+msgid "Figure Name"
+msgstr "Figurnamn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1396
+msgid "Your figure title"
+msgstr "Rubrik för din figur"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1407
+msgid "Figure Type"
+msgstr "Figurtyp"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1409
+msgid ""
+"Type of your figure:<br /><br /><b>Polyline</b> - a series of straight "
+"segments on the map.<br /><br /><b>Polygon</b> - area enclosed by a closed "
+"path (or loop), which is defined by a series of coordinates.<br /><br /"
+"><b>Circle</b> - circle shape,defined by center coordinates and radius."
+msgstr ""
+"Typ av figur:<br /><br /><b>Polylinje</b> - en serie raka segment på kartan."
+"<br /><br /><b>Polygon</b> - Område omsluten av en sluten linje (eller loop), "
+"som definieras av en serie koordinater.<br /><br /><b>Cirkel</b> - "
+"cirkelform, definierad av mittkoordinater och radie."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1417
+msgid "Polyline"
+msgstr "Polylinje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1418
+msgid "Polygon"
+msgstr "Polygon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1419
+msgid "Circle"
+msgstr "Cirkel"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1428
+msgid "Line Color"
+msgstr "Färg för linje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1435
+msgid "Line Opacity"
+msgstr "Opacitet för linje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1446
+msgid "Line Weight"
+msgstr "Tjocklek för linje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1454
+msgid "Fill Color"
+msgstr "Fyllnadsfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1461
+msgid "Fill Opacity"
+msgstr "Opacitet för fyllnadsfärg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1474
+msgid "Figure Description"
+msgstr "Figurbeskrivning"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1476
+msgid "Write here all text, that you want to appear in shape info-window PopUp"
+msgstr "Här skriver du in all text som du vill se i figurens popup-infofönster"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1488
+#: modules/gmap/views/tpl/gmapEditMap.php:1566
+msgid "Points"
+msgstr "Punkter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1490
+msgid ""
+"Figure's points list: you can search the point by address (just start typing "
+"in Address field), type the Latitude and Longitude of point in appropriate "
+"fields or activate Add by Click button, and then draw figure on the map by "
+"clicking on it. Important! You must deactivate Add by Click button after "
+"ending of the draw."
+msgstr ""
+"Figurens punktlista: Du kan söka punkter efter adress (bara börja skriva i "
+"adressfältet), skriv latitud och longitud för punkten i korrekt fält eller "
+"aktivera knappen &quot;Lägg till med klick&quot; och dra sedan en figur på "
+"kartan genom att klicka på den. Viktig! Du måste avaktivera knappen &quot;"
+"Lägg till med klick&quot; efter avslutad redigering."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1497
+msgid "Add New Point"
+msgstr "Lägg till ny punkt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1534
+#: modules/gmap/views/tpl/gmapEditMap.php:1590
+msgid "Radius"
+msgstr "Radie"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1541
+#: modules/gmap/views/tpl/gmapEditMap.php:1576
+msgid "Remove Point"
+msgstr "Ta bort punkt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1568
+msgid ""
+"To add Heatmap Layer points you need to activate Add Points button and draw "
+"each point by click on map. To remove points you need to activate Remove "
+"Points button and delete necessary point by click on it or just click on "
+"Delete Heatmap Layer button to remove all Heatmap Layer points. Important! "
+"You must to deactivate Add by Click and Remove by Click buttons after ending "
+"of the add / remove points."
+msgstr ""
+"För att lägga till punkter i färgdiagramslagret måste du aktivera knappen "
+"&quot;Lägg till punkt&quot; och rita in varje punkt genom att klicka på "
+"kartan. För att ta bort punkter måste du aktivera knappen &quot;Ta bort "
+"punkt&quot; och radera punkter genom att klicka på dem eller bara klicka på "
+"knappen &quot;Radera färgdiagramslager&quot; för att ta bort alla "
+"färgdiagramspunkter. Viktigt! Du måste avaktivera knapparna &quot;Lägg till "
+"med klick&quot; och &quot;Ta bort med klick&quot; efter att du avslutat att "
+"lägga till / ta bort punkter."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1573
+msgid "Add Point"
+msgstr "Lägg till punkt"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1581
+msgid "Points Count"
+msgstr "Antal punkter"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1592
+msgid "Heatmap Layer points radius in pixels"
+msgstr "Radie i pixlar för punkter i färgdiagramslager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1603
+msgid "Opacity"
+msgstr "Opacitet"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1605
+msgid "Heatmap Layer points opacity"
+msgstr "Opacitet för punkter i färgdiagramslager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1620
+msgid "Gradient"
+msgstr "Gradient"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1622
+msgid "Heatmap Layer points color gradient."
+msgstr "Färggradient för punkter i färgdiagramslager."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1626
+msgid "Add Color"
+msgstr "Lägg till färg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1629
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "Rensa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1633
+msgid "Remove Color"
+msgstr "Ta bort färg"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1665
+msgid "Map shortcode"
+msgstr "Kartans kortkod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1670
+msgid "PHP code"
+msgstr "PHP-kod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1677
+msgid "Marker Form shortcode"
+msgstr "Kortkod för formulär för markör"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1685
+msgid "Shortcode will appear after you save map."
+msgstr "Kortkod kommer visas efter att du sparat kartan."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1693
+msgid "Save Map"
+msgstr "Spara karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1699
+msgid "Delete Map"
+msgstr "Radera karta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1723
+msgid "Save Figure"
+msgstr "Spara figur"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1729
+msgid "Delete Figure"
+msgstr "Radera figur"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1738
+msgid "Save Heatmap Layer"
+msgstr "Spara färgdiagramslager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1744
+msgid "Delete Heatmap Layer"
+msgstr "Radera färgdiagramslager"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1750
+msgid "Search by name"
+msgstr "Sök via namn"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1802
+msgid "Show markers list with your map on frontend"
+msgstr "Visa markörslista tillsammans med din karta på användarsidan"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+msgid "Selected"
+msgstr "Vald"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Available in PRO"
+msgstr "Tillgänglig i PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1818
+msgid "Select Contact Form"
+msgstr "Välj kontaktformulär"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1841
+msgid "Oops! Something went wrong..."
+msgstr "Oj! Något gick fel ..."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1844
+#, php-format
+msgid ""
+"Map can not be loaded completely. Probably, you are using our base Google Map "
+"API key.<br /><br />\n"
+"This key is used by default for all our users in accordance with <a target="
+"\"_blank\" href=\"%s\">Google Maps APIs Standard Plan</a>.\n"
+"But each API key has fixed limits on count of maps loads per day.<br /><br /"
+">\n"
+"You can create <a target=\"_blank\" href=\"%s\">your own Google Maps API key</"
+"a> and type it on <a target=\"_blank\" href=\"%s\">Settings tab</a>.\n"
+"It's free, takes 10-20 minutes of your time and lets to apply your own API "
+"key only for your sites.\n"
+"If you already use own Google Maps API key - you should open <a target="
+"\"_blank\" href=\"%s\">Google Developer console</a> and check:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Have you set correct settings to use your Google Map API key?</li>\n"
+"<li>Have you paste correct Google Map API key on the <a target=\"_blank\" "
+"href=\"%s\">Settings tab</a>?</li>\n"
+"<li>Open <a target=\"_blank\" href=\"%s\">browser console</a>, find Google "
+"Map API error and read its description in <a target=\"_blank\" href=\"%s"
+"\">Map API Errors table</a>.</li>\n"
+"</ul>"
+msgstr ""
+"Kartan kan inte laddas helt. Förmodligen använder du vår standardnyckel för "
+"Google Map API.<br /><br />\n"
+"Den här nyckeln används som standard för alla våra användare enligt <a target="
+"\"_blank\" href=\"%s\">för Google Maps APIs standardprogram</a>.\n"
+"Men varje API-nyckel har fasta gränser för antalet kartor som kan laddas per "
+"dag.<br /><br />\n"
+"Du kan skapa <a target=\"_blank\" href=\"%s\">din egen Google Maps API-"
+"nyckel</a> och skriva in den på <a target=\"_blank\" href=\"%s\">fliken "
+"inställningar</a>.\n"
+"Det är gratis, tar 10-20 minuter av din tid och låter dig använda din egen "
+"API-nyckel för dina sajter.\n"
+"Om du redan använder en egen Google Maps API-nyckel - bör du öppna <a target="
+"\"_blank\" href=\"%s\">Google Developer Console</a> och kontrollera:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Har du skrivit in rätt inställningar för att använda din Google Map API-"
+"nyckel?</li>\n"
+"<li>Har du klistrat in korrekt Google Map API-nyckel på <a target=\"_blank\" "
+"href=\"%s\">fliken Inställningar</a>?</li>\n"
+"<li>Öppna <a target=\"_blank\" href=\"%s\">webbläsarkonsol</a>, hitta Google "
+"Map API error och läs beskrivningen i <a target=\"_blank\" href=\"%s"
+"\">tabellen Map API-fel</a>.</li>\n"
+"</ul>"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:22
+#, php-format
+msgid "and %s more"
+msgstr "och %s mer"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Visar mest visade produkter"
+
+#: modules/gmap_widget/views/gmap_widget.php:19
+msgid "You have no maps"
+msgstr "Du har inga kartor"
+
+#: modules/gmap_widget/views/tpl/form.php:8
+msgid "Select map"
+msgstr "Välj karta"
+
+#: modules/gmap_widget/views/tpl/form.php:20
+msgid "Widget Map width"
+msgstr "Kartbredd i widget"
+
+#: modules/gmap_widget/views/tpl/form.php:27
+#, php-format
+msgid "in % or px, for example, 100% or 200px"
+msgstr "i % eller px, till exempel, 100% eller 200px"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Widget Map height"
+msgstr "Karthöjd i widget"
+
+#: modules/gmap_widget/views/tpl/form.php:39
+msgid "in px, for example, 200 or 400"
+msgstr "i px, till exempel, 200 eller 400"
+
+#: modules/gmap_widget/views/tpl/form.php:51
+msgid "Set coords, separated by semicolons or marker id"
+msgstr "Ange koordinater, separerade med semikolon eller markör-ID"
+
+#: modules/gmap_widget/views/tpl/form.php:63
+msgid "Set zoom level from 1 to 21"
+msgstr "Ange zoomnivå från 1 till 21"
+
+#: modules/gmap_widget/views/tpl/form.php:68
+msgid "Display as image"
+msgstr "Visa som bild"
+
+#: modules/gmap_widget/views/tpl/form.php:76
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"Kartan kommer att visas som en bild i sidofältet, vid klick öppnas kartan i "
+"popup-fönster"
+
+#: modules/gmap_widget/views/tpl/form.php:79
+msgid "Image width (in px)"
+msgstr "Bredd för bild (i px)"
+
+#: modules/gmap_widget/views/tpl/form.php:86
+msgid "Image height (in px)"
+msgstr "Höjd för bild (i px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Tom url n"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Ikon hittades inte"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Fil hittades inte"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Kan inte få fram bild"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "kan inte infoga i tabell"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Kan inte skicka e-post - problem med server"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Markör hittades inte"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Kan inte ta bort markör"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Kan inte ta bort markörer"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "Tomt eller ogiltigt markör-ID"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Droppa"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Studsa"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Vänligen ange markörsnamn"
+
+#: modules/marker/models/marker.php:264
+msgid "Invalid Marker ID"
+msgstr "Ogiltigt markör-ID"
+
+#: modules/marker_groups/controller.php:51
+msgid "Marker Category data not found"
+msgstr "Data för markörkategori hittades inte"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Markörkategorier"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Ingen markörkategori hittades"
+
+#: modules/marker_groups/models/marker_groups.php:78
+msgid "Please enter Marker Category"
+msgstr "Skriv in markörkategori"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "Lägg till kategori"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "Rensa alla"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Du har inga markörkategorier ännu. <a href='%s' style='font-style: "
+"italic;'>Skapa</a> din första markörkategori!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:22
+msgid "Category Title"
+msgstr "Kategorirubrik"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:35
+msgid "Parent Category"
+msgstr "Överordnad kategori"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:70
+msgid "gmap/img/m1.png"
+msgstr "gmap/img/m1.png"
+
+#: modules/options/mod.php:108
+msgid "General"
+msgstr "Allmänna"
+
+#: modules/options/mod.php:110
+msgid "API Domain"
+msgstr "API-domän"
+
+#: modules/options/mod.php:110
+msgid "Sets domain for google API scripts"
+msgstr "Anger domän för Google API-skript"
+
+#: modules/options/mod.php:111
+msgid "User API key"
+msgstr "Användares API-nyckel"
+
+#: modules/options/mod.php:111
+msgid ""
+"You can use your own Google API key, check the <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruction</a> how to create it. To "
+"use plugin's default API key leave this field blank."
+msgstr ""
+"Du kan använda din egen Google API-nyckel, kolla <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruktionen</a> för hur du skapar "
+"den. För att använda detta plugins standard-API-nyckel lämna detta fält tomt."
+
+#: modules/options/mod.php:112
+msgid "Send usage statistics"
+msgstr "Skicka användarstatistik"
+
+#: modules/options/mod.php:112
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Skicka information om vilka plugin-alternativ du föredrar att använda, det "
+"hjälper oss att göra vår lösning bättre för dig."
+
+#: modules/options/mod.php:113
+msgid "Enable promo link"
+msgstr "Aktivera promotionlänk"
+
+#: modules/options/mod.php:113
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr ""
+"Vi försöker göra våra plugin bättre för dig, och du kan hjälpa oss med detta. "
+"Markera bara det här alternativet - och det kommer att läggas till en liten "
+"promotionlänk under dina Google-kartor. Det här är enkelt för dig - men "
+"mycket värdefullt för oss!"
+
+#: modules/options/mod.php:114
+msgid "User role can use plugin"
+msgstr "Användarroll som kan använda plugin"
+
+#: modules/options/mod.php:114
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr ""
+"Användare med följande roller kommer att ha tillgång till hela pluginet från "
+"admin-panelen."
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Modul uppdaterad"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Moduluppdatering misslyckades"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Fel modul-ID"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Töm data för att spara alternativ"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Huvudsidan ska vara här!!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Förbättra gratisversionen"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Observera att det här alternativet endast är tillgängligt i <a "
+"target='_blank' href='%s'>PRO-versionen</a>. Du kan <a target='_blank' "
+"href='%s' class='button'>Skaffa PRO</a> idag och få det här och andra PRO-"
+"alternativ för dina plugin!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Spara alla alternativ"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned On %s"
+msgstr "Aktiverad %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:63
+#, php-format
+msgid "Turned Off %s"
+msgstr "Avaktiverad %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Information sparades. Tack så mycket!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Var snäll och inte skicka kontaktförfrågningar så ofta - vänta på svar på "
+"dina tidigare förfrågningar."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Ange en giltig e-postadress"
+
+#: modules/supsystic_promo/mod.php:32
+#, php-format
+msgid ""
+"Please, set your own Google API key in Google Maps Easy plugin <a "
+"href='%s'>Settings</a>! More info about Maps and API keys you can find <a "
+"href='%s' target='_blank'>here</a>."
+msgstr ""
+"Ange din egen Google API-nyckel i Google Maps Easy plugin <a "
+"href='%s'>Inställningar</a>! Mer information om kartor och API-nycklar hittar "
+"du <a href='%s' target='_blank'>här</a>."
+
+#: modules/supsystic_promo/mod.php:56
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress? Just "
+"to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3>Hallå, jag ser att du har använt %s i över en vecka - det är fantastiskt!"
+"</h3><p>Kan du göra oss en stor tjänst och ge den 5 stjärnor på WordPress? "
+"Bara för att hjälpa oss att sprida budskapet och öka vår motivation.</p>"
+
+#: modules/supsystic_promo/mod.php:57 modules/supsystic_promo/mod.php:63
+msgid "Ok, you deserve it"
+msgstr "Ok, ni förtjänar det"
+
+#: modules/supsystic_promo/mod.php:58 modules/supsystic_promo/mod.php:64
+msgid "Nope, maybe later"
+msgstr "Nej, kanske senare"
+
+#: modules/supsystic_promo/mod.php:59
+msgid "I already did"
+msgstr "Jag har redan gjort det"
+
+#: modules/supsystic_promo/mod.php:60
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3>Mer än elva dagar med vårt plugin %s - Grattis!</h3>"
+
+#: modules/supsystic_promo/mod.php:61
+msgid ""
+"<p>On behalf of the entire <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a> company I would like to thank you for been "
+"with us, and I really hope that our software helped you.</p>"
+msgstr ""
+"<p>För hela företaget <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a>s vägnar vill jag tacka dig för att du valt "
+"oss, och jag hoppas verkligen att vår programvara har hjälpt dig.</p>"
+
+#: modules/supsystic_promo/mod.php:62
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you can "
+"just add small promo link to our site under your maps. This is small step for "
+"you, but a big help for us! Sure, if you don't want - just skip this and "
+"continue enjoy our software!</p>"
+msgstr ""
+"<p>Och idag, om du vill, kan du hjälpa oss. Det här är väldigt enkelt - du "
+"behöver bara lägga till en liten promotionlänk till vår webbplats under dina "
+"kartor. Detta är en liten åtgärd för dig, men en stor hjälp för oss! Men "
+"visst, om du inte vill kan du bara hoppa över det här och fortsätt njuta av "
+"vår programvara!</p>"
+
+#: modules/supsystic_promo/mod.php:65
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: modules/supsystic_promo/mod.php:67
+#, php-format
+msgid ""
+"Check out <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'>our other Plugins</a>! Years of experience in WordPress "
+"plugins developers made that list unbreakable!"
+msgstr ""
+"Kolla in <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'>våra andra plugin</a>! Åratal av erfarenhet i "
+"utveckling av plugin till WordPress har gjort denna lista oslagbar!"
+
+#: modules/supsystic_promo/mod.php:116
+msgid "Overview"
+msgstr "Översikt"
+
+#: modules/supsystic_promo/mod.php:119
+msgid "Featured Plugins"
+msgstr "Utvalda plugin"
+
+#: modules/supsystic_promo/mod.php:145
+msgid "Welcome to Supsystic Secure"
+msgstr "Välkommen till Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:214
+msgid "Name"
+msgstr "Namn"
+
+#: modules/supsystic_promo/mod.php:216
+msgid "Website"
+msgstr "Webbsida"
+
+#: modules/supsystic_promo/mod.php:217
+msgid "Subject"
+msgstr "Ämne"
+
+#: modules/supsystic_promo/mod.php:218
+msgid "Topic"
+msgstr "Kategori"
+
+#: modules/supsystic_promo/mod.php:219
+msgid "Plugin options"
+msgstr "Plugin-alternativ"
+
+#: modules/supsystic_promo/mod.php:220
+msgid "Report a bug"
+msgstr "Rapportera en bug"
+
+#: modules/supsystic_promo/mod.php:221
+msgid "Require a new functionality"
+msgstr "Önska ny funktion"
+
+#: modules/supsystic_promo/mod.php:222
+msgid "Other"
+msgstr "Annat"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Message"
+msgstr "Meddelande"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Hello Supsystic Team!"
+msgstr "Hej Supsystic-teamet! (vänligen skriv på engelska)"
+
+#: modules/supsystic_promo/mod.php:269
+msgid "Heatmap"
+msgstr "Färgdiagram"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to create Google Maps API Key?"
+msgstr "Hur skapar du Google Maps API-nyckel?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"Your map suddenly stopped working and you get the following error?<blockquote "
+"style='color: gray; font-style: italic;'>Oops! Something went wrong.This page "
+"didn't load Google Maps correctly. See the JavaScript console for technical "
+"details.</blockquote>Please check you browser console, if you'll see such "
+"error <blockquote style='color: gray; font-style: italic;'>This site has "
+"exceeded its daily quota for maps.</blockquote> - this <a href='//supsystic."
+"com/google-maps-api-key/' target='_blank'>article</a> is written for you and "
+"required for reading."
+msgstr ""
+"Din karta slutade plötsligt att fungera och du får följande fel?<blockquote "
+"style='color: gray; font-style: italic;'>Oj! Något gick fel. Den här sidan "
+"laddade inte Google Maps korrekt. Se JavaScript-konsolen för tekniska "
+"detaljer.</blockquote>Kontrollera din webbläsarkonsol, om du får se ett "
+"sådant fel <blockquote style='color: gray; font-style: italic;'>Den här "
+"webbplatsen har överskridit sin dagliga kvot för kartor.</blockquote> - den "
+"här <a href='//supsystic.com/google-maps-api-key/' target='_blank'>artikeln</"
+"a> är skriven för dig och bör läsas."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Hur använder du widget för Google Maps Easy?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. Gå till Utseende -> Widgetar i WordPress navigationsmeny.<br />2. Hitta "
+"Google Maps Easy i listan med tillgängliga widgets.<br />3. Dra Google Maps "
+"Easy-widgeten till widgetområdet som du vill använda.<br />4. Välj karta för "
+"widget och konfigurera inställningarna - bredd och höjd för widget-karta.<br /"
+">5. Klicka på Spara."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "How to add map into the site content?"
+msgstr "Hur lägger man till en karta på webbplatsen?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Du kan lägga till en karta i webbplatsens innehåll via kortkod eller php-kod. "
+"Läs mer om hur du gör det här <a href='http://supsystic.com/add-map-into-site-"
+"content/'>här</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "How to add map in popup window?"
+msgstr "Hur lägger man till en karta i ett popup-fönster?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:42
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Du kan lägga till en karta i ett popup-fönster genom att infoga kartans "
+"kortkod i valfritt popup-textfält. Läs mer om hur du gör det här <a "
+"href='http://supsystic.com/add-map-in-popup-window/'>här</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Hur man zoomar och centrerar den ursprungliga kartan på markörer?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:44
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Det finns några olika sätt att zooma och centrera kartan. Det enklaste är att "
+"dra din karta med hjälp av mus, alternativet \"Flyttbar\" måste vara "
+"aktiverat, eller med hjälp av panoreringsverktyg i förhandsvisningen. <a "
+"href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-"
+"markers/'>Läs mer ...</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Hur kan man få PRO-versionen av pluginet gratis?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Du har en otrolig möjlighet att få PRO-versionen gratis. Gör en översättning "
+"av detta plugin! Det vore fantastiskt om du utnyttjar erbjudandet! Mer "
+"information kan du hitta här <a target='_blank' href='%s'>Få PRO-versionen "
+"för alla plugin gratis</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "Översättning"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Alla tillgängliga språk levereras med pluginet Supsystic Google Maps. Om ditt "
+"språk inte är tillgängligt kommer ditt plugin som standard att vara på "
+"engelska.<br /> <b>Tillgängliga översättningar: Engelska, Polska, Tyska, "
+"Spanska, Ryska</b><br />Översätt eller uppdatera en översättning av WordPress-"
+"pluginet Google Maps Easy till ditt språk och få en Pro-licens gratis. <a "
+"target='_blank' href='%s'>Kontakta oss</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:62
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Det uppstod ett problem när du försökte hämta dina nyheter, men du kan alltid "
+"kolla alla <a target='_blank' href='%s'>här</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "No"
+msgstr "Nej"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "Popup Plugin"
+msgstr "Popup"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+"Det bästa WordPress-pluginet för popup-alternativ för att hjälpa dig att få "
+"fler prenumeranter, sociala följare eller annonsering. Responsiva popup-"
+"fönster med många alternativ."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin"
+msgstr "Photo Gallery"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+"Pluginet Photo Gallery har ett stort antal layouter som hjälper dig att skapa "
+"enastående kvalitativa portfolios och bildgallerier."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "Contact Form Plugin"
+msgstr "Contact Form"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+"En av de bästa pluginen för att skapa kontaktformulär på din WordPress-"
+"webbplats. Utbytbara teckensnitt, bakgrunder, ett alternativ för att lägga "
+"till fält etc."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Newsletter Plugin"
+msgstr "Newsletter"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+"Supsystics plugin Newsletter för automatiskt utskick av dina brev. Du behöver "
+"inte kontrollera eller skicka dem manuellt. Ingen kodning, avancerade "
+"färdigheter eller långa anpassningsarbeten behövs."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Membership by Supsystic"
+msgstr "Membership av Supsystic"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid ""
+"Create online membership community with custom user profiles, roles, FrontEnd "
+"registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+"Skapa onlinecommunity med egna användarprofiler, roller, registrering på "
+"användarsidan och inloggning. Medlemskatalog, aktivitet, grupper, meddelanden."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Data Tables Generator"
+msgstr "Data Tables Generator"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML knowledge "
+"is required."
+msgstr ""
+"Skapa och hantera vackra datatabeller med anpassad design. Ingen HTML-kunskap "
+"krävs."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Slider Plugin"
+msgstr "Slider"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select images "
+"from your WordPress Media Library, Flickr, Instagram or Facebook, set slide "
+"captions, links and SEO fields all from one page."
+msgstr ""
+"Att skapa bildspel med pluginet Slider går snabbt och enkelt. Välj bara "
+"bilder från ditt WordPress mediabibliotek, Flickr, Instagram eller Facebook, "
+"ange bildtexter, länkar och SEO-fält från en och samma sida."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social Share Buttons"
+msgstr "Social Share Buttons"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+"Knappar för att dela sociala media för att öka social trafik och popularitet. "
+"Social delning till Facebook, Twitter och andra sociala nätverk."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Live Chat Plugin"
+msgstr "Live Chat"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by Supsystic. "
+"Help you visitors, support them in real-time with exceptional Live Chat "
+"WordPress plugin by Supsystic."
+msgstr ""
+"Var närmare dina besökare och kunder med Live Chat Support av Supsystic. "
+"Hjälp dina besökare, supporta dem i realtid med det exceptionella WordPress-"
+"pluginet Live Chat från Supsystic."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid ""
+"It's never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+"Det har aldrig varit så lätt att skapa och hantera prissättning och "
+"jämförelsetabeller med tabellbyggare. Varje element i tabellen kan anpassas "
+"med musklick."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming Soon Plugin"
+msgstr "Coming Soon"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+"Sida med &quot;Coming soon&quot;-funktion, med drag-och-släpp-verktyg eller "
+"under konstruktion | underhållsläge för att meddela besökare och samla in e-"
+"post."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup Plugin"
+msgstr "Backup"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched "
+"DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+"WordPress-pluginet Backup av Supsystic för att säkerhetskopiera och "
+"återställa ger snabb och obegränsad säkerhetskopiering till DropBox, FTP, "
+"Amazon S3, Google Drive för din WordPress-webbplats."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+"Visa anpassade Google-kartor. Ange markörer och platser med text, bilder, "
+"kategorier och länkar. Anpassa Google-kartor på ett enkelt och intuitivt sätt."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication Plugin"
+msgstr "Digital Publication"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+"WordPress-pluginet Digital Publication av Supsystic för tidskrifter, "
+"kataloger, portfolios. Konvertera bilder, inlägg, PDF:er till blädderblocket."
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Version"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Support"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Lägg till dina"
+
+#: modules/supsystic_promo/views/tpl/adminPromoTabContent.php:5
+msgid "Get it now!"
+msgstr "Skaffa nu!"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Skaffa pluginpaket idag och spara över 80 %"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "Kolla in det"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "Mer info"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "Ladda ner"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "Vanliga frågor och dokumentation"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Kolla alla vanliga frågor"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Videoinstruktioner"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "PRO-funktioner"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Serverinställningar"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Nyheter"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Alla nyheter och info"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Kontaktformulär"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Skicka e-post"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"Din e-post skickades, vi försöker svara dig så snart som möjligt. Tack för "
+"ditt stöd!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Välkommen till"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Detta är den första uppstarten av pluginet %s."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Om du är nybörjare - kolla alla funktioner på den sidan, om du är guru - "
+"snälla rätta oss."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Vänligen posta URL"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Vad göra härnäst? Kolla nedanstående avsnitt"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Stötta oss"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"Det är fantastiskt när du uppmuntrar utvecklingen med din återkoppling och "
+"betyg. Så vi skapade en särskild <a target='_blank' href='%s'>boost-sida</a> "
+"för att hjälpa dig att hjälpa oss."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Kontrollera <a target='_blank' href='%s'>dokumentation</a> och avdelningen "
+"med vanliga frågor. Om du inte kan lösa dina problem - <a target='_blank' "
+"href='%s'>kontakta oss</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Fullständig funktionslista"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Det finns så många funktioner så vi kan inte posta det här. T.ex."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Captcha för administratörsinloggning"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "htaccess admin-skydd"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Dölj listning av katalogfiler"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Kontrollera skrivbehörigheter för filer och kataloger"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Se den fullständiga listan med funktioner <a target='_blank' href='%s'>här</"
+"a>."

@@ -1,0 +1,25 @@
+.widget-content .gmpWidgetRow.gmpMapRow {
+	margin: 10px 0;
+}
+.widget-content .gmpWidgetRowCell {
+	float: left;
+	margin-bottom: 10px;
+}
+.widget-content .gmpWidgetRowCell .gmpWidgetSuboptionsCell {
+	margin-top: 10px;
+}
+.widget-content .gmpWidgetRowCell.gmpFirstCell {
+	width: 40%;
+}
+.widget-content .gmpWidgetRowCell.gmpLastCell {
+	width: 60%;
+}
+.widget-content .gmpWidgetRow input[type="text"], .widget-content .gmpWidgetRow select {
+	width: 100%;
+}
+.widget-content .gmpWidgetRow input[type="checkbox"] {
+	vertical-align: bottom;
+}
+.widget-content .supsystic-info {
+	vertical-align: middle;
+}

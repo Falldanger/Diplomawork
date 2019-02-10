@@ -1,0 +1,4 @@
+/*remove duplicated WP menu item*/
+#toplevel_page_google-maps-easy .wp-submenu.wp-submenu-wrap .wp-first-item {
+	display: none;
+}

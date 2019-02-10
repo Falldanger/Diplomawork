@@ -1,0 +1,1841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2015-04-12 19:26+0200\n"
+"PO-Revision-Date: 2018-11-14 10:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/controller.php:198 ../classes/controller.php:206
+#: ../doc/google-maps-easy-pro/license/controller.php:6
+#: ../doc/old-version/classes/controller.php:198
+#: ../doc/old-version/classes/controller.php:206
+#: ../doc/old-version/modules/adminmenu/controller.php:29
+#: ../doc/old-version/modules/gmap/controller.php:39
+#: ../doc/old-version/modules/gmap/controller.php:56
+#: ../doc/old-version/modules/marker/controller.php:8
+#: ../doc/old-version/modules/marker/controller.php:46
+#: ../doc/old-version/modules/marker/controller.php:61
+#: ../doc/old-version/modules/marker/controller.php:101
+#: ../doc/old-version/modules/marker_groups/controller.php:18
+#: ../doc/old-version/modules/marker_groups/controller.php:33
+#: ../doc/old-version/modules/options/controller.php:6
+#: ../modules/adminmenu/controller.php:29 ../modules/gmap/controller.php:39
+#: ../modules/gmap/controller.php:56 ../modules/marker/controller.php:8
+#: ../modules/marker/controller.php:46 ../modules/marker/controller.php:61
+#: ../modules/marker/controller.php:101
+#: ../modules/marker_groups/controller.php:18
+#: ../modules/marker_groups/controller.php:33
+#: ../modules/options/controller.php:6
+msgid "Done"
+msgstr "Klaar"
+
+#: ../classes/field.php:131 ../doc/old-version/classes/field.php:131
+msgid "Select"
+msgstr "Selecteer"
+
+#: ../classes/field.php:170 ../classes/field.php:179 ../classes/field.php:184
+#: ../doc/old-version/classes/field.php:170
+#: ../doc/old-version/classes/field.php:179
+#: ../doc/old-version/classes/field.php:184
+msgid "N/A"
+msgstr "NVT"
+
+#: ../classes/field.php:277 ../doc/old-version/classes/field.php:277
+msgid "Add Checkbox"
+msgstr "﻿Voeg Checkbox toe"
+
+#: ../classes/field.php:282 ../classes/field.php:287
+#: ../doc/old-version/classes/field.php:282
+#: ../doc/old-version/classes/field.php:287
+msgid "Add Item"
+msgstr "Toevoegen item"
+
+#: ../classes/field.php:293 ../doc/old-version/classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Voeg keuzerondje toe"
+
+#: ../classes/field.php:311 ../doc/old-version/classes/field.php:311
+msgid "Dimensions"
+msgstr "Afmetingen"
+
+#: ../classes/field.php:314 ../doc/old-version/classes/field.php:314
+msgid "width"
+msgstr "breedte"
+
+#: ../classes/field.php:316 ../doc/old-version/classes/field.php:316
+msgid "height"
+msgstr "hoogte"
+
+#: ../classes/field.php:323 ../doc/old-version/classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Klik om het veld &quot;id&quot; en &quot;class&quot; toe te voegen"
+
+#: ../classes/field.php:324 ../doc/old-version/classes/field.php:324
+msgid "Attributes"
+msgstr "Attributen"
+
+#: ../classes/field.php:402 ../doc/old-version/classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Er zijn geen configuratie opties voor deze module"
+
+#: ../classes/fieldAdapter.php:93
+#: ../doc/old-version/classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Toepassen op"
+
+#: ../classes/fieldAdapter.php:95
+#: ../doc/old-version/classes/fieldAdapter.php:95
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:349
+#: ../doc/old-version/modules/marker/views/marker.php:35
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:64
+#: ../modules/gmap/views/tpl/gmapEditMap.php:437
+msgid "Address"
+msgstr "Adres"
+
+#: ../classes/fieldAdapter.php:96
+#: ../doc/old-version/classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Bestemming"
+
+#: ../classes/fieldAdapter.php:97
+#: ../doc/old-version/classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Land"
+
+#: ../classes/fieldAdapter.php:100
+#: ../doc/old-version/classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Categorieën"
+
+#: ../classes/fieldAdapter.php:101
+#: ../doc/old-version/classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "U hebt geen categorieën"
+
+#: ../classes/fieldAdapter.php:102
+#: ../doc/old-version/classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Merken"
+
+#: ../classes/fieldAdapter.php:103
+#: ../doc/old-version/classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "U hebt geen merken"
+
+#: ../classes/fieldAdapter.php:105
+#: ../doc/old-version/classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Belastingvoet"
+
+#: ../classes/fieldAdapter.php:106
+#: ../doc/old-version/classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absoluut"
+
+#: ../classes/fieldAdapter.php:134
+#: ../doc/old-version/classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Niet geselecteerd"
+
+#: ../classes/fieldAdapter.php:184
+#: ../doc/old-version/classes/fieldAdapter.php:184
+msgid "class"
+msgstr "class"
+
+#: ../classes/fieldAdapter.php:186
+#: ../doc/old-version/classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: ../classes/frame.php:135 ../doc/old-version/classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "U hebt niet de bevoegde rechten om deze pagina te bekijken"
+
+#: ../classes/html.php:207 ../doc/old-version/classes/html.php:207
+msgid "Upload"
+msgstr "Upload"
+
+#: ../classes/html.php:611 ../doc/old-version/classes/html.php:611
+msgid "ON"
+msgstr "AAN"
+
+#: ../classes/html.php:612 ../doc/old-version/classes/html.php:612
+msgid "OFF"
+msgstr "UIT"
+
+#: ../classes/html.php:636 ../doc/old-version/classes/html.php:636
+#, php-format
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#: ../classes/model.php:174 ../classes/model.php:186
+#: ../doc/old-version/classes/model.php:174
+#: ../doc/old-version/classes/model.php:186
+msgid "Database error detected"
+msgstr "Database fout gevonden"
+
+#: ../classes/model.php:176 ../doc/old-version/classes/model.php:176
+#: ../doc/old-version/modules/gmap/models/gmap.php:103
+#: ../doc/old-version/modules/icons/models/icons.php:133
+#: ../modules/gmap/models/gmap.php:105 ../modules/icons/models/icons.php:133
+msgid "Invalid ID"
+msgstr "Ongeldige ID"
+
+#: ../classes/model.php:209 ../doc/old-version/classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "Lege of ongeldige ID"
+
+#: ../classes/modInstaller.php:34
+#: ../doc/old-version/classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Bestanden verplaatsen voor %s is mislukt"
+
+#: ../classes/modInstaller.php:37
+#: ../doc/old-version/classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s is geen plugin module"
+
+#: ../classes/modInstaller.php:76
+#: ../doc/old-version/classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Kan de module map niet opzetten. Probeer de permissies te veranderen naar "
+
+#: ../classes/modInstaller.php:103
+#: ../doc/old-version/classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Geen modules gevonden in XML bestand"
+
+#: ../classes/modInstaller.php:107
+#: ../doc/old-version/classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Ongeldig XML bestand"
+
+#: ../classes/modInstaller.php:109
+#: ../doc/old-version/classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Geen XML bestand gevonden"
+
+#: ../classes/modInstaller.php:128
+#: ../doc/old-version/classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Installatie %s mislukt"
+
+#: ../classes/modInstaller.php:134
+#: ../doc/old-version/classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Fout in activering module"
+
+#: ../classes/modInstaller.php:164
+#: ../doc/old-version/classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Fout bij deactiveren module"
+
+#: ../classes/modInstaller.php:185
+#: ../doc/old-version/classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Fout bij activeren module"
+
+#: ../classes/table.php:277 ../doc/old-version/classes/table.php:277
+msgid "Nothing to update"
+msgstr "Niets om te updaten"
+
+#: ../classes/table.php:293 ../doc/old-version/classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Database fout. Contacteer de ontwikkelaar aub."
+
+#: ../classes/validator.php:30 ../doc/old-version/classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Ongeldige lengte voor %s, max lengte is %s"
+
+#: ../classes/validator.php:43 ../doc/old-version/classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Ongeldige numerieke waarde voor %s "
+
+#: ../classes/validator.php:71 ../doc/old-version/classes/validator.php:71
+#: ../doc/old-version/modules/supsystic_promo/controller.php:39
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Voeg aub %s in "
+
+#: ../classes/validator.php:78 ../doc/old-version/classes/validator.php:78
+#: ../doc/old-version/modules/supsystic_promo/controller.php:39
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Selecteer %s aub "
+
+#: ../classes/validator.php:85 ../classes/validator.php:101
+#: ../doc/old-version/classes/validator.php:85
+#: ../doc/old-version/classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Ongeldige %s"
+
+#: ../classes/validator.php:88 ../doc/old-version/classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr " %s is reeds geregistreerd"
+
+#: ../classes/tables/marker.php:7 ../classes/tables/marker_groups.php:8
+#: ../doc/old-version/classes/tables/maps.php:8
+#: ../doc/old-version/classes/tables/marker.php:7
+#: ../doc/old-version/classes/tables/marker_groups.php:8
+msgid "Map ID"
+msgstr "Kaart ID"
+
+#: ../classes/tables/marker.php:8 ../classes/tables/marker_groups.php:9
+#: ../doc/old-version/classes/tables/maps.php:9
+#: ../doc/old-version/classes/tables/marker.php:8
+#: ../doc/old-version/classes/tables/marker_groups.php:9
+msgid "File name"
+msgstr "Bestandsnaam"
+
+#: ../classes/tables/marker.php:9 ../classes/tables/marker_groups.php:10
+#: ../doc/old-version/classes/tables/maps.php:10
+#: ../doc/old-version/classes/tables/marker.php:9
+#: ../doc/old-version/classes/tables/marker_groups.php:10
+msgid "Description Of Map"
+msgstr "Beschrijving van de kaart"
+
+#: ../classes/tables/marker.php:10
+#: ../doc/old-version/classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "X coördinaat van baken (lng)"
+
+#: ../classes/tables/marker.php:11
+#: ../doc/old-version/classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Y coördinaat van baken (lat)"
+
+#: ../classes/tables/marker.php:12
+#: ../doc/old-version/classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Pad van het pictogram bestand"
+
+#: ../classes/tables/marker.php:13
+#: ../doc/old-version/classes/tables/marker.php:13
+msgid "Map Id"
+msgstr "Kaart id"
+
+#: ../classes/tables/marker.php:14
+#: ../doc/old-version/classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Baken adres"
+
+#: ../classes/tables/marker.php:15
+#: ../doc/old-version/classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "Id van baken groep"
+
+#: ../classes/tables/marker.php:16
+#: ../doc/old-version/classes/tables/marker.php:16
+msgid "Animation"
+msgstr "Animatie"
+
+#: ../classes/tables/marker.php:17 ../classes/tables/modules.php:10
+#: ../classes/tables/options.php:11
+#: ../doc/old-version/classes/tables/marker.php:17
+#: ../doc/old-version/classes/tables/modules.php:10
+#: ../doc/old-version/classes/tables/options.php:11
+msgid "Params"
+msgstr "Parameters"
+
+#: ../classes/tables/marker.php:18
+#: ../doc/old-version/classes/tables/marker.php:18
+msgid "Creation date"
+msgstr "Datum creatie"
+
+#: ../classes/tables/modules.php:7 ../classes/tables/modules_type.php:8
+#: ../classes/tables/options.php:10
+#: ../doc/old-version/classes/tables/modules.php:7
+#: ../doc/old-version/classes/tables/modules_type.php:8
+#: ../doc/old-version/classes/tables/options.php:10
+msgid "Label"
+msgstr "Label"
+
+#: ../classes/tables/modules.php:8 ../classes/tables/options.php:13
+#: ../doc/old-version/classes/tables/modules.php:8
+#: ../doc/old-version/classes/tables/options.php:13
+msgid "Type"
+msgstr "Soort"
+
+#: ../classes/tables/modules.php:9
+#: ../doc/old-version/classes/tables/modules.php:9
+msgid "Active"
+msgstr "Actief"
+
+#: ../classes/tables/modules.php:11
+#: ../doc/old-version/classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Heeft tab"
+
+#: ../classes/tables/modules.php:12 ../classes/tables/options.php:12
+#: ../doc/old-version/classes/tables/modules.php:12
+#: ../doc/old-version/classes/tables/options.php:12
+#: ../doc/old-version/modules/marker/views/marker.php:32
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:10
+msgid "Description"
+msgstr "Beschrijving"
+
+#: ../classes/tables/modules.php:13 ../classes/tables/options.php:8
+#: ../classes/tables/usage.php:9
+#: ../doc/old-version/classes/tables/modules.php:13
+#: ../doc/old-version/classes/tables/options.php:8
+#: ../doc/old-version/classes/tables/usage.php:9
+msgid "Code"
+msgstr "Code"
+
+#: ../classes/tables/modules.php:14
+#: ../doc/old-version/classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Externe plugin map"
+
+#: ../classes/tables/modules_type.php:7 ../classes/tables/options.php:7
+#: ../classes/tables/options_categories.php:7
+#: ../doc/old-version/classes/tables/modules_type.php:7
+#: ../doc/old-version/classes/tables/options.php:7
+#: ../doc/old-version/classes/tables/options_categories.php:7
+#: ../doc/old-version/modules/gmap/views/gmap.php:154
+#: ../doc/old-version/modules/marker/views/marker.php:29
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:7
+#: ../modules/gmap/views/gmap.php:122
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/tables/options.php:9
+#: ../doc/old-version/classes/tables/options.php:9
+msgid "Value"
+msgstr "Waarde"
+
+#: ../classes/tables/options.php:14
+#: ../doc/old-version/classes/tables/options.php:14
+msgid "Category ID"
+msgstr "Categorie ID"
+
+#: ../classes/tables/options.php:15
+#: ../doc/old-version/classes/tables/options.php:15
+msgid "Sort Order"
+msgstr "Sorteringsvolgorde"
+
+#: ../classes/tables/options.php:16
+#: ../doc/old-version/classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Soort waarde"
+
+#: ../classes/tables/options_categories.php:8
+#: ../doc/old-version/classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Methode"
+
+#: ../classes/tables/usage.php:8 ../doc/old-version/classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Gebruiks id"
+
+#: ../classes/tables/usage.php:10
+#: ../doc/old-version/classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Bezoeken teller"
+
+#: ../doc/google-maps-easy-pro/wpUpdater.php:68
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr "Een onverwachte HTTP fout heeft zich voor gedaan tijdens het testen van het API verzoek.</p> <p><a href='?' onclick='document.location.reload(); return false;'>Probeer opnieuw</a>"
+
+#: ../doc/google-maps-easy-pro/wpUpdater.php:73
+msgid "An unknown error occurred"
+msgstr "Een onbekende fout heeft zich voor gedaan"
+
+#: ../doc/google-maps-easy-pro/license/mod.php:23
+#, php-format
+msgid "Your license is expired. Once you extend your license - you will be able to Update PRO version. To extend PRO version license - follow <a href='%s' target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Uw licentie is vervallen. Wanneer u uw licentie verlengt zal u de PRO versie weer kunnen updaten. Om uw PRO versie te verlengen: Volg <a href='%s' target='_blank'>deze link</a>, daarna gaat u naar <a href='%s'>Licentie</a> tab en klik op 'Her-activeren' knop om uw PRO versie te activeren."
+
+#: ../doc/google-maps-easy-pro/license/mod.php:31
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - go to <a href='%s'>License</a> tab and click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Uw licentie voor de PRO versie van %s plugin - is vervallen. U kan <a href='%s' target='_blank'>hier klikken</a> om uw licentie te verlengen, daarna gaat u naar <a href='%s'>Licentie</a> tab klik op de 'Her-activatie' knop om uw PRO versie te verlengen."
+
+#: ../doc/google-maps-easy-pro/license/mod.php:44
+msgid "License"
+msgstr "Licentie"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Geef aub uw licentiesleutel in"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Geef aub uw e-mailadres in"
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:130
+msgid "There was a problem with sending request to your authentication server. Please try later."
+msgstr "Er was een probleem bij het verzenden van uw verzoek naar onze authenticatie server. Probeer later opnieuw."
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:153
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Licentie voor %s plugin vervalt vandaag."
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:155
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Licentie voor %s plugin vervalt morgen."
+
+#: ../doc/google-maps-easy-pro/license/models/license.php:157
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Licentie voor %s plugin zal vervallen binnen %d dagen."
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congradulations! PRO version of %s plugin is activated and working fine!"
+msgstr "Gefeliciteerd! PRO versie van %s plugin is geactiveerd en werkt naar behoren."
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid "Your license for PRO version of %s plugin - expired. You can <a href='%s' target='_blank'>click here</a> to extend your license, then - click on 'Re-activate' button to re-activate your PRO version."
+msgstr "Uw licentie voor de PRO versie van %s plugin - is vervallen. U kan <a href='%s' target='_blank'>hier klikken</a> om uw licentie te verlengen, daarna klikt u op de 'Her-activeren' knop om uw PRO versie te verlengen."
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid "Congradulations! You have successfully installed PRO version of %s plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site."
+msgstr "Gefeliciteerd! U hebt de PRO versie van de %s plugin met succes geïnstalleerd. De laatste stap om de installatie van uw PRO versie af te ronden is het ingeven van uw e-mail en licentiesleutel op deze pagina. Dit zal uw licentie op deze site activeren."
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: ../doc/old-version/modules/supsystic_promo/mod.php:124
+#: ../modules/supsystic_promo/mod.php:124
+msgid "Email"
+msgstr "E-mail"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+msgid "Your email address, used on checkout procedure on <a href='%' target='_blank'>%s</a>"
+msgstr "Uw e-mailadres, gebruikt bij de betalingsprocedure <a href='%' target='_blank'>%s</a>"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+msgid "Your License Key from your account on <a href='%' target='_blank'>%s</a>"
+msgstr "Uw licentiesleutel van uw account op  <a href='%' target='_blank'>%s</a>"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Her-activeren"
+
+#: ../doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Activeren"
+
+#: ../doc/old-version/classes/tables/icons.php:8
+msgid "Icon ID"
+msgstr "Pictogram ID"
+
+#: ../doc/old-version/classes/tables/icons.php:9
+msgid "Icon Title"
+msgstr "Pictogram titel"
+
+#: ../doc/old-version/classes/tables/icons.php:10
+msgid "Icon Description"
+msgstr "Pictogram beschrijving"
+
+#: ../doc/old-version/classes/tables/icons.php:11
+msgid "File Path"
+msgstr "Bestandspad"
+
+#: ../doc/old-version/classes/tables/maps.php:11
+msgid "Html Parametrs"
+msgstr "Html parameters"
+
+#: ../doc/old-version/classes/tables/maps.php:12
+msgid "Create Date"
+msgstr "Datum creatie"
+
+#: ../doc/old-version/classes/tables/maps.php:13
+msgid "Additional Params"
+msgstr "Additionele parameters"
+
+#: ../doc/old-version/modules/adminmenu/controller.php:7
+#: ../modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Het naam veld is verplicht."
+
+#: ../doc/old-version/modules/adminmenu/controller.php:8
+#: ../modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Het website veld is verplicht."
+
+#: ../doc/old-version/modules/adminmenu/controller.php:9
+#: ../modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Het e-mail veld is verplicht."
+
+#: ../doc/old-version/modules/adminmenu/controller.php:10
+#: ../modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Het onderwerp veld is verplicht."
+
+#: ../doc/old-version/modules/adminmenu/controller.php:11
+#: ../modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "U moet een geldige categorie selecteren."
+
+#: ../doc/old-version/modules/adminmenu/controller.php:12
+#: ../modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Het boodschap veld is verplicht."
+
+#: ../doc/old-version/modules/adminmenu/mod.php:12
+#: ../modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../doc/old-version/modules/csv/controller.php:11
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:9
+#: ../modules/csv/controller.php:11
+#: ../modules/csv/views/tpl/csvTabContent.php:9
+msgid "Maps"
+msgstr "Kaarten"
+
+#: ../doc/old-version/modules/csv/controller.php:47
+#: ../modules/csv/controller.php:47
+msgid "Marker"
+msgstr "Baken"
+
+#: ../doc/old-version/modules/csv/controller.php:100
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:30
+#: ../doc/old-version/modules/gmap/views/gmap.php:158
+#: ../modules/csv/controller.php:100
+#: ../modules/csv/views/tpl/csvTabContent.php:30
+#: ../modules/gmap/views/gmap.php:125
+#: ../modules/gmap/views/tpl/gmapEditMap.php:17
+msgid "Markers"
+msgstr "Bakens"
+
+#: ../doc/old-version/modules/csv/controller.php:133
+#: ../modules/csv/controller.php:133
+msgid "Missing File"
+msgstr "Missend bestand"
+
+#: ../doc/old-version/modules/csv/controller.php:135
+#: ../modules/csv/controller.php:135
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Bestand uploaden met foutcode %s"
+
+#: ../doc/old-version/modules/csv/controller.php:154
+#: ../modules/csv/controller.php:154
+#, php-format
+msgid "Added %s maps"
+msgstr "%s kaarten toegevoegd"
+
+#: ../doc/old-version/modules/csv/controller.php:156
+#: ../modules/csv/controller.php:156
+#, php-format
+msgid "Updated %s maps"
+msgstr "%s kaarten bijgewerkt"
+
+#: ../doc/old-version/modules/csv/controller.php:158
+#: ../modules/csv/controller.php:158
+#, php-format
+msgid "Added %s markers"
+msgstr "%s bakens toegevoegd"
+
+#: ../doc/old-version/modules/csv/controller.php:160
+#: ../modules/csv/controller.php:160
+#, php-format
+msgid "Updated %s markers"
+msgstr "%s bakens bijgewerkt"
+
+#: ../doc/old-version/modules/csv/controller.php:164
+#: ../modules/csv/controller.php:164
+msgid "File should contain more then 1 row, at least 1 row should be for headers"
+msgstr "Bestand moet meer dan 1 rij bevatten, ten minste 1 rij is voor de headers/hoofding"
+
+#: ../doc/old-version/modules/csv/controller.php:166
+#: ../modules/csv/controller.php:166
+msgid "Empty data in file"
+msgstr "Lege data in bestand"
+
+#: ../doc/old-version/modules/csv/mod.php:11 ../modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Kaarten importeren / exporteren"
+
+#: ../doc/old-version/modules/csv/models/csv.php:133
+#: ../modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Kan het importeren lijst type niet vinden"
+
+#: ../doc/old-version/modules/csv/models/csv.php:135
+#: ../modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Kan de namen van de velden niet vinden"
+
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:14
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:35
+#: ../modules/csv/views/tpl/csvTabContent.php:14
+#: ../modules/csv/views/tpl/csvTabContent.php:35
+msgid "Export"
+msgstr "Exporteren"
+
+#: ../doc/old-version/modules/csv/views/tpl/csvTabContent.php:38
+#: ../modules/csv/views/tpl/csvTabContent.php:38
+msgid "Import"
+msgstr "Importeren"
+
+#: ../doc/old-version/modules/gmap/controller.php:23
+#: ../modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Kaart gegevens niet gevonden"
+
+#: ../doc/old-version/modules/gmap/mod.php:12 ../modules/gmap/mod.php:13
+msgid "Add Map"
+msgstr "Kaart toevoegen"
+
+#: ../doc/old-version/modules/gmap/mod.php:15
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:409
+#: ../doc/old-version/modules/marker/views/tpl/markerListOperations.php:3
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:35
+#: ../modules/gmap/mod.php:16 ../modules/gmap/views/tpl/gmapEditMap.php:550
+msgid "Edit"
+msgstr "Bewerken"
+
+#: ../doc/old-version/modules/gmap/mod.php:18 ../modules/gmap/mod.php:19
+msgid "All Maps"
+msgstr "Alle kaarten"
+
+#: ../doc/old-version/modules/gmap/mod.php:28 ../modules/gmap/mod.php:29
+msgid "No Map Found"
+msgstr "Geen kaart gevonden"
+
+#: ../doc/old-version/modules/gmap/mod.php:38 ../modules/gmap/mod.php:39
+msgid "Empty or Invalid Map ID"
+msgstr "Lege of ongeldige kaart ID"
+
+#: ../doc/old-version/modules/gmap/mod.php:57 ../modules/gmap/mod.php:58
+msgid "Top Center"
+msgstr "Centraal bovenaan"
+
+#: ../doc/old-version/modules/gmap/mod.php:58 ../modules/gmap/mod.php:59
+msgid "Top Left"
+msgstr "Links boven"
+
+#: ../doc/old-version/modules/gmap/mod.php:59 ../modules/gmap/mod.php:60
+msgid "Top Right"
+msgstr "Rechts boven"
+
+#: ../doc/old-version/modules/gmap/mod.php:60 ../modules/gmap/mod.php:61
+msgid "Left Top"
+msgstr "Links boven"
+
+#: ../doc/old-version/modules/gmap/mod.php:61 ../modules/gmap/mod.php:62
+msgid "Right Top"
+msgstr "Rechts boven"
+
+#: ../doc/old-version/modules/gmap/mod.php:62 ../modules/gmap/mod.php:63
+msgid "Left Center"
+msgstr "Centraal links"
+
+#: ../doc/old-version/modules/gmap/mod.php:63 ../modules/gmap/mod.php:64
+msgid "Right Center"
+msgstr "Centraal rechts"
+
+#: ../doc/old-version/modules/gmap/mod.php:64 ../modules/gmap/mod.php:65
+msgid "Left Bottom"
+msgstr "Links beneden"
+
+#: ../doc/old-version/modules/gmap/mod.php:65 ../modules/gmap/mod.php:66
+msgid "Right Bottom"
+msgstr "Rechts beneden"
+
+#: ../doc/old-version/modules/gmap/mod.php:66 ../modules/gmap/mod.php:67
+msgid "Bottom Center"
+msgstr "Centraal beneden"
+
+#: ../doc/old-version/modules/gmap/mod.php:67 ../modules/gmap/mod.php:68
+msgid "Bottom Left"
+msgstr "Links beneden"
+
+#: ../doc/old-version/modules/gmap/mod.php:68 ../modules/gmap/mod.php:69
+msgid "Bottom Right"
+msgstr "Rechts beneden"
+
+#: ../doc/old-version/modules/gmap/models/gmap.php:65
+#: ../modules/gmap/models/gmap.php:67
+msgid "Please enter Map Name"
+msgstr "Geef de naam van de kaart op"
+
+#: ../doc/old-version/modules/gmap/models/gmap.php:94
+#: ../modules/gmap/models/gmap.php:96
+msgid "Empty Params"
+msgstr "Lege parameters"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:155
+#: ../doc/old-version/modules/marker/views/marker.php:31
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:8
+#: ../modules/gmap/views/gmap.php:123
+msgid "Title"
+msgstr "Titel"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:157
+#: ../modules/gmap/views/gmap.php:124
+msgid "Html options"
+msgstr "Html opties"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:159
+#: ../doc/old-version/modules/marker/views/marker.php:37
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:13
+#: ../modules/gmap/views/gmap.php:126
+msgid "Operations"
+msgstr "Operaties"
+
+#: ../doc/old-version/modules/gmap/views/gmap.php:192
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:275
+#: ../doc/old-version/modules/marker/mod.php:20
+#: ../modules/gmap/views/gmap.php:161
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+#: ../modules/gmap/views/tpl/gmapEditMap.php:370 ../modules/marker/mod.php:20
+msgid "None"
+msgstr "Geen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:5
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:8
+#: ../modules/gmap/views/tpl/gmapAdmin.php:5
+#: ../modules/gmap/views/tpl/gmapAdmin.php:8
+msgid "Delete selected"
+msgstr "Verwijder geselecteerde"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:11
+#: ../modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clear All"
+msgstr "Alles wissen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:13
+#: ../modules/gmap/views/tpl/gmapAdmin.php:13
+msgid "Clear"
+msgstr "Wissen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:16
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:17
+#: ../modules/gmap/views/tpl/gmapAdmin.php:16
+#: ../modules/gmap/views/tpl/gmapAdmin.php:17
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapAdmin.php:26
+#: ../modules/gmap/views/tpl/gmapAdmin.php:26
+#, php-format
+msgid "You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> your first Map!"
+msgstr "U hebt nog geen kaarten. <a href='%s' style='font-style: italic;'>Creëer</a> uw eerste kaart!"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapDrawMap.php:3
+#: ../modules/gmap/views/tpl/gmapDrawMap.php:3
+msgid "Map not found"
+msgstr "Kaart niet gevonden"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:2
+#: ../modules/gmap/views/tpl/gmapEditMap.php:2
+#, php-format
+msgid "This option is available in <a target='_blank' href='%s'>PRO version</a> only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr "Deze optie is enkel beschikbaar in de <a target='_blank' href='%s'>PRO versie</a>, deze kan u  <a target='_blank' href='%s'>hier</a> verkrijgen."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:4
+#: ../modules/gmap/views/tpl/gmapEditMap.php:117
+#: ../modules/gmap/views/tpl/gmapEditMap.php:145
+#: ../modules/gmap/views/tpl/gmapEditMap.php:172
+#: ../modules/gmap/views/tpl/gmapEditMap.php:199
+#: ../modules/gmap/views/tpl/gmapEditMap.php:281
+#: ../modules/gmap/views/tpl/gmapEditMap.php:298
+#: ../modules/gmap/views/tpl/gmapEditMap.php:315
+#: ../modules/gmap/views/tpl/gmapEditMap.php:352
+msgid "PRO option"
+msgstr "PRO optie"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:16
+#: ../modules/gmap/views/tpl/gmapEditMap.php:31
+msgid "Map Name"
+msgstr "Kaart naam"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:18
+#: ../modules/gmap/views/tpl/gmapEditMap.php:33
+msgid "Your map name"
+msgstr "De naam van uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:30
+#: ../modules/gmap/views/tpl/gmapEditMap.php:45
+msgid "Map Width"
+msgstr "Kaart breedte"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:32
+#: ../modules/gmap/views/tpl/gmapEditMap.php:47
+msgid "Your map width"
+msgstr "De breedte van uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:44
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:69
+#: ../modules/gmap/views/tpl/gmapEditMap.php:56
+#: ../modules/gmap/views/tpl/gmapEditMap.php:81
+msgid "Pixels"
+msgstr "Pixels"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:48
+#: ../modules/gmap/views/tpl/gmapEditMap.php:63
+msgid "Percent"
+msgstr "Procenten"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:55
+#: ../modules/gmap/views/tpl/gmapEditMap.php:70
+msgid "Map Height"
+msgstr "Kaart hoogte"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:57
+#: ../modules/gmap/views/tpl/gmapEditMap.php:72
+msgid "Your map height"
+msgstr "Uw kaart hoogte"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:75
+msgid "Extended Options"
+msgstr "Uitgebreide opties"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:82
+#: ../modules/gmap/views/tpl/gmapEditMap.php:97
+msgid "Map type control"
+msgstr "Soort kaart controle"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:84
+#: ../modules/gmap/views/tpl/gmapEditMap.php:99
+msgid "Control view for map type - you can see it in left upper corner by default"
+msgstr "Controle zicht voor type kaart - u kan dit standaard zien in de rechter bovenhoek"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Dropdown Menu"
+msgstr "Uitklap menu"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:89
+#: ../modules/gmap/views/tpl/gmapEditMap.php:104
+msgid "Horizontal Bar"
+msgstr "Horizontale balk"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:94
+#: ../modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Change type control position on map"
+msgstr "Verander het soort controle positie op uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:107
+#: ../modules/gmap/views/tpl/gmapEditMap.php:125
+msgid "Zoom control"
+msgstr "Zoom controle"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:109
+#: ../modules/gmap/views/tpl/gmapEditMap.php:127
+msgid "Zoom control type on your map"
+msgstr "Soort zoom controle op uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Default"
+msgstr "Standaard"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Large"
+msgstr "Groot"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:114
+#: ../modules/gmap/views/tpl/gmapEditMap.php:132
+msgid "Small"
+msgstr "Klein"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:119
+#: ../modules/gmap/views/tpl/gmapEditMap.php:138
+msgid "Change zoom control position on map"
+msgstr "Verander de zoom controle positie op de kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:132
+#: ../modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Street view control"
+msgstr "Street view controle"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:134
+#: ../modules/gmap/views/tpl/gmapEditMap.php:155
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr "Street view controle is meestal gesitueerd in de linker boven hoek van uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:143
+#: ../modules/gmap/views/tpl/gmapEditMap.php:165
+msgid "Change street view control position on map"
+msgstr "Verander street view controle positie op de kaart "
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:156
+#: ../modules/gmap/views/tpl/gmapEditMap.php:180
+msgid "Pan control"
+msgstr "Pan controle"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:158
+#: ../modules/gmap/views/tpl/gmapEditMap.php:182
+msgid "Pan control - allow you to pan over your map using mouse, usually is located on left upper corner of your map"
+msgstr "Pan controle - Staat u toe om via de muis over de kaart te bewegen, meestal is dit gelokaliseerd in de linker bovenhoek van uw kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:167
+#: ../modules/gmap/views/tpl/gmapEditMap.php:192
+msgid "Change pan control position on map"
+msgstr "Verander de pan controle positie op de kaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:180
+#: ../modules/gmap/views/tpl/gmapEditMap.php:207
+msgid "Overview control"
+msgstr "Overzicht controle"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:182
+#: ../modules/gmap/views/tpl/gmapEditMap.php:209
+msgid "Overview control for your map, by default is disabled, and if enabled - is located on the right bottom corner"
+msgstr "Overzicht controle van uw kaart is standaard uitgezet, wanneer dit wordt ingeschakeld situeert het zich in de rechter beneden hoek"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Opened"
+msgstr "Geopend"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:187
+#: ../modules/gmap/views/tpl/gmapEditMap.php:214
+msgid "Collapsed"
+msgstr "Uitgeklapt"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:196
+#: ../modules/gmap/views/tpl/gmapEditMap.php:223
+msgid "Draggable"
+msgstr "Verschuifbaar"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:198
+#: ../modules/gmap/views/tpl/gmapEditMap.php:225
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "Activeer of deactiveer de mogelijkheid om de map te verschuiven met uw muis"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:209
+#: ../modules/gmap/views/tpl/gmapEditMap.php:236
+msgid "Double click to zoom"
+msgstr "Dubbel klikken om te zoomen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:211
+#: ../modules/gmap/views/tpl/gmapEditMap.php:238
+msgid "By default double left click on map will zoom it in. But you can change this here."
+msgstr "Standard zal de kaart bij links dubbel klikken inzoomen. Maar u kan dit hier veranderen."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:222
+#: ../modules/gmap/views/tpl/gmapEditMap.php:249
+msgid "Mouse wheel to zoom"
+msgstr "Muiswiel om te zoomen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:224
+#: ../modules/gmap/views/tpl/gmapEditMap.php:251
+msgid "Sometimes you need to disable possibility to zoom your map using mouse wheel. This can be required for example - if you need to use your wheel for some other action, for example scroll your site even if mouse is over your map."
+msgstr "Soms moet u de mogelijkheid om te zoomen op uw kaart via het muiswiel uitschakelen. Dit kan vereist zijn bij bijvoorbeeld - als u het muiswiel nodig hebt voor een andere actie, bijvoorbeeld als uw site wilt verschuiven zelfs als de muis zich boven de kaart bevindt."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:235
+#: ../modules/gmap/views/tpl/gmapEditMap.php:262
+msgid "Google Map Theme"
+msgstr "Google Map thema"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:237
+#: ../modules/gmap/views/tpl/gmapEditMap.php:264
+msgid "You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain - here. By default your map will have Road Map Google maps theme."
+msgstr "U kan uw Google Map thema - wegenkaart, hybride, satelliet of terrein - hier selecteren. Standaard zal uw kaart het Google Maps wegenkaarten thema hebben."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Road Map"
+msgstr "Wegenkaart"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Hybrid"
+msgstr "Hybride"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Satellite"
+msgstr "Satelliet"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:241
+#: ../modules/gmap/views/tpl/gmapEditMap.php:268
+msgid "Terrain"
+msgstr "Terrein"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:249
+#: ../modules/gmap/views/tpl/gmapEditMap.php:327
+msgid "Map Stylization"
+msgstr "Kaart vormgeving"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:251
+#: ../modules/gmap/views/tpl/gmapEditMap.php:329
+msgid "Make your map unique with our Map Themes, just try to change it here - and you will see results on your Map Preview."
+msgstr "Maak uw kaart uniek met onze Kaart thema's, probeer ze hier te veranderen en u zal de resultaten zien in uw kaart preview."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:261
+msgid "Get 300+ Themes"
+msgstr "Verkrijg +300 thema's"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:269
+#: ../modules/gmap/views/tpl/gmapEditMap.php:364
+msgid "Markers Clusterization"
+msgstr "Bakens clasterizatie"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:271
+#: ../modules/gmap/views/tpl/gmapEditMap.php:366
+msgid "If you have many markers - you can have a problems with viewing them when zoom out for example: they will just cover each-other. Marker clusterization can solve this problem by grouping your markers in groups when they are too close to each-other."
+msgstr "Wanneer u veel bakens heeft dan kan u een probleem hebben met ze te bekijken wanneer u gaat zoomen, ze zullen elkaar overlappen.  Baken clasterizatie kan dit oplossen door het groeperen van uw bakens in groepen wanneer ze te dicht bij elkaar liggen."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:275
+#: ../modules/gmap/views/tpl/gmapEditMap.php:370
+msgid "Base Clusterization"
+msgstr "Basis clasterizatie"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:293
+#: ../modules/gmap/views/tpl/gmapEditMap.php:20
+msgid "Add New Marker"
+msgstr "Voeg nieuwe baken toe"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:294
+#: ../modules/gmap/views/tpl/gmapEditMap.php:526
+msgid "Save Marker"
+msgstr "Baken opslaan"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:303
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:9
+#: ../modules/gmap/views/tpl/gmapEditMap.php:391
+msgid "Marker Name"
+msgstr "Naam baken"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:305
+#: ../modules/gmap/views/tpl/gmapEditMap.php:393
+msgid "Your marker title"
+msgstr "Uw baken titel"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:316
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:25
+#: ../modules/gmap/views/tpl/gmapEditMap.php:404
+msgid "Marker Description"
+msgstr "Baken beschrijving"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:318
+#: ../modules/gmap/views/tpl/gmapEditMap.php:406
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "Schrijf hier alle tekst die u wilt weergeven in het baken popup informatie venster"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:334
+#: ../doc/old-version/modules/marker/views/marker.php:30
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:45
+#: ../modules/gmap/views/tpl/gmapEditMap.php:422
+msgid "Icon"
+msgstr "Icoon"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:336
+#: ../modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Uw baken pictogram dat op de map zal verschijnen voor deze baken"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:342
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:57
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:131
+#: ../modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Choose icon"
+msgstr "Kies pictogram"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:351
+#: ../modules/gmap/views/tpl/gmapEditMap.php:439
+msgid "Search your location by address, just start typing here"
+msgstr "Zoek locatie via adres, gewoon hier starten met typen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:363
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:83
+#: ../doc/old-version/modules/marker/views/tpl/markerListAddress.php:3
+#: ../modules/gmap/views/tpl/gmapEditMap.php:451
+msgid "Latitude"
+msgstr "Latitude"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:365
+#: ../modules/gmap/views/tpl/gmapEditMap.php:453
+msgid "Latitude for your marker"
+msgstr "Latitude voor uw baken"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:377
+#: ../doc/old-version/modules/marker/views/tpl/markerForm.php:102
+#: ../doc/old-version/modules/marker/views/tpl/markerListAddress.php:3
+#: ../modules/gmap/views/tpl/gmapEditMap.php:465
+msgid "Longitude"
+msgstr "Longitude"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:379
+#: ../modules/gmap/views/tpl/gmapEditMap.php:467
+msgid "Longitude for your marker"
+msgstr "Longitude voor uw baken"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:412
+#: ../modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Delete"
+msgstr "Verwijder"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:430
+#: ../modules/gmap/views/tpl/gmapEditMap.php:492
+msgid "Map shortcode"
+msgstr "Kaart shortcode"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:433
+#: ../modules/gmap/views/tpl/gmapEditMap.php:503
+msgid "Shortcode will appear after you save map."
+msgstr "Shortcode zal verschijnen na het opslaan van de kaart."
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:439
+#: ../modules/gmap/views/tpl/gmapEditMap.php:511
+msgid "Save Map"
+msgstr "Kaart opslaan"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapEditMap.php:442
+#: ../modules/gmap/views/tpl/gmapEditMap.php:517
+msgid "Delete Map"
+msgstr "Kaart verwijderen"
+
+#: ../doc/old-version/modules/gmap/views/tpl/gmapListMarkers.php:20
+#: ../modules/gmap/views/tpl/gmapListMarkers.php:20
+#, php-format
+msgid "and %s more"
+msgstr "en %s meer"
+
+#: ../doc/old-version/modules/gmap_widget/mod.php:18
+#: ../modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Toont de meest bekeken producten"
+
+#: ../doc/old-version/modules/gmap_widget/views/gmap_widget.php:15
+#: ../modules/gmap_widget/views/gmap_widget.php:15
+msgid "You have no maps"
+msgstr "U hebt geen kaarten"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:10
+#: ../modules/gmap_widget/views/tpl/form.php:10
+msgid "Select map"
+msgstr "Kaart selecteren"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:18
+#: ../modules/gmap_widget/views/tpl/form.php:18
+msgid "Widget Map width"
+msgstr "Widget kaart breedte"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:25
+#: ../modules/gmap_widget/views/tpl/form.php:25
+msgid "Widget Map height"
+msgstr "Widget kaart hoogte"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:32
+#: ../modules/gmap_widget/views/tpl/form.php:32
+msgid "Display as image"
+msgstr "Tonen als afbeelding"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:40
+#: ../modules/gmap_widget/views/tpl/form.php:40
+msgid "Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr "Kaart wordt getoond als afbeelding in de zijbalk, wanneer men er op klikt zal ze in een popup openen."
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:42
+#: ../modules/gmap_widget/views/tpl/form.php:42
+msgid "Image width (in px)"
+msgstr "Breedte afbeelding (in px)"
+
+#: ../doc/old-version/modules/gmap_widget/views/tpl/form.php:49
+#: ../modules/gmap_widget/views/tpl/form.php:49
+msgid "Image height (in px)"
+msgstr "hoogte afbeelding (in px)"
+
+#: ../doc/old-version/modules/icons/controller.php:20
+#: ../modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Lege url"
+
+#: ../doc/old-version/modules/icons/models/icons.php:29
+#: ../modules/icons/models/icons.php:29
+msgid "Icon no found"
+msgstr "Pictogram niet gevonden"
+
+#: ../doc/old-version/modules/icons/models/icons.php:81
+#: ../modules/icons/models/icons.php:81
+msgid "File not found"
+msgstr "Bestand niet gevonden"
+
+#: ../doc/old-version/modules/icons/models/icons.php:86
+#: ../modules/icons/models/icons.php:86
+msgid "Cannot get image"
+msgstr "Kan het bestand niet opvragen"
+
+#: ../doc/old-version/modules/icons/models/icons.php:97
+#: ../modules/icons/models/icons.php:97
+msgid "cannot insert to table"
+msgstr "Kan niet in tabel invoegen"
+
+#: ../doc/old-version/modules/mail/mod.php:33 ../modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Kan geen e-mail verzenden - probleem met de verzend server"
+
+#: ../doc/old-version/modules/marker/controller.php:42
+#: ../doc/old-version/modules/marker/controller.php:57
+#: ../modules/marker/controller.php:42 ../modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Baken niet gevonden"
+
+#: ../doc/old-version/modules/marker/controller.php:48
+#: ../modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Kan de baken niet verwijderen"
+
+#: ../doc/old-version/modules/marker/controller.php:63
+#: ../modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Kan de bakens niet verwijderen"
+
+#: ../doc/old-version/modules/marker/controller.php:144
+#: ../modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "Lege of ongeldige baken ID"
+
+#: ../doc/old-version/modules/marker/mod.php:21 ../modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Dump"
+
+#: ../doc/old-version/modules/marker/mod.php:22 ../modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Bounce"
+
+#: ../doc/old-version/modules/marker/models/marker.php:42
+#: ../modules/marker/models/marker.php:42
+msgid "Please enter marker name"
+msgstr "Geef de baken naam op"
+
+#: ../doc/old-version/modules/marker/models/marker.php:185
+#: ../modules/marker/models/marker.php:185
+msgid "Address is empty or not match"
+msgstr "Adres is leeg of niet geldig"
+
+#: ../doc/old-version/modules/marker/models/marker.php:243
+#: ../modules/marker/models/marker.php:243
+msgid "Invalid Marker ID"
+msgstr "Ongeldige baken ID"
+
+#: ../doc/old-version/modules/marker/views/marker.php:33
+msgid "Group"
+msgstr "Groep"
+
+#: ../doc/old-version/modules/marker/views/marker.php:34
+msgid "Creation Date"
+msgstr "Datum creatie"
+
+#: ../doc/old-version/modules/marker/views/marker.php:36
+msgid "Uses On Map"
+msgstr "Gebruik op de kaart"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerList.php:16
+msgid "Back To Markers List"
+msgstr "Tarug naar de baken lijst"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerListOperations.php:7
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsTable.php:39
+msgid "Remove"
+msgstr "Verwijder"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerListUsesOnMap.php:5
+msgid "No maps contain this marker"
+msgstr "Er is geen map met deze baken"
+
+#: ../doc/old-version/modules/marker/views/tpl/markerTable.php:17
+msgid "Remove selected"
+msgstr "Verwijder geselecteerde"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:14
+#: ../modules/marker_groups/controller.php:14
+msgid "Nothing To Save"
+msgstr "Niets om op te slaan"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:21
+#: ../modules/marker_groups/controller.php:21
+msgid "Cannot Save Group"
+msgstr "Kan de groep niet opslaan"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:29
+#: ../modules/marker_groups/controller.php:29
+msgid "Group Not Found"
+msgstr "Groep niet gevonden"
+
+#: ../doc/old-version/modules/marker_groups/controller.php:35
+#: ../modules/marker_groups/controller.php:35
+msgid "Cannot remove group"
+msgstr "Kan de groep niet verwijderen"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:5
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:20
+msgid "Save Group"
+msgstr "Groep opslaan"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:22
+msgid "Group Title"
+msgstr "Groepstitel"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:26
+msgid "Title For Group"
+msgstr "Titel voor groep"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:30
+msgid "Group Description"
+msgstr "Groep beschrijving"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:34
+msgid "Description For Goup"
+msgstr "Beschrijving voor groep"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:40
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../doc/old-version/modules/marker_groups/views/tpl/groupsList.php:43
+msgid "Reset"
+msgstr "Reset"
+
+#: ../doc/old-version/modules/options/mod.php:84 ../modules/options/mod.php:84
+msgid "General"
+msgstr "Algemeen"
+
+#: ../doc/old-version/modules/options/mod.php:86 ../modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "Verzend gebruiksstatistieken"
+
+#: ../doc/old-version/modules/options/models/modules.php:32
+#: ../modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Module is bijgewerkt"
+
+#: ../doc/old-version/modules/options/models/modules.php:47
+#: ../modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Module bijwerken is mislukt"
+
+#: ../doc/old-version/modules/options/models/modules.php:50
+#: ../modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Fout bij module ID"
+
+#: ../doc/old-version/modules/options/models/options.php:63
+#: ../modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Geen data om deze optie op te slaan"
+
+#: ../doc/old-version/modules/options/views/tpl/optionsAdminMain.php:18
+#: ../modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Hoofdpagina langs hier!!!!"
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:7
+#: ../modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Informatie is opgeslagen. Dank u!"
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:23
+#: ../modules/supsystic_promo/controller.php:23
+msgid "Please don't send contact requests so often - wait for response for your previous requests."
+msgstr "Zend aub niet zo vaak contact aanvragen - wacht op antwoord van uw vorige aanvragen."
+
+#: ../doc/old-version/modules/supsystic_promo/controller.php:45
+#: ../modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Geef aub een geldig e-mailadres op"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:24
+#: ../modules/supsystic_promo/mod.php:24
+msgid "Overview"
+msgstr "Overzicht"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:50
+#: ../modules/supsystic_promo/mod.php:50
+msgid "Welcome to Supsystic Secure"
+msgstr "Welkom bij Supsystic Secure"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:123
+#: ../modules/supsystic_promo/mod.php:123
+msgid "Name"
+msgstr "Naam"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:125
+#: ../modules/supsystic_promo/mod.php:125
+msgid "Website"
+msgstr "Website"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:126
+#: ../modules/supsystic_promo/mod.php:126
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:127
+#: ../modules/supsystic_promo/mod.php:127
+msgid "Topic"
+msgstr "Hoofdstuk"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:128
+#: ../modules/supsystic_promo/mod.php:128
+msgid "Plugin options"
+msgstr "Plugin opties"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:129
+#: ../modules/supsystic_promo/mod.php:129
+msgid "Report a bug"
+msgstr "Rapporteer een bug"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:130
+#: ../modules/supsystic_promo/mod.php:130
+msgid "Require a new functionality"
+msgstr "Vraag nieuwe functionaliteit aan"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:131
+#: ../modules/supsystic_promo/mod.php:131
+msgid "Other"
+msgstr "Anders"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:133
+#: ../modules/supsystic_promo/mod.php:133
+msgid "Message"
+msgstr "Boodschap"
+
+#: ../doc/old-version/modules/supsystic_promo/mod.php:133
+#: ../modules/supsystic_promo/mod.php:133
+msgid "Hello Supsystic Team!"
+msgstr "Hallo Supsystic Team!"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:30
+#: ../modules/supsystic_promo/views/supsystic_promo.php:30
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Hoe de PRO versie van deze plugin gratis verkrijgen?"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:30
+#: ../modules/supsystic_promo/views/supsystic_promo.php:30
+#, php-format
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin! It will be amazing if you take advantage of this offer! More info you can find here <a target='_blank' href='%s'>'Get PRO version of any plugin for FREE'</a>"
+msgstr "U hebt de ongelofelijk mogelijkheid om de PRO versie gratis te verkrijgen. Maak een vertaling van de plugin! Het zou leuk zijn als u gebruik maakt van deze kans! Meer informatie vindt u hier: <a target='_blank' href='%s'>'Verkrijg de PRO versie van eender welke plugin GRATIS'</a>"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:31
+#: ../modules/supsystic_promo/views/supsystic_promo.php:31
+msgid "Translation"
+msgstr "Vertaling"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:31
+#: ../modules/supsystic_promo/views/supsystic_promo.php:31
+#, php-format
+msgid "All available languages are provided with the Supsystic Google Maps plugin. If your language isn't available, your plugin will be in English by default.<br /><b>Available Translations: English</b><br />Translate or update a translation Google Maps WordPress plugin in your language and get a Premium license for FREE. <a target='_blank' href='%s'>Contact us</a>."
+msgstr "Alle verkrijgbare talen zijn beschikbaar gesteld met Supsystic Google Maps plugin. Wanneer uw taal niet beschikbaar is zal uw plugin standaard in het Engels zijn.<br /><b>Beschikbare vertalingen: Engels</b><br />Vertaal of update een Google Maps WordPress plugin vertaling in uw taal en verkrijg een GRATIS Premium licentie. <a target='_blank' href='%s'>Contacteer ons</a>."
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:48
+#: ../modules/supsystic_promo/views/supsystic_promo.php:48
+#, php-format
+msgid "There was some problem while trying to retrieve our news, but you can always check all list <a target='_blank' href='%s'>here</a>."
+msgstr "Er was een probleem bij de poging om ons nieuws te banderen, maar u kan altijd de hele lijst <a target='_blank' href='%s'>hier</a> nakijken."
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:67
+#: ../modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../modules/supsystic_promo/views/supsystic_promo.php:67
+msgid "Yes"
+msgstr "Ja"
+
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../doc/old-version/modules/supsystic_promo/views/supsystic_promo.php:67
+#: ../modules/supsystic_promo/views/supsystic_promo.php:58
+#: ../modules/supsystic_promo/views/supsystic_promo.php:59
+#: ../modules/supsystic_promo/views/supsystic_promo.php:64
+#: ../modules/supsystic_promo/views/supsystic_promo.php:66
+#: ../modules/supsystic_promo/views/supsystic_promo.php:67
+msgid "No"
+msgstr "Nee"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:78
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Versie"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:10
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Ga"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:10
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:15
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/adminFooter.php:19
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Toevoegen van uw"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "FAQ en documentatie"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Bekijk alle FAQ's (veel gestelde vragen)"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:102
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video tutorial"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "Server Settings"
+msgstr "Server instellingen"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:44
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:44
+msgid "News"
+msgstr "Nieuws"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:50
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:50
+msgid "All news and info"
+msgstr "Alle nieuws en info"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:55
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:55
+msgid "Contact form"
+msgstr "Contact formulier"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:87
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:87
+msgid "Send email"
+msgstr "Verzend E-mail"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+#: ../modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Your email was send, we will try to respond to you as soon as possible. Thank you for support!"
+msgstr "Uw e-mail is verzonden, wij zullen uw vraag zo snel mogelijk beantwoorden. Dank u voor uw steun!"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:76
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Welkom bij"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:84
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Dit is de eerste ingebruikname van de %s plugin."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:85
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid "If you are newbie - check all features on that page, if you are guru - please correct us."
+msgstr "Nieuwelingen - bekijk alle mogelijkheden op die pagina, gevorderden - verbeter ons aub."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:94
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Aub, verzend url"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:108
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Wat nu? Kijk hieronder"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:112
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Boost ons"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:113
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid "It's amazing when you boost development with your feedback and ratings. So we create special <a target='_blank' href='%s'>boost page</a> to help you to help us."
+msgstr "Het is verbazingwekkend wanneer u de ontwikkeling ondersteunt met uw feedback en beoordelingen. Dus creëerden we de speciale <a target='_blank' href='%s'>ondersteunings pagina</a> om u te ondersteunen in uw hulp voor ons."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:117
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:118
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid "Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr "Bekijk de <a target='_blank' href='%s'>documentatie</a> en FAQ sectie. Als u uw probleem niet kan oplossen - <a target='_blank' href='%s'>contacteer ons</a>."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:122
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Volledige functie lijst"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:123
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Er zijn zo veel functies dat we ze hier niet allen kunnen plaatsen. Like"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:125
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Captcha voor admin login"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:126
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "htaccess admin bescherming"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:127
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Verberg map met bestandslijst"
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:128
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Kijk de permissies van uw mappen en bestanden na."
+
+#: ../doc/old-version/modules/supsystic_promo/views/tpl/welcomePage.php:130
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr "Bekijk de volledige lijst met opties <a target='_blank' href='%s'>hier</a>."
+
+#: ../modules/gmap/mod.php:92
+msgid "Slider"
+msgstr "Slider"
+
+#: ../modules/gmap/mod.php:93
+msgid "Slider - Title and Img"
+msgstr "Slider - titel en img"
+
+#: ../modules/gmap/mod.php:94 ../modules/gmap/mod.php:96
+msgid "Slider Vertical - Title and Img"
+msgstr "Verticale slider - titel en img"
+
+#: ../modules/gmap/mod.php:95
+msgid "Slider Vertical - Title and Description"
+msgstr "Verticale slider - titel en beschrijving"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Map Properties"
+msgstr "Kaart eigenschappen"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:59
+#: ../modules/gmap/views/tpl/gmapEditMap.php:84
+msgid "Px"
+msgstr "Px"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:276
+msgid "Traffic Layer"
+msgstr "Verkeersinformatie laag"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:278
+msgid "Add real-time traffic information to your map."
+msgstr "Voeg live verkeersinformatie toe aan uw kaart."
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:293
+msgid "Transit Layer"
+msgstr "Openbaar vervoer laag"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:295
+msgid "Display the public transit network of a city on your map. When the Transit Layer is enabled, and the map is centered on a city that supports transit information, the map will display major transit lines as thick, colored lines."
+msgstr "Toon het openbaar vervoer op uw kaart. Wanneer de openbaar vervoer laag is ingeschakeld, en de kaart is gecentreerd op een stad die openbaar vervoer informatie ondersteunt dan zal de kaart de hoofdlijnen van het openbaar vervoer weergeven als dikke, gekleurde lijnen."
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:310
+msgid "Bicycling Layer"
+msgstr "Fiets laag"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:312
+msgid "Add a layer of bike paths, suggested bike routes and other overlays specific to bicycling usage on top of the given map.Dark green routes indicated dedicated bicycle routes. Light green routes indicate streets with dedicated 'bike lanes.' Dashed routes indicate streets or paths otherwise recommended for bicycle usage."
+msgstr "Voeg een laag met fietspaden, voorgestelde fietsroutes en andere deklagen specifiek voor fietsers bovenop de huidige kaart. Donkergroene routes geven specifieke fiets routes aan. Lichtgroene routes geven straten aan met eigen 'fietspaden.' Gestreepte routes geven straten of paden aan die aanbevolen zijn voor fietsers."
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:339
+msgid "Get 300+ Themes with PRO"
+msgstr "Verkrijg +300 thema's met PRO"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:347
+msgid "Markers List"
+msgstr "Baken lijst"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:349
+msgid "Display all map markers - as list below Your map. This will help your users get more info about your markers and find required marker more faster."
+msgstr "Toon alle kaart bakens - als een lijst onder uw kaart. Dit zal uw gebruikers helpen meer info te verkrijgen omtrent uw bakens en toelaten de gezochte baken sneller te vinden."
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:356
+msgid "Select Markers List type"
+msgstr "Selecteer soort baken lijst"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:497
+msgid "PHP code"
+msgstr "PHP code"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:532
+msgid "Delete Marker"
+msgstr "Verwijder baken"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:580
+msgid "Show markers list with your map on frontend"
+msgstr "Toon baken lijst met uw kaart op de voorgrond"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:587
+#: ../modules/gmap/views/tpl/gmapEditMap.php:588
+msgid "Apply"
+msgstr "Toepassen"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Selected"
+msgstr "Geselecteerd"
+
+#: ../modules/gmap/views/tpl/gmapEditMap.php:588
+msgid "Available in PRO"
+msgstr "Beschikbaar in PRO"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Verbeter de gratis versie"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid "Please be advised that this option is available only in <a target='_blank' href='%s'>PRO version</a>. You can <a target='_blank' href='%s' class='button'>Get PRO</a> today and get this and other PRO option for your Maps!"
+msgstr "Let op: deze optie is enkel beschikbaar in de <a target='_blank' href='%s'>PRO versie</a>. <a target='_blank' href='%s' class='button'>Bestel PRO</a> vandaag en krijg deze en andere PRO opties voor je Maps!"

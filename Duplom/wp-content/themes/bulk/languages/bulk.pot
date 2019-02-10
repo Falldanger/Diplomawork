@@ -1,0 +1,438 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk\n"
+"POT-Creation-Date: 2018-03-01 15:26+0100\n"
+"PO-Revision-Date: 2015-12-08 20:48+0100\n"
+"Last-Translator: Bulk <info@themes4wp.com>\n"
+"Language-Team: Bulk <info@themes4wp.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:10
+msgid "Looks like nothing was found at this location. Want to try a search?"
+msgstr ""
+
+#: comments.php:17
+#, php-format
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:2
+msgid "Nothing found"
+msgstr ""
+
+#: content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:24
+msgid "Read more"
+msgstr ""
+
+#: functions.php:20
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:54 lib/customizer.php:32
+#, php-format
+msgid ""
+"To take full advantage of all the features this theme has to offer, please "
+"install and activate the %s plugin."
+msgstr ""
+
+#: functions.php:89
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:161
+msgid "Right sidebar"
+msgstr ""
+
+#: functions.php:171
+msgid "Footer section"
+msgstr ""
+
+#: functions.php:205
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: functions.php:232
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: functions.php:246
+msgid ", "
+msgstr ""
+
+#: functions.php:264
+msgid "Category:"
+msgstr ""
+
+#: functions.php:268
+msgid "Tagged"
+msgstr ""
+
+#: functions.php:274
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:274
+msgid "One comment"
+msgstr ""
+
+#: functions.php:274
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: functions.php:274
+msgid "Comments are closed for this post"
+msgstr ""
+
+#: functions.php:297
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:297
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:302
+#, php-format
+msgid "Theme: %1$s"
+msgstr ""
+
+#: lib/customizer-plugin-recommend/customizer-notice/class-customizer-notice.php:144
+#: lib/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:110
+msgid "Activating"
+msgstr ""
+
+#: lib/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:59
+#: lib/customizer.php:36
+msgid "Install and Activate"
+msgstr ""
+
+#: lib/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:75
+#: lib/customizer.php:37 lib/dashboard.php:238
+msgid "Activate"
+msgstr ""
+
+#: lib/customizer.php:35
+msgid "Recommended plugin"
+msgstr ""
+
+#: lib/customizer.php:38
+msgid "Deactivate"
+msgstr ""
+
+#: lib/customizer/demo.php:13 lib/dashboard.php:353
+msgid "One Click Demo Import"
+msgstr ""
+
+#: lib/customizer/demo.php:25 lib/dashboard.php:549
+#, php-format
+msgid ""
+"You can import the demo content with just one click. For step-by-step video "
+"tutorial, see %1$s"
+msgstr ""
+
+#: lib/customizer/demo.php:25 lib/customizer/info.php:28 lib/dashboard.php:549
+msgid "documentation"
+msgstr ""
+
+#: lib/customizer/info.php:11
+msgid "Video Documentation & Demo"
+msgstr ""
+
+#: lib/customizer/info.php:25
+#, php-format
+msgid "You can use this theme to create a website like these %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:25
+msgid "demos"
+msgstr ""
+
+#: lib/customizer/info.php:28
+#, php-format
+msgid "For step-by-step videos and text tutorials, see %1$s"
+msgstr ""
+
+#: lib/customizer/info.php:143 lib/dashboard.php:354
+msgid "PRO version"
+msgstr ""
+
+#: lib/customizer/info.php:145
+msgid "View PRO version"
+msgstr ""
+
+#: lib/dashboard.php:132
+#, php-format
+msgid "%1$s action required"
+msgid_plural "%1$s actions required"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/dashboard.php:135
+#, php-format
+msgid "Bulk theme %s"
+msgstr ""
+
+#: lib/dashboard.php:137
+msgid "Bulk theme"
+msgstr ""
+
+#: lib/dashboard.php:140
+msgid "Bulk dashboard"
+msgstr ""
+
+#: lib/dashboard.php:166 lib/dashboard.php:342
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: lib/dashboard.php:173
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: lib/dashboard.php:181
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: lib/dashboard.php:219
+msgid "Install Now"
+msgstr ""
+
+#: lib/dashboard.php:259
+msgid "Details"
+msgstr ""
+
+#: lib/dashboard.php:349
+msgid "Recommended Actions"
+msgstr ""
+
+#: lib/dashboard.php:363
+msgid "Theme Customizer"
+msgstr ""
+
+#: lib/dashboard.php:367
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize"
+"\" to personalize your site."
+msgstr ""
+
+#: lib/dashboard.php:371
+msgid "Start customizing"
+msgstr ""
+
+#: lib/dashboard.php:375
+msgid "Theme documentation"
+msgstr ""
+
+#: lib/dashboard.php:379
+#, php-format
+msgid ""
+"Need help in setting up and configuring %s? Please take a look at our "
+"documentation page."
+msgstr ""
+
+#: lib/dashboard.php:387
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: lib/dashboard.php:393
+msgid "Having trouble? Need support?"
+msgstr ""
+
+#: lib/dashboard.php:395
+msgid "Contact us"
+msgstr ""
+
+#: lib/dashboard.php:419
+#, php-format
+msgid "You're using %1$s, a Bulk child theme"
+msgstr ""
+
+#: lib/dashboard.php:424
+msgid ""
+"Do you want to import the theme settings of the parent theme into your "
+"child theme?"
+msgstr ""
+
+#: lib/dashboard.php:429
+msgid "From theme"
+msgstr ""
+
+#: lib/dashboard.php:435
+msgid "To theme"
+msgstr ""
+
+#: lib/dashboard.php:442
+msgid "Import now"
+msgstr ""
+
+#: lib/dashboard.php:446 lib/dashboard.php:585
+msgid ""
+"Are you sure you want to proceed? Imported settings will replace the ones "
+"of the current theme."
+msgstr ""
+
+#: lib/dashboard.php:464
+msgid "Recommended plugins"
+msgstr ""
+
+#: lib/dashboard.php:474 lib/dashboard.php:501
+msgid "Dismiss"
+msgstr ""
+
+#: lib/dashboard.php:481
+msgid "Switch \"Your homepage displays\" to \"A static page\""
+msgstr ""
+
+#: lib/dashboard.php:486
+#, php-format
+msgid ""
+"If you want your website to have a \"one-page\" look, go to Appearence > "
+"Customize > Homepage settings and switch \"Your homepage displays\" to \"A "
+"static page\". %1$s"
+msgstr ""
+
+#: lib/dashboard.php:486 lib/dashboard.php:514
+msgid "Documentation"
+msgstr ""
+
+#: lib/dashboard.php:493 lib/dashboard.php:524
+msgid "\"Your homepage displays\" setup"
+msgstr ""
+
+#: lib/dashboard.php:508
+msgid "Set your homepage page template to \"Elementor Page\""
+msgstr ""
+
+#: lib/dashboard.php:514
+#, php-format
+msgid ""
+"To change homepage contents, you need to choose \"Elementor Page\" as the "
+"template for your homepage. %1$s"
+msgstr ""
+
+#: lib/dashboard.php:530
+msgid "Change homepage template"
+msgstr ""
+
+#: lib/dashboard.php:540
+msgid "Hooray! There are no required actions for you right now."
+msgstr ""
+
+#: lib/dashboard.php:559
+msgid "Upgrade to Bulk PRO for these awesome features!"
+msgstr ""
+
+#: lib/dashboard.php:562
+msgid "Unlimited colors"
+msgstr ""
+
+#: lib/dashboard.php:563
+msgid "600+ Google fonts"
+msgstr ""
+
+#: lib/dashboard.php:564
+msgid "Full WooCommerce support"
+msgstr ""
+
+#: lib/dashboard.php:565
+msgid "10+ WooCommerce templates"
+msgstr ""
+
+#: lib/dashboard.php:566
+msgid "Footer credits editor"
+msgstr ""
+
+#: lib/dashboard.php:567
+msgid "And much more..."
+msgstr ""
+
+#: lib/dashboard.php:571
+msgid "Bulk PRO"
+msgstr ""
+
+#: lib/metaboxes.php:19
+msgid "Transparent header"
+msgstr ""
+
+#: lib/metaboxes.php:24
+msgid "Transparent header font color"
+msgstr ""
+
+#: lib/metaboxes.php:44
+msgid "Header Options"
+msgstr ""
+
+#: lib/wp_bootstrap_navwalker.php:206
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About the author"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr ""
+#~ "Vyberte stránku, která zobrazí podmínky používání pro registraci partnerů"

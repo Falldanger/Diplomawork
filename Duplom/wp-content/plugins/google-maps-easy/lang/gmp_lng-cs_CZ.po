@@ -1,0 +1,3270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2018-04-27 14:59+0300\n"
+"PO-Revision-Date: 2018-11-14 10:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: Tomáš Kejmar <tom.key@seznam.cz>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:15
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:38
+#: doc/google-maps-easy-pro/heatmap/controller.php:9
+#: doc/google-maps-easy-pro/heatmap/controller.php:39
+#: doc/google-maps-easy-pro/kml/controller.php:33
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: doc/google-maps-easy-pro/shape/controller.php:8
+#: doc/google-maps-easy-pro/shape/controller.php:46
+#: doc/google-maps-easy-pro/shape/controller.php:61
+#: modules/adminmenu/controller.php:29 modules/csv/controller.php:196
+#: modules/gmap/controller.php:55 modules/gmap/controller.php:72
+#: modules/gmap/controller.php:80 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:80
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Hotovo"
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Vybrat"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "Nedostupné"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Přidat zaškrtávací políčko"
+
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Přidat položku"
+
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Přidat zaklikávací tlačítko"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Rozměry"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "šířka"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "výška"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Klikněte pro nastavení ID a třídy CSS;"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Atributy"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Tento modul není konfigurovatelný"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Použít nastavení"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:40
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable_Markers.php:14
+#: modules/gmap/views/tpl/gmapEditMap.php:348
+#: modules/gmap/views/tpl/gmapEditMap.php:1369
+#: modules/gmap/views/tpl/gmapEditMap.php:1704
+msgid "Address"
+msgstr "Adresa"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Oblast"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Země"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Kategorie"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Nemáte vytvořenou žádnou kategorii"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Značka"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Nemáte vytvořenou žádnou značku"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Sazba"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Celkem"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Nevybráno"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "třída"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:137
+msgid "You have no permissions to view this page"
+msgstr "Na tuto stránku nemáte přístup"
+
+#: classes/html.php:207 modules/gmap/views/tpl/gmapEditMap.php:1500
+msgid "Upload"
+msgstr "Nahrát"
+
+#: classes/html.php:627
+msgid "ON"
+msgstr "ZAP"
+
+#: classes/html.php:628
+msgid "OFF"
+msgstr "VYP"
+
+#: classes/html.php:652
+#, php-format
+msgid "Select %s"
+msgstr "Vybrat %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Přesunutí souborů %s se nezdařilo"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s není zásuvný modul"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Nelze vytvořit složku pro soubory modulu. Zkuste přenastavit práva na "
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "V XML souboru nebyly nalezeny žádné moduly"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Neplatný soubor XML"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Nebyl nalezen soubor XML"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Instalace %s se nezdařila"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "V aktivačním modulu je chyba"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Při deaktivaci modulu nastala chyba"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Při aktivaci modulu nastala chyba"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Nalezena chyba databáze"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:184
+#: modules/icons/models/icons.php:149 modules/marker/models/marker.php:303
+#: modules/marker_groups/models/marker_groups.php:49
+msgid "Invalid ID"
+msgstr "Neplatné ID"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "Nevyplněné nebo neplatné ID"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Verze je aktuální"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Chyba databáze. Kontaktujte výrobce."
+
+#: classes/tables/heatmaps.php:7
+msgid "Heatmap ID"
+msgstr "ID mapy koncentrace"
+
+#: classes/tables/heatmaps.php:8 classes/tables/marker.php:13
+#: classes/tables/shapes.php:12
+msgid "Map Id"
+msgstr "ID mapy"
+
+#: classes/tables/heatmaps.php:9
+msgid "Heatmap coordinates list"
+msgstr "Seznam souřadnic mapy koncentrace"
+
+#: classes/tables/heatmaps.php:10 classes/tables/marker.php:17
+#: classes/tables/modules.php:10 classes/tables/options.php:11
+#: classes/tables/shapes.php:15
+msgid "Params"
+msgstr "Parametry"
+
+#: classes/tables/heatmaps.php:11 classes/tables/marker.php:19
+#: classes/tables/shapes.php:13
+msgid "Creation date"
+msgstr "Datum vzniku"
+
+#: classes/tables/marker.php:7
+msgid "Marker ID"
+msgstr "ID značky"
+
+#: classes/tables/marker.php:8
+msgid "Marker name"
+msgstr "Název značky"
+
+#: classes/tables/marker.php:9
+msgid "Description Of Marker"
+msgstr "Popis značky"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "Souřadnice X značky (zeměpis.délka)"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "Souřadnice Y značky (zeměpis.šířka)"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Cesta k souboru ikony"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Adresa značky"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "ID skupiny značek"
+
+#: classes/tables/marker.php:16 classes/tables/shapes.php:14
+msgid "Animation"
+msgstr "Animace"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+#: classes/tables/shapes.php:16
+msgid "Sort Order"
+msgstr "Pořadí"
+
+#: classes/tables/marker.php:20
+msgid "Period date from"
+msgstr "Období je od"
+
+#: classes/tables/marker.php:21
+msgid "Period date to"
+msgstr "Doba trvání dat"
+
+#: classes/tables/marker.php:22
+msgid "Import Kml Layer unique index"
+msgstr "Importování jedinečného indexu Kml Layer"
+
+#: classes/tables/marker.php:23
+msgid "User who created marker"
+msgstr "Uživatel, který vytvořil značku"
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Štítek"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Typ"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktivní"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Obsahuje tabulku"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable_Markers.php:15
+msgid "Description"
+msgstr "Popis"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Kód"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Externí adresář pluginu"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:240
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Hodnota"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "Kategorie ID"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Typ hodnoty"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metoda"
+
+#: classes/tables/shapes.php:7
+msgid "Shape ID"
+msgstr "ID tvaru"
+
+#: classes/tables/shapes.php:8
+msgid "Shape name"
+msgstr "Název tvaru"
+
+#: classes/tables/shapes.php:9
+msgid "Description of Shape"
+msgstr "Popis tvaru"
+
+#: classes/tables/shapes.php:10
+msgid "Shape coordinates list"
+msgstr "Seznam souřadnic tvaru"
+
+#: classes/tables/shapes.php:11
+msgid "Shape type"
+msgstr "Typ tvaru"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "ID používání"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Počítadlo návštěv"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Neplatná hodnota délky %s, max. hodnota délky je %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Neplatná číselná hodnota %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Zadejte %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Vyberte %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "Neplatné %s"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s je již registrováno"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Ukončení režimu celé obrazovky"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Režim celé obrazovky"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/printInfoWndBtn.php:8
+msgid "Print"
+msgstr "Tisk"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:75
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:6
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "Vyhledat"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:86
+msgid "Search..."
+msgstr "Vyhledat..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:99
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:186
+#: doc/google-maps-easy-pro/places/views/tpl/placesToolbar.php:61
+msgid "Reset"
+msgstr "Resetovat"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:110
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:199
+#: doc/google-maps-easy-pro/places/views/tpl/placesToolbar.php:47
+msgid "Find"
+msgstr "Najít"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:123
+msgid "Category"
+msgstr "Kategorie"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:124
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:162
+msgid "Search address..."
+msgstr "Vyhledat adresu..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:211
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr ""
+"V oblasti hledání nenalezeny žádné značky, zkuste změnit kritéria vyhledávání."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "Určit směr"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:23
+msgid "Type the address..."
+msgstr "Napište adresu..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:32
+msgid "or"
+msgstr "nebo"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:35
+msgid "Get current user position"
+msgstr "Přejít na aktuální polohu uživatele"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:45
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Přejít"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "Lokalizační služba selhala."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "Váš prohlížeč nepodporuje geolokaci."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "Cesta nebyla nalezena. Pokuste se vybrat jinou adresu!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "Vyberte adresu z vyhledávacího seznamu!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsPanel.php:4
+msgid "List of Direction's Steps will be here..."
+msgstr "Seznam kroků směru trasy bude zde ..."
+
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:49
+msgid "Adding markers from the frontend is disabled for the Current Map"
+msgstr "Přidávání značek z rozhraní frontendu je pro aktuální mapu zakázáno"
+
+#: doc/google-maps-easy-pro/frontend_actions/mod.php:24
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:9
+msgid "Empty or Invalid Map ID. Please, check your Marker Form Shortcode."
+msgstr ""
+"Nevyplněné nebo neplatné ID mapy. Zkontrolujte vložený kód formuláře značky."
+
+#: doc/google-maps-easy-pro/frontend_actions/models/frontend_actions.php:33
+#, php-format
+msgid ""
+"You have exceeded the limit on adding markers from current IP address. Please "
+"try again after %s minutes."
+msgstr ""
+"Překročili jste limit pro přidávání značek z aktuální IP adresy.Zkuste to "
+"znovu po %s minutách."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:16
+msgid "Marker Form will be displayed only for logged in users."
+msgstr "Formulář značky se zobrazí pouze pro přihlášené uživatele."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:17
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:23
+msgid "Marker Form"
+msgstr "Formulář značky"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:33
+#: modules/gmap/views/gmap.php:278 modules/gmap/views/gmap.php:279
+#: modules/gmap/views/tpl/gmapEditMap.php:174
+#: modules/gmap/views/tpl/gmapEditMap.php:203
+#: modules/gmap/views/tpl/gmapEditMap.php:478 modules/marker/mod.php:20
+#: modules/marker_groups/views/marker_groups.php:17
+msgid "None"
+msgstr "Nic"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:57
+msgid ""
+"Marker's Form is not displayed, because the option &quot;Add markers on "
+"frontend&quot; is disabled for the Current Map"
+msgstr ""
+"Formulář značky není zobrazen, protože možnost &quot;Přidat značky v režimu "
+"frontend&quot; je pro aktuální mapu zakázána"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:20
+msgid "You need to use marker form on page with map"
+msgstr "Na stránce s mapou je třeba použít formulář značky"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:24
+msgid "Use this form to add markers to your map"
+msgstr "Tento formulář použijte pro přidání značek na mapu"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:27
+#: modules/gmap/views/tpl/gmapEditMap.php:1318
+msgid "Marker Name"
+msgstr "Název značky"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:32
+#: modules/gmap/views/tpl/gmapEditMap.php:1411
+msgid "Marker Category"
+msgstr "Kategorie značky"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:46
+#: modules/gmap/views/tpl/gmapEditMap.php:1691
+msgid "Add by Click"
+msgstr "Přidat kliknutím"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:49
+#: modules/gmap/views/tpl/gmapEditMap.php:1331
+msgid "Marker Description"
+msgstr "Popis značky"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:58
+#: modules/gmap/views/tpl/gmapEditMap.php:908
+#: modules/gmap/views/tpl/gmapEditMap.php:1358
+msgid "Choose Icon"
+msgstr "Vybrat ikonku"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:65
+#: modules/gmap/views/tpl/gmapEditMap.php:1896
+msgid "Save Marker"
+msgstr "Uložit značku"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:90
+msgid "Choose the marker"
+msgstr "Vybrat značku"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:1902
+msgid "Delete Marker"
+msgstr "Vymazat značku"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:101
+msgid "You need to choose the marker"
+msgstr "Musíte vybrat značku"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:28
+msgid "Empty or invalid Heatmap ID"
+msgstr "Nevyplněné nebo neplatné ID mapy koncentrace"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:35
+msgid "Heatmap Not Found"
+msgstr "Mapa koncentrace nenalezena"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:41
+msgid "Cannot remove Heatmap"
+msgstr "Nelze odstranit mapu koncentrace"
+
+#: doc/google-maps-easy-pro/kml/controller.php:40
+msgid "Security check failed"
+msgstr "Kontrola zabezpečení se nezdařila"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:6
+msgid "KML Layers Filter"
+msgstr "Filtr vrstev KML"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:16
+msgid "KML data loading"
+msgstr "Nahrávání dat KML"
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Platnost vaší licence vypršela. Po obnovení licence budete mociaktualizovat "
+"verzi PRO. Chcete-li obnovit verzi PRO licence - přejděte na <a "
+"href='%s'target='_blank'> tento odkaz </a>, následně vyberte záložku <a "
+"href='%s'>Licence</a> a kliknutím na tlačítko &quot;Re-activate&quot; znovu "
+"aktivujte verzi PRO."
+
+#: doc/google-maps-easy-pro/license/mod.php:39
+#, php-format
+msgid ""
+"Your plugin PRO license is expired. It means your PRO version will work as "
+"usual - with all features and options, but you will not be able to update the "
+"PRO version and use PRO support. To extend PRO version license - follow <a "
+"href='%s' target='_blank'>this link</a>"
+msgstr ""
+"Vaše licence na plugin PRO vypršela, což znamená, že vaše verze PRO bude "
+"fungovat jakoobvykle - se všemi funkcemi a možnostmi, ale nebudete ji moci "
+"aktualizovata používat podporu. Pro prodloužení licence PRO verze postupujte "
+"podle <a href='%s' target='_blank'> tohoto odkazu </a>"
+
+#: doc/google-maps-easy-pro/license/mod.php:44
+#, php-format
+msgid ""
+"You need to activate your copy of PRO version %s plugin. Go to <a "
+"href='%s'>License</a> tab and finish your software activation process."
+msgstr ""
+"Musíte aktivovat svou kopii pluginu PRO verze %s. Jděte na záložku <a "
+"href='%s'>Licence</a> a dokončete proces aktivace softwaru."
+
+#: doc/google-maps-easy-pro/license/mod.php:70
+msgid "License"
+msgstr "Licence"
+
+#: doc/google-maps-easy-pro/license/mod.php:93
+msgid "Activate License"
+msgstr "Aktivovat licenci"
+
+#: doc/google-maps-easy-pro/license/mod.php:95
+msgid "Renew License"
+msgstr "Obnovit licenci"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Zadejte svůj licenční klíč"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Vložte svou e-mail"
+
+#: doc/google-maps-easy-pro/license/models/license.php:138
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr ""
+"Při odesílání požadavku na váš ověřovací server došlo k potížím. Zkuste to "
+"později."
+
+#: doc/google-maps-easy-pro/license/models/license.php:178
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Dnešním dnem vyprší licence pro plugin %s."
+
+#: doc/google-maps-easy-pro/license/models/license.php:180
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Zítra vyprší licence pro plugin %s."
+
+#: doc/google-maps-easy-pro/license/models/license.php:182
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Licence pro plugin %s vyprší za %d dnů."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr "Blahopřejeme! PRO verze pluginu %s je aktivována a funguje!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on &quot;"
+"Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Vaše licence PRO verze pluginu %s vypršela. Klikněte <a href = '%s' target = "
+"'_ blank'> sem </a>, abyste prodloužili licenci, poté klikněte na tlačítko "
+"&quot;Obnovit licenci&quot; pro opětovnou aktivaci vaší PRO verze."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Blahopřejeme! Úspěšně jste nainstalovali PRO verzi pluginu %s.Konečný krok k "
+"dokončení nastavení PRO verze je zadání vašeho e-mailu a licenčního klíče na "
+"této stránce. Poté bude aktivována vaše kopie softwaru pro tyto webové "
+"stránky."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:215
+msgid "Email"
+msgstr "E-mail"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Vaše e-mailová adresa použitá při zadávání údajů na <a href='%s' "
+"target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "Váš licenční klíč z účtu na <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Obnovit licenci"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable_Markers.php:13
+#: modules/gmap/views/gmap.php:241
+msgid "Title"
+msgstr "Nadpis"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable_Markers.php:17
+msgid "Directions"
+msgstr "Pokyny"
+
+#: doc/google-maps-easy-pro/places/mod.php:33 modules/gmap/mod.php:98
+msgid "Empty or Invalid Map ID"
+msgstr "Nevyplněné nebo neplatné ID mapy"
+
+#: doc/google-maps-easy-pro/places/mod.php:33
+msgid "Please, check your shortcode."
+msgstr "Zkontrolujte vložený kód mapy."
+
+#: doc/google-maps-easy-pro/places/views/places.php:8
+#: modules/gmap/views/gmap.php:89
+#, php-format
+msgid "Map with ID %d not found"
+msgstr "Mapa s ID %d nenalezena"
+
+#: doc/google-maps-easy-pro/places/views/places.php:9
+#: modules/gmap/views/gmap.php:90
+msgid "Map not found"
+msgstr "Mapa nenalezena"
+
+#: doc/google-maps-easy-pro/places/views/places.php:12
+msgid "You must activate using of Places Toolbar in map admin area"
+msgstr ""
+"Musíte aktivovat pomocí panelu nástrojů Místa v oblasti administrátora mapy"
+
+#: doc/google-maps-easy-pro/places/views/tpl/placesToolbar.php:26
+msgid "Type address..."
+msgstr "Napište adresu..."
+
+#: doc/google-maps-easy-pro/places/views/tpl/placesToolbar.php:54
+msgid "More results"
+msgstr "Více výsledků"
+
+#: doc/google-maps-easy-pro/places/views/tpl/placesToolbar.php:65
+msgid "No Places was found by your request"
+msgstr "Žádost nebyla nalezena žádná místa"
+
+#: doc/google-maps-easy-pro/shape/controller.php:42
+#: doc/google-maps-easy-pro/shape/controller.php:57
+msgid "Figure Not Found"
+msgstr "Obrázek nebyl nalezen"
+
+#: doc/google-maps-easy-pro/shape/controller.php:48
+#: doc/google-maps-easy-pro/shape/controller.php:63
+msgid "Cannot remove figure"
+msgstr "Obrázek nelze odstranit"
+
+#: doc/google-maps-easy-pro/shape/controller.php:99
+msgid "Empty or invalid figure ID"
+msgstr "Nevyplněné nebo neplatné ID obrázku"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:43
+msgid "Please enter figure name"
+msgstr "Zadejte název obrázku"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:104
+#: modules/marker/models/marker.php:235
+msgid "Address is empty or not match"
+msgstr "Adresa není vyplněna nebo neodpovídá"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:159
+msgid "Invalid Figure ID"
+msgstr "Neplatné ID obrázku"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/gmap/mod.php:22 modules/marker/views/tpl/markerListOperations.php:1
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Editovat"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/marker/views/tpl/markerListOperations.php:1
+msgid "Delete"
+msgstr "Vymazat"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:70
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"Během požadavku rozhraní API došlo k neočekávané chybě protokolu HTTP. </p> "
+"<p><a href ='?' onclick ='document.location.reload(); return false;'>Zkuste "
+"znovu</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:75
+msgid "An unknown error occurred"
+msgstr "Nastala neznámá chyba"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Vaše pole se jménem je povinné."
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Vaše pole s web adresou je povinné."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Vaše pole s e-mailem je povinné."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Vaše pole s předmětem zprávy je povinné."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Vyberte platnou kategorii."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Pole se zprávou je povinné."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"Stylové pluginy pro WordPress od vývojářů supsystic.com. Vykoušel jsem %s - a "
+"je to přesně, co potřebuji! # supsystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "Nastavení"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Další pluginy pro váš WordPress zde!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Zmiňte se o nás!"
+
+#: modules/csv/controller.php:7
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Mapy od %s do %s"
+
+#: modules/csv/controller.php:10
+msgid "You have no maps for now."
+msgstr "Ještě nemáte žádné mapy."
+
+#: modules/csv/controller.php:55
+#, php-format
+msgid "Markers from %s"
+msgstr "Značky od %s"
+
+#: modules/csv/controller.php:58
+msgid "You have no markers for now."
+msgstr "Ještě nemáte žádné značky."
+
+#: modules/csv/controller.php:102
+msgid "Missing File"
+msgstr "Chybějící soubor"
+
+#: modules/csv/controller.php:104
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Soubor nahrán s kódem chyby %s"
+
+#: modules/csv/controller.php:186
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr ""
+"Soubor by měl obsahovat více než 1 řádek, a minimálně 1 řádek by měla být "
+"hlavička"
+
+#: modules/csv/controller.php:188
+msgid "Empty data in file"
+msgstr "Soubor neobsahuje žádná data"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Import/export map"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Nelze zjistit typ importovaného seznamu"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Nelze najít názvy polí"
+
+#: modules/csv/views/tpl/csvTabContent.php:8
+msgid "Maps"
+msgstr "Mapy"
+
+#: modules/csv/views/tpl/csvTabContent.php:13
+#: modules/csv/views/tpl/csvTabContent.php:34
+msgid "Export"
+msgstr "Export"
+
+#: modules/csv/views/tpl/csvTabContent.php:18
+#: modules/csv/views/tpl/csvTabContent.php:39
+msgid "Import"
+msgstr "Import"
+
+#: modules/csv/views/tpl/csvTabContent.php:29 modules/gmap/views/gmap.php:243
+#: modules/gmap/views/tpl/gmapEditMap.php:55
+msgid "Markers"
+msgstr "Značky"
+
+#: modules/csv/views/tpl/csvTabContent.php:51
+msgid "CSV Options"
+msgstr "Volby CSV"
+
+#: modules/csv/views/tpl/csvTabContent.php:57
+msgid "Delimiter"
+msgstr "Oddělovač"
+
+#: modules/csv/views/tpl/csvTabContent.php:73
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:15
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "Uložit"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Nenalezeny údaje mapy"
+
+#: modules/gmap/mod.php:19
+msgid "Add Map"
+msgstr "Přidat mapu"
+
+#: modules/gmap/mod.php:25
+msgid "All Maps"
+msgstr "Všechny mapy"
+
+#: modules/gmap/mod.php:35
+msgid "No Map Found"
+msgstr "Nenalezena žádná mapa"
+
+#: modules/gmap/mod.php:98
+msgid "Please, check your Map Shortcode."
+msgstr "Zkontrolujte vložený kód mapy."
+
+#: modules/gmap/mod.php:118
+msgid "Top Center"
+msgstr "Nahoře uprostřed"
+
+#: modules/gmap/mod.php:119
+msgid "Top Left"
+msgstr "Nahoře vlevo"
+
+#: modules/gmap/mod.php:120
+msgid "Top Right"
+msgstr "Nahoře vpravo"
+
+#: modules/gmap/mod.php:121
+msgid "Left Top"
+msgstr "Vlevo nahoře"
+
+#: modules/gmap/mod.php:122
+msgid "Right Top"
+msgstr "Vpravo nahoře"
+
+#: modules/gmap/mod.php:123
+msgid "Left Center"
+msgstr "Vlevo uprostřed"
+
+#: modules/gmap/mod.php:124
+msgid "Right Center"
+msgstr "Vpravo uprostřed"
+
+#: modules/gmap/mod.php:125
+msgid "Left Bottom"
+msgstr "Vlevo dole"
+
+#: modules/gmap/mod.php:126
+msgid "Right Bottom"
+msgstr "Vpravo dole"
+
+#: modules/gmap/mod.php:127
+msgid "Bottom Center"
+msgstr "Dole uprostřed"
+
+#: modules/gmap/mod.php:128
+msgid "Bottom Left"
+msgstr "Dole vlevo"
+
+#: modules/gmap/mod.php:129
+msgid "Bottom Right"
+msgstr "Dole vpravo"
+
+#: modules/gmap/mod.php:155
+msgid "Slider"
+msgstr "Slider"
+
+#: modules/gmap/mod.php:156
+msgid "Slider - Title and Img"
+msgstr "Slider - nadpis a obrázek"
+
+#: modules/gmap/mod.php:157 modules/gmap/mod.php:159
+msgid "Slider Vertical - Title and Img"
+msgstr "Vertikální slider - nadpis a obrázek"
+
+#: modules/gmap/mod.php:158
+msgid "Slider Vertical - Title and Description"
+msgstr "Vertikální slider - nadpis a popis"
+
+#: modules/gmap/mod.php:160
+msgid "Slider Table"
+msgstr "Tabulka slideru"
+
+#: modules/gmap/mod.php:186
+msgid "Google Map"
+msgstr "Mapa Google"
+
+#: modules/gmap/models/gmap.php:92
+msgid "Please enter Map Name"
+msgstr "Zadejte jméno mapy"
+
+#: modules/gmap/models/gmap.php:121
+#: modules/marker_groups/models/marker_groups.php:104
+msgid "Empty Params"
+msgstr "Zadejte parametry"
+
+#: modules/gmap/models/gmap.php:130 modules/gmap/models/gmap.php:231
+msgid "Invalid Map ID"
+msgstr "Neplatné ID mapy"
+
+#: modules/gmap/views/gmap.php:242
+msgid "Html options"
+msgstr "Volby HTML"
+
+#: modules/gmap/views/gmap.php:244
+msgid "Operations"
+msgstr "Operace"
+
+#: modules/gmap/views/gmap.php:361
+msgid "Error inside google maps plugin."
+msgstr "Vnitřní chyba pluginu Google maps."
+
+#: modules/gmap/views/gmap.php:365 modules/gmap/views/gmap.php:370
+msgid ""
+"To use this feature, You need to reactivate your Google Maps Easy plugin."
+msgstr ""
+"Chcete-li tuto funkci použít, musíte znovu aktivovat plugin Google Maps Easy."
+
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clone selected"
+msgstr "Duplikovat vybrané"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:14
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "Vymazat vybrané"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:33
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Zatím nemáte vytvořeny žádné mapy.<a href='%s' style='font-style: "
+"italic;'>Vytvořte</a> vaši první mapu!"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:4
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Tato volba je dostupná pouze v <a target='_blank' href='%s'>PRO verzi</a> "
+"kterou můžete získat <a target='_blank' href='%s'>zde.</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:23
+msgid "Insert to Contact Form"
+msgstr "Vložit do Kontaktního formuláře"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:29
+msgid "Integrate with Membership"
+msgstr "Integrovat s Členstvím"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:37
+msgid "Enable for Membership"
+msgstr "Povoleno pro Členy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:49
+msgid "Map"
+msgstr "Mapa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:57
+#: modules/gmap/views/tpl/gmapEditMap.php:66
+msgid "New"
+msgstr "Nová"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:64 modules/supsystic_promo/mod.php:264
+msgid "Figures"
+msgstr "Obrázky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:73
+msgid "Heatmap Layer"
+msgstr "Vrstva s mapou koncentrace"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:85
+msgid "Map Name"
+msgstr "Jméno mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:87
+msgid "Your map name"
+msgstr "Jméno vaší mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+msgid "Map Width"
+msgstr "Šířka mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:101
+msgid "Your map width"
+msgstr "Šířka vaší mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+#: modules/gmap/views/tpl/gmapEditMap.php:142
+#: modules/gmap/views/tpl/gmapEditMap.php:1104
+#: modules/gmap/views/tpl/gmapEditMap.php:1144
+#: modules/gmap/views/tpl/gmapEditMap.php:1198
+#: modules/gmap/views/tpl/gmapEditMap.php:1220
+msgid "Pixels"
+msgstr "Pixely"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:113
+#: modules/gmap/views/tpl/gmapEditMap.php:145
+#: modules/gmap/views/tpl/gmapEditMap.php:1110
+#: modules/gmap/views/tpl/gmapEditMap.php:1150
+#: modules/gmap/views/tpl/gmapEditMap.php:1202
+#: modules/gmap/views/tpl/gmapEditMap.php:1224
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:117
+msgid "Percent"
+msgstr "Procenta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:124
+msgid "Map Height"
+msgstr "Výška mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:126
+msgid ""
+"Your map height.<br /><br />If Adapt map to screen height option is checked - "
+"map height will be recalculated on frontend and can be equals to:<ul><li>1) "
+"your device screen height - height from top of page to top of map (if screen "
+"height > height from top of page to top of map)</li><li>2) your device screen "
+"height (in other cases)</li></ul>Recalculation will be done for maps in page "
+"content and widgets except of maps which displaying in Google Maps Easy "
+"widget popup (Display as image mode)."
+msgstr ""
+"Výška vaší mapy. <br /><br /> Je-li zaškrtnuta volba Upravit mapu na výšku "
+"obrazovky, - výška mapy se přepočítá na uživatelské rozhraní a může se rovnat:"
+"<ul><li>1) výšce obrazovky zařízení - výška od horní části stránky k horní "
+"části mapy (pokud je výška obrazovky větší než výška od horní části stránky k "
+"horní části mapy) </li><li>2) výšce obrazovky zařízení (v ostatních "
+"případech)</li></ul>Přepočítání se provede pro mapy v obsahu stránky a "
+"widgety, s výjimkou map, které se zobrazují ve vyskakovacím okně widgetu "
+"Google Maps Easy (zobrazeno v režimu obrázku)."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Adapt map to screen height"
+msgstr "Upravit mapu na výšku obrazovky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:167
+msgid "Map type control"
+msgstr "Ovládací prvek zobrazení mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:169
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr "Režim zobrazení mapy - ve výchozím nastavení je v pravém horním rohu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:174
+msgid "Dropdown Menu"
+msgstr "Rozbalovací menu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:174
+msgid "Horizontal Bar"
+msgstr "Vodorovná lišta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:180
+msgid "Change type control position on map"
+msgstr "Změna pozice ovládacího prvku zobrazení mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:187
+#: modules/gmap/views/tpl/gmapEditMap.php:216
+#: modules/gmap/views/tpl/gmapEditMap.php:249
+#: modules/gmap/views/tpl/gmapEditMap.php:546
+#: modules/gmap/views/tpl/gmapEditMap.php:572
+#: modules/gmap/views/tpl/gmapEditMap.php:589
+#: modules/gmap/views/tpl/gmapEditMap.php:606
+#: modules/gmap/views/tpl/gmapEditMap.php:630
+#: modules/gmap/views/tpl/gmapEditMap.php:714
+#: modules/gmap/views/tpl/gmapEditMap.php:817
+#: modules/gmap/views/tpl/gmapEditMap.php:834
+#: modules/gmap/views/tpl/gmapEditMap.php:851
+#: modules/gmap/views/tpl/gmapEditMap.php:894
+#: modules/gmap/views/tpl/gmapEditMap.php:934
+#: modules/gmap/views/tpl/gmapEditMap.php:1016
+#: modules/gmap/views/tpl/gmapEditMap.php:1243
+#: modules/gmap/views/tpl/gmapEditMap.php:1294
+#: modules/gmap/views/tpl/gmapEditMap.php:1540
+#: modules/gmap/views/tpl/gmapEditMap.php:1562
+#: modules/options/views/tpl/optionsSettingsTabContent.php:70
+msgid "PRO option"
+msgstr "Pouze v PRO verzi"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:195
+msgid "Zoom control"
+msgstr "Ovládání přiblížení mapy (zoom)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:197
+msgid ""
+"Zoom control type on your map. Note, to view Zoom control on the map the "
+"Custom Map Controls option must be disabled."
+msgstr ""
+"Ovládací prvek přiblížení na mapě. Chcete-li zobrazit ovládací prvek "
+"přiblížení na mapě, volba Vlastní nastavení ovládacích prvků mapy musí být "
+"zakázána."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:203
+#: modules/gmap/views/tpl/gmapEditMap.php:532
+#: modules/gmap/views/tpl/gmapEditMap.php:1075
+msgid "Default"
+msgstr "Výchozí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:209
+msgid "Change zoom control position on map"
+msgstr "Změnit pozici ovládacího prvku přiblížení"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:220
+msgid "Notice"
+msgstr "Poznámka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:222
+msgid ""
+"Standard Zoom control will not displaying for this map, because the Custom "
+"Map Controls option enabled now."
+msgstr ""
+"Výchozí ovládání přiblížení není zobrazeno, protože je zaškrtnuta volba "
+"Uživatelské nastavení ovládání mapy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:230
+msgid "Street view control"
+msgstr "Ovládací prvek Street view"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:232
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr "Ovládací prvek Street view se obvykle nachází v levém horním rohu mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:242
+msgid "Change street view control position on map"
+msgstr "Změnit pozici ovládacího prvku Street view na mapě"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:302
+msgid "Draggable"
+msgstr "Možnost přetažení"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:304
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr "Aktivace nebo deaktivace možnosti přetahování mapy pomocí myši"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:315
+msgid "Double click to zoom"
+msgstr "Přiblížení dvojitým kliknutím myši"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:317
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"Ve výchozím nastavení dvojklikem levého tlačítka myši přiblížíte mapu. Změnit "
+"nastavení můžete zde."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:328
+msgid "Mouse wheel to zoom"
+msgstr "Přiblížit pomocí kolečka myši"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:330
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"V některých případech budete potřebovat zakázat možnost zvětšit mapu pomocí "
+"kolečka myši - například pokud potřebujete použít kolečko pro jiné funkce,"
+"jako třeba při procházení stránek, kdy je kurzor myši na mapě."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:341
+#: modules/gmap_widget/views/tpl/form.php:44
+msgid "Map Center"
+msgstr "Střed mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:343
+msgid ""
+"Sets map center. You can set map center in next ways: type address to use its "
+"coords, type the coords' values in appropriate fields or just drag the map on "
+"preview."
+msgstr ""
+"Vycentruje mapu na střed. Toto můžete nastavit následujícími způsoby: zadejte "
+"adresu pomocí koordinátů, zadejte hodnoty koordinátů do příslušných polí nebo "
+"jednoduše přetáhněte mapu ručně myší."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:357
+#: modules/gmap/views/tpl/gmapEditMap.php:1383
+#: modules/gmap/views/tpl/gmapEditMap.php:1713
+msgid "Latitude"
+msgstr "Zeměp.šířka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:365
+#: modules/gmap/views/tpl/gmapEditMap.php:1397
+#: modules/gmap/views/tpl/gmapEditMap.php:1722
+msgid "Longitude"
+msgstr "Zeměp.délka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:376
+#: modules/gmap_widget/views/tpl/form.php:56
+msgid "Map Zoom"
+msgstr "Přiblížení mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:378
+msgid ""
+"Sets map zoom.<br /><br />\n"
+"<b>Preset Zoom</b> - sets zoom value for map. You can change this value just "
+"change zoom on the map preview.<br /><br />\n"
+"<b>Fit Bounds</b> - map zoom will be changed on frontend in a way that all "
+"markers and figures will be visible.<br /><br />\n"
+"<b>Min Zoom Level</b> - sets minimum zoom level (maximum estrangement), which "
+"can be applied for map.<br /><br />\n"
+"<b>Max Zoom Level</b> - sets maximum zoom level (maximum approximation), "
+"which can be applied for map.\n"
+msgstr ""
+"Nastaví přiblížení mapy.<br /><br />\\ n<b>Přednastavený zoom</b> - nastavuje "
+"hodnotu přiblížení mapy. Tuto hodnotu můžete kdykoliv změnit na samotném "
+"náhledu mapy. <br /> <br /> \\ n<b>Vyplnit okraje</b> - mapa bude zobrazena "
+"na uživ. rozhraní tak, že všechny značky a obrázky budou viditelné.<br /><br /"
+">\\ n<b> Minimální úroveň přiblížení</b> - nastaví minimální úroveň "
+"přiblížení (max. oddálení), které lze použít pro mapu.<br /><br />\\ n<b> "
+"Maximální úroveň přiblížení</b> - nastaví maximální úroveň přiblížení, které "
+"lze použít pro mapu.\\ n\n"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:387
+msgid "Preset Zoom"
+msgstr "Přednastavený zoom"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:387
+msgid "Fit Bounds"
+msgstr "Vyplnit okraje"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:394
+msgid "Zoom Level"
+msgstr "Stupeň zoomu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:404
+msgid "Mobile Zoom Level"
+msgstr "Stupeň zoomu pro mobily"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:415
+msgid "Min Zoom Level"
+msgstr "Min. stupeň zoomu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Max Zoom Level"
+msgstr "Max. stupeň zoomu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Google Map Theme"
+msgstr "Téma Google mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:440
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Můžete si vybrat téma Google Mapy - Cestovní, Hybridní, Satelitní nebo "
+"Terénní. Výchozí nastavení mapy je Cestovní."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:444
+msgid "Road Map"
+msgstr "Cestovní mapa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:444
+msgid "Hybrid"
+msgstr "Hybridní mapa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:444
+msgid "Satellite"
+msgstr "Satelitní mapa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:444
+msgid "Terrain"
+msgstr "Terénní mapa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:452
+msgid "Map Stylization"
+msgstr "Motivy mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:454
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Udělejte svou mapu jedinečnou pomocí našich motivů, změňte motiv zde, a "
+"uvidíte výsledek na vašem náhledu mapy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:464
+msgid "Get 300+ Themes with PRO"
+msgstr "Získejte více než 300 motivů s PRO verzí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:472
+msgid "Markers Clusterization"
+msgstr "Sjednocování značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:474
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Pokud máte mnoho značek - můžete mít problémy s jejich zobrazováním na mapě, "
+"protože se budou vzájemně překrývat.\" Sjednocování značek tento problém řeší "
+"seskupením značek, které jsou příliš blízko sebe, do jedné skupiny."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:478
+msgid "Base Clusterization"
+msgstr "Základní sjednocování"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:490
+msgid "/gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:507
+#: modules/gmap/views/tpl/gmapEditMap.php:909
+#: modules/gmap/views/tpl/gmapEditMap.php:1359
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:85
+msgid "Upload Icon"
+msgstr "Nahrát ikonu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:508
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:86
+msgid "Default Icon"
+msgstr "Předvolená ikona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:512
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:60
+msgid "Cluster Icon"
+msgstr "Ikona sjednocování"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:522
+msgid "Cluster Area Size"
+msgstr "Vzdálenost pro sjednocování"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:524
+msgid ""
+"Sets the grid size of cluster. The higher the size - the more area of capture "
+"the markers to the cluster."
+msgstr ""
+"Nastaví vzdálenost pro sjednocování. Čím vyšší číslo, tím větší je plocha "
+"která sjednotí více značek do jedné."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:541
+msgid "Markers List"
+msgstr "Seznam značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:543
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Zobrazit všechny značky v přehledném seznamu pod mapou. To pomůže uživatelům "
+"získat více informací o vašich značkách a rychleji vyhledávat."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:550
+msgid "Select Markers List type"
+msgstr "Vybrat druh seznamu značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:556
+msgid "Markers List Color"
+msgstr "Barva seznamu značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:567
+msgid "Traffic Layer"
+msgstr "Vrstva mapy s cestami"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:569
+msgid "Add real-time traffic information to your map."
+msgstr "Přidejte do vaší mapy info o cestách."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:584
+msgid "Transit Layer"
+msgstr "Vrstva mapy s MHD"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:586
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Zobrazí síť veřejné dopravy ve městě na vaší mapě. Pokud je povolena Vrstva "
+"mapy s MHD, a mapa je vystředěna na město, které podporuje zobrazení "
+"informací o dopravě, na mapě budou linky MHD vidět jako tlusté barevné čáry."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:601
+msgid "Bicycling Layer"
+msgstr "Vrstva s cyklostezkami"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:603
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"bike lanes. Dashed routes indicate streets or paths otherwise recommended for "
+"bicycle usage."
+msgstr ""
+"Přidejte vrstvu cyklostezek, doporučené cyklistické trasy a další body "
+"specifické pro cyklistiku na vrchu dané mapy. Tmavě zelené trasy jsou "
+"vyhrazené pro bicykly. Světle zelené trasy ukazují ulice s vyhrazeným jízdním "
+"pruhem pro bicykly. Čárkované trasy ukazují ulice nebo cesty, které jsou "
+"doporučeny pro bicykly."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:621
+msgid "Add KML layers"
+msgstr "Přidat vlastní vrstvy KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:623
+msgid ""
+"Add KML files to display custom layers on the map. Additional options:<br /"
+"><br /><b>Enable KML layers filter</b> - add form to map for dynamically "
+"enable / disable KML layers and sublayers."
+msgstr ""
+"Přidat soubory KML pro zobrazení vlastních vrstev na mapě. Další možnosti:"
+"<br /><br /> <b>Povolit filtr vrstev KML </ b> - přidání formuláře do mapy, "
+"který dynamicky povoluje / zakazuje vrstvy a podvrstvy KML."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:639
+msgid "Enable KML layers filter"
+msgstr "Použít filtr vrstev KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:644
+msgid "Enter KML file URL"
+msgstr "Zadat URL adresu souboru KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:647
+msgid "Hide Sublayers at KML filter"
+msgstr "Skrýd podvrstvy ve filtru KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:650
+msgid "Remove KML field"
+msgstr "Odstranit pole KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:666
+msgid "or Upload KML file"
+msgstr "nebo nahrát soubor KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:693
+msgid "Add more files"
+msgstr "Přidat více souborů"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:703
+msgid "Custom Map Controls"
+msgstr "Vlastní nastavení ovládacích prvků mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:708
+msgid "Add custom map controls to the map."
+msgstr "Přidat Vlastní nastavení ovládacích prvků do mapy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:724
+msgid "Controls type"
+msgstr "Typ ovládácích prvků"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:727
+msgid "Square"
+msgstr "Obdélník"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:727
+msgid "Rounded edges"
+msgstr "Zaoblené rohy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:727
+msgid "Round"
+msgstr "Zaoblení v px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:733
+msgid "Background color"
+msgstr "Barva pozadí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:741
+msgid "Text color"
+msgstr "Barva textu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:749
+msgid "Controls position"
+msgstr "Pozice ovládacích prvků"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:759
+#: modules/gmap/views/tpl/gmapEditMap.php:1032
+msgid "Min Search Radius (in meters):"
+msgstr "Minimální vyhledávací rádius (v metrech):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:767
+#: modules/gmap/views/tpl/gmapEditMap.php:1040
+msgid "Max Search Radius (in meters):"
+msgstr "Maximální vyhledávací rádius (v metrech):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:775
+#: modules/gmap/views/tpl/gmapEditMap.php:1048
+msgid "Search Step (in meters):"
+msgstr "Minimální vyhledávací rádius (v metrech):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:783
+msgid "Search Country"
+msgstr "Vyhledat zemi"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:801
+msgid "Use improved markers search"
+msgstr "Využijte vylepšené vyhledávání značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:803
+msgid ""
+"This option allows you to search and show multiple markers for selected date, "
+"categories and keywords. NOTE: it removes separate markers categories filter "
+"button from custom map controls."
+msgstr ""
+"Tato volba umožňuje vyhledávat a zobrazovat více značek pro vybrané datum, "
+"kategorie a klíčová slova. POZNÁMKA: odstraňuje samostatné značky filtru "
+"kategorií z vlastních ovládacích prvků mapy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:812
+msgid "Full Screen Button"
+msgstr "Tlačítko celoobrazovkového režimu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:814
+msgid "Add a button on map to open it full screen."
+msgstr "Přidat na mapu tlačítko celoobrazovkového režimu."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:829
+msgid "Hide POI"
+msgstr "Skrýt záchytné body"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:831
+msgid ""
+"Hide the Points Of Interest - landmark or other object, the marked points on "
+"the map, for example: hotels, campsites, fuel stations etc."
+msgstr ""
+"Skrýt záchytné body - orientační nebo jiný objekt, označené body na mapě, "
+"například: hotely, kempy, čerpací stanice atd."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:846
+msgid "Hide Countries"
+msgstr "Skrýt země"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:848
+msgid "Hide all administrative data about countries: names, borders etc."
+msgstr "Skrýt všechna data zemí: název, hranice atd."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:863
+msgid "Hide Tooltips of Markers"
+msgstr "Skrýt nápovědu u značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:865
+msgid "Hide the tooltips, which displayed by mouse hover on markers' icons."
+msgstr "Skrýt nápovědu zobrazující se po přejetí ikony značky myší."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:876
+msgid "Center on current opened marker"
+msgstr "Vystředit mapu na aktuálně otevřenou značku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:878
+msgid ""
+"On frontend the map will be centered on current marker with opened info "
+"window."
+msgstr ""
+"Mapa bude vycentrována na aktuální značku s otevřeným informačním oknem."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:889
+msgid "Center on current user location"
+msgstr "Vycentrovat na aktuální pozici uživatele"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:891
+msgid "On frontend map will be centered on current user location."
+msgstr "Mapa bude vycentrována na aktuální pozici uživatele."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:920
+msgid "Add markers on frontend"
+msgstr "Přidat značky do mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:922
+msgid ""
+"You can add markers at the current map with the frontend using the form, "
+"which can be displayed using the shortcode (it placed below preview map). "
+"Additional options that affect the operation of the form:<br /><br /"
+"><b>Logged In Users Only</b> - form will be displayed only for logged in "
+"users.<br /><br /><b>Disable WP Editor</b> - disable / enable WP Editor for "
+"the Marker Description field of the form.<br /><br /><b>Delete markers</b> - "
+"disable / enable interface for deleting markers on frontend. Each user can "
+"delete only his own markers.<br /><br /><b>Use markers categories</b> - "
+"disable / enable interface for choose the marker category on frontend.<br /"
+"><br /><b>Use limits for marker's adding</b> - allows you to limit the number "
+"of markers, which user can add from one IP address at the current map for a "
+"certain amount of time.<br /><br /><b>Max marker's count</b> - the maximum "
+"number of markers, which can be added over certain amount of time.<br /><br /"
+"><b>For allotted time (minutes)</b> - the number of minutes, during which you "
+"can add the maximum number of markers.<br /><br />For example, during three "
+"minutes you can add only two markers at the map. If you try to add a third "
+"marker - the form will not be saved and you will see the notice with amount "
+"of time you must wait. After the right amount of time will pass - you can add "
+"next two markers, etc.<br /><br />Important! If map and form for add markers "
+"at this map are placed on one page - this page will be overload after marker "
+"adding."
+msgstr ""
+"Přidat značky na aktuální mapu na uživatelském rozhraní můžete pomocí "
+"formuláře, který lze zobrazit pomocí kódu (je umístěn pod náhledem mapy). "
+"Další volby formuláře:<br /><br /> <b>Pouze pro přihlášené uživatele</b> - "
+"formulář se zobrazí pouze pro přihlášené uživatele.<br /><br /><b>Zakázat WP "
+"Editor </b> - zakázat / povolit WP Editor pro pole formuláře.<br /><br /"
+"><b>Smazat značky</b> -zakázat / povolit mazání značek na uživatelském "
+"rozhraní. Uživatel může smazat pouze jeho vlastní značky.<br /><br /> "
+"<b>Použití kategorií značek</b> - zakázat / povolit výběr kategorie značky na "
+"uživatelském rozhraní<br /><br /> <b>Limity pro přidávání značek</b> - "
+"umožňuje omezit počet značek, které může uživatel přidat z jedné adresy IP na "
+"aktuální mapu v určité době.<br /><br /> <b>Maximální počet značek</b> - "
+"maximální počet značek, které lze přidávat po určitou dobu.<br /><br /> "
+"<b>Určený čas pro přidávání značek (minuty)</b> - doba v minutách, během "
+"které můžete přidat maximální počet značek.<br /><br /> Příklad: během tří "
+"minut můžete na mapě přidat pouze dvě značky. Pokud se pokusíte přidat třetí "
+"značku, formulář nebude uložen a zobrazí se oznámení s časovým úsekem, ve "
+"kterém musíte počkat. Po uplynutí této doby můžete přidat další dvě značky "
+"atd.<br /><br /> DŮLEŽITÉ! Pokud je mapa a formulář pro přidání značky na "
+"stejné stránce, tato stránka bude po přidání značky znovu načtena."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:953
+msgid "Logged In Users Only"
+msgstr "Pouze pro přihlášené uživatele"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:960
+msgid "Disable WP Editor"
+msgstr "Vypnout WP editor"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:967
+msgid "Delete markers"
+msgstr "Smazat značky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:974
+msgid "Use markers categories"
+msgstr "Použít kategorie značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:981
+msgid "Use limits for marker's adding"
+msgstr "Použít limit pro přidávání značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:986
+msgid "Max marker's count"
+msgstr "Maximální počet značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:994
+msgid "For allotted time (minutes)"
+msgstr "V daném čase (v minutách)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1007
+msgid "Use Places Toolbar"
+msgstr "Použijte panel nástrojů Místa"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1009
+msgid ""
+"Activate the toolbar for search Places (restaurants, schools, museums, etc.) "
+"on the map. Use the shortcode to display toolbar on wherever you need, but "
+"toolbar must be placed on the same page as its map."
+msgstr ""
+"Aktivujte panel nástrojů pro vyhledávání míst (restaurace, školy, muzea atd.) "
+"Na mapě. Použijte zkrácený kód pro zobrazování panelu nástrojů tam, kde "
+"potřebujete, ale panel nástrojů musí být umístěn na stejné stránce jako jeho "
+"mapa."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1060
+msgid "Info Window"
+msgstr "Informační okno"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1062
+msgid "Parameters of markers / shapes info-window PopUp"
+msgstr "Parametry značek / tvarů vyskakovacího info okna"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1069
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1071
+msgid "Choose the appearance type of infowindow."
+msgstr "Zvolte typ vzhledu infowindow."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1075
+msgid "Rounded Edges"
+msgstr "Zaoblené rohy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1083
+msgid "Width"
+msgstr "Šířka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1085
+msgid "Width of info window"
+msgstr "Šířka info okna"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1099
+#: modules/gmap/views/tpl/gmapEditMap.php:1139
+msgid "Auto"
+msgstr "Automaticky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1123
+msgid "Height"
+msgstr "Výška"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1125
+msgid "Height of info window"
+msgstr "Výška info okna"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1163
+msgid "Title Color"
+msgstr "Barva titulku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1165
+msgid "You can set your info window title color here"
+msgstr "Zde můžete nastavit barvu titulku info okna"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1175
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:49
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1177
+msgid "You can set your info window background color here"
+msgstr "Zde můžete nastavit barvu pozadí info okna"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1187
+msgid "Title Font Size"
+msgstr "Velikost písma titulku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1189
+msgid "You can set your info window title font size here"
+msgstr "Zde můžete nastavit velikost písma titulku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1209
+msgid "Description Font Size"
+msgstr "Velikost písma obsahu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1211
+msgid "You can set your info window description font size here"
+msgstr "Zde můžete nastavit velikost písma obsahu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1234
+msgid "Directions Button"
+msgstr "Ovládací tlačítka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1237
+msgid ""
+"Add a button at marker info window to get direction from the entered address "
+"to the marker. If Show route data option is enabled - the total route time "
+"and distance will be shown by click on the route polyline."
+msgstr ""
+"Přidejte tlačítka do info okna značky, pro získání trasy od zadané adresy ke "
+"značce. Pokud je povolena možnost Ukázat údaje o trase, celková doba trasy a "
+"vzdálenost se zobrazí kliknutím na křivku trasy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1256
+msgid "Show alternate routes"
+msgstr "Ukázat alternativní trasy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1264
+msgid "Show route data"
+msgstr "Ukázat údaje o trase"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1272
+msgid "Show route steps"
+msgstr "Ukázat úseky trasy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1280
+msgid "Use miles"
+msgstr "Použijte míle"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1289
+msgid "Print Button"
+msgstr "Tlačítko pro tisk"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1291
+msgid "Add Print button to markers info window"
+msgstr "Přidat tlačítko Tisk do info okna značky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1320
+msgid "Your marker title"
+msgstr "Titulek vaší značky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1333
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr "Zde napište celý text, který se má zobrazit v info okně značky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1349
+msgid "Icon"
+msgstr "Ikona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1351
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Ikona vaší značky, která se zobrazí u této značky na vaší mapě"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1371
+msgid "Search your location by address, just start typing here"
+msgstr "Najít místo podle adresy, pište zde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1385
+msgid "Latitude for your marker"
+msgstr "Zeměpis.šířka pro vaší značku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1399
+msgid "Longitude for your marker"
+msgstr "Zeměpis.délka pro vaší značku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1413
+msgid "Choose marker category"
+msgstr "Vybrat kategorii značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1427
+msgid "Marker Link"
+msgstr "Odkaz značky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1429
+msgid "Link for opening by click on the marker"
+msgstr "Odkaz, na který se má přejít kliknutím na značku"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1445
+msgid "Open in new window"
+msgstr "Otevřít v novém okně (panelu)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1453
+msgid "Show description by default"
+msgstr "Zobrazovat popis automaticky"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1455
+msgid "Open marker description when map load"
+msgstr "Zobrazit popis značky při načtení mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1465
+msgid "Show description by mouse hover"
+msgstr "Zobrazit popis po přejetí myší"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1467
+msgid "Open marker description by mouse hover"
+msgstr "Zobrazit popis značky po přejetí myší"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1477
+msgid "Hide description on mouse leave"
+msgstr "Skrýt popis po opuštění odkazu kurzorem myši"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1479
+msgid "Hide description when mouse leaves the marker area"
+msgstr "Skrýt popis po opuštění oblasti kurzorem myši"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1489
+msgid "Marker List Default Image"
+msgstr "Přednastavený obrázek pro seznam značek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1491
+msgid ""
+"If there is no image tag in the marker description - this image will be used "
+"for displaying in the map's markers list"
+msgstr ""
+"Pokud k popisu značky není přiřazen žádný obrázek, bude použit tento obrázek "
+"pro zobrazení v seznamu značek mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1522
+msgid "Exclude from Cluster"
+msgstr "Vyloučení z clusteru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1524
+msgid "Exclude marker from cluster if Markers Clusterization option is enabled."
+msgstr ""
+"V případě, že je povolena možnost Clusterizace markerů, vyřadte značku z "
+"clusteru."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1535
+msgid "Period From"
+msgstr "Doba od"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1557
+msgid "Period To"
+msgstr "Období do"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1591
+msgid "Figure Name"
+msgstr "Jméno tvaru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1593
+msgid "Your figure title"
+msgstr "Titulek vašeho tvaru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1604
+msgid "Figure Type"
+msgstr "Typ tvaru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1606
+msgid ""
+"Type of your figure:<br /><br /><b>Polyline</b> - a series of straight "
+"segments on the map.<br /><br /><b>Polygon</b> - area enclosed by a closed "
+"path (or loop), which is defined by a series of coordinates.<br /><br /"
+"><b>Circle</b> - circle shape,defined by center coordinates and radius."
+msgstr ""
+"Typy vašeho tvaru:<br /><br /><b>Křivka</b> - řada rovných segmentů na mapě."
+"<br /><br /><b>Mnohoúhelník</b> - uzavřená oblast definovaná cestou (nebo "
+"smyčkou), tvořenou více souřadnicovými body.<br /><br /> <b>Kruh</b> - "
+"kruhový tvar, definovaný středovými souřadnicemi a poloměrem."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1614
+msgid "Polyline"
+msgstr "Křivka"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1615
+msgid "Polygon"
+msgstr "Mnohoúhelník"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1616
+msgid "Circle"
+msgstr "Kruh"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1625
+msgid "Line Color"
+msgstr "Barva čáry"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1632
+msgid "Line Opacity"
+msgstr "Průhlednost čáry"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1643
+msgid "Line Weight"
+msgstr "Tloušťka čáry"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1651
+msgid "Fill Color"
+msgstr "Barva výplně"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1658
+msgid "Fill Opacity"
+msgstr "Průhlednost výplně"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1671
+msgid "Figure Description"
+msgstr "Popis tvaru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1673
+msgid "Write here all text, that you want to appear in shape info-window PopUp"
+msgstr "Zde napište text, který se má zobrazit ve vyskakovacím info okně tvaru"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1685
+#: modules/gmap/views/tpl/gmapEditMap.php:1763
+msgid "Points"
+msgstr "Body"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1687
+msgid ""
+"Figure's points list: you can search the point by address (just start typing "
+"in Address field), type the Latitude and Longitude of point in appropriate "
+"fields or activate Add by Click button, and then draw figure on the map by "
+"clicking on it. Important! You must deactivate Add by Click button after "
+"ending of the draw."
+msgstr ""
+"Seznam bodů obrázku: můžete vyhledat bod podle adresy (stačí zadat do pole "
+"adresa), zadat zeměpisnou šířku a délku bodu do příslušných polí nebo "
+"aktivovat tlačítko Přidat kliknutím a nakreslit obrázek do mapy postupným "
+"klikáním. Důležité: Musíte deaktivovat tlačítko Přidat kliknutím po ukončení "
+"kreslení."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1694
+msgid "Add New Point"
+msgstr "Přidat nový bod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1731
+#: modules/gmap/views/tpl/gmapEditMap.php:1787
+msgid "Radius"
+msgstr "Rádius"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1738
+#: modules/gmap/views/tpl/gmapEditMap.php:1773
+msgid "Remove Point"
+msgstr "Odstranit bod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1765
+msgid ""
+"To add Heatmap Layer points you need to activate Add Points button and draw "
+"each point by click on map. To remove points you need to activate Remove "
+"Points button and delete necessary point by click on it or just click on "
+"Delete Heatmap Layer button to remove all Heatmap Layer points. Important! "
+"You must to deactivate Add by Click and Remove by Click buttons after ending "
+"of the add / remove points."
+msgstr ""
+"Chcete-li přidat body do vrstvy s mapou koncentrace, musíte aktivovat "
+"tlačítko Přidat body a přidat každý bod kliknutím na mapu. Chcete-li "
+"odstranit body, musíte aktivovat tlačítko Odebrat body a odstranit je "
+"kliknutím na ně, nebo kliknutím na tlačítko Smazat vrstvu mapy koncentrace "
+"odstraníte všechny body najednou. Důležité! Musíte deaktivovat tlačítka "
+"Přidat body a Odebrat body po ukončení přidávání nebo odebírání bodů."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1770
+msgid "Add Point"
+msgstr "Přidat bod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1778
+msgid "Points Count"
+msgstr "Počet bodů"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1789
+msgid "Heatmap Layer points radius in pixels"
+msgstr "Poloměr vrstvy mapy koncentrace v px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1800
+msgid "Opacity"
+msgstr "Průhlednost"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1802
+msgid "Heatmap Layer points opacity"
+msgstr "Průhlednost bodů vrstvy mapy koncentrace"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1817
+msgid "Gradient"
+msgstr "Barevný přechod"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1819
+msgid "Heatmap Layer points color gradient."
+msgstr "Barevný přechod bodů vrstvy mapy koncentrace."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1823
+msgid "Add Color"
+msgstr "Přidat barvu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1826
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "Vymazat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1830
+msgid "Remove Color"
+msgstr "Odstranit barvu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1862
+msgid "Map shortcode"
+msgstr "Kód mapy"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1867
+msgid "PHP code"
+msgstr "Kód PHP"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1873
+msgid "Shortcode will appear after you save map."
+msgstr "Kód se zobrazí po uložení mapy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1881
+msgid "Save Map"
+msgstr "Uložit mapu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1887
+msgid "Delete Map"
+msgstr "Vymazat mapu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1911
+msgid "Save Figure"
+msgstr "Uložit obrázek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1917
+msgid "Delete Figure"
+msgstr "Vymazat obrázek"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1926
+msgid "Save Heatmap Layer"
+msgstr "Uložit vrstvu s mapou koncentrace"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1932
+msgid "Delete Heatmap Layer"
+msgstr "Vymazat vrstvu s mapou koncentrace"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1938
+msgid "Search by name"
+msgstr "Vyhledat podle názvu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1996
+msgid "Show markers list with your map on frontend"
+msgstr "Zobrazit seznam značek vaší mapy na uživatelském rozhraní"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2003
+#: modules/gmap/views/tpl/gmapEditMap.php:2004
+msgid "Apply"
+msgstr "Použít"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2003
+msgid "Selected"
+msgstr "Vybráno"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2004
+msgid "Available in PRO"
+msgstr "Dostupné ve verzi PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2012
+msgid "Select Contact Form"
+msgstr "Vybrat Kontaktní formulář"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2035
+msgid "Oops! Something went wrong..."
+msgstr "Safra! Něco se nepovedlo..."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:2038
+#, php-format
+msgid ""
+"Map can not be loaded completely. Probably, you are using our base Google Map "
+"API key.<br /><br />\n"
+"This key is used by default for all our users in accordance with <a target="
+"\"_blank\" href=\"%s\">Google Maps APIs Standard Plan</a>.\n"
+"But each API key has fixed limits on count of maps loads per day.<br /><br /"
+">\n"
+"You can create <a target=\"_blank\" href=\"%s\">your own Google Maps API key</"
+"a> and type it on <a target=\"_blank\" href=\"%s\">Settings tab</a>.\n"
+"It's free, takes 10-20 minutes of your time and lets to apply your own API "
+"key only for your sites.\n"
+"If you already use own Google Maps API key - you should open <a target="
+"\"_blank\" href=\"%s\">Google Developer console</a> and check:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Have you set correct settings to use your Google Map API key?</li>\n"
+"<li>Have you paste correct Google Map API key on the <a target=\"_blank\" "
+"href=\"%s\">Settings tab</a>?</li>\n"
+"<li>Open <a target=\"_blank\" href=\"%s\">browser console</a>, find Google "
+"Map API error and read its description in <a target=\"_blank\" href=\"%s"
+"\">Map API Errors table</a>.</li>\n"
+"</ul>"
+msgstr ""
+"Mapu nelze načíst úplně. Pravděpodobně používáte univerzální klíč API pro "
+"Google mapy.<br /><br />\n"
+"Tento klíč lze ve výchozím nastavení použít pro všechny uživatele v souladu "
+"se <a target=\"_blank\\ \"href=\"%s\"> Standardním plánem API služby Google "
+"maps</a>.\n"
+"Ale každý tento klíč API má pevně stanovené limity počtu zatížení mapy za den."
+"<br /><br />\n"
+"Můžete vytvořit <a target=\"_blank\" href=\"%s\"> vlastní klíč API pro Google "
+"Maps</a>a zadat jej do políčka v <a target=\"_blank\" href=\"%s\"> záložce "
+"Nastavení </a>.\n"
+"Je to zdarma, trvá to 10-20 minut a umožňuje použít vlastní APIklíč pouze pro "
+"vaše stránky.\n"
+"Pokud již používáte vlastní klíč API Google Maps - měli byste otevřít <a "
+"target =\"_blank\\ \"href=\"%s\">Google Developer Console</a> a "
+"zkontrolovat:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Nastavili jste správná nastavení pro použití klíče API Google Map? </li>\n"
+"<li>Vložili jste správný klíč Google API do záložky <a target=\"_blank\" href="
+"\"%s\">Nastavení</a>?</li>\n"
+"<li>Otevřete <a target=\"_blank\" href=\"%s\"> konzoli prohlížeče</a>, "
+"najděte Google Map API error a přečtěte si instrukce v <a target=\"_blank\" "
+"href=\"%s\">Tabulce chyb API klíče</a>.</li>\n"
+"</ul>"
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:22
+#, php-format
+msgid "and %s more"
+msgstr "a %s víc"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Zobrazit nejprohlíženější produkty"
+
+#: modules/gmap_widget/views/gmap_widget.php:19
+msgid "You have no maps"
+msgstr "Nemáte vytvořenu žádnou mapu"
+
+#: modules/gmap_widget/views/tpl/form.php:8
+msgid "Select map"
+msgstr "Vybrat mapu"
+
+#: modules/gmap_widget/views/tpl/form.php:20
+msgid "Widget Map width"
+msgstr "Šířka widgetu s mapou"
+
+#: modules/gmap_widget/views/tpl/form.php:27
+#, php-format
+msgid "in % or px, for example, 100% or 200px"
+msgstr "v % or pixelech, např. 100% or 200px"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Widget Map height"
+msgstr "Výška widgetu s mapou"
+
+#: modules/gmap_widget/views/tpl/form.php:39
+msgid "in px, for example, 200 or 400"
+msgstr "v pixelech, např. 200 nebo 400"
+
+#: modules/gmap_widget/views/tpl/form.php:51
+msgid "Set coords, separated by semicolons or marker id"
+msgstr "Nastavit souřadnice, oddělené středníkem nebo id značky"
+
+#: modules/gmap_widget/views/tpl/form.php:63
+msgid "Set zoom level from 1 to 21"
+msgstr "Nastavit úroveň přiblížení od 1 do 21"
+
+#: modules/gmap_widget/views/tpl/form.php:68
+msgid "Display as image"
+msgstr "Zobrazit jako obrázek"
+
+#: modules/gmap_widget/views/tpl/form.php:76
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"Mapa bude zobrazena jako obrázek na postranním panelu, po kliknutí se otevře "
+"v popupu"
+
+#: modules/gmap_widget/views/tpl/form.php:79
+msgid "Image width (in px)"
+msgstr "Šířka obrázku (v px)"
+
+#: modules/gmap_widget/views/tpl/form.php:86
+msgid "Image height (in px)"
+msgstr "Výška obrázku (v px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Prázdné URL"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Ikona nenalezena"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Soubor nenalezen"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Nelze získat obrázek"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "nelze vložit do tabulky"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Nelze poslat e-mail, chyba odchozího serveru"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Značka nenalezena"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Nelze odstranit značku"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Nelze odstranit značky"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "Nevyplněné nebo neplatné ID značky"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Spadnutí"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Nadskočení"
+
+#: modules/marker/models/marker.php:66
+msgid "Please enter marker name"
+msgstr "Zadejte název značky"
+
+#: modules/marker/models/marker.php:292
+msgid "Invalid Marker ID"
+msgstr "Neplatné ID značky"
+
+#: modules/marker_groups/controller.php:53
+msgid "Marker Category data not found"
+msgstr "Nenalezeny údaje o kategoriích značek"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Kategorie značek"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Přidat novou"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Nenalezena žádná kategorie značek"
+
+#: modules/marker_groups/models/marker_groups.php:78
+msgid "Please enter Marker Category"
+msgstr "Zadejte kategorii značek"
+
+#: modules/marker_groups/models/marker_groups.php:167
+msgid "Uncategorized"
+msgstr "Nezařazeno"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "Přidat kategorii"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "Vymazat vše"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Prozatím nemáte vytvořeny žádné kategorie značek. <a href='%s' style='font-"
+"style: italic;\">Vytvořte</a> svou první kategorii značek!"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:22
+msgid "Category Title"
+msgstr "Titulek kategorie"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:35
+msgid "Parent Category"
+msgstr "Nadřazená kategorie"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:70
+msgid "gmap/img/m1.png"
+msgstr "gmap/img/m1.png"
+
+#: modules/options/mod.php:108
+msgid "General"
+msgstr "Základní"
+
+#: modules/options/mod.php:110
+msgid "API Domain"
+msgstr "Doména API"
+
+#: modules/options/mod.php:110
+msgid "Sets domain for google API scripts"
+msgstr "Nastavte doménu pro skripty Google API"
+
+#: modules/options/mod.php:111
+msgid "User API key"
+msgstr "Uživatelský klíč API"
+
+#: modules/options/mod.php:111
+msgid ""
+"You can use your own Google API key, check the <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruction</a> how to create it. To "
+"use plugin's default API key leave this field blank."
+msgstr ""
+"Můžete použít vlastní klíč API Google Maps, následujte <a href='//supsystic."
+"com/google-maps-api-key/' target='_ blank'>instrukce</a> jak jej vytvořit. "
+"Pokud chcete použít výchozí klíč pluginu API, ponechte toto pole prázdné."
+
+#: modules/options/mod.php:112
+msgid "Send usage statistics"
+msgstr "Odeslat statistiku využití"
+
+#: modules/options/mod.php:112
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Pošlete informace o tom, jaké možnosti pluginu preferujete, pomůže nám to "
+"vylepšit náš plugin přesně pro Vás."
+
+#: modules/options/mod.php:113
+msgid "Enable promo link"
+msgstr "Povolit propagační odkaz"
+
+#: modules/options/mod.php:113
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr ""
+"Snažíme se, aby náš plugin byl co nejlepší, a s tím nám můžete pomoci i vy. "
+"Zaškrtněte toto políčko a malý propagační odkaz se objeví ve spodní části "
+"vaší Google mapy. Pro vás je to snadné - a pro nás velmi užitečné!"
+
+#: modules/options/mod.php:114
+msgid "User role can use plugin"
+msgstr "Tato úroveň uživatele může používat plugin"
+
+#: modules/options/mod.php:114
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr ""
+"Ostatní úrovně uživatelů mají přístup do pluginu přes administrační rozhraní."
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Modul aktualizován"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Aktualizace modulu selhala"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Chyba ID modulu"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Vymažte data pro uložení volby"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Úvodní strana Zde!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Vylepšit Free verzi"
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Upozorňujeme, že tato volba je k dispozici pouze ve <a target ='_blank' "
+"href='%s'>verzi PRO</a>. Můžete <a target='_blank' href='% s' class = "
+"'button'>Získat PRO verzi</a> a další PRO volby pro vaše vyskakovací okna!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Uložit všechny volby"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned On %s"
+msgstr "Zapnout %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:63
+#, php-format
+msgid "Turned Off %s"
+msgstr "Vypnout %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Informace byla uložena. Děkujeme!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Prosím neposílejte žádosti o kontaktování moc často - počkejte na odpověď na "
+"váš předchozí dotaz."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Zadejte platnou e-mailovou adresu"
+
+#: modules/supsystic_promo/mod.php:32
+#, php-format
+msgid ""
+"Please, set your own Google API key in Google Maps Easy plugin <a "
+"href='%s'>Settings</a>! More info about Maps and API keys you can find <a "
+"href='%s' target='_blank'>here</a>."
+msgstr ""
+"Prosím, nastavte si vlastní klíč Google API v Google Maps Easy v <a "
+"href='%s'>Nastavení pluginu</a>! Další informace o klíčích API a mapách "
+"naleznete <a href='%s' target='_blank'>zde</a>."
+
+#: modules/supsystic_promo/mod.php:56
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress? Just "
+"to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3>Ahoj, všimli jsme si, že používáš %s již přes týden - to je skvělé!</"
+"h3><p>Mohl bys nám, prosím, udělat VELKOU laskavost a ohodnotit náš plugin "
+"pěti hvězdičkami? Každá zmínka a dobré hodnocení může posílit naši motivaci.</"
+"p>"
+
+#: modules/supsystic_promo/mod.php:57 modules/supsystic_promo/mod.php:63
+msgid "Ok, you deserve it"
+msgstr "OK, zasloužíte si to"
+
+#: modules/supsystic_promo/mod.php:58 modules/supsystic_promo/mod.php:64
+msgid "Nope, maybe later"
+msgstr "Možná později"
+
+#: modules/supsystic_promo/mod.php:59
+msgid "I already did"
+msgstr "Už jsem hodnotil"
+
+#: modules/supsystic_promo/mod.php:60
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3>Více než jedenáct dní s našim pluginem %s - blahopřejeme!</h3>"
+
+#: modules/supsystic_promo/mod.php:61
+msgid ""
+"<p>On behalf of the entire <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a> company I would like to thank you for been "
+"with us, and I really hope that our software helped you.</p>"
+msgstr ""
+"<p>Jménem celé společnosti <a href='https://supsystic.com/' target='_blank'> "
+"supsystic.com </a>bysme Vám chtěli poděkovat za to, že jste s námi a doufáme, "
+"že Vám náš software pomohl.</p>"
+
+#: modules/supsystic_promo/mod.php:62
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you can "
+"just add small promo link to our site under your maps. This is small step for "
+"you, but a big help for us! Sure, if you don't want - just skip this and "
+"continue enjoy our software!</p>"
+msgstr ""
+"<p>A právě dnes nám můžete pomoci, pokud chcete. Je to opravdu jednoduché - "
+"stačíjen přidat malý propagační odkaz na naše stránky pod vašimi mapami, což "
+"je pro vás maličkost , ale nám to hodně pomůže! Samozřejmě pokud nechcete, "
+"prostě přeskočte tento krok a pokračujte v užívání našeho softwaru!</p>"
+
+#: modules/supsystic_promo/mod.php:65
+msgid "Skip"
+msgstr "Přeskočit"
+
+#: modules/supsystic_promo/mod.php:67
+#, php-format
+msgid ""
+"Check out <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'>our other Plugins</a>! Years of experience in WordPress "
+"plugins developers made that list unbreakable!"
+msgstr ""
+"Podívejte se na <a href='%s' target ='_blank' class='button button-primary' "
+"data-statistic-code='hide'>naše další pluginy</a>! Roky zkušeností našich "
+"vývojářů pluginů pro WordPress rozšířily tento seznam o pěkných pár položek!"
+
+#: modules/supsystic_promo/mod.php:116
+msgid "Overview"
+msgstr "Přehled"
+
+#: modules/supsystic_promo/mod.php:119
+msgid "Featured Plugins"
+msgstr "Doporučené pluginy"
+
+#: modules/supsystic_promo/mod.php:145
+msgid "Welcome to Supsystic Secure"
+msgstr "Vítejte v Supsystic"
+
+#: modules/supsystic_promo/mod.php:214
+msgid "Name"
+msgstr "Jméno"
+
+#: modules/supsystic_promo/mod.php:216
+msgid "Website"
+msgstr "Webová stránka"
+
+#: modules/supsystic_promo/mod.php:217
+msgid "Subject"
+msgstr "Předmět"
+
+#: modules/supsystic_promo/mod.php:218
+msgid "Topic"
+msgstr "Téma"
+
+#: modules/supsystic_promo/mod.php:219
+msgid "Plugin options"
+msgstr "Možnosti pluginu"
+
+#: modules/supsystic_promo/mod.php:220
+msgid "Report a bug"
+msgstr "Zpráva o chybě"
+
+#: modules/supsystic_promo/mod.php:221
+msgid "Require a new functionality"
+msgstr "Požadavek na novou funkci"
+
+#: modules/supsystic_promo/mod.php:222
+msgid "Other"
+msgstr "Ostatní"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Message"
+msgstr "Zpráva"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Hello Supsystic Team!"
+msgstr "Ahoj týme Supsystic!"
+
+#: modules/supsystic_promo/mod.php:269
+msgid "Heatmap"
+msgstr "Mapa koncentrace"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to create Google Maps API Key?"
+msgstr "Jak vytvořím API klíč pro Google mapy?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"Your map suddenly stopped working and you get the following error?<blockquote "
+"style='color: gray; font-style: italic;'>Oops! Something went wrong.This page "
+"didn't load Google Maps correctly. See the JavaScript console for technical "
+"details.</blockquote>Please check you browser console, if you'll see such "
+"error <blockquote style='color: gray; font-style: italic;'>This site has "
+"exceeded its daily quota for maps.</blockquote> - this <a href='//supsystic."
+"com/google-maps-api-key/' target='_blank'>article</a> is written for you and "
+"required for reading."
+msgstr ""
+"Vaše mapa náhle přestala fungovat a objevila se následující chybová hláška?"
+"<blockquote style='color: gray; font-style: italic;'>Jejda! Něco se pokazilo. "
+"Tato stránka nenačetla správně službu Google mapy. Viz Konzoli pro technické "
+"podrobnosti.</blockquote>Zkontrolujte konzoli prohlížeče, pokud uvidíte chybu "
+"<blockquote style='color: gray; font-style: italic;'>Tato stránka překročila "
+"denní kvótu pro mapy,</blockquote> přečtěte si tento <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>článek</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Jak používat Google Maps Easy ve widgetu?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. V nabídce navigace WordPress přejděte na položku Vzhled -> Widgety. <br /"
+">2. Najděte službu Google Maps Easy v seznamu dostupných widgetů.<br />3. "
+"Přetáhněte Widget Google Maps do widgetu, kde ji potřebujete.<br />4. Zvolte "
+"mapu do widgetu a nastavte šířku a výšku mapy pro widget.<br /> 5. Klikněte "
+"na tlačítko Uložit."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "How to add map into the site content?"
+msgstr "Jak přidat mapu do obsahu stránky?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Mapu do obsahu webu můžete přidat pomocí zkráceného kódu nebo php kódu. Další "
+"informace o tom, jak to udělat jsou <a href = 'http://supsystic.com/add-map-"
+"into-site-content/'>zde</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "How to add map in popup window?"
+msgstr "Jak přidat mapu do vyskakovacího okna?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:42
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Mapu do vyskakovacího okna můžete přidat vložením zkráceného kódu do "
+"libovolného textového pole vyskakovacího okna. Další informace o tom, jak to "
+"udělat naleznete <a href='http://supsystic.com/add-map-in-popup-window/'>zde</"
+"a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Jak přiblížit a vycentrovat aktuální mapu pro první zobrazení?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:44
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Existuje několik různých způsobů, jak přiblížit a vystředit mapu. "
+"Nejjednodušší je přetahnout mapu na střed pomocí myši (možnost 'Přetažitelná "
+"myší' musí být povolená), nebo ovládacím prvkem v živém náhledu. <a "
+"href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-"
+"markers/'>Přečtěte si více</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Jak získat zdarma PRO verzi pluginu?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Máte výbornou příležitost získat zdarma PRO verzi. Přeložte tento plugin do "
+"svého jazyka! Bude skvělé, pokud využijete této nabídky. Více informací "
+"naleznete zde <a target='_blank' href='%s'>Získejte PRO verzi libovolného "
+"pluginu zdarma'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "Překlad"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Plugin Supsystic Google Maps je poskytován ve všech dostupných jazycích. "
+"Pokud váš jazyk není k dispozici, plugin bude ve výchozím nastavení v "
+"angličtině.<br /><b>Dostupné překlady: angličtina, polština, němčina, "
+"španělština, ruština</ b><br />Přeložte nebo aktualizujte překlad pluginu "
+"Google Maps WordPress do vašeho jazyka a získejte licenci Premium ZDARMA. <a "
+"target='_blank' href='%s'>Kontaktujte nás</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:62
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Při pokusu o načtení našich novinek se objevil problém. Seznam všech novinek "
+"nicméně můžete najít i <a target='_blank' href='%s'>zde</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "Yes"
+msgstr "Ano"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "No"
+msgstr "Ne"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "Popup Plugin"
+msgstr "Plugin Vyskakovací okno"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+"Nejlepší doplněk WordPressu - vyskakovací okno, vám pomůže získat více "
+"uživatelů, sledujících na sociálních sítích nebo reklamy. Responzivní "
+"vyskakovací okno s širokými možnostmi nastavení."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin"
+msgstr "Plugin Fotogalerie"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+"Plugin Fotogalerie s velkým počtem nastavení vám pomůže vytvořit kvalitní "
+"úhledná portfolia a obrazové galerie."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "Contact Form Plugin"
+msgstr "Plugin Kontaktní formulář"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+"Jeden z nejlepších pluginů pro vytváření kontaktních formulářů na vašem webu "
+"WordPress. Volitelné fonty, pozadí, možnost přidávání polí apod."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Newsletter Plugin"
+msgstr "Plugin Newsletter"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+"Plugin Newsletter pro automatické zasílání novinek. Nepotřebujete je třídit "
+"nebo je posílat ručně. Žádné kódování, znakost kódovacího jazyka nebo dlouhé "
+"hodiny nastavování."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Membership by Supsystic"
+msgstr "Členství ve skupině Supsystic"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid ""
+"Create online membership community with custom user profiles, roles, FrontEnd "
+"registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+"Vytvote si online členství ve skupině Supsystic s vlastním uživatelským "
+"profilem, rolemi, registrací přes UI a přihlášení. Seznam členů, aktivity, "
+"skupiny, zprávy."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Data Tables Generator"
+msgstr "Generátor datových tabulek"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML knowledge "
+"is required."
+msgstr ""
+"Vytvořte a spravujte krásné tabulky s vlastním designem. Žádné znalosti  HTML "
+"kódu nejsou potřeba."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Slider Plugin"
+msgstr "Plugin Slider"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select images "
+"from your WordPress Media Library, Flickr, Instagram or Facebook, set slide "
+"captions, links and SEO fields all from one page."
+msgstr ""
+"Vytváření slideshows s pluginem Slider je rychlé a snadné. Stačí vybrat "
+"obrázky z knihovny WordPress, Flickeru, Instagramu nebo Facebooku, nastavit "
+"titulky, odkazy a pole SEO, to všechno v jedné stránce."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social Share Buttons"
+msgstr "Tlačítka pro sociální sítě"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+"Tlačítka pro sociální sítě ke zvýšení návštěvnosti a popularity. Sdílení "
+"obsahu na Facebooku, Twitteru a dalších sociálních sítích."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Live Chat Plugin"
+msgstr "Plugin Live chat"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by Supsystic. "
+"Help you visitors, support them in real-time with exceptional Live Chat "
+"WordPress plugin by Supsystic."
+msgstr ""
+"Buďte v kontaktu s vašimi návštěvníky a zákazníky s Live Chatem od Supsystic. "
+"Pomáhejte návštěvníkům, poskytujte podporu v reálném čase s výjimečným "
+"Pluginem Live Chat Supsystic."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "Pricing Table"
+msgstr "Tabulka cen"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid ""
+"It's never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+"Nikdy nebylo tak snadné vytvářet a spravovat tabulky cen a jejich srovnávání "
+"jako s naším tvůrcem tabulek. Každý prvek tabulky lze přizpůsobit pomocí "
+"kliknutí myši."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming Soon Plugin"
+msgstr "Plugin Coming soon (Již brzy)"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+"Stránka s oznámením o rekonstrukci, nebo o výstavbě |režim údržby, který "
+"upozorní návštěvníky a shromažďuje e-maily."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup Plugin"
+msgstr "Zálohovací plugin"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched "
+"DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+"Zálohování a obnovení pluginů Supsystic do WordPressu poskytuje rychlé a "
+"plynulé spojení pro DropBox, FTP, Amazon S3, zálohu na disku Google pro vaší "
+"webovou stránku WordPressu."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+"Zobrazuje vlastní mapy Google. Vytvořte značky a umístění s textem, obrázky, "
+"kategoriemi a odkazy. Přizpůsobte Google mapu jednoduchým a intuitivním "
+"způsobem."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication Plugin"
+msgstr "Plugin pro digitální publikace"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+"Plugin Supsystic pro digitální publikace jako časopisy, katalogy, portfolia. "
+"Převod obrázků, příspěvků, PDF do otáčecí knihy."
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Verze"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Podpora"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Přidejte svou"
+
+#: modules/supsystic_promo/views/tpl/adminPromoTabContent.php:5
+msgid "Get it now!"
+msgstr "Získejte teď!"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Získejte sadu pluginů dnes a ušetříte více než 80%"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "Podívejte se"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "Více informací"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "Stáhnout"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "Nejčastější otázky a dokumentace"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Prohlédnout Nejčastější otázky"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video návod"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "Funkce PRO"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Nastavení serveru"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Novinky"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Všechny novinky a info"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Kontaktní formulář"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Poslat e-mail"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"Váš e-mail byl odeslán, pokusíme se odpovědět co nejdříve.Děkujeme za vaši "
+"podporu!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Vítejte v"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Toto je první spuštění pluginu %s."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Pokud jste zde nový, zkontrolujte všechny funkce na této stránce, pokud jste "
+"guru, opravte nás prosím."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Prosím připojte URL"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Co dál? Podívejte se na sekci níže"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Pomozte nám"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"Bude fajn, když podpoříte vývoj vaší zpětnou vazbou a hodnoceními. Vytváříme "
+"speciální <a target='_blank' href='%s'>stránku pro podporu</a>, která vám "
+"usnadní pomoci nám."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Podívejte se na <a target='_blank' href='%s'>dokumentaci</a> a sekci "
+"Nejčastější otázky. Pokud ani toto nevyřeší váš problém, <a target='_blank' "
+"href='%s'>kontaktujte nás</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Seznam všech funkcí"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr "Je zde hodně funkcí, takže všechny se sem bohužel nevejdou"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Google Captcha pro přihlášení admina"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "ochrana pomocí htaccess"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Skrýt seznam souborů v adresáři"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Zkontrolujte si oprávnění k zápisu u souborů a adresářů"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Zkontrolujte si seznam všech funkcí <a target='_blank' href='%s'>zde</a>."
+
+#~ msgid "Datum vytvoření"
+#~ msgstr "Datum vytvoření"
+
+#~ msgid "Empty or Invalid Map ID. Please, check your POI Toolbar Shortcode."
+#~ msgstr ""
+#~ "Nevyplněné nebo neplatné ID mapy. Zkontrolujte vložený kód panelu nástrojů "
+#~ "POI."
+
+#~ msgid "Marker Form shortcode"
+#~ msgstr "Kód formuláře značky"

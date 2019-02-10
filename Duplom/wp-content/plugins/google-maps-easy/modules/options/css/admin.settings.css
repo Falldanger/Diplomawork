@@ -1,0 +1,26 @@
+#containerWrapper h3, 
+#containerWrapper h4 {
+	margin: 0;
+}
+.temlplate-list .temlplate-list-item {
+	max-width: 400px;
+	border: 1px solid transparent;
+	padding: 5px;
+	margin: 6px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+.temlplate-list .temlplate-list-item.active ,
+.temlplate-list .temlplate-list-item:active  {
+	outline: 5px solid rgba(0, 0, 0, 0.52);
+}
+.temlplate-list .temlplate-list-item img {
+	max-width: 400px;
+	height: auto;
+}
+.gmpOptCat_cs_mode_coming_soon td {
+	padding-left: 0;
+}

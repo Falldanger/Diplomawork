@@ -1,0 +1,3112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Maps Easy\n"
+"POT-Creation-Date: 2017-12-21 13:05+0200\n"
+"PO-Revision-Date: 2018-11-14 10:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: doc/promo-google-maps-easy-pro\n"
+
+#: classes/controller.php:198 classes/controller.php:206
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:15
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:38
+#: doc/google-maps-easy-pro/heatmap/controller.php:9
+#: doc/google-maps-easy-pro/heatmap/controller.php:39
+#: doc/google-maps-easy-pro/kml/controller.php:11
+#: doc/google-maps-easy-pro/license/controller.php:6
+#: doc/google-maps-easy-pro/shape/controller.php:8
+#: doc/google-maps-easy-pro/shape/controller.php:46
+#: doc/google-maps-easy-pro/shape/controller.php:61
+#: modules/adminmenu/controller.php:29 modules/csv/controller.php:190
+#: modules/gmap/controller.php:55 modules/gmap/controller.php:72
+#: modules/gmap/controller.php:80 modules/marker/controller.php:8
+#: modules/marker/controller.php:46 modules/marker/controller.php:61
+#: modules/marker/controller.php:101 modules/marker_groups/controller.php:78
+#: modules/options/controller.php:6
+msgid "Done"
+msgstr "Përfunduam."
+
+#: classes/field.php:131
+msgid "Select"
+msgstr "Zgjidh"
+
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Shto"
+
+# Shto artikull
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Shto njësine"
+
+# Shto Buton
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Shto Radio Button"
+
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensionet"
+
+#: classes/field.php:314
+msgid "width"
+msgstr "Gjerësia e hartës"
+
+#: classes/field.php:316
+msgid "height"
+msgstr "Lartësia e hartës"
+
+#: classes/field.php:323
+msgid "Click to set field &quot;id&quot; and &quot;class&quot;"
+msgstr "Klikoni për të vendosur në terren &quot;id&quot; dhe 'klasë'"
+
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Atributet"
+
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Nuk ka opsione për konfigurimin e modulit"
+
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Aplikoje në"
+
+#: classes/fieldAdapter.php:95
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:40
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:66
+#: modules/gmap/views/tpl/gmapEditMap.php:334
+#: modules/gmap/views/tpl/gmapEditMap.php:1229
+#: modules/gmap/views/tpl/gmapEditMap.php:1507
+msgid "Address"
+msgstr "Adresa"
+
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destinacioni"
+
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Shteti"
+
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Kategoritë"
+
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Nuk keni kategori"
+
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Marka"
+
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Nuk keni marka"
+
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Norma e tatimit"
+
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolute"
+
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Nuk është selektuar"
+
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "klasa"
+
+#: classes/fieldAdapter.php:186
+msgid "id"
+msgstr "id"
+
+#: classes/frame.php:137
+msgid "You have no permissions to view this page"
+msgstr "Nuk keni lejen për të parë këtë faqe"
+
+#: classes/html.php:207 modules/gmap/views/tpl/gmapEditMap.php:1360
+msgid "Upload"
+msgstr "Ngarko"
+
+#: classes/html.php:627
+msgid "ON"
+msgstr "ON"
+
+#: classes/html.php:628
+msgid "OFF"
+msgstr "OFF"
+
+#: classes/html.php:652
+#, php-format
+msgid "Select %s"
+msgstr "Zgjidh %s"
+
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Zhvendosja për %s dështoi"
+
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s nuk është modul i plugin-it"
+
+#: classes/modInstaller.php:76
+msgid "Can not create module directory. Try to set permission to "
+msgstr "Nuk mund të krijojmë direktori për modilun. Provo autorizimin në"
+
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Nuk u gjet asnjë modul në dokumentin XML"
+
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Dokumenti XML jo i vlefshëm"
+
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Nuk u gjet asnjë dokument XML"
+
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Instalimi %s dështoi"
+
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Error Aktivizo modulin"
+
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Error në çaktivizimin e modulit"
+
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Error në aktivizimin e modulit"
+
+#: classes/model.php:174 classes/model.php:186
+msgid "Database error detected"
+msgstr "Error në databazë"
+
+#: classes/model.php:176 modules/gmap/models/gmap.php:182
+#: modules/icons/models/icons.php:148
+#: modules/marker_groups/models/marker_groups.php:49
+msgid "Invalid ID"
+msgstr "ID e pavlefshme"
+
+#: classes/model.php:209
+msgid "Empty or invalid ID"
+msgstr "ID bosh ose e pavlefshme"
+
+#: classes/table.php:277
+msgid "Nothing to update"
+msgstr "Asgjë për të përditësuar"
+
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Error database. Ju lutem kontaktoni zhvilluesin e programit"
+
+#: classes/tables/heatmaps.php:7
+msgid "Heatmap ID"
+msgstr "ID zonës"
+
+#: classes/tables/heatmaps.php:8 classes/tables/marker.php:13
+#: classes/tables/shapes.php:12
+msgid "Map Id"
+msgstr "ID Hartës"
+
+#: classes/tables/heatmaps.php:9
+msgid "Heatmap coordinates list"
+msgstr "Lista e kordinatave të zonës"
+
+#: classes/tables/heatmaps.php:10 classes/tables/marker.php:17
+#: classes/tables/modules.php:10 classes/tables/options.php:11
+#: classes/tables/shapes.php:15
+msgid "Params"
+msgstr "Parametrat"
+
+#: classes/tables/heatmaps.php:11 classes/tables/marker.php:19
+#: classes/tables/shapes.php:13
+msgid "Creation date"
+msgstr "Data e krijimit"
+
+#: classes/tables/marker.php:7
+msgid "Marker ID"
+msgstr "ID Shënjuesit"
+
+#: classes/tables/marker.php:8
+msgid "Marker name"
+msgstr "Emri shënjuesit"
+
+#: classes/tables/marker.php:9
+msgid "Description Of Marker"
+msgstr "Përshrkimi i shënjuesit"
+
+#: classes/tables/marker.php:10
+msgid "X coordinate of marker (lng)"
+msgstr "kordinata X e shënjuesit"
+
+#: classes/tables/marker.php:11
+msgid "Y coordinate of marker (lat)"
+msgstr "kordinata Y  e shënjuesit"
+
+#: classes/tables/marker.php:12
+msgid "Path of icon file"
+msgstr "Vendndodhja e ikones"
+
+#: classes/tables/marker.php:14
+msgid "Marker Address"
+msgstr "Adresa e shënjuesit"
+
+#: classes/tables/marker.php:15
+msgid "Id of Marker's group"
+msgstr "Id e grupit të shënjuesit"
+
+#: classes/tables/marker.php:16 classes/tables/shapes.php:14
+msgid "Animation"
+msgstr "Animime"
+
+#: classes/tables/marker.php:18 classes/tables/options.php:15
+#: classes/tables/shapes.php:16
+msgid "Sort Order"
+msgstr "Renditje"
+
+#: classes/tables/marker.php:20
+msgid "User who created marker"
+msgstr ""
+
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+#: classes/tables/options.php:10
+msgid "Label"
+msgstr "Etiketë"
+
+#: classes/tables/modules.php:8 classes/tables/options.php:13
+msgid "Type"
+msgstr "Tipi"
+
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Aktive"
+
+#: classes/tables/modules.php:11
+msgid "Has Tab"
+msgstr "Ka lidhje"
+
+#: classes/tables/modules.php:12 classes/tables/options.php:12
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:67
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: classes/tables/modules.php:13 classes/tables/options.php:8
+#: classes/tables/usage.php:9
+msgid "Code"
+msgstr "Kodi"
+
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Direktoria e jashtme e pluginit"
+
+#: classes/tables/modules_type.php:7 classes/tables/options.php:7
+#: classes/tables/options_categories.php:7 modules/gmap/views/gmap.php:240
+msgid "ID"
+msgstr "ID"
+
+#: classes/tables/options.php:9
+msgid "Value"
+msgstr "Vlera"
+
+#: classes/tables/options.php:14
+msgid "Category ID"
+msgstr "Kategoria ID"
+
+#: classes/tables/options.php:16
+msgid "Value Type"
+msgstr "Vlera e tipit"
+
+#: classes/tables/options_categories.php:8
+msgid "Method"
+msgstr "Metoda"
+
+#: classes/tables/shapes.php:7
+msgid "Shape ID"
+msgstr "ID Formës"
+
+#: classes/tables/shapes.php:8
+msgid "Shape name"
+msgstr "Emri i formës"
+
+#: classes/tables/shapes.php:9
+msgid "Description of Shape"
+msgstr "Përshkrimi i formës"
+
+#: classes/tables/shapes.php:10
+msgid "Shape coordinates list"
+msgstr "Lista e kordinatave të formës"
+
+#: classes/tables/shapes.php:11
+msgid "Shape type"
+msgstr "Tipi i formës"
+
+#: classes/tables/usage.php:8
+msgid "Usage id"
+msgstr "Përdorimi i ID"
+
+#: classes/tables/usage.php:10
+msgid "Visits Count"
+msgstr "Numri i vizitorëve"
+
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Gjatësia e pavlefshme për %s, maksimumi i gjatësisë është %s"
+
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Vlerë numerike e pavlefshme për %s"
+
+#: classes/validator.php:71 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Ju lutem vendosni %s"
+
+#: classes/validator.php:78 modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Ju lutem zgjidhni %s"
+
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "%s e pavefshme"
+
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s është e regjistruar"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:3
+msgid "Exit Full Screen"
+msgstr "Dil nga ekrani i madh"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:4
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/fullScreenBtn.php:11
+msgid "Open Full Screen"
+msgstr "Hap ekranin e madh"
+
+#: doc/google-maps-easy-pro/add_map_options/views/tpl/printInfoWndBtn.php:8
+msgid "Print"
+msgstr "Printo"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:54
+msgid "Search address..."
+msgstr "Kërko adresën..."
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:81
+msgid "Reset"
+msgstr "Rivendos"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:94
+msgid "Find"
+msgstr "Gjej"
+
+#: doc/google-maps-easy-pro/custom_controls/views/tpl/customMapControls.php:105
+msgid "Search area have no markers, please try to modify search criteria."
+msgstr ""
+"Kërko zona që nuk kanë shënjues, ju lutem të modifikoni kriterin e kërkimit."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:1
+msgid "Get Direction"
+msgstr "Merr drejtimiin"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:23
+msgid "Type the address..."
+msgstr "Shkruaj adresën..."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:32
+msgid "or"
+msgstr "ose"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:35
+msgid "Get current user position"
+msgstr "Merr pozicionin actual të përdoruesit"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:45
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Shko"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:65
+msgid "The Geolocation service failed."
+msgstr "Shërbimi i lokalizimit dështoi."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:71
+msgid "Your browser does not support geolocation."
+msgstr "Browseri juaj nuk suporton lokalizimin."
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:77
+msgid "Route could not be found. Please, try to select another address!"
+msgstr "Rruga nuk u gjet. Ju lutem të zgjidhni një adresë tjetër!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsBtn.php:83
+msgid "Please, select address from search list!"
+msgstr "Ju lutem, zgjidhni adresën nga lista kërkimore!"
+
+#: doc/google-maps-easy-pro/directions/views/tpl/directionsPanel.php:4
+msgid "List of Direction's Steps will be here..."
+msgstr "Lista e hapave drejtuese do jetë këtu..."
+
+#: doc/google-maps-easy-pro/frontend_actions/controller.php:49
+msgid "Adding markers from the frontend is disabled for the Current Map"
+msgstr ""
+"Shtimi i shënjuesve nga ana e frontendit nuk është aktivizuar në hartën "
+"aktuale."
+
+#: doc/google-maps-easy-pro/frontend_actions/mod.php:24
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:9
+msgid "Empty or Invalid Map ID. Please, check your Marker Form Shortcode."
+msgstr ""
+"ID e hartës është boshe ose e pavlefshme. Ju lutem kontrolloni shënjuesin nga "
+"shortcode-i."
+
+#: doc/google-maps-easy-pro/frontend_actions/models/frontend_actions.php:33
+#, php-format
+msgid ""
+"You have exceeded the limit on adding markers from current IP address. Please "
+"try again after %s minutes."
+msgstr ""
+"Ju keni kaluar limitin e shtimit e shënjuesve nga adresa IP aktuale. Ju lutem "
+"provoni sërisht pas %s minutave."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:16
+msgid "Marker Form will be displayed only for logged in users."
+msgstr "Forma Shënjuesve do të afishohet vetëm për përdoruesit e regjistruar."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:17
+msgid "Log In"
+msgstr "Hyni"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:30
+#: modules/gmap/views/gmap.php:278 modules/gmap/views/gmap.php:279
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:464 modules/marker/mod.php:20
+#: modules/marker_groups/views/marker_groups.php:17
+msgid "None"
+msgstr "Asnjë"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/frontend_actions.php:52
+msgid ""
+"Marker's Form is not displayed, because the option &quot;Add markers on "
+"frontend&quot; is disabled for the Current Map"
+msgstr ""
+"Forma e shënjuesit nuk u afishua sepse opsioni 'Shto shënjuesin në frontend' "
+"është caktivizuar nga harta aktuale."
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:20
+msgid "You need to use marker form on page with map"
+msgstr ""
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:23
+msgid "Marker Form"
+msgstr "Forma e shënjuesit"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:24
+msgid "Use this form to add markers to your map"
+msgstr "Përdor këtë fomë për të shtuar shënjues në hartën tënde"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:27
+#: modules/gmap/views/tpl/gmapEditMap.php:1178
+msgid "Marker Name"
+msgstr "Emri i shëjuesit"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:32
+#: modules/gmap/views/tpl/gmapEditMap.php:1271
+msgid "Marker Category"
+msgstr "Kategoria e shënjuesit"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:46
+#: modules/gmap/views/tpl/gmapEditMap.php:1494
+msgid "Add by Click"
+msgstr "Shto me Klik"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:49
+#: modules/gmap/views/tpl/gmapEditMap.php:1191
+msgid "Marker Description"
+msgstr "Përshkrimi i shënjuesit"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:58
+#: modules/gmap/views/tpl/gmapEditMap.php:848
+#: modules/gmap/views/tpl/gmapEditMap.php:1218
+msgid "Choose Icon"
+msgstr "Zgjidh ikonën"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:65
+#: modules/gmap/views/tpl/gmapEditMap.php:1708
+msgid "Save Marker"
+msgstr "Ruaj shënjuesin"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:90
+msgid "Choose the marker"
+msgstr ""
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:1714
+msgid "Delete Marker"
+msgstr "Fshij shënjuesin"
+
+#: doc/google-maps-easy-pro/frontend_actions/views/tpl/frontend_actionsMarkerForm.php:101
+msgid "You need to choose the marker"
+msgstr ""
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:28
+msgid "Empty or invalid Heatmap ID"
+msgstr "ID hartës është e pavlefshme ose bosh"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:35
+msgid "Heatmap Not Found"
+msgstr "Zona nuk u gjet"
+
+#: doc/google-maps-easy-pro/heatmap/controller.php:41
+msgid "Cannot remove Heatmap"
+msgstr "Nuk mund të fshini zonën"
+
+#: doc/google-maps-easy-pro/kml/controller.php:18
+msgid "Security check failed"
+msgstr "Kontrolli sigurisë dështoi"
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:6
+msgid "KML Layers Filter"
+msgstr ""
+
+#: doc/google-maps-easy-pro/kml/views/tpl/mapKmlFilter.php:16
+msgid "KML data loading"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:30
+#, php-format
+msgid ""
+"Your license is expired. Once you extend your license - you will be able to "
+"Update PRO version. To extend PRO version license - follow <a href='%s' "
+"target='_blank'>this link</a>, then - go to <a href='%s'>License</a> tab and "
+"click on &quot;Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Licensa ka skaduar. Njëherë që riaktivizoni licensën - ju do keni versionin "
+"Pro. Për zgjatur versionin e licenses Pro - ndiqni <a href='%s' "
+"target='_blank'>këtë link</a>, më pas - shkoni <a href='%s'> tabi i licensës "
+"</a> dhe kliko butonin 'Riaktivizo' për të riaktivizuar versionin Pro."
+
+#: doc/google-maps-easy-pro/license/mod.php:39
+#, php-format
+msgid ""
+"Your plugin PRO license is expired. It means your PRO version will work as "
+"usual - with all features and options, but you will not be able to update the "
+"PRO version and use PRO support. To extend PRO version license - follow <a "
+"href='%s' target='_blank'>this link</a>"
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:44
+#, php-format
+msgid ""
+"You need to activate your copy of PRO version %s plugin. Go to <a "
+"href='%s'>License</a> tab and finish your software activation process."
+msgstr ""
+
+#: doc/google-maps-easy-pro/license/mod.php:70
+msgid "License"
+msgstr "Licensa"
+
+#: doc/google-maps-easy-pro/license/mod.php:93
+msgid "Activate License"
+msgstr "Aktivizo Licensën"
+
+#: doc/google-maps-easy-pro/license/mod.php:95
+msgid "Renew License"
+msgstr "Riaktivizo Licensën"
+
+#: doc/google-maps-easy-pro/license/models/license.php:54
+msgid "Please enter your License Key"
+msgstr "Ju lutem fusni celësin e licensës"
+
+#: doc/google-maps-easy-pro/license/models/license.php:56
+msgid "Please enter your Email address"
+msgstr "Ju lutem fusni adresën e emailit"
+
+#: doc/google-maps-easy-pro/license/models/license.php:138
+msgid ""
+"There was a problem with sending request to your authentication server. "
+"Please try later."
+msgstr ""
+"Ka një problem me dërgesën e kërkesës për vërtetimin e serverit. Ju lutem "
+"provoni më vonë."
+
+#: doc/google-maps-easy-pro/license/models/license.php:178
+#, php-format
+msgid "License for plugin %s will expire today."
+msgstr "Licensa e pluginit %s skadon sot."
+
+#: doc/google-maps-easy-pro/license/models/license.php:180
+#, php-format
+msgid "License for plugin %s will expire tomorrow."
+msgstr "Licensa e pluginit %s skadon nesër."
+
+#: doc/google-maps-easy-pro/license/models/license.php:182
+#, php-format
+msgid "License for plugin %s will expire in %d days."
+msgstr "Licensa e pluginit %s skadon për %d ditë."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:4
+#, php-format
+msgid "Congratulations! PRO version of %s plugin is activated and working fine!"
+msgstr "Urime! Versioni Pro i %s pluginit u aktivizua dhe punon!"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:6
+#, php-format
+msgid ""
+"Your license for PRO version of %s plugin - expired. You can <a href='%s' "
+"target='_blank'>click here</a> to extend your license, then - click on &quot;"
+"Re-activate&quot; button to re-activate your PRO version."
+msgstr ""
+"Licensa e versionit Pro për pluginin %s - ka skaduar. Ju mund të klikoni <a "
+"href='%s' target='_blank'>këtu</a> për të zgjatur licensën, klikoni në "
+"butonin 'Riaktivizo' për të riaktivizuar versionin Pro."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:8
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed PRO version of %s plugin. "
+"Final step to finish Your PRO version setup - is to enter your Email and "
+"License Key on this page. This will activate Your copy of software on this "
+"site."
+msgstr ""
+"Urime! Ju keni instaluar versionin Pro të pluginit '%s' me sukses. Hapi i "
+"fundit për të mbyllur instalimin e versionit Pro - është futja e emailit dhe "
+"celësit të licenses në këtë faqe. Ky hap do të aktivizojë kopjen tuaj të "
+"programit në këtë faqe."
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:20
+#: modules/supsystic_promo/mod.php:215
+msgid "Email"
+msgstr "Email"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:23
+#, php-format
+msgid ""
+"Your email address, used on checkout procedure on <a href='%s' "
+"target='_blank'>%s</a>"
+msgstr ""
+"Adresa e përdorur për procedurën e pagesës në <a href='%s' target='_blank'>"
+"%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:31
+msgid "License Key"
+msgstr "Celësi i licensës"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:34
+#, php-format
+msgid ""
+"Your License Key from your account on <a href='%s' target='_blank'>%s</a>"
+msgstr "Celësi i licenses nga llogaria juaj <a href='%s' target='_blank'>%s</a>"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:47
+msgid "Re-activate"
+msgstr "Riaktivizo"
+
+#: doc/google-maps-easy-pro/license/views/tpl/licenseAdmin.php:49
+msgid "Activate"
+msgstr "Aktivizo"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:17
+msgid "Uncategorized"
+msgstr "Pa kategori"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:65
+#: modules/gmap/views/gmap.php:241
+msgid "Title"
+msgstr "Titulli"
+
+#: doc/google-maps-easy-pro/markers_list/views/tpl/mmlSliderTable.php:69
+msgid "Directions"
+msgstr "Drejtimet"
+
+#: doc/google-maps-easy-pro/poi/mod.php:9
+#: doc/google-maps-easy-pro/poi/views/poi.php:7
+msgid "Empty or Invalid Map ID. Please, check your POI Toolbar Shortcode."
+msgstr ""
+
+#: doc/google-maps-easy-pro/shape/controller.php:42
+#: doc/google-maps-easy-pro/shape/controller.php:57
+msgid "Figure Not Found"
+msgstr "Skica nuk u gjet"
+
+#: doc/google-maps-easy-pro/shape/controller.php:48
+#: doc/google-maps-easy-pro/shape/controller.php:63
+msgid "Cannot remove figure"
+msgstr "Nuk mund të fshihni skicën"
+
+#: doc/google-maps-easy-pro/shape/controller.php:99
+msgid "Empty or invalid figure ID"
+msgstr "ID skicës është bosh ose e pavlefshme"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:43
+msgid "Please enter figure name"
+msgstr "Ju lutem fusni emrin e skicës"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:104
+#: modules/marker/models/marker.php:207
+msgid "Address is empty or not match"
+msgstr "Adresa është bosh ose nuk përputhet"
+
+#: doc/google-maps-easy-pro/shape/models/shape.php:159
+msgid "Invalid Figure ID"
+msgstr "ID e skicës e pavlefshme"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/gmap/mod.php:22 modules/marker/views/tpl/markerListOperations.php:1
+#: modules/marker_groups/mod.php:14
+msgid "Edit"
+msgstr "Modifiko"
+
+#: doc/google-maps-easy-pro/shape/views/tpl/shapeListOperations.php:1
+#: modules/marker/views/tpl/markerListOperations.php:1
+msgid "Delete"
+msgstr "Fshij"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:70
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href='?' "
+"onclick='document.location.reload(); return false;'>Try again</a>"
+msgstr ""
+"Një error i papritur HTTP ndodhi gjatë kërkesës API  </p> </p><a href='?' "
+"onclick='document.location.reload(); return false;'>Provo përsëri</a>"
+
+#: doc/google-maps-easy-pro/wpUpdater.php:75
+msgid "An unknown error occurred"
+msgstr "Nndodhi një error i panjohur"
+
+#: modules/adminmenu/controller.php:7
+msgid "Your name field is required."
+msgstr "Kërkohet emri i fushës"
+
+#: modules/adminmenu/controller.php:8
+msgid "Your website field is required."
+msgstr "Kërkohet emri i faqes."
+
+#: modules/adminmenu/controller.php:9
+msgid "Your e-mail field is required."
+msgstr "Kërkohet emaili."
+
+#: modules/adminmenu/controller.php:10
+msgid "Subject field is required."
+msgstr "Kërkohet subjekti."
+
+#: modules/adminmenu/controller.php:11
+msgid "You must select a valid category."
+msgstr "Ju mund të zgjidhni një kategori të vlefshme."
+
+#: modules/adminmenu/controller.php:12
+msgid "Message field is required."
+msgstr "Kërkohet fusha e mesazhit."
+
+#: modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"Plugine wordpressi fantastike nga zhvilluesit e supsystic.com. Provova %s - "
+"dhe kjo ishte ajo që kërkoja! #supsystic.com"
+
+#: modules/adminmenu/mod.php:14 modules/options/mod.php:13
+msgid "Settings"
+msgstr "Detaje"
+
+#: modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Më shumë plugine për Wordpres i gjeni këtu!"
+
+#: modules/adminmenu/mod.php:16 modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Përhap fjalën!"
+
+#: modules/csv/controller.php:7
+#, php-format
+msgid "Maps from %s - %s"
+msgstr "Harta nga %s - %s"
+
+#: modules/csv/controller.php:10
+msgid "You have no maps for now."
+msgstr "Për momentin nuk keni hartë."
+
+#: modules/csv/controller.php:55
+#, php-format
+msgid "Markers from %s"
+msgstr "Shënjuesit nga %s."
+
+#: modules/csv/controller.php:58
+msgid "You have no markers for now."
+msgstr "Për momentin nuk keni shënjues."
+
+#: modules/csv/controller.php:96
+msgid "Missing File"
+msgstr "Dokumenti mungon"
+
+#: modules/csv/controller.php:98
+#, php-format
+msgid "File uploaded with error code %s"
+msgstr "Dokumenti u ngarkua me një error në kod %s"
+
+#: modules/csv/controller.php:180
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr ""
+"Dokumenti duhet të ketë më shumë se 1 rresht, të paktën 1 rresht duhet për "
+"kokën"
+
+#: modules/csv/controller.php:182
+msgid "Empty data in file"
+msgstr "Fshij të dhënat brenda dokumentit"
+
+#: modules/csv/mod.php:11
+msgid "Maps Import / Export"
+msgstr "Hartat Importo/Eksporto"
+
+#: modules/csv/models/csv.php:133
+msgid "Can not detect import list type"
+msgstr "Nuk mund të dallojë llojin e listës për import"
+
+#: modules/csv/models/csv.php:135
+msgid "Can not find fields names"
+msgstr "Nuk mund të gjejë emrat e fushave"
+
+#: modules/csv/views/tpl/csvTabContent.php:8
+msgid "Maps"
+msgstr "Hartat"
+
+#: modules/csv/views/tpl/csvTabContent.php:13
+#: modules/csv/views/tpl/csvTabContent.php:34
+msgid "Export"
+msgstr "Eksporto"
+
+#: modules/csv/views/tpl/csvTabContent.php:18
+#: modules/csv/views/tpl/csvTabContent.php:39
+msgid "Import"
+msgstr "Importo"
+
+#: modules/csv/views/tpl/csvTabContent.php:29 modules/gmap/views/gmap.php:243
+#: modules/gmap/views/tpl/gmapEditMap.php:41
+msgid "Markers"
+msgstr "Shënjuesit"
+
+#: modules/csv/views/tpl/csvTabContent.php:51
+msgid "CSV Options"
+msgstr ""
+
+#: modules/csv/views/tpl/csvTabContent.php:57
+msgid "Delimiter"
+msgstr ""
+
+#: modules/csv/views/tpl/csvTabContent.php:73
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:15
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+msgid "Save"
+msgstr "Ruaj"
+
+#: modules/gmap/controller.php:23
+msgid "Map data not found"
+msgstr "Të dhënat e hartës nuk u gjetën"
+
+#: modules/gmap/mod.php:19
+msgid "Add Map"
+msgstr "Shto hartën"
+
+#: modules/gmap/mod.php:25
+msgid "All Maps"
+msgstr "Të gjitha hartat"
+
+#: modules/gmap/mod.php:35
+msgid "No Map Found"
+msgstr "Nuk u gjet asnjë hartë"
+
+#: modules/gmap/mod.php:98
+msgid "Empty or Invalid Map ID"
+msgstr "ID e hartës bosh ose e pavlefshme"
+
+#: modules/gmap/mod.php:98
+msgid "Please, check your Map Shortcode."
+msgstr "Ju lutem kontrolloni Shortcodein e hartës."
+
+#: modules/gmap/mod.php:118
+msgid "Top Center"
+msgstr "Lart Qendër"
+
+#: modules/gmap/mod.php:119
+msgid "Top Left"
+msgstr "Lart Majtas"
+
+#: modules/gmap/mod.php:120
+msgid "Top Right"
+msgstr "Lart Djathtas"
+
+#: modules/gmap/mod.php:121
+msgid "Left Top"
+msgstr "Majtas Lart"
+
+#: modules/gmap/mod.php:122
+msgid "Right Top"
+msgstr "Djathtas Lart"
+
+#: modules/gmap/mod.php:123
+msgid "Left Center"
+msgstr "Majtas Qendër"
+
+#: modules/gmap/mod.php:124
+msgid "Right Center"
+msgstr "Djathtas Qendër"
+
+#: modules/gmap/mod.php:125
+msgid "Left Bottom"
+msgstr "Majtas Poshtë"
+
+#: modules/gmap/mod.php:126
+msgid "Right Bottom"
+msgstr "Djathtas Poshtë"
+
+#: modules/gmap/mod.php:127
+msgid "Bottom Center"
+msgstr "Poshtë Qendër"
+
+#: modules/gmap/mod.php:128
+msgid "Bottom Left"
+msgstr "Poshtë Majtas"
+
+#: modules/gmap/mod.php:129
+msgid "Bottom Right"
+msgstr "Poshtë Djathtas"
+
+#: modules/gmap/mod.php:155
+msgid "Slider"
+msgstr "Shfletues"
+
+#: modules/gmap/mod.php:156
+msgid "Slider - Title and Img"
+msgstr "Shfletues - Titulli dhe imazhi"
+
+#: modules/gmap/mod.php:157 modules/gmap/mod.php:159
+msgid "Slider Vertical - Title and Img"
+msgstr "Shfletues Vertikal - Titulli dhe imazhi"
+
+#: modules/gmap/mod.php:158
+msgid "Slider Vertical - Title and Description"
+msgstr "Shfletues Vertikal - Titulli dhe përshkrimi"
+
+#: modules/gmap/mod.php:160
+msgid "Slider Table"
+msgstr "Shfletues Tabelë"
+
+#: modules/gmap/mod.php:186
+msgid "Google Map"
+msgstr "Harta Google"
+
+#: modules/gmap/models/gmap.php:90
+msgid "Please enter Map Name"
+msgstr "Ju lutem fusni emrin e hartës"
+
+#: modules/gmap/models/gmap.php:119
+#: modules/marker_groups/models/marker_groups.php:104
+msgid "Empty Params"
+msgstr "Fusni parametrat"
+
+#: modules/gmap/models/gmap.php:128 modules/gmap/models/gmap.php:226
+msgid "Invalid Map ID"
+msgstr "ID e hartës e pavlefshme"
+
+#: modules/gmap/views/gmap.php:89
+#, php-format
+msgid "Map with ID %d not found"
+msgstr "Harta me ID %d nuk u gjet."
+
+#: modules/gmap/views/gmap.php:90
+msgid "Map not found"
+msgstr "Harta nuk u gjet."
+
+#: modules/gmap/views/gmap.php:242
+msgid "Html options"
+msgstr "Opsionet html."
+
+#: modules/gmap/views/gmap.php:244
+msgid "Operations"
+msgstr "Veprimet"
+
+#: modules/gmap/views/gmap.php:361
+msgid "Error inside google maps plugin."
+msgstr ""
+
+#: modules/gmap/views/gmap.php:365 modules/gmap/views/gmap.php:370
+msgid ""
+"To use this feature, You need to reactivate your Google Maps Easy plugin."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapAdmin.php:5 modules/gmap/views/tpl/gmapAdmin.php:6
+#: modules/marker_groups/views/tpl/mgrAdmin.php:21
+#: modules/marker_groups/views/tpl/mgrAdmin.php:22
+msgid "Search"
+msgstr "Kërko"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:8
+#: modules/gmap/views/tpl/gmapAdmin.php:11
+msgid "Clone selected"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapAdmin.php:14
+#: modules/gmap/views/tpl/gmapAdmin.php:17
+#: modules/marker_groups/views/tpl/mgrAdmin.php:10
+#: modules/marker_groups/views/tpl/mgrAdmin.php:13
+msgid "Delete selected"
+msgstr "Fshij të zgjedhurën"
+
+#: modules/gmap/views/tpl/gmapAdmin.php:33
+#, php-format
+msgid ""
+"You have no Maps for now. <a href='%s' style='font-style: italic;'>Create</a> "
+"your first Map!"
+msgstr ""
+"Ju nuk keni harta për momentin. <a href='%s' style='font-style: "
+"italic;'>Krijo</a> hartën tënde të parë!"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:4
+#, php-format
+msgid ""
+"This option is available in <a target='_blank' href='%s'>PRO version</a> "
+"only, you can get it <a target='_blank' href='%s'>here.</a>"
+msgstr ""
+"Ky opsion është i mundur vetëm në <a target='_blank' href='%s'>versionin Pro</"
+"a>, ju mund ta merrni <a target='_blank' href='%s'>këtu</a>"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:13
+msgid "Insert to Contact Form"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:19
+msgid "Integrate with Membership"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:27
+msgid "Enable for Membership"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:35
+msgid "Map"
+msgstr "Harta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:43
+#: modules/gmap/views/tpl/gmapEditMap.php:52
+msgid "New"
+msgstr "E re"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:50 modules/supsystic_promo/mod.php:264
+msgid "Figures"
+msgstr "Skica"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:59
+msgid "Heatmap Layer"
+msgstr "Shtresa e hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:71
+msgid "Map Name"
+msgstr "Emri hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:73
+msgid "Your map name"
+msgstr "Emri hartës tënde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:85
+msgid "Map Width"
+msgstr "Gjerësia e hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:87
+msgid "Your map width"
+msgstr "Gjerësia e hartës tënde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:96
+#: modules/gmap/views/tpl/gmapEditMap.php:128
+#: modules/gmap/views/tpl/gmapEditMap.php:972
+#: modules/gmap/views/tpl/gmapEditMap.php:1012
+#: modules/gmap/views/tpl/gmapEditMap.php:1066
+#: modules/gmap/views/tpl/gmapEditMap.php:1088
+msgid "Pixels"
+msgstr "Pikselat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:99
+#: modules/gmap/views/tpl/gmapEditMap.php:131
+#: modules/gmap/views/tpl/gmapEditMap.php:978
+#: modules/gmap/views/tpl/gmapEditMap.php:1018
+#: modules/gmap/views/tpl/gmapEditMap.php:1070
+#: modules/gmap/views/tpl/gmapEditMap.php:1092
+msgid "Px"
+msgstr "Px"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:103
+msgid "Percent"
+msgstr "Përqindja"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:110
+msgid "Map Height"
+msgstr "Gjatësia e hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:112
+msgid ""
+"Your map height.<br /><br />If Adapt map to screen height option is checked - "
+"map height will be recalculated on frontend and can be equals to:<ul><li>1) "
+"your device screen height - height from top of page to top of map (if screen "
+"height > height from top of page to top of map)</li><li>2) your device screen "
+"height (in other cases)</li></ul>Recalculation will be done for maps in page "
+"content and widgets except of maps which displaying in Google Maps Easy "
+"widget popup (Display as image mode)."
+msgstr ""
+"Gjatësia e hartës tuaj. Opsioni për përshtatjen e hartës me lartësinë e "
+"ekranit është zgjedhur - lartësia e hartës do të rillogaritet në frontend dhe "
+"do jetë e njëjtë me : lartësinë e pajisjes tuaj - lartësinë e kokës së faqes. "
+"Rillogaritja do të bëhet për hartat në faqet brenda përmbajtjes dhe tek "
+"konfigurimet përvec hartave që afishohen në Google Maps Easy."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:139
+msgid "Adapt map to screen height"
+msgstr "Përshtat hartën me lartësinë e ekranit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:153
+msgid "Map type control"
+msgstr "Komandimi i tipit të hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:155
+msgid ""
+"Control view for map type - you can see it in left upper corner by default"
+msgstr ""
+"Vrojtimi për tipin e hartës - zakonisht ju mund ta sihhni atë në cepin e "
+"djathte"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Dropdown Menu"
+msgstr "Menu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:160
+msgid "Horizontal Bar"
+msgstr "Shirit horizontal"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:166
+msgid "Change type control position on map"
+msgstr "Ndrysho vrojtimin në pozicionin e hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:173
+#: modules/gmap/views/tpl/gmapEditMap.php:202
+#: modules/gmap/views/tpl/gmapEditMap.php:235
+#: modules/gmap/views/tpl/gmapEditMap.php:532
+#: modules/gmap/views/tpl/gmapEditMap.php:558
+#: modules/gmap/views/tpl/gmapEditMap.php:575
+#: modules/gmap/views/tpl/gmapEditMap.php:592
+#: modules/gmap/views/tpl/gmapEditMap.php:616
+#: modules/gmap/views/tpl/gmapEditMap.php:678
+#: modules/gmap/views/tpl/gmapEditMap.php:757
+#: modules/gmap/views/tpl/gmapEditMap.php:774
+#: modules/gmap/views/tpl/gmapEditMap.php:791
+#: modules/gmap/views/tpl/gmapEditMap.php:834
+#: modules/gmap/views/tpl/gmapEditMap.php:874
+#: modules/gmap/views/tpl/gmapEditMap.php:1111
+#: modules/gmap/views/tpl/gmapEditMap.php:1154
+#: modules/options/views/tpl/optionsSettingsTabContent.php:70
+msgid "PRO option"
+msgstr "opsioni Pro"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:181
+msgid "Zoom control"
+msgstr "Konrolli zmadhimin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:183
+msgid ""
+"Zoom control type on your map. Note, to view Zoom control on the map the "
+"Custom Map Controls option must be disabled."
+msgstr ""
+"Tipi i zmadhimit në hartën tuaj. Vini re, për të pare zmadhimin në hartë "
+"opsionet e kontrollit të hartës duhet të caktivizohen."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:189
+#: modules/gmap/views/tpl/gmapEditMap.php:518
+msgid "Default"
+msgstr "Njësoj"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:195
+msgid "Change zoom control position on map"
+msgstr "Ndrysho pozicionin e zmadhimit në hartë"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:206
+msgid "Notice"
+msgstr "Njoftim"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:208
+msgid ""
+"Standard Zoom control will not displaying for this map, because the Custom "
+"Map Controls option enabled now."
+msgstr ""
+"Zmadhimi standart nuk do të afishohet për këtë hartë sepse opsioni i "
+"kontrollit të cilësimit të hartës u aktivizua tani."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:216
+msgid "Street view control"
+msgstr "Kontrolli i pamjes së rrugës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:218
+msgid "Street view control usually is located on right lower corner of your map"
+msgstr ""
+"Kontrolli i pamjes së rrugës zakonisht ndodhet në cepin e djathtë të hartës "
+"tuaj."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:228
+msgid "Change street view control position on map"
+msgstr "Ndrysho pozicionin në hartë për rrugën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:288
+msgid "Draggable"
+msgstr "E lëvizshme"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:290
+msgid "Enable or disable possibility to drag your map using mouse"
+msgstr ""
+"Aktivizo ose caktivizo mundësinë për të lëvizur hartën duke përdorur kursorin."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:301
+msgid "Double click to zoom"
+msgstr "Kliko dy here për të zmadhuar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:303
+msgid ""
+"By default double left click on map will zoom it in. But you can change this "
+"here."
+msgstr ""
+"Zakonisht kur klikon dy here me të majtën do të zmadhojë hartën. Por ju mund "
+"ta ndryshoni këtë këtu."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:314
+msgid "Mouse wheel to zoom"
+msgstr "Lëviz drejtimin e kursorit për ta zmadhuar ose zvogëluar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:316
+msgid ""
+"Sometimes you need to disable possibility to zoom your map using mouse wheel. "
+"This can be required for example - if you need to use your wheel for some "
+"other action, for example scroll your site even if mouse is over your map."
+msgstr ""
+"Ndonjëherë ju duhet të caktivizoni mundësinë për të  zmadhuar hartën tuaj me "
+"kursor.  Kjo mund t'ju kërkohet psh - kur ju duhet të përdorni rrotën e "
+"kursorit për lëvizje të tjera, si ajo e lëvizjes së hartës kur kursori "
+"ndodhet mbi të."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:327
+#: modules/gmap_widget/views/tpl/form.php:44
+msgid "Map Center"
+msgstr "Qendra e hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:329
+msgid ""
+"Sets map center. You can set map center in next ways: type address to use its "
+"coords, type the coords' values in appropriate fields or just drag the map on "
+"preview."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:343
+#: modules/gmap/views/tpl/gmapEditMap.php:1243
+#: modules/gmap/views/tpl/gmapEditMap.php:1516
+msgid "Latitude"
+msgstr "Gjerësia"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:351
+#: modules/gmap/views/tpl/gmapEditMap.php:1257
+#: modules/gmap/views/tpl/gmapEditMap.php:1525
+msgid "Longitude"
+msgstr "Gjatësia"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:362
+#: modules/gmap_widget/views/tpl/form.php:56
+msgid "Map Zoom"
+msgstr "Zmadho Hatën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:364
+msgid ""
+"Sets map zoom.<br /><br />\n"
+"<b>Preset Zoom</b> - sets zoom value for map. You can change this value just "
+"change zoom on the map preview.<br /><br />\n"
+"<b>Fit Bounds</b> - map zoom will be changed on frontend in a way that all "
+"markers and figures will be visible.<br /><br />\n"
+"<b>Min Zoom Level</b> - sets minimum zoom level (maximum estrangement), which "
+"can be applied for map.<br /><br />\n"
+"<b>Max Zoom Level</b> - sets maximum zoom level (maximum approximation), "
+"which can be applied for map.\n"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Preset Zoom"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:373
+msgid "Fit Bounds"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:380
+msgid "Zoom Level"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:390
+msgid "Mobile Zoom Level"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:401
+msgid "Min Zoom Level"
+msgstr "Niveli min i zmadhimit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:410
+msgid "Max Zoom Level"
+msgstr "Maksimumi i zmadhimit të nivelit të hartës."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:424
+msgid "Google Map Theme"
+msgstr "Motivi i hartës Google"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:426
+msgid ""
+"You can select your Google Map theme - Road Map, Hybrid, Satellite or Terrain "
+"- here. By default your map will have Road Map Google maps theme."
+msgstr ""
+"Ju mund të zgjidhni motivin e hartës Google - harta rrugore, hibride, satelit "
+"ose terren - këtu. Zakonisht harta juaj do ketë Rrugë nga harta e Google."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Road Map"
+msgstr "Harta rrugore"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Hybrid"
+msgstr "Hibride"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Satellite"
+msgstr "Satelit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:430
+msgid "Terrain"
+msgstr "Terren"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:438
+msgid "Map Stylization"
+msgstr "Stilizimi i hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:440
+msgid ""
+"Make your map unique with our Map Themes, just try to change it here - and "
+"you will see results on your Map Preview."
+msgstr ""
+"Bëni hartën tuaj unike me motivet e , provoni ta ndryshoni këtu - dhe do të "
+"shihni rezultatin në afishimin e Hartës."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:450
+msgid "Get 300+ Themes with PRO"
+msgstr "Merrni 300+ Motive me PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:458
+msgid "Markers Clusterization"
+msgstr "Grupimi i shënjuesve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:460
+msgid ""
+"If you have many markers - you can have a problems with viewing them when "
+"zoom out for example: they will just cover each-other. Marker clusterization "
+"can solve this problem by grouping your markers in groups when they are too "
+"close to each-other."
+msgstr ""
+"Nëse keni shumë shënjues - ju mund të keni problem me pamjen nëse zvogeloni "
+"pamjen, psh: ato mund të mbulojnë njëra-tjetrën. Grupimi i shënjuesve mund të "
+"zgjidh këtë problem duke grupuar shënjuesit kur ato ndodhen shumë afër njëri-"
+"tjetrit."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:464
+msgid "Base Clusterization"
+msgstr "Baza e grupimit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:476
+msgid "/gmap/img/m1.png"
+msgstr "/gmap/img/m1.png"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:493
+#: modules/gmap/views/tpl/gmapEditMap.php:849
+#: modules/gmap/views/tpl/gmapEditMap.php:1219
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:85
+msgid "Upload Icon"
+msgstr "Ngarko ikonën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:494
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:86
+msgid "Default Icon"
+msgstr "Ikona e zakonshme"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:498
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:60
+msgid "Cluster Icon"
+msgstr "Grupo ikonën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:508
+msgid "Cluster Area Size"
+msgstr "Grupo përmasat e zonës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:510
+msgid ""
+"Sets the grid size of cluster. The higher the size - the more area of capture "
+"the markers to the cluster."
+msgstr ""
+"Vendos madhësinë e rrjetës për grupin. Sa më e madhe përmasa - më  shumë "
+"shënjues futen brenda grupit."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:527
+msgid "Markers List"
+msgstr "Lista e shënjuesve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:529
+msgid ""
+"Display all map markers - as list below Your map. This will help your users "
+"get more info about your markers and find required marker more faster."
+msgstr ""
+"Afisho të gjithë shë njuesit e hartës - në formë liste poshtë hartës suaj.  "
+"Kjo do të ndihmojë përdoruesit të marrin më shumë informacion rreth "
+"shënjuesve tuaj dhe të gjejnë shënjuesit më shpejt."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:536
+msgid "Select Markers List type"
+msgstr "Zgjidh llojin e listës së shëjuesve."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:542
+msgid "Markers List Color"
+msgstr "Ngjyra e listës së shënjuesve."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:553
+msgid "Traffic Layer"
+msgstr "Shtresa e trafikut"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:555
+msgid "Add real-time traffic information to your map."
+msgstr "Shto informacionin mbi trafikun në kohë reale në hartën tënde."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:570
+msgid "Transit Layer"
+msgstr "Shtresa transit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:572
+msgid ""
+"Display the public transit network of a city on your map. When the Transit "
+"Layer is enabled, and the map is centered on a city that supports transit "
+"information, the map will display major transit lines as thick, colored lines."
+msgstr ""
+"Afisho lidhjet publike transit të një qyteti në hartën tënde. Kur shtresa "
+"transit është e aktivizuar dha harta e qendërzuar në një qytet që suporton "
+"informacionin e tranzitit, harta do të afishojë një linjë të trashë të "
+"ngjyrosur."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:587
+msgid "Bicycling Layer"
+msgstr "Shtresa e ciklizmit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:589
+msgid ""
+"Add a layer of bike paths, suggested bike routes and other overlays specific "
+"to bicycling usage on top of the given map.Dark green routes indicated "
+"dedicated bicycle routes. Light green routes indicate streets with dedicated "
+"bike lanes. Dashed routes indicate streets or paths otherwise recommended for "
+"bicycle usage."
+msgstr ""
+"Shto një shtresë si rrugëte bicikletave të sugjeruara dhe shtresa të tjera "
+"specifike për për dorimin e bicikletave, në fillim të hartës. Rrugët me "
+"ngjyrë jeshile të errët tregojnë rrugën dedikuar bicikletave."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:607
+msgid "Add KML layers"
+msgstr "Shto shtresat KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:609
+msgid ""
+"Add KML files to display custom layers on the map. Additional options:<br /"
+"><br /><b>Enable KML layers filter</b> - add form to map for dynamically "
+"enable / disable KML layers and sublayers."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:625
+msgid "Enable KML layers filter"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:630
+msgid "Enter KML file URL"
+msgstr "Fut KML dhe URL"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:633
+msgid "Hide Sublayers at KML filter"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:636
+msgid "Remove KML field"
+msgstr "Hiq fushën KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:652
+msgid "or Upload KML file"
+msgstr "ose ngarko dokumentin KML"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:657
+msgid "Add more files"
+msgstr "Shto dokumenta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:667
+msgid "Custom Map Controls"
+msgstr "Cilësimet specifike të hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:672
+msgid "Add custom map controls to the map."
+msgstr "Shto cilësimet specifike në hartë."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:688
+msgid "Controls type"
+msgstr "Lloji i cilësimeve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Square"
+msgstr "Katrore"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Rounded edges"
+msgstr "Cepa të rrumbullakosura"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:691
+msgid "Round"
+msgstr "Rrumbullakët"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:697
+msgid "Background color"
+msgstr "Ngjyra e sfondit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:705
+msgid "Text color"
+msgstr "Ngjyra e tekstit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:713
+msgid "Controls position"
+msgstr "Pozicionimi i cilësimeve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:723
+msgid "Min Search Radius (in meters):"
+msgstr "Rrezja minimale e kërkimit (në metra):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:731
+msgid "Max Search Radius (in meters):"
+msgstr "Rrezja maksimale e kërkimit (në metra):"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:739
+msgid "Search Country"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:752
+msgid "Full Screen Button"
+msgstr "Butoni me pamjen sa ekrani"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:754
+msgid "Add a button on map to open it full screen."
+msgstr "Shto butonin në hartë për ta hapur të plotë sa ekrani."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:769
+msgid "Hide POI"
+msgstr "Fshi POI"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:771
+msgid ""
+"Hide the Points Of Interest - landmark or other object, the marked points on "
+"the map, for example: hotels, campsites, fuel stations etc."
+msgstr ""
+"Fshi pikat e interest - pikat e referimit ose objekte të tjera pika të "
+"shënuara në hartë, psh: hotele, kampe, pika karburanti"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:786
+msgid "Hide Countries"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:788
+msgid "Hide all administrative data about countries: names, borders etc."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:803
+msgid "Hide Tooltips of Markers"
+msgstr "Fshih ndihmësin e shënjuesve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:805
+msgid "Hide the tooltips, which displayed by mouse hover on markers' icons."
+msgstr ""
+"Fshih ndihmësin, i cili afishohet duke vendosur kursorin mbi ikonën e "
+"shënjuesit."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:816
+msgid "Center on current opened marker"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:818
+msgid ""
+"On frontend the map will be centered on current marker with opened info "
+"window."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:829
+msgid "Center on current user location"
+msgstr "Qendra në vendndodhjen aktuale të përdoruesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:831
+msgid "On frontend map will be centered on current user location."
+msgstr ""
+"Në frontend harta do të qendërohet në vendndodhejn aktuale të përdoruesit."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:860
+msgid "Add markers on frontend"
+msgstr "Shto shënjuesit në frontend"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:862
+msgid ""
+"You can add markers at the current map with the frontend using the form, "
+"which can be displayed using the shortcode (it placed below preview map). "
+"Additional options that affect the operation of the form:<br /><br /"
+"><b>Logged In Users Only</b> - form will be displayed only for logged in "
+"users.<br /><br /><b>Disable WP Editor</b> - disable / enable WP Editor for "
+"the Marker Description field of the form.<br /><br /><b>Delete markers</b> - "
+"disable / enable interface for deleting markers on frontend. Each user can "
+"delete only his own markers.<br /><br /><b>Use markers categories</b> - "
+"disable / enable interface for choose the marker category on frontend.<br /"
+"><br /><b>Use limits for marker's adding</b> - allows you to limit the number "
+"of markers, which user can add from one IP address at the current map for a "
+"certain amount of time.<br /><br /><b>Max marker's count</b> - the maximum "
+"number of markers, which can be added over certain amount of time.<br /><br /"
+"><b>For allotted time (minutes)</b> - the number of minutes, during which you "
+"can add the maximum number of markers.<br /><br />For example, during three "
+"minutes you can add only two markers at the map. If you try to add a third "
+"marker - the form will not be saved and you will see the notice with amount "
+"of time you must wait. After the right amount of time will pass - you can add "
+"next two markers, etc.<br /><br />Important! If map and form for add markers "
+"at this map are placed on one page - this page will be overload after marker "
+"adding."
+msgstr ""
+"Ju mund të shtoni shënjues në hartën aktuale duke përdorur formën, e cila "
+"mund të afishohet duke përdorur shkurtimet e kodit (është vendosur poshtë "
+"afishimit të hartës). Opsione shtesë që mund të ndikojnë në operimin e formës:"
+"<br /><br /><b>Aksesi vetëm për përdoruesit</b> - forma do të afishohet vetëm "
+"për përdoruesit e regjistruar<br /><br /><b>Caktivizo editorin WP</b> - "
+"caktivizo / aktivizo Editorin WP për fushën e përshkrimit të shënjuesit për "
+"formën.<br /><br /><b>Përdor limitet për shtesat e shënjuesit</b> - ju lejon "
+"të kufizoni numbrin e shënjuesve të cilët përdoruesi mund ti shtojë nga një "
+"adresë IP për një kohë të caktuar tek harta aktuale t <br /><br /"
+"><b>Maksimumi i shënjuesve</b> - maksimumi i numrit të shënjuesve që mund të "
+"shtoni për një kohë të caktuar.<br /><br /><b>Koha e caktuar(minutat)</b> - "
+"numri i minutave gjatë të cilave ju mund të shtoni numrin e shënjuesve. <br /"
+"><br />Për shembull, gjatë tre minutave ju mund të shtoni vetëm dy shënjues "
+"në hartë. Nëse shtoni një shënjues të tretë - forma nuk do të ruhet dhe ju do "
+"të shihni njoftimin me gjatësinë e kohës që duhet të prisni. Pasi të kalojë "
+"koha e nevojshme - ju mund të shtoni dy markerat e tjerë, etj.<br /><br /"
+">Kujdes! Nëse harta dhe forma për shënjuesit e shtuar te kjo hartë janë "
+"vendosur në një faqe - kjo faqe do të mbingarkohet pas shtimit të shënjuesit."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:888
+msgid "Logged In Users Only"
+msgstr "Aksesi vetëm për përdoruesit e regjistruar"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:895
+msgid "Disable WP Editor"
+msgstr "Caktivizo editorin WP"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:902
+msgid "Delete markers"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:909
+msgid "Use markers categories"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:916
+msgid "Use limits for marker's adding"
+msgstr "Përdor kufizime për shtimn e shënjuesve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:921
+msgid "Max marker's count"
+msgstr "Numri maksimal i shënjuesve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:929
+msgid "For allotted time (minutes)"
+msgstr "Për një kohë të caktuar (minuta)"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:942
+msgid "Info Window"
+msgstr "Dritarja informuese"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:944
+msgid "Parameters of markers / shapes info-window PopUp"
+msgstr "Parametrat e shënjuesve / format e afishimit të dritareve me info"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:951
+msgid "Width"
+msgstr "Gjerësi"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:953
+msgid "Width of info window"
+msgstr "Gjerësia e dritares me info"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:967
+#: modules/gmap/views/tpl/gmapEditMap.php:1007
+msgid "Auto"
+msgstr "Auto"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:991
+msgid "Height"
+msgstr "Lartësia"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:993
+msgid "Height of info window"
+msgstr "Lartësia e dritares me info"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1031
+msgid "Title Color"
+msgstr "Ngjyra e titullit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1033
+msgid "You can set your info window title color here"
+msgstr "Ju mund të vendosni "
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1043
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:49
+msgid "Background Color"
+msgstr "Ngjyra e sfondit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1045
+msgid "You can set your info window background color here"
+msgstr "Mund të vendosësh ngjyrën e sfondit të dritares informative"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1055
+msgid "Title Font Size"
+msgstr "Madhësia e shkrimit të titullit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1057
+msgid "You can set your info window title font size here"
+msgstr ""
+"Mund të vendosëh ngjyrën e sfondit të dritares së madhësisë së titullit këtu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1077
+msgid "Description Font Size"
+msgstr "Madhësia e shrimit të përshkrimit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1079
+msgid "You can set your info window description font size here"
+msgstr "Mund të vendosësh ngjyrën e sfondit të dritares përshkruese këtu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1102
+msgid "Directions Button"
+msgstr "Butoni i drejtimeve"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1105
+msgid ""
+"Add a button at marker info window to get direction from the entered address "
+"to the marker. If Show route data option is enabled - the total route time "
+"and distance will be shown by click on the route polyline."
+msgstr ""
+"Shto butonin tek dritarja e informuese e shënjestrës për të marrë drejtimin "
+"nga adresa e shënjuesit. Nëse opsioni i tregimit të rrugës është i aktivizuar "
+"- koha dhe distanca totale e rrugës do të afishohen duke klikuar në linjën "
+"rrugore."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1124
+msgid "Show alternate routes"
+msgstr "Shto rrugë alternative"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1132
+msgid "Show route data"
+msgstr "Shfaq të dhënat e rrugës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1140
+msgid "Show route steps"
+msgstr "Shto hapat e rrugës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1149
+msgid "Print Button"
+msgstr "Printo butonin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1151
+msgid "Add Print button to markers info window"
+msgstr "Shto butonin print tek dritarja informuese e shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1180
+msgid "Your marker title"
+msgstr "Titulli i shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1193
+msgid "Write here all text, that you want to appear in marker info-window PopUp"
+msgstr ""
+"Shkruaj këtu të gjithë teksin që do të shfaqësh në dritaren informuese të "
+"shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1209
+msgid "Icon"
+msgstr "Ikona"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1211
+msgid "Your marker Icon, that will appear on your map for this marker"
+msgstr "Ikona e shënjuesit që do shfaqet në hartën për këtë shënjues"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1231
+msgid "Search your location by address, just start typing here"
+msgstr "Kërko vendndodhjen nëpërmjet adresës, fillo shkruaj këtu"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1245
+msgid "Latitude for your marker"
+msgstr "Gjerësia e shënjuesit tënd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1259
+msgid "Longitude for your marker"
+msgstr "Gjatësia e shënjuesit tënd"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1273
+msgid "Choose marker category"
+msgstr "Zgjidh kategorinë e shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1287
+msgid "Marker Link"
+msgstr "Linku shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1289
+msgid "Link for opening by click on the marker"
+msgstr "Linku që hapet duke klikuar mbi shënjuesin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1305
+msgid "Open in new window"
+msgstr "Hape në një dritare të re"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1313
+msgid "Show description by default"
+msgstr "Shfaq përshkrimin si zakonisht"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1315
+msgid "Open marker description when map load"
+msgstr "Hap përshkrimin e shënjuesit kur të hapet harta"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1325
+msgid "Show description by mouse hover"
+msgstr "Shfaq përshkrimin duke mbajtur kursorin mbi"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1327
+msgid "Open marker description by mouse hover"
+msgstr "Hap përshkrimin e shënuesit duke mbajtur kursorin mbi"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1337
+msgid "Hide description on mouse leave"
+msgstr "Fshih përshkrimin kur të heqësh kursorin"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1339
+msgid "Hide description when mouse leaves the marker area"
+msgstr "Fshih përshkrimin kur kursori të zhvendoset nga zona e shënjuesit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1349
+msgid "Marker List Default Image"
+msgstr "Lista e imazheve të shënjueist"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1351
+msgid ""
+"If there is no image tag in the marker description - this image will be used "
+"for displaying in the map's markers list"
+msgstr ""
+"Nëse nuk ka asnjë imazh të lidhur me përshkrimin e shënjuesit - ky imazh do "
+"të përdoret për tu afishuar në listen e shënjuesve të hartës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1394
+msgid "Figure Name"
+msgstr "Emri i formës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1396
+msgid "Your figure title"
+msgstr "Titulli për formën tënde"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1407
+msgid "Figure Type"
+msgstr "Lloji formës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1409
+msgid ""
+"Type of your figure:<br /><br /><b>Polyline</b> - a series of straight "
+"segments on the map.<br /><br /><b>Polygon</b> - area enclosed by a closed "
+"path (or loop), which is defined by a series of coordinates.<br /><br /"
+"><b>Circle</b> - circle shape,defined by center coordinates and radius."
+msgstr ""
+"Lloji i formës: polyline(një seri segmentesh të drejta në hartë) ose polygon "
+"(zona e mbyllur nga nje shteg i mbyllur (ose cikël), i cili përcaktohet nga "
+"një seri kordinatash)."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1417
+msgid "Polyline"
+msgstr "Poliline"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1418
+msgid "Polygon"
+msgstr "Poligon"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1419
+msgid "Circle"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1428
+msgid "Line Color"
+msgstr "Ngjyra e linjës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1435
+msgid "Line Opacity"
+msgstr "Dukshmëria e linjës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1446
+msgid "Line Weight"
+msgstr "Trashsia e linjës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1454
+msgid "Fill Color"
+msgstr "Ngjyra e mbushjes"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1461
+msgid "Fill Opacity"
+msgstr "Dukshmëria e mbushjes"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1474
+msgid "Figure Description"
+msgstr "Përshkrimi i formës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1476
+msgid "Write here all text, that you want to appear in shape info-window PopUp"
+msgstr ""
+"Shkruaj këtu gjithë teksin që do të shfaqet në formën e dritares informuese - "
+"popup"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1488
+#: modules/gmap/views/tpl/gmapEditMap.php:1566
+msgid "Points"
+msgstr "Pikat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1490
+msgid ""
+"Figure's points list: you can search the point by address (just start typing "
+"in Address field), type the Latitude and Longitude of point in appropriate "
+"fields or activate Add by Click button, and then draw figure on the map by "
+"clicking on it. Important! You must deactivate Add by Click button after "
+"ending of the draw."
+msgstr ""
+"Forma e listës së pikave: mund të kërkosh pikën nga adresa(vetëm shkruaj tek "
+"fusha e adresës), shkruaj gjatësinë dhe gjerësinë e pikes në fushat përkatëse "
+"ose kativizo butonin Shto me Klik, dhe vizato formën në hartë duke klikuar "
+"mbi të. Kujdes! Duhet të caktivizosh butonin Shto me Klik pasi të kesh "
+"përfunduar vizatimin."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1497
+msgid "Add New Point"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1534
+#: modules/gmap/views/tpl/gmapEditMap.php:1590
+msgid "Radius"
+msgstr "Rrezja"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1541
+#: modules/gmap/views/tpl/gmapEditMap.php:1576
+msgid "Remove Point"
+msgstr "Hiq pikat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1568
+msgid ""
+"To add Heatmap Layer points you need to activate Add Points button and draw "
+"each point by click on map. To remove points you need to activate Remove "
+"Points button and delete necessary point by click on it or just click on "
+"Delete Heatmap Layer button to remove all Heatmap Layer points. Important! "
+"You must to deactivate Add by Click and Remove by Click buttons after ending "
+"of the add / remove points."
+msgstr ""
+"Për të shtuar shtresën me pika tek harta do të duhet të aktivizoni butonin "
+"Shto Pikat dhe të vizatoni duke klikuar cdo pikë në hartë. Për të hequr pikat "
+"duhet të aktivizoni butonin Hiq Pikat dhe të fshihni pikat e nevojshme duke "
+"klikuar në të ose duke klikuar në butonin Fshij Shtresën mbi Zonën për të "
+"hequr të gjitha pikat e shtresës. Kujdes! Duhet të caktivizoni butonat Shto "
+"me Klik dhe Hiq me Klik pasi të mbaroni shtimin/heqjen e pikave."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1573
+msgid "Add Point"
+msgstr "Shto pikat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1581
+msgid "Points Count"
+msgstr "Numëro pikat"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1592
+msgid "Heatmap Layer points radius in pixels"
+msgstr "Pikat e shtresës së rrezes së zones në piksela"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1603
+msgid "Opacity"
+msgstr "Dukshmëria"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1605
+msgid "Heatmap Layer points opacity"
+msgstr "Dukshmëria e pikave për shtresën mbi zonën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1620
+msgid "Gradient"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1622
+msgid "Heatmap Layer points color gradient."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1626
+msgid "Add Color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1629
+#: modules/marker_groups/views/tpl/mgrAdmin.php:18
+msgid "Clear"
+msgstr "Pastro"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1633
+msgid "Remove Color"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1665
+msgid "Map shortcode"
+msgstr "Shkurtimet e kodeve për hartën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1670
+msgid "PHP code"
+msgstr "Kodi PHP"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1677
+msgid "Marker Form shortcode"
+msgstr "Forma e Shënjuesit shkurtimi i kodit"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1685
+msgid "Shortcode will appear after you save map."
+msgstr "Shkurtimi i kodit do të afishohet pasi të ruani hartën."
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1693
+msgid "Save Map"
+msgstr "Ruaj hartën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1699
+msgid "Delete Map"
+msgstr "Fshij hartën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1723
+msgid "Save Figure"
+msgstr "Ruaj formën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1729
+msgid "Delete Figure"
+msgstr "Fshij formën"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1738
+msgid "Save Heatmap Layer"
+msgstr "Ruaj shresën e zonës"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1744
+msgid "Delete Heatmap Layer"
+msgstr "Fshij shtresën e zonë"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1750
+msgid "Search by name"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1802
+msgid "Show markers list with your map on frontend"
+msgstr "Shfaq listen e shënjuesve bashkë me hartën në frontend"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Apply"
+msgstr "Apliko"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1809
+msgid "Selected"
+msgstr "Zgjidh"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1810
+msgid "Available in PRO"
+msgstr "E mundësuar në PRO"
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1818
+msgid "Select Contact Form"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1841
+msgid "Oops! Something went wrong..."
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapEditMap.php:1844
+#, php-format
+msgid ""
+"Map can not be loaded completely. Probably, you are using our base Google Map "
+"API key.<br /><br />\n"
+"This key is used by default for all our users in accordance with <a target="
+"\"_blank\" href=\"%s\">Google Maps APIs Standard Plan</a>.\n"
+"But each API key has fixed limits on count of maps loads per day.<br /><br /"
+">\n"
+"You can create <a target=\"_blank\" href=\"%s\">your own Google Maps API key</"
+"a> and type it on <a target=\"_blank\" href=\"%s\">Settings tab</a>.\n"
+"It's free, takes 10-20 minutes of your time and lets to apply your own API "
+"key only for your sites.\n"
+"If you already use own Google Maps API key - you should open <a target="
+"\"_blank\" href=\"%s\">Google Developer console</a> and check:\n"
+"<ul style=\"padding-left: 20px; list-style: decimal;\">\n"
+"<li>Have you set correct settings to use your Google Map API key?</li>\n"
+"<li>Have you paste correct Google Map API key on the <a target=\"_blank\" "
+"href=\"%s\">Settings tab</a>?</li>\n"
+"<li>Open <a target=\"_blank\" href=\"%s\">browser console</a>, find Google "
+"Map API error and read its description in <a target=\"_blank\" href=\"%s"
+"\">Map API Errors table</a>.</li>\n"
+"</ul>"
+msgstr ""
+
+#: modules/gmap/views/tpl/gmapListMarkers.php:22
+#, php-format
+msgid "and %s more"
+msgstr "dhe %s më shumë"
+
+#: modules/gmap_widget/mod.php:18
+msgid "Displays Most Viewed Products"
+msgstr "Afishimi i produkteve më të shikuara"
+
+#: modules/gmap_widget/views/gmap_widget.php:19
+msgid "You have no maps"
+msgstr "Ju nuk keni asnjë hartë"
+
+#: modules/gmap_widget/views/tpl/form.php:8
+msgid "Select map"
+msgstr "Zgjidh hartën"
+
+#: modules/gmap_widget/views/tpl/form.php:20
+msgid "Widget Map width"
+msgstr "Gjerësia e funsksionalitetit të hartës"
+
+#: modules/gmap_widget/views/tpl/form.php:27
+#, php-format
+msgid "in % or px, for example, 100% or 200px"
+msgstr "në % ose piksel, për shembull, 100% ose 200px"
+
+#: modules/gmap_widget/views/tpl/form.php:32
+msgid "Widget Map height"
+msgstr "Gjatësia e funksionalitetit të hartës"
+
+#: modules/gmap_widget/views/tpl/form.php:39
+msgid "in px, for example, 200 or 400"
+msgstr "në px, për shembull, 200 ose 400"
+
+#: modules/gmap_widget/views/tpl/form.php:51
+msgid "Set coords, separated by semicolons or marker id"
+msgstr "Vendos koordinatat, të ndarat nga kolonat ose id e shënjuesit"
+
+#: modules/gmap_widget/views/tpl/form.php:63
+msgid "Set zoom level from 1 to 21"
+msgstr "Vendos nivelin e zmadhimit nga 1 deri në 21"
+
+#: modules/gmap_widget/views/tpl/form.php:68
+msgid "Display as image"
+msgstr "Afisho si imazh"
+
+#: modules/gmap_widget/views/tpl/form.php:76
+msgid ""
+"Map will be displayed as image at sidebar, on click - will be opened in popup"
+msgstr ""
+"Harta do të afishohet si një imazh tek kolona në anë, duke klikuar - do të "
+"hapet si popup"
+
+#: modules/gmap_widget/views/tpl/form.php:79
+msgid "Image width (in px)"
+msgstr "Gjerësia e imazhit (në px)"
+
+#: modules/gmap_widget/views/tpl/form.php:86
+msgid "Image height (in px)"
+msgstr "Lartësia e imazhit (në px)"
+
+#: modules/icons/controller.php:20
+msgid "Empty url"
+msgstr "Url bosh"
+
+#: modules/icons/models/icons.php:43
+msgid "Icon no found"
+msgstr "Ikona nuk u gjet"
+
+#: modules/icons/models/icons.php:95
+msgid "File not found"
+msgstr "Dokumenti nuk u gjet"
+
+#: modules/icons/models/icons.php:100
+msgid "Cannot get image"
+msgstr "Nuk mund të merrni imazhin"
+
+#: modules/icons/models/icons.php:111
+msgid "cannot insert to table"
+msgstr "Nuk mund ta shtoni në tabelë"
+
+#: modules/mail/mod.php:33
+msgid "Can not send email - problem with send server"
+msgstr "Nuk mund të coni email - ka problem me serverin e dërgesave"
+
+#: modules/marker/controller.php:42 modules/marker/controller.php:57
+msgid "Marker Not Found"
+msgstr "Shënjuesi nuk u gjet"
+
+#: modules/marker/controller.php:48
+msgid "Cannot remove marker"
+msgstr "Nuk mund të hiqni shënjuesin"
+
+#: modules/marker/controller.php:63
+msgid "Cannot remove markers"
+msgstr "Nuk mund të hiqni shënjuesit"
+
+#: modules/marker/controller.php:144
+msgid "Empty or invalid marker ID"
+msgstr "ID e shënjuesit është bosh apo jo e vlefshme"
+
+#: modules/marker/mod.php:21
+msgid "Drop"
+msgstr "Lëre"
+
+#: modules/marker/mod.php:22
+msgid "Bounce"
+msgstr "Kërce"
+
+#: modules/marker/models/marker.php:49
+msgid "Please enter marker name"
+msgstr "Ju lutem vendosni emrin e shënjuesit"
+
+#: modules/marker/models/marker.php:264
+msgid "Invalid Marker ID"
+msgstr "Id e shënjuesit e pavlefshme"
+
+#: modules/marker_groups/controller.php:51
+msgid "Marker Category data not found"
+msgstr "Të dhënat e kategorisë së shënjuesit nuk u gjetën"
+
+#: modules/marker_groups/mod.php:8
+msgid "Marker Categories"
+msgstr "Kategritë e shënjuesit"
+
+#: modules/marker_groups/mod.php:11
+msgid "Add New"
+msgstr "Shto të re"
+
+#: modules/marker_groups/mod.php:24
+msgid "No Marker Category Found"
+msgstr "Nuk u gjet kategoria e shënjuesit"
+
+#: modules/marker_groups/models/marker_groups.php:78
+msgid "Please enter Marker Category"
+msgstr "Ju lutem shtoni kategorinë e shënjuesit"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:5
+#: modules/marker_groups/views/tpl/mgrAdmin.php:7
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:11
+msgid "Add Category"
+msgstr "Shto kategorinë"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:16
+msgid "Clear All"
+msgstr "Pastroi të gjitha"
+
+#: modules/marker_groups/views/tpl/mgrAdmin.php:31
+#, php-format
+msgid ""
+"You have no Marker Categories for now. <a href='%s' style='font-style: "
+"italic;'>Create</a> your first Marker Category!"
+msgstr ""
+"Nuk keni kategori për shënjues. <a href='%s' style='font-style: "
+"italic;'>Krijo</a> kategorinë tënde të pare të shënjuesve."
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:22
+msgid "Category Title"
+msgstr "Titulli i kategorisë"
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:35
+msgid "Parent Category"
+msgstr ""
+
+#: modules/marker_groups/views/tpl/mgrEditMarkerGroup.php:70
+msgid "gmap/img/m1.png"
+msgstr "gmap/img/m1.png"
+
+#: modules/options/mod.php:108
+msgid "General"
+msgstr "Të përgjithshmet"
+
+#: modules/options/mod.php:110
+msgid "API Domain"
+msgstr ""
+
+#: modules/options/mod.php:110
+msgid "Sets domain for google API scripts"
+msgstr ""
+
+#: modules/options/mod.php:111
+msgid "User API key"
+msgstr "Celësi api për përdoruesin"
+
+#: modules/options/mod.php:111
+msgid ""
+"You can use your own Google API key, check the <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruction</a> how to create it. To "
+"use plugin's default API key leave this field blank."
+msgstr ""
+"Mund të përdorni celësin api të google, kontrollo <a href='//supsystic.com/"
+"google-maps-api-key/' target='_blank'>instruction</a> si mund ta krijosh. Për "
+"të përdorur funksionalitetet e celësit API lejeni këtë fushë bosh."
+
+#: modules/options/mod.php:112
+msgid "Send usage statistics"
+msgstr "Dërgo statistika përdorimi"
+
+#: modules/options/mod.php:112
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Dërgo informacion rreth opsioneve të funksionaliteteve që preferoni të "
+"përdorni, kjo do të na ndihmojë ne tju ofrojmë një zgjidhje sa më të mire."
+
+#: modules/options/mod.php:113
+msgid "Enable promo link"
+msgstr "Aktivizo linkun promo"
+
+#: modules/options/mod.php:113
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Google Maps. This is easy for you - but very helpful for us!"
+msgstr ""
+"Ne përpiqemi të bëjmë funksionalitetet sa më mire për ju, dhe ju mund të na "
+"ndihmoni për këtë. Thjesht zgjidhni këtë opsion - dhe një link i vogël "
+"promocioni do të shtohet në fund të hartës Google. Kjo është shume e thjeshtë "
+"për ju - por tepër në ndihmë për ne."
+
+#: modules/options/mod.php:114
+msgid "User role can use plugin"
+msgstr "Roli i përdoruesit mund të përdori funksionalitetin"
+
+#: modules/options/mod.php:114
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr ""
+"Përdoruesi me rolin tjetër do të ketë akses në gjithë funksionalitetin që nga "
+"zona e adminit."
+
+#: modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Moduli Përditësuar"
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Përditësimi i modulit dështoi"
+
+#: modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Error ID e modulit"
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Boshatis të dhënat për të ruajtur opsionin"
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "Faqja kryesore Shko këtu!!!!"
+
+#: modules/options/views/tpl/optionsAdminPage.php:31
+msgid "Improve Free version"
+msgstr "Përmirëso versionin falas."
+
+#: modules/options/views/tpl/optionsAdminPage.php:33
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target='_blank' "
+"href='%s'>PRO version</a>. You can <a target='_blank' href='%s' "
+"class='button'>Get PRO</a> today and get this and other PRO option for your "
+"Maps!"
+msgstr ""
+"Ju lutem kini parasysh se ky opsion është i disponueshëm vetëm në <a "
+"target='_blank' href='%s'>versionin Pro</a>. You can <a target='_blank' "
+"href='%s' class='button'>Merr PRO</a> sot dhe merr edhe një tjetër për Maps-"
+"et e tua!"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr "Ruaj të gjitha opsionet"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#, php-format
+msgid "Turned On %s"
+msgstr "Ndezur %s"
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:63
+#, php-format
+msgid "Turned Off %s"
+msgstr "Fikur %s"
+
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "Informacioni u ruajt. Faleminderit!"
+
+#: modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Ju lutem mos dërgoni kërkesë kaq shpesh - prisni për përgjigjen e kërkesës "
+"suaj të mëparshme."
+
+#: modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Ju lutem vendosni një adresë emaili të vlefshme"
+
+#: modules/supsystic_promo/mod.php:32
+#, php-format
+msgid ""
+"Please, set your own Google API key in Google Maps Easy plugin <a "
+"href='%s'>Settings</a>! More info about Maps and API keys you can find <a "
+"href='%s' target='_blank'>here</a>."
+msgstr ""
+"Ju lutem vendosni celësin e Google API në funksionalitetin Google Maps Easy "
+"<a href='%s'>Cilësimet</a>! Më shumë informacion rreth hartave dhe celësave "
+"API ju mund ti gjeni <a href='%s' target='_blank'>këtu</a>"
+
+#: modules/supsystic_promo/mod.php:56
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week - that's awesome!</h3><p>Could "
+"you please do me a BIG favor and give it a 5-star rating on WordPress? Just "
+"to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3>Hey vura re që ju përdorni vetëm %s në javë - kjo është fantastike! </h3> "
+"<p>A do më bësh një nder të vlerësosh me 5 yje në Wordpress? Thjesht na "
+"ndihmo të përahapim fjalën dhe kontribo në punën tone. </p>"
+
+#: modules/supsystic_promo/mod.php:57 modules/supsystic_promo/mod.php:63
+msgid "Ok, you deserve it"
+msgstr "Ok, e meriton."
+
+#: modules/supsystic_promo/mod.php:58 modules/supsystic_promo/mod.php:64
+msgid "Nope, maybe later"
+msgstr "Jo, mbase më vonë"
+
+#: modules/supsystic_promo/mod.php:59
+msgid "I already did"
+msgstr "E bëra njëherë"
+
+#: modules/supsystic_promo/mod.php:60
+#, php-format
+msgid "<h3>More than eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3>Më shumë se njëmëdhjetë ditë me %s pluginin - Urime!</h3>"
+
+#: modules/supsystic_promo/mod.php:61
+msgid ""
+"<p>On behalf of the entire <a href='https://supsystic.com/' "
+"target='_blank'>supsystic.com</a> company I would like to thank you for been "
+"with us, and I really hope that our software helped you.</p>"
+msgstr ""
+"<p>Në emër të gjithë kompanisë <a href='https://supsystic.com/' "
+"target='_blank'> supsystic.com</a> do doja tju falenderoja për preencën dhe "
+"shpresoj që programi t'ju ketë ndihmuar."
+
+#: modules/supsystic_promo/mod.php:62
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you can "
+"just add small promo link to our site under your maps. This is small step for "
+"you, but a big help for us! Sure, if you don't want - just skip this and "
+"continue enjoy our software!</p>"
+msgstr ""
+"<p>Sot nëse dëshiron - mund të na ndihmosh. Kjo është shumë e thjeshtë - mund "
+"të shtosh një  link promocional në faqe poshtë hartës. Ky është një hap i "
+"vogël për ty por një ndihmesë e madhe për ne! Sigurisht nëse nuk dëshiron - "
+"thjesht kaloje këtë mesazh dhe shijoje programin!</p>"
+
+#: modules/supsystic_promo/mod.php:65
+msgid "Skip"
+msgstr "Kalo"
+
+#: modules/supsystic_promo/mod.php:67
+#, php-format
+msgid ""
+"Check out <a href='%s' target='_blank' class='button button-primary' data-"
+"statistic-code='hide'>our other Plugins</a>! Years of experience in WordPress "
+"plugins developers made that list unbreakable!"
+msgstr ""
+
+#: modules/supsystic_promo/mod.php:116
+msgid "Overview"
+msgstr "Përmbledhje"
+
+#: modules/supsystic_promo/mod.php:119
+msgid "Featured Plugins"
+msgstr "Tipare të pluginit"
+
+#: modules/supsystic_promo/mod.php:145
+msgid "Welcome to Supsystic Secure"
+msgstr "Mirësevini në Supsystic Secure"
+
+#: modules/supsystic_promo/mod.php:214
+msgid "Name"
+msgstr "Emri"
+
+#: modules/supsystic_promo/mod.php:216
+msgid "Website"
+msgstr "Faqja e internetit"
+
+#: modules/supsystic_promo/mod.php:217
+msgid "Subject"
+msgstr "Subjekti"
+
+#: modules/supsystic_promo/mod.php:218
+msgid "Topic"
+msgstr "Tema"
+
+#: modules/supsystic_promo/mod.php:219
+msgid "Plugin options"
+msgstr "Opsionet e pluginit"
+
+#: modules/supsystic_promo/mod.php:220
+msgid "Report a bug"
+msgstr "Raporto një gabim"
+
+#: modules/supsystic_promo/mod.php:221
+msgid "Require a new functionality"
+msgstr "Kërko një funksionalitet të ri"
+
+#: modules/supsystic_promo/mod.php:222
+msgid "Other"
+msgstr "Tjetër"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Message"
+msgstr "Mesazh"
+
+#: modules/supsystic_promo/mod.php:224
+msgid "Hello Supsystic Team!"
+msgstr "Ckemi grupi Supsystic!"
+
+#: modules/supsystic_promo/mod.php:269
+msgid "Heatmap"
+msgstr "Zona e hartës"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:32
+msgid "How to create Google Maps API Key?"
+msgstr "Si të krijoj celësa për Google Map API?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:33
+msgid ""
+"Your map suddenly stopped working and you get the following error?<blockquote "
+"style='color: gray; font-style: italic;'>Oops! Something went wrong.This page "
+"didn't load Google Maps correctly. See the JavaScript console for technical "
+"details.</blockquote>Please check you browser console, if you'll see such "
+"error <blockquote style='color: gray; font-style: italic;'>This site has "
+"exceeded its daily quota for maps.</blockquote> - this <a href='//supsystic."
+"com/google-maps-api-key/' target='_blank'>article</a> is written for you and "
+"required for reading."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:37
+msgid "How to use Google Maps Easy Widget?"
+msgstr "Si të përdor funksionalitetin Google Maps Easy?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:38
+msgid ""
+"1. Go to Appearance -> Widgets in the WordPress navigation menu.<br />2. Find "
+"the Google Maps Easy in the list of available widgets.<br />3. Drag the "
+"Google Maps Easy widget to widget area, which you need.<br />4. Choose the "
+"map for widget and configure the settings - Widget Map width and height.<br /"
+">5. Click 'Save'."
+msgstr ""
+"1. Shko te Aparenca -> Widgets në menunë e Wordpres.<br />2. Gjej Google Maps "
+"Easy n e funksionaliteteve të disponueshme.<br />3. Merr Google Maps Easy tek "
+"zona që të duhet.<br />4. Zgjidh hartën për funksionalitetin dhe konfiguro "
+"cilësimet. - Gjatësia dhe gjerësia e hartës<br />5. Kliko 'Ruaj'."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:39
+msgid "How to add map into the site content?"
+msgstr "Si ta shtoj hartën në përmbajtjen e faqes?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:40
+msgid ""
+"You can add a map in the site content via shortcode or php code. Learn more "
+"about how to do this <a href='http://supsystic.com/add-map-into-site-"
+"content/'>here</a>."
+msgstr ""
+"Ju mund të shtoni hartën në përmbajtjen e faqes nëpërmjet kodeve të shkurtra "
+"ose kodit php. Mëso më shumë se si ta bësh këtë <a href='http://supsystic.com/"
+"add-map-into-site-content/'>këtu</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:41
+msgid "How to add map in popup window?"
+msgstr "Si të shtoj hartën në dritaren popup?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:42
+msgid ""
+"You can add a map in popup window by inserting map shortcode in any popup "
+"text field. Learn more about how to do this <a href='http://supsystic.com/add-"
+"map-in-popup-window/'>here</a>."
+msgstr ""
+"Ju mund të shtoni hartën në dritaren popup duke futur hartën me kodet e "
+"shkurtra në cdo fushë të tekstit. Mëso më shumë se si ta bësh këtë <a "
+"href='http://supsystic.com/add-map-in-popup-window/'>këtu</a>."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to zoom and center the initial map on markers?"
+msgstr "Si ta zmadhoj dhe qendërznoj hartën fillestare tek shënjuesit?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:44
+msgid ""
+"There is a few different ways to zoom and centralize map. The easiest one is "
+"to drag your map using mouse - 'Draggable' option must be enabled, or with "
+"pan controller help in live preview. <a href='http://supsystic.com/how-to-"
+"zoom-and-center-the-initial-map-on-markers/'>Read more...</a>"
+msgstr ""
+"Ekzistojnë disa mënyra për zmadhimin dhe qendërzimin e hartës. Më e lehta "
+"është të kapësh hartën duke përdorur kursorin - opsioni 'Draggable' do të "
+"aktivizohet, ose me panelin e kontrollit ndihmues në provat e drejtpërdrejta. "
+"<a href='http://supsystic.com/how-to-zoom-and-center-the-initial-map-on-"
+"markers/'>Lexo më shumë</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Si të marrësh versionin PRO falas?"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:45
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of plugin! It will be amazing if you take advantage of this "
+"offer! More info you can find here <a target='_blank' href='%s'>Get PRO "
+"version of any plugin for FREE'</a>"
+msgstr ""
+"Ju keni një mundësi të pabesueshme për të marrë versionin PRO falas. Bëni "
+"përkthimin e pluginit! Do të jetë fantastike nëse e shfrytëzoni këtë ofertë "
+"në avantazhin tuaj! Më shumë informacion ju mund të gjeni këtu <a "
+"target='_blank' href='%s'>'Merr versionin PRO të cdo plugini FALAS'</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "Përkthimi"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:46
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Google Maps plugin. "
+"If your language isn't available, your plugin will be in English by default."
+"<br /><b>Available Translations: English, Polish, German, Spanish, Russian</"
+"b><br />Translate or update a translation Google Maps WordPress plugin in "
+"your language and get a Premium license for FREE. <a target='_blank' "
+"href='%s'>Contact us</a>."
+msgstr ""
+"Të gjitha gjuhët janë të disponueshme me Supsystic Google Maps. Nëse gjuha "
+"jote nuk është e disponueshme, plugini do të jetë si zakonisht në anglisht. "
+"<br/><b>Përkthimet e dispnueshme: Anglisht, Polonisht, Gjermanisht, "
+"Spanjisht, Rusisht</b><br/>Përkthe apo përditëso një përkthim të pluginit "
+"Google Maps në Wordpress në gjuhën tënde dhe merr licensën Premium FALAS <a "
+"target='_blanket' href='%s'>Na kontaktoni</a>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:62
+#, php-format
+msgid ""
+"There was some problem while trying to retrieve our news, but you can always "
+"check all list <a target='_blank' href='%s'>here</a>."
+msgstr ""
+"Pati një problem në kërkimin e lajmeve, por ju mund të kontrolloni të gjithë "
+"listen <a target='_blank href='%s''>këtu</a.>"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "Yes"
+msgstr "Po"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:73
+#: modules/supsystic_promo/views/supsystic_promo.php:78
+#: modules/supsystic_promo/views/supsystic_promo.php:80
+#: modules/supsystic_promo/views/supsystic_promo.php:81
+msgid "No"
+msgstr "Jo"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid "Popup Plugin"
+msgstr "Plugini Popup"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:98
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+"Opsioni popup-i më i mire i Wordpresit për të ndihmuar të marrësh sa më shumë "
+"regjistrues, ndjekës social apo reklamues. Popups të shkallëzuara me opsione "
+"miqsore."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid "Photo Gallery Plugin"
+msgstr "Plugini i galerisë së fotove"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:99
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+"Plugini i galerisë së fotove me një numër të madh faqosjesh do t'ju ndihmojë "
+"të krijoni portofolio me kualitet dhe galeri me imazhe."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid "Contact Form Plugin"
+msgstr "Plugini për forma kontakti"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:100
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+"Një nga pluginet më të mira për të krijuar forma kontakti në faqen tuaj "
+"Wordpress. Fonte dhe sfonde të ndryshueshme, opsion për shtimin e fushave etc."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid "Newsletter Plugin"
+msgstr "Plugin për buletinin informativ"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:101
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+"Plugini i buletinit infromativ nga Supsystic për një automatizim të dërgesës "
+"me mail të letrave tuaja. Nuk keni nevojë ti dërgoni ato manualisht. Pa kod "
+"apo zotësi ekstra apo orë të zgjatura për ta konfiguruar."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid "Membership by Supsystic"
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:102
+msgid ""
+"Create online membership community with custom user profiles, roles, FrontEnd "
+"registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid "Data Tables Generator"
+msgstr "Gjenerator i të dhënave tabelare"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:103
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML knowledge "
+"is required."
+msgstr ""
+"Krijo dhe manaxho tabela të bukura me të dhëna me dizajn të vecantë. Pa patur "
+"njohuri në HTML."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid "Slider Plugin"
+msgstr "Plugin Shfletues"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:104
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select images "
+"from your WordPress Media Library, Flickr, Instagram or Facebook, set slide "
+"captions, links and SEO fields all from one page."
+msgstr ""
+"Krijoni slideshow me pluginin Slider është e shpejtë dhe e thjeshtë. Thjesht "
+"zgjidhni imazhet nga libraria e medias Wordpress, Flickr, Instagram apo "
+"Facebook, vendos slidein, lidhjet dhe fushat e SEOs të gjitha në një faqe."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid "Social Share Buttons"
+msgstr "Butoni i shpërndarjeve sociale."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:105
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+"Butona të shpërndarjes për të rritura trafikun dhe popullaritetin. "
+"Shpërndarja sociale në Facebook, Twitter dhe rrjete të tjera sociale."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid "Live Chat Plugin"
+msgstr "Funksionalitet bisede të drejtpërdrejtë"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:106
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by Supsystic. "
+"Help you visitors, support them in real-time with exceptional Live Chat "
+"WordPress plugin by Supsystic."
+msgstr ""
+"Qëndroi afër vizitorëve dhe klientëve me Chat Support nga Supsystic. Ndihmo "
+"vizitorët, në kohë r eale me një funksionalitet të Live Chat nga Supsystic."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid "Pricing Table"
+msgstr "Tabela e cmimeve"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:107
+msgid ""
+"It's never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+"Asnjëherë nuk ka qënë kaq e thjeshtë për të krijuar dhe manaxhuar cmimet dhe "
+"tabelat krahasuese me tabelat ndërtuese.Cdo element i tabelës mund të "
+"ndryshohet me një klik të kursorit."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid "Coming Soon Plugin"
+msgstr "Plugini Së Shpejti"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:108
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+"Faqja Coming soon me një ndërtues drag-and-drop apo në ndërtim | mirëmbajtje "
+"për të njoftuar vizitorët dhe për të mbledhur emaile."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid "Backup Plugin"
+msgstr "Plugini Rezervë"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:109
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched "
+"DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+"Plugini i Wordpresit Backup dhe Restore nga Supsystic ofron shërbim reserve "
+"të faqes Wordpress nga DropBox, FTP, Amazon S3, Google Drive."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:110
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+"Afisho Google Maps me porosi. Vendos shënjuesit dhe vendndodhjet me tekst, "
+"imazhe, kategori dhe links. Modifiko hartën google me një mënyrë të thjeshtë "
+"dhe intuitive."
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid "Digital Publication Plugin"
+msgstr "Plugini i Publikimit Digital"
+
+#: modules/supsystic_promo/views/supsystic_promo.php:111
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+"Plugini Publikimit Dixhital nga Supsystic për Revista, Katalogje, Portofolio. "
+"Konverto imazhe, poste, PDF në një libër me faqe."
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Version"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Suport"
+
+#: modules/supsystic_promo/views/tpl/adminFooter.php:19
+msgid "Add your"
+msgstr "Shto"
+
+#: modules/supsystic_promo/views/tpl/adminPromoTabContent.php:5
+msgid "Get it now!"
+msgstr "Merre tani!"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Merr pakon me plugine sot dhe kurse 80%"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr "Shihe"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr "Më shumë informacion"
+
+#: modules/supsystic_promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr "Shkarko"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:5
+msgid "FAQ and Documentation"
+msgstr "FAQ dhe Dokumentacioni"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:17
+msgid "Check all FAQs"
+msgstr "Shih të gjithë FAQ"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:22
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video tutoriale"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:31
+msgid "PRO Features"
+msgstr "Tiparet PRO"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:40
+msgid "Server Settings"
+msgstr "Cilësimet e serverit"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:53
+msgid "News"
+msgstr "Lajme"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:59
+msgid "All news and info"
+msgstr "Gjithë lajmet dhe informacionet"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:64
+msgid "Contact form"
+msgstr "Forma kontakti"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:96
+msgid "Send email"
+msgstr "Dërgo email"
+
+#: modules/supsystic_promo/views/tpl/overviewTabContent.php:105
+msgid ""
+"Your email was send, we will try to respond to you as soon as possible. Thank "
+"you for support!"
+msgstr ""
+"Emaili juaj u dërgua, do ju përgjigjemi sa më shpejt të jetë e mundur. "
+"Faleminderit për mbështetjen!"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Mirëseerdhët në"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Ky është hapi i pare për %s plugin."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie - check all features on that page, if you are guru - please "
+"correct us."
+msgstr ""
+"Nëse je i ri - kontrollo të gjitha tiparet në faqe, nëse je guru - të lutem "
+"nga korigjo."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Ju lutem postoni url"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Cfarë të bësh më pas? Kontrollo seksionin mëposhtë"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Na reklamo"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So we "
+"create special <a target='_blank' href='%s'>boost page</a> to help you to "
+"help us."
+msgstr ""
+"Eshtë fantastike kur reklamon zhvillimin me reagimin apo vlerëimin tuaj. Ne "
+"krijojmë  <a target='_blank' href='%s'>një faqe reklamuese</a> që ju të na "
+"ndihmoni."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Dokumentacioni"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target='_blank' href='%s'>documentation</a> and FAQ section. If you "
+"can't solve your problems - <a target='_blank' href='%s'>contact us</a>."
+msgstr ""
+"Kontrollo <a target='_blank' href='%s'>dokumentacionin</a> dhe seksionin FAQ. "
+"Nëse nuk mund të zgjidhësh problemet e tua - <a target='_blank' href='%s'>na "
+"kontakto</a>."
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Lista e plotë me tipare"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post it here. Like"
+msgstr ""
+"Ekzistojnë kaq shumë tipare, prandaj nuk mund ti postojmë të gjitha këtu. Like"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Captcha for admin login"
+msgstr "Capcha për hyrjen e adminit"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "httaccess për mbrojtjen e adminit"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Fshih listen e dokumentave "
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Kontrollo të drejtat shkruese të dokumentave dhe direktorive"
+
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target='_blank' href='%s'>here</a>."
+msgstr "Kontrollo listen e plotë <a target='_blank' href='%s'>këtu</a>."
+
+#~ msgid "Sets min zoom level for map."
+#~ msgstr "Vendos nivelin minimal të zmadhimit për hartën."
+
+#~ msgid "Sets max zoom level for map."
+#~ msgstr "Vendos nivelin maksimal për zmadhimin e hartës."
+
+#~ msgid "Your map suddenly stopped working and you get the following error?"
+#~ msgstr "Harta papritur ndaloi së punuari dhe ju e shihni këtë error?"
+
+#~ msgid "Add KML files to display custom layers on the map."
+#~ msgstr "Shto dokumentat KML për të afishuar shtresat të vecanta në hartë."
+
+#~ msgid "Add new point"
+#~ msgstr "Shto një pike të re"
+
+#~ msgid "Remove point"
+#~ msgstr "Hiqe pikën"
