@@ -1,28 +1,3 @@
-<?php
-if(!empty($_POST['calculate']))
-{
-    $masa     = floatval($_POST['masa']);
-    $terytories = floatval($_POST['terytories']);
-    $period  = floatval($_POST['period']);
-    $vud_zabrud      = intval($_POST['vud_zabrud']);
-    $source    = floatval($_POST['source']);
-    
-   //result
-    $result = abs(round($masa*$terytories*$period*$vud_zabrud*$source))." грн.";
-}
-else{
-    $masa     = 10;
-    $terytories = 1.2;
-    $period  = 1.5;
-    $vud_zabrud  = 2.8;
-    $source     = 4.5;  
-}
-
-if($masa<=0){
-	$message = "Маса викинутої речовини(т) має бути більше 0";
-echo "<script type='text/javascript'>alert('$message');</script>"." - Дані не вірні(присутнє від'ємне значення або 0)";
-}
-?>
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -88,17 +63,17 @@ echo "<script type='text/javascript'>alert('$message');</script>"." - Дані �
     </style>
     <body>
         <div class="">
-            <?php if(!empty($result)):?>
-                <div class="result">
-                    <strong>До сплати: </strong> <?= $result ?>
-                </div> 
-            <?php endif ?>
-            <form action="" method="post" name="form" class="form" id="shtraf">
+            <form action="" name="form" class="form">
+            <fieldset>
+            <div class="result">
+            <p><!-- Кнопка для вычисления и Поле для вывода результата --><span><b>До сплати: </b></span><output style="display: inline; font-weight: 600; color: #800000;" for="masa terytories period vud_zabrud source" name="pp"><b><span style="color: #800000;font-weight: 600;"> 1000 </span></b></output><span><b> грн.</b></span>
+			</p>
+            </div>
                     <div class="kolon kolon1 kolon2">
                         <div class="">
                             <label>
                                 Маса викинутої речовини(т):
-                                <input type="text" name="masa" value="<?= $masa ?>" class="inp" />
+                                <input type="number" name="masa" value="10" placeholder="min=0 and max=99999" class="inp" min="0,001" max="99999" maxlength="5" oninput="validity.valid||(value='');"/>
                             </label>
                         </div>
                        
@@ -106,10 +81,10 @@ echo "<script type='text/javascript'>alert('$message');</script>"." - Дані �
                             <label>
                                 Територія розповсюдження:        
                                 <select name="terytories" class="full">
-                                    <option value='3.6' <?= 3.6 == $terytories ? 'selected' : '' ?>>Від 1 до 200 метрів</option>
-                                    <option value='5.4' <?= 5.4 == $terytories ? 'selected' : '' ?>>Від 200 до 1000 метрів</option>
-                                    <option value='6.8' <?= 6.8 == $terytories ? 'selected' : '' ?>>Від 1го до 3 кілометрів</option>
-                                    <option value='10.5' <?= 10.5 == $terytories ? 'selected' : '' ?>>Більше 3ох кілометрів</option>
+                                    <option value="4">Від 1 до 200 метрів</option>
+                                    <option value="6">Від 200 до 1000 метрів</option>
+                                    <option value="7">Від 1го до 3 кілометрів</option>
+                                    <option value="11">Більше 3ох кілометрів</option>
                                 </select>
                             </label>
                         </div>
@@ -119,10 +94,10 @@ echo "<script type='text/javascript'>alert('$message');</script>"." - Дані �
                             <label>
                                 Термін розповсюдження:        
                                 <select name="period" class="full">
-                                    <option value='3.5' <?= 3.5 == $period ? 'selected' : '' ?>>0-2 тижні</option>
-                                    <option value='4.4' <?= 4.4 == $period ? 'selected' : '' ?>>Від 2 тижнів до 1 місяця</option>
-                                    <option value='5.9' <?= 5.9 == $period ? 'selected' : '' ?>>Від 1го до 6ти місяців </option>
-                                    <option value='9' <?= 9 == $period ? 'selected' : '' ?>>Більше 6ти місяців </option>
+                                    <option value="3">0-2 тижні</option>
+                                    <option value="4">Від 2 тижнів до 1 місяця</option>
+                                    <option value="5">Від 1го до 6ти місяців </option>
+                                    <option value="9">Більше 6ти місяців </option>
                                 </select>
                             </label>
                         </div>
@@ -131,11 +106,11 @@ echo "<script type='text/javascript'>alert('$message');</script>"." - Дані �
                             <label>
                                 Вид забруднення:        
                                 <select name="vud_zabrud" class="full">
-                               		<option value='4.8' <?=4.8  == $vud_zabrud ? 'selected' : '' ?>>Тепловий</option>
-                               		<option value='5.4' <?= 5.4 == $vud_zabrud ? 'selected' : '' ?>>Механічний</option>
-                                    <option value='7.2' <?=7.2  == $vud_zabrud ? 'selected' : '' ?>>Хімічний</option>
-                                    <option value='10.2' <?=10.2  == $vud_zabrud ? 'selected' : '' ?>>Біологічний</option>
-                                    <option value='11.7' <?=11.7  == $vud_zabrud ? 'selected' : '' ?>>Радіоактивний</option>
+                               		<option value="4">Тепловий</option>
+                               		<option value="5">Механічний</option>
+                                    <option value="7">Хімічний</option>
+                                    <option value="10">Біологічний</option>
+                                    <option value="11">Радіоактивний</option>
                                 </select>
                             </label>
                         </div>
@@ -145,15 +120,16 @@ echo "<script type='text/javascript'>alert('$message');</script>"." - Дані �
                             <label>
                                 Джерело забруднення:        
                                 <select name="source" class="full">
-                                    <option value='7.2' <?= 7.2 == $source ? 'selected' : '' ?>>Промислове</option>
-                                    <option value='5.8' <?= 5.8 == $source ? 'selected' : '' ?>>Господарсько-побутове</option>
-                                    <option value='3.9' <?= 3.9 == $source ? 'selected' : '' ?>>Сільськогосподарське</option>
+                                    <option value="8">Промислове</option>
+                                    <option value="5">Господарсько-побутове</option>
+                                    <option value="4">Сільськогосподарське</option>
                                 </select>
                             </label>
                         </div>
                       
-                        <a href="#shtraf"><input type="submit" name="calculate" value="Рoзрахувати" class="inp btn-inp"/></a>
+                        <input type="button" class="inp btn-inp" value="Рoзрахувати" onclick="pp.value=masa.value*terytories.value*period.value*vud_zabrud.value*source.value"/>
                         </div>
+                </fieldset>
             </form>
         </div>
     </body>
