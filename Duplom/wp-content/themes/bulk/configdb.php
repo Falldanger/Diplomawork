@@ -39,7 +39,7 @@ $link = mysqli_connect($host, $user, $password, $database)
 or die("Ошибка " . mysqli_error($link));
 $table=$_SESSION['table'];// передаємо назву таблиці
 $query = "SELECT * FROM $table";
-$query2 = "SHOW COLUMNS FROM `$table`";
+$query2 = "SHOW COLUMNS FROM `$table` WHERE FIELD != 'id'";
 $result2 = mysqli_query($link, $query2) or die("Ошибка " . mysqli_error($link));
 if($result2)
 {	
@@ -63,7 +63,7 @@ if($result)
     {
         $row = mysqli_fetch_row($result);
         echo "<tr>";
-            for ($j = 0 ; $j < mysqli_num_fields($result) ; $j++) echo "<td>$row[$j]</td>";
+            for ($j = 1 ; $j < mysqli_num_fields($result) ; $j++) echo "<td>$row[$j]</td>";
         echo "</tr>";
     }
     echo "</table>";}
