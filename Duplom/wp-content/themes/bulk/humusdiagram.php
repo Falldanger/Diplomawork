@@ -20,7 +20,7 @@ Highcharts.chart('container', {
     type: 'pie'
   },
   title: {
-    text: 'За вмістом гумусу, площа у %'
+    text: 'За вмістом гумусу, площа в %'
   },
   tooltip: {
     pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -76,7 +76,7 @@ Highcharts.chart('container2', {
     type: 'pie'
   },
   title: {
-    text: 'За вмістом рухомих сполук фосфору'
+    text: 'За вмістом рухомих сполук фосфору в %'
   },
   tooltip: {
     pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

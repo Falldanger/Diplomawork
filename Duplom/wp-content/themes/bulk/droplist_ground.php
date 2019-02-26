@@ -8,7 +8,7 @@
 <body>
   
 
-<div><label for="">Використані джерела:  
+<div> 
 <select onchange="window.location.href=this.options[this.selectedIndex].value">
     <optgroup label="Web">
         <option value="https://geoknigi.com/book_view.php?id=140">Охорона земельних ресурсів</option>
@@ -21,7 +21,6 @@
       <option value="https://drive.google.com/drive/folders/1b5Wr6Zlz286C3yyk89DcEWd8y0sbxC-A">Google drive</option>
     </optgroup>
   </select>
-  </label>
  </div>
 </body>
 </html>
