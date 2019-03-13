@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  
+  <style>
+    .border-col{
+      border-radius: 6px;
+      border: 2px solid #CD853F;
+      background: rgba(205, 133, 63, 0.7);
+    }
+  </style>
 </head>
 <body>
   
 
 <div> 
-<select onchange="window.location.href=this.options[this.selectedIndex].value">
+<select class="border-col" onchange="window.location.href=this.options[this.selectedIndex].value">
     <optgroup label="Web">
         <option value="https://geoknigi.com/book_view.php?id=140">Охорона земельних ресурсів</option>
         <option value="http://osvita.ua/vnz/reports/geograf/26416/">Розподіл земельного фонду України за землекористувачами</option>

@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <style>
+  	.border-col{
+  		border-radius: 6px;
+  		border: 2px solid #483D8B;
+  		background: rgba(106, 90, 205, 0.7);
+  	}
+  </style>
   
 </head>
 <body>
   
 
 <div> 
-<select onchange="window.location.href=this.options[this.selectedIndex].value">
+<select class="border-col" onchange="window.location.href=this.options[this.selectedIndex].value">
     <optgroup label="Web">
         <option value="http://buvrtysa.gov.ua/newsite/">Дослідницькі центри</option>
         <option value="http://saee.gov.ua/uk/ae/hydroenergy">Гідроенергетика</option>

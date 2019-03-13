@@ -7,11 +7,11 @@
     	.kolon{
     		width: 30%;
     		display: inline-block;
-    		margin-right:19px;
-    		margin-left: 19px;
+    		margin-right:17px;
+    		margin-left: 17px;
     	}
     	.kolon1{
-    		margin-left: 20px;
+    		margin-left: 18px;
     	}
     	.kolon2{
     		padding: 10px;
