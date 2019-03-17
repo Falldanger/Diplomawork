@@ -8,7 +8,7 @@ font-size: 14px;
 text-align: center;
 }
 th {
-background: #2E8B57;
+background: rgba(0, 128, 0,0.75);
 color: white;
 padding: 10px 20px;
 }
@@ -19,7 +19,7 @@ border-color: white;
 border-radius: 5px;
 }
 td {
-background: #3CB371;
+background: rgba(0, 128, 0,0.55);
 }
 th:first-child, td:first-child {
 text-align: center;
