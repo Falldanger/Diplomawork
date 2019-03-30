@@ -17,14 +17,14 @@
 <div> 
 <select class="border-col" onchange="window.location.href=this.options[this.selectedIndex].value">
     <optgroup label="Web">
-        <option value="https://geoknigi.com/book_view.php?id=140">Охорона земельних ресурсів</option>
-        <option value="http://osvita.ua/vnz/reports/geograf/26416/">Розподіл земельного фонду України за землекористувачами</option>
-        <option value="https://pidruchniki.com/1408040238808/rps/harakteristika_prirodnoresursnogo_potentsialu_ekonomichnih_rayoniv">Характеристика природноресурсного потенціалу</option>
-        <option value="https://youcontrol.com.ua/catalog/company_details/20453347/">ГОЛОВНЕ УПРАВЛІННЯ ДЕРЖКОМЗЕМУ У ЗАКАРПАТСЬКІЙ ОБЛАСТІ"</option>
-        <option value="http://www.torgy.dazru.gov.ua/auction">Оголошення про проведення земельних торгів</option>
+        <option value="http://dklg.kmu.gov.ua/forest/control/uk/publish/article?art_id=62921">Державне агенство ліс.рес. України</option>
+        <option value="https://works.doklad.ru/view/O-88S_VgLo0.html">Лісові та рекреаційні ресурси України</option>
+        <option value="https://zakarpatlis.gov.ua/lisy-zakarpattya-zhyttya-pislya-burelomu/">Ліси Закарпаття</option>
+        <option value="https://uk.wikipedia.org/wiki/%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%97%D0%B0%D0%BA%D0%B0%D1%80%D0%BF%D0%B0%D1%82%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96">Флора Закарпатської області"</option>
+        <option value="http://www.torgy.dazru.gov.ua/auction">Стан та використання Закарпатських лісів</option>
     </optgroup>
     <optgroup label="Documents">
-      <option value="https://drive.google.com/drive/folders/1b5Wr6Zlz286C3yyk89DcEWd8y0sbxC-A">Google drive</option>
+      <option value="https://drive.google.com/drive/folders/1tYrAf18XkSkuczIQPS-f1diB7sokomsy">Google drive</option>
     </optgroup>
   </select>
  </div>
