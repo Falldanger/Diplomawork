@@ -10,7 +10,7 @@ div.hh{border-radius: 4px;}
 .work_descr1 {
     position: absolute;
     top:105px;
-    left:165px;
+    left:180px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -19,7 +19,7 @@ div.hh{border-radius: 4px;}
 .work_descr2 {
     position: absolute;
     top: 105px;
-    left: 485px;
+    left: 535px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -28,7 +28,7 @@ div.hh{border-radius: 4px;}
 .work_descr3 {
     position: absolute;
     top: 105px;
-    left: 855px;
+    left: 945px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -37,7 +37,7 @@ div.hh{border-radius: 4px;}
 .work_descr4 {
     position: absolute;
     top:345px;
-    left:160px;
+    left:175px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -46,7 +46,7 @@ div.hh{border-radius: 4px;}
 .work_descr5 {
     position: absolute;
     top:345px;
-    left: 510px;
+    left: 565px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -55,7 +55,7 @@ div.hh{border-radius: 4px;}
 .work_descr6 {
     position: absolute;
     top:345px;
-    left: 850px;
+    left: 950px;
     text-align: center;
     margin: auto;
     opacity: 0;
@@ -103,3 +103,4 @@ div.fixposition{
 	<div class="hh" style="width: 33%;margin: auto; display: inline-block; padding: 0; height: 250px; background: #3CB371;"><img style="width: 100%; height: 100%;" src="<?php echo get_template_directory_uri(); ?>/img/inshi.jpg" alt=""></div><div class="work_descr6"><h3 style="color: black;font-weight: 600;">Інші - 1,4%</h3></div>
 </div>
 </html>
+<!-- @"DHLM Corp." 2019. All rights reserved. -->

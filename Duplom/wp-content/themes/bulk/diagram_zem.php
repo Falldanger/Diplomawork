@@ -29,8 +29,7 @@
 }).on('click', function(i, row){
   console.log(i, row);
 });
-
-
 </script>
 </body>
 </html>
+<!-- @"DHLM Corp." 2019. All rights reserved. -->

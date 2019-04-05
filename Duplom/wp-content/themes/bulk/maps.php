@@ -50,6 +50,6 @@ circle.bindPopup("I am a circle.");
 polygon.bindPopup("I am a polygon.");
 
 </script>
-
 </body>
 </html>
+<!-- @"DHLM Corp." 2019. All rights reserved. -->

@@ -381,3 +381,4 @@ function inline_php($content){
 }
 add_filter('the_content', 'inline_php', 0);
 remove_filter('the_content', 'wpautop');
+// @"DHLM Corp." 2019. All rights reserved.

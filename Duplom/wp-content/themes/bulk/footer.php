@@ -5,6 +5,7 @@
 		</div>	
 	</div>		
 <?php } ?> 
+<div style="text-align: center; width: 100%;"><p style=" font-size: 14px;">@"DHLM Corp." 2019. All rights reserved.</p></div>
 </div>
 
 <!-- end main container -->
@@ -13,3 +14,4 @@
 
 </body>
 </html>
+<!-- @"DHLM Corp." 2019. All rights reserved. -->
