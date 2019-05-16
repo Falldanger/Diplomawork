@@ -1,0 +1,1 @@
+!function(s){s(window).on("load resize",function(e){s(".metaslider.ms-theme-blend").each(function(e){var i=s(this).outerWidth();i<600?s(this).addClass("ms-is-small"):s(this).removeClass("ms-is-small")})})}(jQuery);

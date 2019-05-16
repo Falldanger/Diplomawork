@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-13 07:00:06+0000\n"
+"PO-Revision-Date: 2019-04-21 14:04:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: uk_UA\n"
 "Project-Id-Version: WordPress - 4.9.x - Administration\n"
+
+#. translators: %s: WordPress version
+#: wp-admin/about.php:50
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/post.php:44
 msgid "A post type mismatch has been detected."
@@ -4317,7 +4322,7 @@ msgstr "Автоматичне оновлення WordPress не вдалося!
 
 #: wp-admin/includes/update.php:616
 msgid "An automated WordPress update has failed to complete - <a href=\"%s\">please attempt the update again now</a>."
-msgstr "Автоматичне оновлення WordPress аварійно завершилось - <a href=\"%s\">спробуйте ще раз</a>."
+msgstr "Автоматичне оновлення WordPress завершилось аварійно - <a href=\"%s\">будь ласка, спробуйте ще раз</a>."
 
 #. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
 #. 4: version number
@@ -7953,7 +7958,7 @@ msgstr "Розмітка"
 #: wp-admin/includes/class-wp-screen.php:1034
 msgctxt "Welcome panel"
 msgid "Welcome"
-msgstr "Ласкаво Просимо"
+msgstr "Ласкаво просимо"
 
 #: wp-admin/includes/class-wp-screen.php:1015
 msgid "Boxes"
@@ -7973,11 +7978,11 @@ msgstr "Додаткові налаштування"
 
 #: wp-admin/includes/class-wp-screen.php:903
 msgid "Disable accessibility mode"
-msgstr "Деактивувати режим доступності"
+msgstr "Вимкнути режим спеціальних можливостей"
 
 #: wp-admin/includes/class-wp-screen.php:903
 msgid "Enable accessibility mode"
-msgstr "Увімкнути режим доступності"
+msgstr "Ввімкнути режим спеціальних можливостей"
 
 #: wp-admin/includes/class-wp-screen.php:877
 msgid "Screen Options"
@@ -8369,7 +8374,7 @@ msgstr "Соціальні"
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:440
 msgctxt "Plugin installer group title"
 msgid "Performance"
-msgstr "Швидкодія"
+msgstr "Продуктивність"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:272
 #: wp-admin/theme-install.php:61
@@ -9598,321 +9603,321 @@ msgid "Sorry, you are not allowed to edit the links for this site."
 msgstr "На жаль, вам не дозволено редагувати посилання цього сайту."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4383
+#: wp-admin/includes/ajax-actions.php:4385
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується статус виконання у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4372
+#: wp-admin/includes/ajax-actions.php:4374
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ повідомлення з посиланням на масив у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4361
+#: wp-admin/includes/ajax-actions.php:4363
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ повідомлення у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4350
+#: wp-admin/includes/ajax-actions.php:4352
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ items_retained у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4339
+#: wp-admin/includes/ajax-actions.php:4341
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ items_removed у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4328
+#: wp-admin/includes/ajax-actions.php:4330
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "Не отримано масив від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4312
+#: wp-admin/includes/ajax-actions.php:4314
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "Масив функції знищувача за індексом %d не містить імені користувача."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4307
+#: wp-admin/includes/ajax-actions.php:4309
 msgid "Eraser callback at index %d is not a valid callback."
 msgstr "Зворотній виклик функції знищувача за індексом %d помилковий."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4302
+#: wp-admin/includes/ajax-actions.php:4304
 msgid "Eraser array at index %d does not include a callback."
 msgstr "Масив функції знищувача за індексом %d не містить зворотній виклик."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4297
+#: wp-admin/includes/ajax-actions.php:4299
 msgid "Expected an array describing the eraser at index %d."
 msgstr "Очікується масив опису функції знищувача за індексом %d."
 
-#: wp-admin/includes/ajax-actions.php:4284
+#: wp-admin/includes/ajax-actions.php:4286
 msgid "Eraser index is out of range."
 msgstr "Індекс знищувача знаходиться поза межами діапазону."
 
-#: wp-admin/includes/ajax-actions.php:4280
+#: wp-admin/includes/ajax-actions.php:4282
 msgid "Eraser index cannot be less than one."
 msgstr "Індекс знищувача не може бути меншим за одиницю."
 
-#: wp-admin/includes/ajax-actions.php:4243
+#: wp-admin/includes/ajax-actions.php:4245
 msgid "Missing eraser index."
 msgstr "Індекс знищувача відсутній."
 
-#: wp-admin/includes/ajax-actions.php:4239
+#: wp-admin/includes/ajax-actions.php:4241
 msgid "Invalid email address in request."
 msgstr "Невірна email адреса у запиті."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4168
+#: wp-admin/includes/ajax-actions.php:4170
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "Очікування завершення (булевий) у масиві відповіді від експортера: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4162
+#: wp-admin/includes/ajax-actions.php:4164
 msgid "Expected data array in response array from exporter: %s."
 msgstr "Очікуваний масив даних у масиві відповіді від експортера: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4156
+#: wp-admin/includes/ajax-actions.php:4158
 msgid "Expected data in response array from exporter: %s."
 msgstr "Очікувані дані в масиві відповіді від експортера: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4150
+#: wp-admin/includes/ajax-actions.php:4152
 msgid "Expected response as an array from exporter: %s."
 msgstr "Очікувана відповідь як масив від експортера: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4135
+#: wp-admin/includes/ajax-actions.php:4137
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "Зворотний виклик експортера є недійсним зворотнім викликом: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4129
+#: wp-admin/includes/ajax-actions.php:4131
 msgid "Exporter does not include a callback: %s."
 msgstr "Експонент не включає зворотний виклик: %s."
 
 #. translators: %s: array index
-#: wp-admin/includes/ajax-actions.php:4123
+#: wp-admin/includes/ajax-actions.php:4125
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "Масив експорту в індексі %s не містить дружньої назви."
 
 #. translators: %s: array index
-#: wp-admin/includes/ajax-actions.php:4117
+#: wp-admin/includes/ajax-actions.php:4119
 msgid "Expected an array describing the exporter at index %s."
 msgstr "Очікувався масив, що описує експортера за індексом %s."
 
-#: wp-admin/includes/ajax-actions.php:4107
-#: wp-admin/includes/ajax-actions.php:4288
+#: wp-admin/includes/ajax-actions.php:4109
+#: wp-admin/includes/ajax-actions.php:4290
 msgid "Page index cannot be less than one."
 msgstr "Індекс сторінки не може бути менший за одиницю."
 
-#: wp-admin/includes/ajax-actions.php:4103
+#: wp-admin/includes/ajax-actions.php:4105
 msgid "Exporter index out of range."
 msgstr "Індекс експортера виходить за межи."
 
-#: wp-admin/includes/ajax-actions.php:4099
+#: wp-admin/includes/ajax-actions.php:4101
 msgid "Exporter index cannot be negative."
 msgstr "Індекс експортера не може бути від'ємним."
 
-#: wp-admin/includes/ajax-actions.php:4093
+#: wp-admin/includes/ajax-actions.php:4095
 msgid "An exporter has improperly used the registration filter."
 msgstr "Експортер неправильно використовував реєстраційний фільтр."
 
-#: wp-admin/includes/ajax-actions.php:4065
-#: wp-admin/includes/ajax-actions.php:4249
+#: wp-admin/includes/ajax-actions.php:4067
+#: wp-admin/includes/ajax-actions.php:4251
 msgid "Missing page index."
 msgstr "Відсутній індекс сторінки."
 
-#: wp-admin/includes/ajax-actions.php:4060
+#: wp-admin/includes/ajax-actions.php:4062
 msgid "Missing exporter index."
 msgstr "Відсутній індекс експортера."
 
-#: wp-admin/includes/ajax-actions.php:4056
+#: wp-admin/includes/ajax-actions.php:4058
 msgid "A valid email address must be given."
 msgstr "Потрібна дійсна електронна адреса."
 
-#: wp-admin/includes/ajax-actions.php:4051
+#: wp-admin/includes/ajax-actions.php:4053
 msgid "Invalid request type."
 msgstr "Невірний тип запиту."
 
-#: wp-admin/includes/ajax-actions.php:4038
-#: wp-admin/includes/ajax-actions.php:4219
-#: wp-admin/includes/ajax-actions.php:4233
+#: wp-admin/includes/ajax-actions.php:4040
+#: wp-admin/includes/ajax-actions.php:4221
+#: wp-admin/includes/ajax-actions.php:4235
 msgid "Invalid request ID."
 msgstr "Невірний ID запиту."
 
-#: wp-admin/includes/ajax-actions.php:4033
-#: wp-admin/includes/ajax-actions.php:4213
+#: wp-admin/includes/ajax-actions.php:4035
+#: wp-admin/includes/ajax-actions.php:4215
 msgid "Missing request ID."
 msgstr "Відсутній ідентифікатор запиту."
 
-#: wp-admin/includes/ajax-actions.php:4020 wp-admin/theme-editor.php:180
+#: wp-admin/includes/ajax-actions.php:4022 wp-admin/theme-editor.php:180
 #: wp-admin/plugin-editor.php:177
 msgid "File edited successfully."
 msgstr "Файл успішно відредаговано."
 
-#: wp-admin/includes/ajax-actions.php:3939
-#: wp-admin/includes/ajax-actions.php:3982 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:3941
+#: wp-admin/includes/ajax-actions.php:3984 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "На жаль, вам не дозволено керувати плагінами цього сайту."
 
-#: wp-admin/includes/ajax-actions.php:3909
+#: wp-admin/includes/ajax-actions.php:3911
 msgid "Plugin could not be deleted."
 msgstr "Плагін не можна видалити."
 
-#: wp-admin/includes/ajax-actions.php:3880 wp-admin/plugins.php:467
+#: wp-admin/includes/ajax-actions.php:3882 wp-admin/plugins.php:467
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "Ви не можете видалити плагін, поки він діє на основному сайті."
 
-#: wp-admin/includes/ajax-actions.php:3871 wp-admin/plugins.php:249
+#: wp-admin/includes/ajax-actions.php:3873 wp-admin/plugins.php:249
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "На жаль, вам не дозволено видаляти плагіни цього сайту."
 
 #: wp-admin/includes/class-plugin-upgrader.php:54
-#: wp-admin/includes/ajax-actions.php:3812
-#: wp-admin/includes/ajax-actions.php:3839
+#: wp-admin/includes/ajax-actions.php:3814
+#: wp-admin/includes/ajax-actions.php:3841
 msgid "Plugin update failed."
 msgstr "Оновлення плагіну не вдалося."
 
-#: wp-admin/includes/ajax-actions.php:3768 wp-admin/update.php:24
+#: wp-admin/includes/ajax-actions.php:3770 wp-admin/update.php:24
 #: wp-admin/update.php:50 wp-admin/update.php:71
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "На жаль, вам не дозволено оновлювати плагіни цього сайту."
 
-#: wp-admin/includes/ajax-actions.php:3663 wp-admin/update.php:96
+#: wp-admin/includes/ajax-actions.php:3665 wp-admin/update.php:96
 #: wp-admin/update.php:144 wp-admin/plugin-install.php:18
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "На жаль, вам не дозволено встановлювати плагіни на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:3653
-#: wp-admin/includes/ajax-actions.php:3754
-#: wp-admin/includes/ajax-actions.php:3859
+#: wp-admin/includes/ajax-actions.php:3655
+#: wp-admin/includes/ajax-actions.php:3756
+#: wp-admin/includes/ajax-actions.php:3861
 msgid "No plugin specified."
 msgstr "Не вказано плагін."
 
-#: wp-admin/includes/ajax-actions.php:3630
+#: wp-admin/includes/ajax-actions.php:3632
 msgid "Theme could not be deleted."
 msgstr "Тему не можна видалити."
 
-#: wp-admin/includes/ajax-actions.php:3594
+#: wp-admin/includes/ajax-actions.php:3596
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "На жаль, вам не дозволено видаляти теми на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:3563
+#: wp-admin/includes/ajax-actions.php:3565
 msgid "Update failed."
 msgstr "Оновлення не вдалося."
 
-#: wp-admin/includes/ajax-actions.php:3503 wp-admin/update.php:172
+#: wp-admin/includes/ajax-actions.php:3505 wp-admin/update.php:172
 #: wp-admin/update.php:192
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "На жаль, вам не дозволено оновлювати теми цього сайту."
 
-#: wp-admin/includes/ajax-actions.php:3433
-#: wp-admin/includes/ajax-actions.php:3552
-#: wp-admin/includes/ajax-actions.php:3612
-#: wp-admin/includes/ajax-actions.php:3707
-#: wp-admin/includes/ajax-actions.php:3828
-#: wp-admin/includes/ajax-actions.php:3893
+#: wp-admin/includes/ajax-actions.php:3435
+#: wp-admin/includes/ajax-actions.php:3554
+#: wp-admin/includes/ajax-actions.php:3614
+#: wp-admin/includes/ajax-actions.php:3709
+#: wp-admin/includes/ajax-actions.php:3830
+#: wp-admin/includes/ajax-actions.php:3895
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Не вдалося зв’язатися з файловою системою. Будь ласка, підтвердіть свої облікові дані."
 
-#: wp-admin/includes/ajax-actions.php:3393 wp-admin/update.php:218
+#: wp-admin/includes/ajax-actions.php:3395 wp-admin/update.php:218
 #: wp-admin/update.php:247 wp-admin/theme-install.php:16
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "На жаль, вам не дозволено встановлювати теми на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:3381
-#: wp-admin/includes/ajax-actions.php:3490
-#: wp-admin/includes/ajax-actions.php:3583
+#: wp-admin/includes/ajax-actions.php:3383
+#: wp-admin/includes/ajax-actions.php:3492
+#: wp-admin/includes/ajax-actions.php:3585
 msgid "No theme specified."
 msgstr "Тему не вказано."
 
-#: wp-admin/includes/ajax-actions.php:3241
+#: wp-admin/includes/ajax-actions.php:3243
 msgid "Image could not be processed."
 msgstr "Зображення не може бути оброблене."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3217
+#: wp-admin/includes/ajax-actions.php:3219
 msgid "%s has been logged out."
 msgstr "Сесія користувача %s завершена."
 
-#: wp-admin/includes/ajax-actions.php:3213
+#: wp-admin/includes/ajax-actions.php:3215
 msgid "You are now logged out everywhere else."
 msgstr "Ваша сесія завершена всюди."
 
-#: wp-admin/includes/ajax-actions.php:3205
+#: wp-admin/includes/ajax-actions.php:3207
 msgid "Could not log out user sessions. Please try again."
 msgstr "Не вдалося завершити сесії користувача. Будь ласка, спробуйте ще раз."
 
-#: wp-admin/includes/ajax-actions.php:3099
+#: wp-admin/includes/ajax-actions.php:3101
 msgid "This preview is unavailable in the editor."
 msgstr "Цей попередній перегляд недоступний в редакторі."
 
-#: wp-admin/includes/ajax-actions.php:3070
+#: wp-admin/includes/ajax-actions.php:3072
 msgid "%s failed to embed."
 msgstr "Не вдалося вставити %s."
 
-#: wp-admin/includes/ajax-actions.php:2084
+#: wp-admin/includes/ajax-actions.php:2086
 msgid "Sorry, you are not allowed to attach files to this post."
 msgstr "На жаль, Вам не дозволено робити прикріплення файлів до цього запису."
 
 #: wp-admin/includes/meta-boxes.php:94 wp-admin/includes/meta-boxes.php:118
-#: wp-admin/includes/template.php:1765 wp-admin/includes/ajax-actions.php:1845
+#: wp-admin/includes/template.php:1765 wp-admin/includes/ajax-actions.php:1847
 #: wp-admin/includes/class-wp-posts-list-table.php:997
 #: wp-admin/includes/class-wp-posts-list-table.php:1645
 msgid "Scheduled"
 msgstr "Відкладено"
 
-#: wp-admin/includes/ajax-actions.php:1833
+#: wp-admin/includes/ajax-actions.php:1835
 msgid "Type"
 msgstr "Тип"
 
 #: wp-admin/includes/edit-tag-messages.php:18
-#: wp-admin/includes/ajax-actions.php:1787
-#: wp-admin/includes/ajax-actions.php:1792
+#: wp-admin/includes/ajax-actions.php:1789
+#: wp-admin/includes/ajax-actions.php:1794
 msgid "Item not updated."
 msgstr "Елемент не оновлено."
 
-#: wp-admin/includes/ajax-actions.php:1681
+#: wp-admin/includes/ajax-actions.php:1683
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Збереження вимкнено: %s зараз редагує цей запис."
 
-#: wp-admin/includes/ajax-actions.php:1681
+#: wp-admin/includes/ajax-actions.php:1683
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Збереження вимкнено: %s зараз редагує цю сторінку."
 
-#: wp-admin/includes/ajax-actions.php:1680
+#: wp-admin/includes/ajax-actions.php:1682
 msgid "Someone"
 msgstr "Хтось"
 
 #. translators: %s: the new user
-#: wp-admin/includes/ajax-actions.php:1409
+#: wp-admin/includes/ajax-actions.php:1411
 msgid "User %s added"
 msgstr "Користувач %s доданий"
 
-#: wp-admin/includes/ajax-actions.php:1343
+#: wp-admin/includes/ajax-actions.php:1345
 msgid "Please provide a custom field name."
 msgstr "Будь ласка, вкажіть назву користувацького поля."
 
-#: wp-admin/includes/ajax-actions.php:1320
-#: wp-admin/includes/ajax-actions.php:1325
-#: wp-admin/includes/ajax-actions.php:1345
+#: wp-admin/includes/ajax-actions.php:1322
+#: wp-admin/includes/ajax-actions.php:1327
+#: wp-admin/includes/ajax-actions.php:1347
 msgid "Please provide a custom field value."
 msgstr "Будь ласка, вкажіть значення користувацького поля."
 
 #. translators: 1: Post creation date, 2: Post creation time
-#: wp-admin/includes/ajax-actions.php:1307
+#: wp-admin/includes/ajax-actions.php:1309
 msgid "Draft created on %1$s at %2$s"
 msgstr "Чернетку створено %1$s о %2$s"
 
-#: wp-admin/includes/ajax-actions.php:1080
-#: wp-admin/includes/ajax-actions.php:1170
+#: wp-admin/includes/ajax-actions.php:1082
+#: wp-admin/includes/ajax-actions.php:1172
 msgid "ERROR: please type a comment."
 msgstr "ПОМИЛКА: Будь ласка, введіть коментар."
 
-#: wp-admin/includes/ajax-actions.php:1076
+#: wp-admin/includes/ajax-actions.php:1078
 msgid "Sorry, you must be logged in to reply to a comment."
 msgstr "На жаль, для відповіді на коментар вам необхідно авторизуватись."
 
@@ -9926,7 +9931,7 @@ msgstr "Коментар %d не існує"
 
 #. translators: %s: number of comments in moderation
 #: wp-admin/includes/ajax-actions.php:431
-#: wp-admin/includes/ajax-actions.php:1142 wp-admin/includes/dashboard.php:281
+#: wp-admin/includes/ajax-actions.php:1144 wp-admin/includes/dashboard.php:281
 msgctxt "comments"
 msgid "%s in moderation"
 msgid_plural "%s in moderation"
@@ -10566,7 +10571,7 @@ msgstr "В очікуванні"
 msgid "Comment status"
 msgstr "Статус коментаря"
 
-#: wp-admin/includes/user.php:1024 wp-admin/includes/ajax-actions.php:1833
+#: wp-admin/includes/user.php:1024 wp-admin/includes/ajax-actions.php:1835
 #: wp-admin/includes/class-wp-posts-list-table.php:1638
 #: wp-admin/edit-form-comment.php:80
 msgid "Status"
@@ -10594,13 +10599,13 @@ msgid "Permalink:"
 msgstr "Постійне посилання:"
 
 #. translators: 1: Post edited date, 2: Post edited time
-#: wp-admin/includes/ajax-actions.php:2346 wp-admin/edit-form-advanced.php:657
+#: wp-admin/includes/ajax-actions.php:2348 wp-admin/edit-form-advanced.php:657
 msgid "Last edited on %1$s at %2$s"
 msgstr "Востаннє редаговано %1$s о %2$s"
 
 #. translators: 1: Name of most recent post author, 2: Post edited date, 3:
 #. Post edited time
-#: wp-admin/includes/ajax-actions.php:2344 wp-admin/edit-form-advanced.php:654
+#: wp-admin/includes/ajax-actions.php:2346 wp-admin/edit-form-advanced.php:654
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Востаннє редаговано: %1$s, %2$s о %3$s"
 
@@ -10771,7 +10776,7 @@ msgstr "Розташування заголовка і редактора заф
 #: wp-admin/includes/class-wp-posts-list-table.php:1417
 #: wp-admin/edit-form-advanced.php:320 wp-admin/edit-tag-form.php:125
 msgid "Slug"
-msgstr "Слаґ"
+msgstr "Частина посилання"
 
 #: wp-admin/edit-form-advanced.php:302 wp-admin/menu.php:262
 msgid "Discussion"
@@ -11253,7 +11258,7 @@ msgstr "Ви можете обрати з-поміж стандартних зо
 msgid "This screen is used to customize the header section of your theme."
 msgstr "Цей екран використовується для налаштування заголовку вашої теми."
 
-#: wp-admin/includes/ajax-actions.php:2108 wp-admin/custom-background.php:451
+#: wp-admin/includes/ajax-actions.php:2110 wp-admin/custom-background.php:451
 #: wp-admin/custom-header.php:842
 msgid "The uploaded file is not a valid image. Please try again."
 msgstr "Завантажений файл не являється зображенням. Спробуйте ще раз."
@@ -11632,7 +11637,7 @@ msgstr "Дякуємо за творчість з <a href=\"%s\">WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:518
+#: wp-admin/about.php:538
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилку."
@@ -11640,245 +11645,246 @@ msgstr[1] "У <strong>версії %1$s</strong> виправлено пробл
 msgstr[2] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилок."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:39 wp-admin/about.php:511
+#: wp-admin/about.php:40 wp-admin/about.php:59 wp-admin/about.php:531
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "У <strong>версії %s</strong> виправлено декілька проблем безпеки."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:509
+#: wp-admin/about.php:529
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "У <strong>версії %s</strong> виправлено одну проблему безпеки."
 
-#: wp-admin/about.php:505
+#: wp-admin/about.php:525
 msgid "Maintenance and Security Release"
 msgstr "Випуск обслуговування та безпеки"
 
-#: wp-admin/about.php:503
+#: wp-admin/about.php:523
 msgid "Security Releases"
 msgstr "Випуски безпеки"
 
-#: wp-admin/about.php:502
+#: wp-admin/about.php:522
 msgid "Security Release"
 msgstr "Випуск безпеки"
 
-#: wp-admin/about.php:500
+#: wp-admin/about.php:520
 msgid "Maintenance Releases"
 msgstr "Випуски обслуговування"
 
-#: wp-admin/about.php:499
+#: wp-admin/about.php:519
 msgid "Maintenance Release"
 msgstr "Випуск обслуговування"
 
-#: wp-admin/about.php:395
+#: wp-admin/about.php:415
 msgid "Go to Dashboard"
 msgstr "Перейти до майстерні"
 
-#: wp-admin/about.php:395
+#: wp-admin/about.php:415
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Перейти до \"Майстерні\" &rarr; \"Домашня сторінка\""
 
-#: wp-admin/about.php:392
+#: wp-admin/about.php:412
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Повернутися до \"Майстерні\" &rarr; \"Оновлення\""
 
-#: wp-admin/about.php:392
+#: wp-admin/about.php:412
 msgid "Return to Updates"
 msgstr "Повернутися до поновлень"
 
-#: wp-admin/about.php:382
+#: wp-admin/about.php:402
 msgid "New capabilities have been introduced that allow granular management of plugins and translation files. In addition, the site switching process in multisite has been fine-tuned to update the available roles and capabilities in a more reliable and coherent way."
 msgstr "Введення нових можливостей дозволяє тонке управління файлами плагінів і перекладів. Додатково, перемикання сайту в режим мережі тепер буде надійно і послідовно оновлювати наявні ролі і можливості."
 
-#: wp-admin/about.php:381
+#: wp-admin/about.php:401
 msgid "Improvements to Roles and Capabilities"
 msgstr "Покращення ролей і можливостей."
 
-#: wp-admin/about.php:378
+#: wp-admin/about.php:398
 msgid "WordPress 4.9 includes an upgraded version of MediaElement.js, which removes dependencies on jQuery, improves accessibility, modernizes the UI, and fixes many bugs."
 msgstr "WordPress 4.9 включає оновлену версію MediaElement.js, без залежності від jQuery, покращує допоміжні можливості, модернізує інтерфейс і виправляє безліч помилок."
 
-#: wp-admin/about.php:377
+#: wp-admin/about.php:397
 msgid "MediaElement.js upgraded to 4.2.6"
 msgstr "MediaElement.js оновлений до версії 4.2.6"
 
-#: wp-admin/about.php:374
+#: wp-admin/about.php:394
 msgid "We&#8217;ve introduced a new code editing library, CodeMirror, for use within core. Use it to improve any code writing or editing experiences within your plugins, like CSS or JavaScript include fields."
 msgstr "Для редагування коду ми включили в ядро бібліотеку CodeMirror, використовуйте її для поліпшення написання або редагування будь-якого коду в ваших плагінах, наприклад полів CSS або JavaScript."
 
-#: wp-admin/about.php:373
+#: wp-admin/about.php:393
 msgid "CodeMirror available for use in your themes and plugins"
 msgstr "Редактор CodeMirror доступний для використання у ваших темах і плагінах"
 
 #. translators: %s:
 #. https://make.wordpress.org/core/2017/11/01/improvements-to-the-customize-js-api-in-4-9
-#: wp-admin/about.php:367
+#: wp-admin/about.php:387
 msgid "We&#8217;ve made numerous improvements to the Customizer JS API in WordPress 4.9, eliminating many pain points and making it just as easy to work with as the PHP API. There are also new base control templates, a date/time control, and section/panel/global notifications to name a few. <a href=\"%s\">Check out the full list.</a>"
 msgstr "У WordPress 4.9 ми внесли безліч поліпшень в JS API інтерфейсу налаштування, усунуто багато хворих місць і тепер стало працювати так просто як і з PHP API. Також введені нові основні шаблони контролю, контроль дати і часу і сповіщення секції/панелі/глобальні, наприклад. <a href=\"%s\">Подивіться повний список.</a>"
 
-#: wp-admin/about.php:363
+#: wp-admin/about.php:383
 msgid "Customizer JS API Improvements"
 msgstr "Покращення в JS API інтерфейсу налаштування"
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:356
+#: wp-admin/about.php:376
 msgid "Developer Happiness %s"
 msgstr "Радість розробникам %s"
 
-#: wp-admin/about.php:346
+#: wp-admin/about.php:366
 msgid "https://wordpress.org/plugins/gutenberg/"
 msgstr "https://uk.wordpress.org/plugins/gutenberg/"
 
-#: wp-admin/about.php:345
+#: wp-admin/about.php:365
 msgid "WordPress is working on a new way to create and control your content and we&#8217;d love to have your help. Interested in being an <a href=\"%s\">early tester</a> or getting involved with the Gutenberg project? <a href=\"%s\">Contribute on GitHub</a>."
 msgstr "Команда WordPress працює над новим способом створення та контролю вмісту, і ми хотіли б отримати вашу допомогу. Якщо ви зацікавлені в <a href=\"%s\">тестуванні раннього доступу</a> або хочете долучитись до проекту Gutenberg, ви можете <a href=\"%s\">взяти участь на GitHub</a>."
 
 #. translators: %s: handshake emoji
-#: wp-admin/about.php:339
+#: wp-admin/about.php:359
 msgid "Lend a Hand with Gutenberg %s"
 msgstr "Дайте руку Гутенбергу %s"
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:342
 msgid "Were you confused by the steps to create a new menu? Perhaps no longer! We&#8217;ve ironed out the UX for a smoother menu creation process. Newly updated copy will guide you."
 msgstr "Створення нового меню ставило вас в глухий кут? Досить! Ми поліпшили досвід взаємодії інтерфейсу для створення меню. Новий варіант оснащений гідом."
 
-#: wp-admin/about.php:321
+#: wp-admin/about.php:341
 msgid "Better Menu Instructions = Less Confusion"
 msgstr "Кращі інструкції створення меню = менше плутанини."
 
-#: wp-admin/about.php:315
+#: wp-admin/about.php:335
 msgid "When you switch themes, widgets sometimes think they can just up and move location. Improvements in WordPress 4.9 offer more persistent menu and widget placement when you decide it&#8217;s time for a new theme. Additionally, you can preview installed themes or download, install, and preview new themes right. Nothing says handy like being able to preview before you deploy. "
 msgstr "При перемиканні тем віджети деколи змінюють своє розміщення. Покращення в WordPress 4.9 забезпечують більш постійне розташування меню та віджетів коли ви вирішите що настав час для нової теми. Крім того, ви можете попередньо переглядати встановлені теми, або завантажувати, встановлювати, та попередньо переглядати нові теми належним чином."
 
-#: wp-admin/about.php:314
+#: wp-admin/about.php:334
 msgid "More Reliable Theme Switching"
 msgstr "Надійніше перемикання тем"
 
-#: wp-admin/about.php:306
+#: wp-admin/about.php:326
 msgid "Site Building Improvements"
 msgstr "Покращення побудови сайту"
 
-#: wp-admin/about.php:299
+#: wp-admin/about.php:319
 msgid "Want to add media to your text widget? Embed images, video, and audio directly into the widget along with your text, with our simple but useful Add Media button. Woo!"
 msgstr "Хочете додати медіафайли до текстового віджету? Вбудовувати зображення, відео та аудіо безпосередньо в віджет разом з текстом? Використовуйте просту, але корисну кнопку \"Додати медіафайл\". Вау!"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:318
 msgid "Press a Button, Add Media"
 msgstr "Натисніть кнопку, додайте медіафайл"
 
-#: wp-admin/about.php:292
+#: wp-admin/about.php:312
 msgid "An incremental improvement to the media changes hatched in WordPress 4.8, you can now add a gallery via widget. Yes!"
 msgstr "Продовження мультимедіа поліпшень початих в WordPress 4.8, тепер можна додати галерею через віджет. Так!"
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:311
 msgid "The New Gallery Widget"
 msgstr "Новий віджет галереї"
 
-#: wp-admin/about.php:283
+#: wp-admin/about.php:303
 msgid "Even More Widget Updates"
 msgstr "Ще більше оновлень віджетів"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:296
 msgid "When you edit themes and plugins directly, WordPress 4.9 will politely warn you that this is a dangerous practice. It will recommend that you backup your files before saving, so they don&#8217;t get overwritten by the next update. Take the safe route: your future self will thank you. Your team and customers will thank you."
 msgstr "При редагуванні тем чи плагінів безпосередньо, WordPress 4.9 ввічливо попередить вас про те, що це небезпечна практика. Він порекомендує вам створити резервну копію файлів перед збереженням, так щоб вони не були переписані подальшим оновленням. Скористайтеся безпечним шляхом, потім самі собі подякуєте. Ваша команда і клієнти будуть вам вдячні."
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:295
 msgid "Warning: Potential Danger Ahead!"
 msgstr "Увага: попереду потенційна небезпека!"
 
-#: wp-admin/about.php:269
+#: wp-admin/about.php:289
 msgid "The dreaded white screen. You&#8217;ll avoid it when working on themes and plugin code because WordPress 4.9 will warn you about saving an error. You&#8217;ll sleep better at night."
 msgstr "Жахливий білий екран. Ви можете уникнути його при редагуванні коду плагінів і тем, тому що WordPress 4.9 попереджатиме вас про збереження коду з помилкою. Зможете краще спати ночами."
 
-#: wp-admin/about.php:268
+#: wp-admin/about.php:288
 msgid "Sandbox for Safety"
 msgstr "Пісочниця для безпеки"
 
-#: wp-admin/about.php:262
+#: wp-admin/about.php:282
 msgid "You&#8217;ve got a display problem but can&#8217;t quite figure out exactly what went wrong in the CSS you lovingly wrote. With syntax highlighting and error checking for CSS editing and the Custom HTML widget introduced in WordPress 4.8.1, you&#8217;ll pinpoint coding errors quickly. Practically guaranteed to help you scan code more easily and suss out and fix code errors quickly."
 msgstr "Виникла проблема, але ви не можете знайти що ж пішло не так з написаним вами кодом CSS? З підсвічуванням синтаксису та перевіркою на помилки в редакторі CSS, а також віджетом \"Власний HTML\" що з'явився у WordPress 4.8.1 ви зможете швидко знаходити помилки в коді."
 
-#: wp-admin/about.php:261
+#: wp-admin/about.php:281
 msgid "Syntax Highlighting and Error Checking? Yes, Please!"
 msgstr "Виділення синтаксису та перевірка на помилки? Так, будь ласка!"
 
-#: wp-admin/about.php:253
+#: wp-admin/about.php:273
 msgid "Coding Enhancements"
 msgstr "Покращення роботи з кодом"
 
-#: wp-admin/about.php:246
+#: wp-admin/about.php:266
 msgid "Were you lured away from your desk before you saved your new draft design? Fear not, when you return, WordPress 4.9 will politely ask whether or not you&#8217;d like to save your unsaved changes."
 msgstr "Відволіклися перед тим як зберегти новий дизайн? Не бійтеся, при поверненні WordPress 4.9 ввічливо запитає, чи хочете ви зберегти раніше незбережені зміни."
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:265
 msgid "A Prompt to Protect Your Work"
 msgstr "Пропозиція захистити вашу роботу"
 
-#: wp-admin/about.php:239
+#: wp-admin/about.php:259
 msgid "Ever encounter a scenario where two designers walk into a project and designer A overrides designer B&#8217;s beautiful changes? WordPress 4.9&#8217;s design lock feature (similar to post locking) secures your draft design so that no one can make changes to it or erase all your hard work."
 msgstr "Ви стикалися з ситуацією коли два дизайнери працюючи над одним проектом переписували зміни внесені один одним? WordPress 4.9 пропонує можливість фіксації оформлення (таку ж як і для записів), ваші чорнові зміни в оформленні будуть у безпеці і ніхто не змінить і не перезапише результати вашої роботи."
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:258
 msgid "Design Locking To Guard Your Changes"
 msgstr "Фіксація дизайну для охорони ваших змін"
 
-#: wp-admin/about.php:232
+#: wp-admin/about.php:252
 msgid "Need to get some feedback on proposed site design changes? WordPress 4.9 gives you a preview link you can send to your team and customers so that you can collect and integrate feedback before you schedule the changes to go live. Can we say collaboration&#43;&#43;?"
 msgstr "Потрібно отримати відгук щодо запропонованих змін оформлення сайту? WordPress 4.9 може створити посилання для попереднього перегляду, яке ви можете дати вашій команді та клієнтам для збору відгуків перед тим, як ви застосуєте зміни для сайту. Чи можна говорити про співпрацю&#43;&#43;?"
 
-#: wp-admin/about.php:231
+#: wp-admin/about.php:251
 msgid "Collaborate with Design Preview Links"
 msgstr "Співпрацюйте з посиланнями попереднього перегляду вигляду"
 
-#: wp-admin/about.php:225
+#: wp-admin/about.php:245
 msgid "Yes, you read that right. Just like you can draft and revise posts and schedule them to go live on the date and time you choose, you can now tinker with your site&#8217;s design and schedule those design changes to go live as you please."
 msgstr "Все вірно, тепер можна створювати чернетки, планувати зміни на потрібний час і використовувати редакції оформлення сайту точно так, як і для записів."
 
-#: wp-admin/about.php:224
+#: wp-admin/about.php:244
 msgid "Draft and Schedule Site Design Customizations"
 msgstr "Чернетки та відкладення змін вигляду сайту"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:236
 msgid "Customizer Workflow Improved"
 msgstr "Поліпшення інтерфейсу налаштування"
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:223
 msgid "Welcome to an improved Customizer workflow with design drafts, locking, scheduling, and preview links. What&#8217;s more, code syntax highlighting and error checking will make for a clean and smooth site building experience. Finally, if all that wasn&#8217;t pretty great, we&#8217;ve got a great new Gallery widget and improvements to theme browsing and switching."
 msgstr "Зустрічайте покращений робочий процес Налаштовувача з чернетками дизайну, фіксацією, плануванням і посиланнями для попереднього перегляду. Навіть більше, підсвічування синтаксису коду та перевірка на помилки зроблять процес побудови сайту простішим і приємнішим. І наостанок, якщо вам мало перерахованого, є чудовий новий віджет галереї та покращення огляду та перемикання тем."
 
 #. translators: %s: party popper emoji
-#: wp-admin/about.php:198
+#: wp-admin/about.php:218
 msgid "Major Customizer Improvements, Code Error Checking, and More! %s"
 msgstr "Значні покращення Налаштовувача, перевірка коду на помилки, і не тільки! %s"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:68 wp-admin/about.php:104 wp-admin/about.php:158
-#: wp-admin/about.php:176 wp-admin/about.php:522
+#: wp-admin/about.php:88 wp-admin/about.php:124 wp-admin/about.php:178
+#: wp-admin/about.php:196 wp-admin/about.php:542
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> вирішені кілька проблем з безпекою і виправлена %2$s помилка."
 msgstr[1] "У <strong>версії %1$s</strong> вирішені кілька проблем з безпекою і виправлені %2$s помилки."
 msgstr[2] "У <strong>версії %1$s</strong> вирішені кілька проблем з безпекою і виправлені %2$s помилок."
 
+#. translators: %s: HelpHub URL
 #. translators: %s: Codex URL
-#: wp-admin/about.php:43 wp-admin/about.php:61 wp-admin/about.php:79
-#: wp-admin/about.php:97 wp-admin/about.php:115 wp-admin/about.php:133
-#: wp-admin/about.php:151 wp-admin/about.php:169 wp-admin/about.php:187
-#: wp-admin/about.php:526
+#: wp-admin/about.php:47 wp-admin/about.php:63 wp-admin/about.php:81
+#: wp-admin/about.php:99 wp-admin/about.php:117 wp-admin/about.php:135
+#: wp-admin/about.php:153 wp-admin/about.php:171 wp-admin/about.php:189
+#: wp-admin/about.php:207 wp-admin/about.php:546
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Більше інформації можна отримати з <a href=\"%s\">деталей випуску</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:50 wp-admin/about.php:86 wp-admin/about.php:122
-#: wp-admin/about.php:140 wp-admin/about.php:514
+#: wp-admin/about.php:70 wp-admin/about.php:106 wp-admin/about.php:142
+#: wp-admin/about.php:160 wp-admin/about.php:534
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено %2$s помилку."
 msgstr[1] "У <strong>версії %1$s</strong> виправлено %2$s помилки."
 msgstr[2] "У <strong>версії %1$s</strong> виправлено %2$s помилок."
 
-#: wp-admin/about.php:35 wp-admin/about.php:506
+#: wp-admin/about.php:35 wp-admin/about.php:526
 msgid "Maintenance and Security Releases"
 msgstr "Випуски обслуговування та безпеки"
 
@@ -11904,8 +11910,8 @@ msgstr "Що нового"
 #: wp-admin/credits.php:25
 #: wp-admin/includes/class-wp-plugins-list-table.php:767
 #: wp-admin/includes/update.php:193 wp-admin/includes/update.php:218
-#: wp-admin/includes/ajax-actions.php:3778
-#: wp-admin/includes/ajax-actions.php:3821 wp-admin/freedoms.php:27
+#: wp-admin/includes/ajax-actions.php:3780
+#: wp-admin/includes/ajax-actions.php:3823 wp-admin/freedoms.php:27
 #: wp-admin/about.php:25
 msgid "Version %s"
 msgstr "Версія %s"

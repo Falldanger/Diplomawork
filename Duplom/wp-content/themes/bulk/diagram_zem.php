@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<div id="myfirstchart" style="height: 350px;" ><path fill="#daa520"> </path>	</div>
+<div id="myfirstchart" style="height: 450px; display: inline-block; float: right;" ><path fill="#daa520"> </path>	</div>
 
 <script>
 	new Morris.Donut({
@@ -17,7 +17,7 @@
   // Chart data records -- each entry in this array corresponds to a point on
   // the chart.
   data: [
-    {value: 15.66, label: 'Рілля'},
+    {value: 17.21, label: 'Рілля'},
     {value: 2.1, label:   'Багаторічні насадження'},
     {value: 17.63, label: 'Сіножаті та пасовища'},
     {value: 56.8, label:  'Ліси'},

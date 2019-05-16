@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-03 15:15:29+0000\n"
+"PO-Revision-Date: 2019-05-01 11:13:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -724,7 +724,7 @@ msgstr "Хмаринка позначок"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:26
 msgid "A cloud of your most used tags."
-msgstr "Хмара ваших найбільш використовуваних позначок."
+msgstr "Хмара часто використовуваних позначок."
 
 #: wp-includes/widgets/class-wp-widget-search.php:30
 msgctxt "Search widget"
@@ -826,7 +826,7 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> записів"
 
 #: wp-includes/widgets/class-wp-widget-meta.php:29
 msgid "Login, RSS, &amp; WordPress.org links."
-msgstr "Вхід, RSS, і посилання WordPress.org."
+msgstr "Вхід, RSS, і WordPress.org посилання."
 
 #: wp-includes/widgets/class-wp-widget-media.php:142
 msgid "URL to the media file"
@@ -1110,7 +1110,7 @@ msgstr "Посилання"
 
 #: wp-includes/widgets/class-wp-widget-links.php:26
 msgid "Your blogroll"
-msgstr "Ваш блоґрол"
+msgstr "Ваші посилання"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:319
 msgid "Custom HTML Widget"
@@ -7709,56 +7709,56 @@ msgid "off"
 msgstr "on"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4508
+#: wp-includes/formatting.php:4510
 msgid "%s and %s"
 msgstr "%s і %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4506
+#: wp-includes/formatting.php:4508
 msgid "%s, and %s"
 msgstr "%s, і %s"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4504
+#: wp-includes/formatting.php:4506
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: wp-includes/formatting.php:4273
+#: wp-includes/formatting.php:4275
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4272
+#: wp-includes/formatting.php:4274
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "При використанні користувацьких постійних посилань потрібен структурний теґ. <a href=\"%s\">Дізнатися більше</a>"
 
-#: wp-includes/formatting.php:4254
+#: wp-includes/formatting.php:4256
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Часовий пояс, який Ви вказали, невірний. Будь ласка, виберіть правильний часовий пояс."
 
-#: wp-includes/formatting.php:4199
+#: wp-includes/formatting.php:4201
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Вказана адреса URL не є коректно. Будь ласка, вкажіть коректну адресу URL."
 
-#: wp-includes/formatting.php:4186
+#: wp-includes/formatting.php:4188
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Схоже, що посилання на URL WordPress&#8217;у  не вірне. Будь ласка, провірте це і введіть правильну адресу."
 
-#: wp-includes/formatting.php:4080
+#: wp-includes/formatting.php:4082
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Введена e-mail адреса недійсна. Будь ласка, введіть дійсний e-mail."
 
-#: wp-includes/script-loader.php:1100 wp-includes/formatting.php:3372
+#: wp-includes/script-loader.php:1100 wp-includes/formatting.php:3374
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/general-template.php:3820 wp-includes/formatting.php:3361
+#: wp-includes/general-template.php:3820 wp-includes/formatting.php:3363
 msgid "&hellip;"
 msgstr "&hellip;"
 
 #. translators: Time difference between two dates, in years. 1: Number of years
-#: wp-includes/formatting.php:3274
+#: wp-includes/formatting.php:3276
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s рік"
@@ -7767,7 +7767,7 @@ msgstr[2] "%s років"
 
 #. translators: Time difference between two dates, in months. 1: Number of
 #. months
-#: wp-includes/formatting.php:3268
+#: wp-includes/formatting.php:3270
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s місяць"
@@ -7775,7 +7775,7 @@ msgstr[1] "%s місяці"
 msgstr[2] "%s місяців"
 
 #. translators: Time difference between two dates, in weeks. 1: Number of weeks
-#: wp-includes/formatting.php:3262
+#: wp-includes/formatting.php:3264
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s тиждень"
@@ -7783,7 +7783,7 @@ msgstr[1] "%s тижні"
 msgstr[2] "%s тижнів"
 
 #. translators: Time difference between two dates, in days. 1: Number of days
-#: wp-includes/formatting.php:3256
+#: wp-includes/formatting.php:3258
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s день"
@@ -7791,7 +7791,7 @@ msgstr[1] "%s дні"
 msgstr[2] "%s днів"
 
 #. translators: Time difference between two dates, in hours. 1: Number of hours
-#: wp-includes/formatting.php:3250
+#: wp-includes/formatting.php:3252
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s годину"
@@ -7800,7 +7800,7 @@ msgstr[2] "%s години"
 
 #. translators: Time difference between two dates, in minutes (min=minute). 1:
 #. Number of minutes
-#: wp-includes/formatting.php:3244
+#: wp-includes/formatting.php:3246
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s хв."
@@ -7870,7 +7870,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:4813
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:4815
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -8554,69 +8554,69 @@ msgid "This argument has changed to an array to match the behavior of the other 
 msgstr "Цей аргумент замінено на масив, щоб відповідало поведінці інших функцій планувальника(cron)."
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3359
+#: wp-includes/comment.php:3361
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "Коментар %d містить особисті дані, але не може бути анонімним."
 
-#: wp-includes/script-loader.php:656 wp-includes/comment.php:3258
+#: wp-includes/script-loader.php:656 wp-includes/comment.php:3260
 msgid "Comments"
 msgstr "Коментарі"
 
-#: wp-includes/comment.php:3215
+#: wp-includes/comment.php:3217
 msgid "Comment URL"
 msgstr "URL коментаря"
 
-#: wp-includes/comment.php:3214
+#: wp-includes/comment.php:3216
 msgid "Comment Content"
 msgstr "Вміст коментаря"
 
-#: wp-includes/comment.php:3213
+#: wp-includes/comment.php:3215
 msgid "Comment Date"
 msgstr "Дата коментаря"
 
-#: wp-includes/comment.php:3212
+#: wp-includes/comment.php:3214
 msgid "Comment Author User Agent"
 msgstr "User Agent автора коментаря"
 
-#: wp-includes/comment.php:3211
+#: wp-includes/comment.php:3213
 msgid "Comment Author IP"
 msgstr "IP автора коментаря"
 
-#: wp-includes/comment.php:3210
+#: wp-includes/comment.php:3212
 msgid "Comment Author URL"
 msgstr "URL автора коментаря"
 
-#: wp-includes/comment.php:3209
+#: wp-includes/comment.php:3211
 msgid "Comment Author Email"
 msgstr "E-mail автора коментаря"
 
-#: wp-includes/comment.php:3208
+#: wp-includes/comment.php:3210
 msgid "Comment Author"
 msgstr "Автор коментаря"
 
-#: wp-includes/comment.php:3173 wp-includes/comment.php:3282
+#: wp-includes/comment.php:3175 wp-includes/comment.php:3284
 msgid "WordPress Comments"
 msgstr "Коментарі WordPress"
 
-#: wp-includes/comment.php:3157
+#: wp-includes/comment.php:3159
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ПОМИЛКА</strong>: Коментар не може бути збережений. Будь ласка, спробуйте пізніше."
 
-#: wp-includes/comment.php:3132
+#: wp-includes/comment.php:3134
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, напишіть коментар."
 
-#: wp-includes/comment.php:3127
+#: wp-includes/comment.php:3129
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, введіть вірну e-mail адресу."
 
-#: wp-includes/comment.php:3125
+#: wp-includes/comment.php:3127
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, заповніть необхідні поля (ім'я, e-mail)."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:395
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:412
-#: wp-includes/comment.php:3117
+#: wp-includes/comment.php:3119
 msgid "Sorry, you must be logged in to comment."
 msgstr "На жаль, для відправки коментаря необхідно авторизуватись."
 
@@ -8739,7 +8739,7 @@ msgstr "Увійдіть, щоб залишити коментар"
 
 #: wp-includes/comment-template.php:1712
 msgid "Leave a Comment"
-msgstr "Напишіть коментар"
+msgstr "Залишити коментар"
 
 #: wp-includes/comment-template.php:1600
 msgid "Log in to Reply"
@@ -9534,7 +9534,7 @@ msgid ", "
 msgstr ", "
 
 #. translators: Name of a comment's author after being anonymized.
-#: wp-includes/comment.php:3328 wp-includes/class-wp-theme.php:732
+#: wp-includes/comment.php:3330 wp-includes/class-wp-theme.php:732
 #: wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "Анонім"
@@ -10271,7 +10271,7 @@ msgstr "Дивитися"
 #: wp-includes/class-wp-editor.php:1244
 msgctxt "TinyMCE menu"
 msgid "Tools"
-msgstr "Додатки"
+msgstr "Інструменти"
 
 #: wp-includes/class-wp-editor.php:1243
 msgctxt "TinyMCE menu"
@@ -10829,7 +10829,7 @@ msgstr "Зберегти пропорції"
 
 #: wp-includes/class-wp-editor.php:1089
 msgid "Border"
-msgstr "Границя"
+msgstr "Межа"
 
 #: wp-includes/class-wp-editor.php:1088
 msgid "Source"
